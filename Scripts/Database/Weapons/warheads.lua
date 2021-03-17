@@ -1,9 +1,9 @@
 
---~ Added 2 types of warheads: 
+--~ Added 2 types of warheads:
 
 --~ 'enhanced_a2a_warhead' and 'directional_a2a_warhead'
 
---~ 'enhanced_a2a_warhead' is a more powerful warhead (factor 1.7) type for some human fired a2a missiles, 
+--~ 'enhanced_a2a_warhead' is a more powerful warhead (factor 1.7) type for some human fired a2a missiles,
 --~ to support the new extended proximity fuses.
 
 --~ 'directional_a2a_warhead' has the bonus factor 5.0, used specifically by:
@@ -11,6 +11,8 @@
 --~ The reason fo the high factor is because these have VERY high prox ranges in relation to their explosive weight
 
 --~ --Yoda
+
+local warheads = {}
 
 local function calcPiercingMass(warhead)
 	if warhead.piercing_mass then
@@ -24,7 +26,7 @@ end
 
 local explosivePercent = 0.4
 
-function simple_aa_warhead(power, caliber) -- By Saint
+local function simple_aa_warhead(power, caliber) -- By Saint
     local res = {};
 
 	res.caliber = caliber
@@ -36,12 +38,12 @@ function simple_aa_warhead(power, caliber) -- By Saint
     res.cumulative_factor = 0;
     res.concrete_obj_factor = 0.0;
     res.cumulative_thickness = 0.0;
-    
+
 	calcPiercingMass(res)
     return res;
 end
 
-function enhanced_a2a_warhead(power, caliber) -- By Yoda
+local function enhanced_a2a_warhead(power, caliber) -- By Yoda
     local res = {};
 
 	res.caliber = caliber
@@ -53,12 +55,12 @@ function enhanced_a2a_warhead(power, caliber) -- By Yoda
     res.cumulative_factor = 0;
     res.concrete_obj_factor = 0.0;
     res.cumulative_thickness = 0.0;
-    
+
 	calcPiercingMass(res)
     return res;
 end
 
-function directional_a2a_warhead(power) -- By Yoda
+local function directional_a2a_warhead(power) -- By Yoda
     local res = {};
 
     res.expl_mass = 3.5*power;
@@ -69,12 +71,12 @@ function directional_a2a_warhead(power) -- By Yoda
     res.cumulative_factor = 0.0;
     res.concrete_obj_factor = 0.0;
     res.cumulative_thickness = 0.0;
-    
+
 	calcPiercingMass(res)
     return res;
 end
 
-function simple_warhead(power, caliber)
+local function simple_warhead(power, caliber)
     local res = {};
 
 	res.caliber = caliber
@@ -86,15 +88,15 @@ function simple_warhead(power, caliber)
     res.cumulative_factor = 0;
     res.concrete_obj_factor = 0.0;
     res.cumulative_thickness = 0.0;
-    
+
 	calcPiercingMass(res)
     return res;
 end
 
 
-function cumulative_warhead(power, caliber)
-    local res = {};              
-    
+local function cumulative_warhead(power, caliber)
+    local res = {};
+
 	res.caliber = caliber;
     res.expl_mass = power*explosivePercent;
 	res.mass = res.expl_mass;
@@ -104,14 +106,14 @@ function cumulative_warhead(power, caliber)
     res.cumulative_factor = 3.0;
     res.concrete_obj_factor = 0.0;
     res.cumulative_thickness = 0.2;
-    
+
 	calcPiercingMass(res)
     return res;
 end
 
-function penetrating_warhead(power, caliber)
+local function penetrating_warhead(power, caliber)
 	local res = {};
-	
+
 	res.caliber = caliber;
 	res.expl_mass = power*explosivePercent;
 	res.mass = res.expl_mass;
@@ -121,14 +123,14 @@ function penetrating_warhead(power, caliber)
 	res.cumulative_factor = 0.0;
 	res.concrete_obj_factor = 5.0;
 	res.cumulative_thickness = 0.0;
-	
+
 	calcPiercingMass(res)
 	return res;
 end
 
-function antiship_penetrating_warhead(power, caliber)
+local function antiship_penetrating_warhead(power, caliber)
     local res = {};
-    
+
 	res.caliber = caliber;
     res.expl_mass = power*explosivePercent;
 	res.mass = res.expl_mass;
@@ -138,14 +140,14 @@ function antiship_penetrating_warhead(power, caliber)
     res.cumulative_factor = 2.0;
     res.concrete_obj_factor = 2.0;
     res.cumulative_thickness = 0.0;
-    
+
     calcPiercingMass(res)
 	return res;
 end
 
-function HE_penetrating_warhead(power,caliber)
+local function HE_penetrating_warhead(power,caliber)
 	local res = {};
-	
+
 	res.caliber = caliber;
     res.expl_mass = power;
 	res.mass = res.expl_mass;
@@ -153,14 +155,14 @@ function HE_penetrating_warhead(power,caliber)
     res.obj_factors = {1, 1};
     res.concrete_factors = {1, 1, 1};
     res.concrete_obj_factor = 2.0;
-	res.cumulative_factor = 0.0;    
+	res.cumulative_factor = 0.0;
     res.cumulative_thickness = 0.0;
-    
+
     calcPiercingMass(res)
 	return res;
 end
 
-function predefined_warhead(name)
+local function predefined_warhead(name)
 	return warheads[name] or simple_warhead(0.0001)
 end
 
@@ -224,9 +226,6 @@ local function make_penetrator(origin, cf, cf_obj)
 	return warhead
 end
 
-warheads = {}
-
-
 ---------------------------------------------
 -- Rockets
 ---------------------------------------------
@@ -285,7 +284,7 @@ warheads["C_13"] = -- S-13нт HE
     obj_factors      = { 0.2, 2.0 },
     cumulative_factor= 0.0,
     cumulative_thickness = 0.0
-}; 
+};
 
 
 warheads["C_24"] = -- S-24 HE Warhead 123 kg, explosive 23.5 kg + fragments bonus
@@ -303,7 +302,7 @@ warheads["C_24"] = -- S-24 HE Warhead 123 kg, explosive 23.5 kg + fragments bonu
 warheads["C_25"] = -- S-25OFM HE Penetrator
 {
 	 mass			= 155.0,
-     expl_mass        = 155.0, 
+     expl_mass        = 155.0,
      other_factors    = { 0.5, 0.5, 0.5 },
      concrete_factors = { 1.0, 1.0, 1.0 },
      concrete_obj_factor = 2.0,
@@ -377,7 +376,7 @@ warheads["HYDRA_70_MK1"] = -- HYDRA-70 Mk1 HE
 warheads["M282"] = penetrating_warhead(6.22, 70.0);
 
 warheads["HYDRA_70_HE_ANTITANK"] = -- HYDRA-70 HE ANTITANK, shaped-charge, fragmented
-{    
+{
 	mass        	 = 2.6,
 	expl_mass        = 0.428, -- Warhead 2.6 kg, explosive 0.428 kg + fragments bonus
     other_factors    = { 1.0, 0.5, 0.5 },
@@ -480,7 +479,7 @@ warheads["FAB_500"] = simple_warhead(500.0); -- Explosive 200 kg + fragments bon
 
 warheads["FAB_1500"] = simple_warhead(1400.0); -- Explosive 700 kg + fragments bonus
 
-warheads["BetAB_500"] = 
+warheads["BetAB_500"] =
 {
     mass        	= 200.0,
 	expl_mass        = 200.0,
@@ -492,7 +491,7 @@ warheads["BetAB_500"] =
     cumulative_thickness = 0.0
 };
 
-warheads["BetAB_500ShP"] = 
+warheads["BetAB_500ShP"] =
 {
     mass 			= 200.0,
 	expl_mass        = 200.0,
@@ -512,7 +511,7 @@ warheads["M_117"] = simple_warhead(350.0); -- Explosive 175 kg + fragments bonus
 warheads["AN_M64"] = simple_warhead(250.0); -- Explosive 121 kg + fragments bonus
 warheads["BDU"] = simple_warhead(0.0001); -- inert warhead for training munition
 
-warheads["KAB_500Kr"] = 
+warheads["KAB_500Kr"] =
 {
     mass 			= 380.0*explosivePercent,
 	expl_mass        = 380.0*explosivePercent,
@@ -529,15 +528,15 @@ warheads["KAB_500S"] = simple_warhead(460.0); --Explosive 195 kg
 
 warheads["KAB_500KrOD"] = simple_warhead(560.0);	-- Explosive 280 kg + fuel-air explosive bonus
 warheads["KAB_1500Kr"] = penetrating_warhead(1120.0); --(L-Pr, LG-Pr)
-warheads["KAB_1500F"] = simple_warhead(1170.0);	-- Explosive 440 kg (Kr,LG-F) 
-warheads["AGM_62"] = cumulative_warhead(914,457); 	-- 2015 lb Walleye 2 warhead 
+warheads["KAB_1500F"] = simple_warhead(1170.0);	-- Explosive 440 kg (Kr,LG-F)
+warheads["AGM_62"] = cumulative_warhead(914,457); 	-- 2015 lb Walleye 2 warhead
 
 
 warheads["PTAB-2-5"] = -- KMGU
 {
 	mass					= 2.8,
 	caliber					= 68,
-	expl_mass      			= 0.65, 
+	expl_mass      			= 0.65,
 	other_factors   		= { 1.0, 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	concrete_obj_factor		= 0.0,
@@ -552,7 +551,7 @@ warheads["CBU97"] =
 {
     mass					= 4.6,
 	caliber					= 80,
-    expl_mass				= 3.0, 
+    expl_mass				= 3.0,
     other_factors			= { 1.0, 1.0, 1.0 },
     concrete_factors		= { 1.0, 1.0, 1.0 },
     concrete_obj_factor		= 0.0,
@@ -565,7 +564,7 @@ warheads["PTAB-10-5"] = -- RBK-500
 {
     mass					= 4.6,
 	caliber					= 80,
-    expl_mass				= 3.0, 
+    expl_mass				= 3.0,
     other_factors			= { 1.0, 1.0, 1.0 },
     concrete_factors		= { 1.0, 1.0, 1.0 },
     concrete_obj_factor		= 0.0,
@@ -591,20 +590,20 @@ warheads["Cluster_9N235"] = -- missile 9M55K Smerch MLRS
 {
     mass					= 1.75,
 	caliber					= 69,
-    expl_mass				= 0.32, 
+    expl_mass				= 0.32,
     other_factors			= { 1.55, 1.55, 1.0 },
     concrete_factors		= { 1.55, 1.55, 1.0 },
     concrete_obj_factor		= 0.0,
     obj_factors				= { 1.0, 1.0 },
     cumulative_factor		= 1.0,
-    cumulative_thickness	= 0.008 
+    cumulative_thickness	= 0.008
 };
 
-warheads["PTAB-1M"] = 
+warheads["PTAB-1M"] =
 {
    mass						= 0.95,
    caliber					= 42,
-   expl_mass				= 0.4, 
+   expl_mass				= 0.4,
    other_factors			= { 1.0, 1.0, 1.0 },
    concrete_factors			= { 1.0, 1.0, 1.0 },
    concrete_obj_factor		= 0.0,
@@ -619,7 +618,7 @@ warheads["OAB_2_5RT"] = simple_warhead(2.8, 90.0);
 warheads["HEAT"] = -- BL-775
 {
    mass = 0.98,
-   expl_mass = 0.5, 
+   expl_mass = 0.5,
    other_factors = { 1.0, 1.0, 1.0 },
    concrete_factors = { 1.0, 1.0, 1.0 },
    concrete_obj_factor = 0.0,
@@ -631,7 +630,7 @@ warheads["HEAT"] = -- BL-775
 warheads["MK118"] = -- Mk-20
 {
    mass = 0.59,
-   expl_mass = 0.25, 
+   expl_mass = 0.25,
    other_factors = { 1.0, 1.0, 1.0 },
    concrete_factors = { 1.0, 1.0, 1.0 },
    concrete_obj_factor = 0.0,
@@ -643,7 +642,7 @@ warheads["MK118"] = -- Mk-20
 warheads["BLU_61"] = -- BLU-61A
 {
    mass = 1.0,
-   expl_mass = 0.9, 
+   expl_mass = 0.9,
    other_factors    = { 1.0, 1.0, 1.0 },
    concrete_factors = { 1.0, 1.0, 0.1 },
    concrete_obj_factor = 0.0,
@@ -688,7 +687,7 @@ warheads["AIM_120C"] = enhanced_a2a_warhead(11.0, 169);
 warheads["S_25L"] = HE_penetrating_warhead(155, 340);
 
 --[[
-warheads["X_25ML"] = 
+warheads["X_25ML"] =
 {
 	 mass					= 89.6,
 	 expl_mass				= 89.6 * explosivePercent,
@@ -702,7 +701,7 @@ warheads["X_25ML"] =
 };
 ]]
 
-warheads["X_25MP"] = 
+warheads["X_25MP"] =
 {
 	 mass					= 86.0,
 	 expl_mass				= 86.0 * explosivePercent,
@@ -715,7 +714,7 @@ warheads["X_25MP"] =
      cumulative_thickness	= 0.0
 };
 
-warheads["X_58"] = 
+warheads["X_58"] =
 {
 	 mass					= 149.0,
 	 expl_mass				= 58.5,
@@ -757,9 +756,9 @@ warheads["SCUD_8F14"] = simple_warhead(989.0, 880);
 warheads["BLU-111B"] = penetrating_warhead(180.0,330); -- AGM-154C
 
 
-warheads["AGM_65A"] = 
+warheads["AGM_65A"] =
 {
-    mass					= 56.25, -- Warhead 56,25 kg, explosive 39 kg 
+    mass					= 56.25, -- Warhead 56,25 kg, explosive 39 kg
 	caliber					= 305,
 	expl_mass				= 39.0 * explosivePercent,
     other_factors			= { 1.0, 1.0, 1.0 },
@@ -770,9 +769,9 @@ warheads["AGM_65A"] =
     cumulative_thickness	= 2.0
 };
 
-warheads["AGM_65B"] = 
+warheads["AGM_65B"] =
 {
-    mass					= 56.25, -- Warhead 56,25 kg, explosive 39 kg 
+    mass					= 56.25, -- Warhead 56,25 kg, explosive 39 kg
 	caliber					= 305,
 	expl_mass				= 39.0 * explosivePercent,
     other_factors			= { 1.0, 1.0, 1.0 },
@@ -783,9 +782,9 @@ warheads["AGM_65B"] =
     cumulative_thickness	= 2.0
 };
 
-warheads["AGM_65D"] = 
+warheads["AGM_65D"] =
 {
-    mass        	= 56.25, -- Warhead 56,25 kg, explosive 39 kg 
+    mass        	= 56.25, -- Warhead 56,25 kg, explosive 39 kg
 	caliber			= 305,
 	expl_mass        = 39.0 * explosivePercent,
     other_factors    = { 1.0, 1.0, 1.0 },
@@ -796,9 +795,9 @@ warheads["AGM_65D"] =
     cumulative_thickness = 2.0
 };
 
-warheads["AGM_65H"] = 
+warheads["AGM_65H"] =
 {
-	mass        	= 56.25, -- Warhead 56,25 kg, explosive 39 kg 
+	mass        	= 56.25, -- Warhead 56,25 kg, explosive 39 kg
 	caliber			= 305,
     expl_mass        = 39.0,
     other_factors    = { 1.0, 1.0, 1.0 },
@@ -812,7 +811,7 @@ warheads["AGM_65H"] =
 warheads["AGM_65E"] = HE_penetrating_warhead(135,305);
 warheads["AGM_65G"] = HE_penetrating_warhead(135,305);
 warheads["AGM_65K"] = HE_penetrating_warhead(135,305);
-    
+
 warheads["TGM_65G"] = simple_warhead(0, 0.305);
 warheads["TGM_65D"] = simple_warhead(0, 0.305);
 warheads["CATM_65K"] = simple_warhead(0, 0.305);
@@ -822,7 +821,7 @@ warheads["TGM_65H"] = simple_warhead(0, 0.305);
 ------------------------------------------------------
 -- ATGM
 ------------------------------------------------------
-warheads["Vikhr_M"] = 
+warheads["Vikhr_M"] =
 {
 	mass 			= 8,
 	caliber			= 130,
@@ -835,7 +834,7 @@ warheads["Vikhr_M"] =
     cumulative_thickness = 0.9
 };
 
-warheads["Vikhr"] = 
+warheads["Vikhr"] =
 {
 	mass 			= 8,
 	caliber			= 130,
@@ -848,11 +847,11 @@ warheads["Vikhr"] =
     cumulative_thickness = 0.9
 };
 
-warheads["AT_6"] = 
+warheads["AT_6"] =
 {
 	mass 			= 5.4,
 	caliber			= 130,
-    expl_mass        = 2.4, -- Warhead 5,4 kg, explosive 2,4 kg 
+    expl_mass        = 2.4, -- Warhead 5,4 kg, explosive 2,4 kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -861,11 +860,11 @@ warheads["AT_6"] =
     cumulative_thickness = 0.75
 };
 
-warheads["MALUTKA"] = 
+warheads["MALUTKA"] =
 {
 	mass 			= 3.5,
 	caliber			= 125,
-    expl_mass        = 2.2, -- Warhead 3,5 kg, explosive 2,2 kg 
+    expl_mass        = 2.2, -- Warhead 3,5 kg, explosive 2,2 kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -874,11 +873,11 @@ warheads["MALUTKA"] =
     cumulative_thickness = 0.6
 };
 
-warheads["KONKURS"] = 
+warheads["KONKURS"] =
 {
 	mass			= 2.7,
 	caliber			= 135,
-    expl_mass        = 1.5, -- Warhead 2,7 kg, explosive ??? kg 
+    expl_mass        = 1.5, -- Warhead 2,7 kg, explosive ??? kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -887,7 +886,7 @@ warheads["KONKURS"] =
     cumulative_thickness = 0.4
 };
 
-warheads["P_9M117"] = 
+warheads["P_9M117"] =
 {
 	mass			= 4.5,
 	caliber			= 100,
@@ -900,7 +899,7 @@ warheads["P_9M117"] =
     cumulative_thickness = 0.55
 };
 
-warheads["P_9M119"] = 
+warheads["P_9M119"] =
 {
     mass			= 4.5,
 	caliber			= 125,
@@ -913,11 +912,11 @@ warheads["P_9M119"] =
     cumulative_thickness = 1.0
 };
 
-warheads["P_9M133"] = 
+warheads["P_9M133"] =
 {
     mass			= 5.9,
 	caliber			= 152,
-    expl_mass        = 3.5, -- Warhead ??? kg, explosive ??? kg 
+    expl_mass        = 3.5, -- Warhead ??? kg, explosive ??? kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -927,11 +926,11 @@ warheads["P_9M133"] =
 };
 
 
-warheads["TOW"] = 
+warheads["TOW"] =
 {
 	mass			= 5.9,
 	caliber			= 152,
-    expl_mass        = 3.6, -- Warhead 5,9 kg, explosive 3,6 kg 
+    expl_mass        = 3.6, -- Warhead 5,9 kg, explosive 3,6 kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -940,10 +939,10 @@ warheads["TOW"] =
     cumulative_thickness = 0.9
 };
 
-warheads["AGM_114"] = 
+warheads["AGM_114"] =
 {
     mass			= 9.98,
-    expl_mass        = 6.17, -- Warhead 9,89 kg, explosive 6,17 kg 
+    expl_mass        = 6.17, -- Warhead 9,89 kg, explosive 6,17 kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -952,10 +951,10 @@ warheads["AGM_114"] =
     cumulative_thickness = 0.9
 };
 
-warheads["AGM_114K"] = 
+warheads["AGM_114K"] =
 {
 	mass			 = 9.98,
-    expl_mass        = 5.67, -- Warhead 9,89 kg, explosive 5,67 kg 
+    expl_mass        = 5.67, -- Warhead 9,89 kg, explosive 5,67 kg
     other_factors    = { 1.0, 1.0, 1.0 },
     concrete_factors = { 1.0, 1.0, 1.0 },
     concrete_obj_factor = 0.0,
@@ -1006,11 +1005,11 @@ warheads["SA9M311"] = simple_aa_warhead(9.0); -- SA-19 Tunguska
 warheads["MIM_104"] = simple_aa_warhead(73.0); -- Patriot
 --warheads["MIM_72G"] = simple_aa_warhead(10.0); -- Chaparrel
 --warheads["FIM_92C"] = simple_aa_warhead(1.75); -- Stinger          (2-3 kg)
-warheads["SA5B27"] = simple_aa_warhead(60.0); -- SA-3 S-125 
+warheads["SA5B27"] = simple_aa_warhead(60.0); -- SA-3 S-125
 warheads["HAWK_RAKETA"] = simple_aa_warhead(70.0); -- Hawk
 warheads["ROLAND_R"] = simple_aa_warhead(6.5); -- Roland
 
-warheads["Igla_1E"] = 
+warheads["Igla_1E"] =
 {
 	mass					= 1.25,
 	expl_mass				= 1.25,
@@ -1019,12 +1018,12 @@ warheads["Igla_1E"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 17,
 };
 
-warheads["FIM_92C"] = 
+warheads["FIM_92C"] =
 {
 	mass					= 3.0,
 	expl_mass				= 3.0,
@@ -1033,12 +1032,12 @@ warheads["FIM_92C"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 17,
 };
 
-warheads["Mistral_MBDA"] = 
+warheads["Mistral_MBDA"] =
 {
 	mass					= 3.0,
 	expl_mass				= 3.0,
@@ -1047,12 +1046,12 @@ warheads["Mistral_MBDA"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 15,
 };
 
-warheads["MIM_72G"] = 
+warheads["MIM_72G"] =
 {
 	mass					= 10.0,
 	expl_mass				= 10.0,
@@ -1061,12 +1060,12 @@ warheads["MIM_72G"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 25,
 };
 
-warheads["RAM"] = 
+warheads["RAM"] =
 {
 	mass					= 10.0,
 	expl_mass				= 10.0,
@@ -1075,14 +1074,14 @@ warheads["RAM"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 45,
 };
 
-warheads["FSA_Rapier"] = 
+warheads["FSA_Rapier"] =
 {
-	mass 					= 1.4; 
+	mass 					= 1.4;
 	expl_mass 				= 1.4;
 	caliber					= 133,
 	other_factors 			= {1, 1, 1},
@@ -1094,7 +1093,7 @@ warheads["FSA_Rapier"] =
 	time_self_destruct		= 20,
 };
 
-warheads["G7_A"] = 
+warheads["G7_A"] =
 {
 	mass					= 280,
 	expl_mass				= 280,
@@ -1103,12 +1102,12 @@ warheads["G7_A"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 430,
 };
 
-warheads["LTF_5B"] = 
+warheads["LTF_5B"] =
 {
 	mass					= 200,
 	expl_mass				= 200,
@@ -1117,13 +1116,13 @@ warheads["LTF_5B"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 600,
 	water_explosion_factor	= 10.0,
 };
 
-warheads["G7_A"] = 
+warheads["G7_A"] =
 {
 	mass					= 280,
 	expl_mass				= 280,
@@ -1132,13 +1131,13 @@ warheads["G7_A"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 430,
 	water_explosion_factor	= 10.0,
 };
 
-warheads["RIM_7"] = 
+warheads["RIM_7"] =
 {
 	mass					= 39,
 	expl_mass				= 39,
@@ -1147,18 +1146,21 @@ warheads["RIM_7"] =
 	obj_factors				= { 1.0, 1.0 },
 	concrete_factors		= { 1.0, 1.0, 1.0 },
 	cumulative_factor		= 0.0,
-	concrete_obj_factor		= 0.0,    
+	concrete_obj_factor		= 0.0,
 	cumulative_thickness	= 0.0,
 	time_self_destruct		= 75,
 };
 
 
-for warheadName, warhead in pairs(warheads) do
+for _, warhead in pairs(warheads) do
 	if warhead.mass then
 		warhead.expl_mass = warhead.expl_mass or warhead.mass * explosivePercent
 		calcPiercingMass(warhead)
 	end
 end
+
+-- Set global table warheads
+_G.warheads = warheads
 
 --[[
 Description of the coefficients
