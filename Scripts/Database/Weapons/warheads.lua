@@ -13,6 +13,9 @@
 --~ --Yoda
 
 local function calcPiercingMass(warhead)
+	if warhead.piercing_mass then
+		return
+	end
 	warhead.piercing_mass  = warhead.mass;
 	if (warhead.expl_mass/warhead.mass > 0.1) then
 		warhead.piercing_mass  = warhead.mass/5.0;
@@ -159,6 +162,66 @@ end
 
 function predefined_warhead(name)
 	return warheads[name] or simple_warhead(0.0001)
+end
+
+-- TNT relative factors for a given explosive type
+local FillerType = {
+	["TNT"]      = 1,
+	["H6"]       = 1.356,
+	["CompB"]    = 1.2,
+	["Tritonal"] = 1.05,
+	["PBXN109"]  = 1.17,
+}
+
+-- make a shallow copy of the table passed to it
+local function make_copy(origin)
+	local warhead = {}
+	for k, v in pairs(origin) do
+		warhead[k] = v
+	end
+	return warhead
+end
+
+--[[
+-- params:
+-- wmass - warhead actual mass in kg
+-- emass - TNT relative mass of the explosive filler
+-- filler - type of explosive filler used
+-- caliber - ??
+-- cf - concrete factor for penetrating concrete
+-- armor - armor thickness the bomb is capable of penetrating in meters
+--]]
+local function he_bomb(wmass, emass, filler, caliber, cf, armor)
+	local warhead = {};
+	-- physical properties
+	warhead.caliber              = caliber
+	warhead.mass                 = wmass
+	warhead.piercing_mass        = warhead.mass
+
+	-- explosive properties
+	warhead.expl_mass            = emass * filler
+	warhead.other_factors        = {1, 1, 1}
+	warhead.concrete_obj_factor  = cf
+	warhead.concrete_factors     = {1, 1, 1}
+	warhead.obj_factors          = {1, 1}
+	warhead.cumulative_factor    = 0
+	warhead.cumulative_thickness = armor
+	return warhead
+end
+
+--[[
+-- Creates a penerator munition from an original(origin) definition
+--
+-- origin - original warhead definition
+-- cf - concrete_factors table
+-- cf_obj - concrete_object_factor value
+--]]
+local function make_penetrator(origin, cf, cf_obj)
+	local warhead = make_copy(origin)
+    warhead.other_factors = { 0.2, 1.0, 1.0 }
+	warhead.concrete_factors = cf or { 1.3, 1.0, 1.5 }
+    warhead.concrete_obj_factor = cf_obj or .5
+	return warhead
 end
 
 warheads = {}
@@ -372,6 +435,43 @@ warheads["HVAR"] = -- HVAR HE
 ------------------------------------------------
 -- Bombs
 ------------------------------------------------
+-- MK-80 seres GP bombs
+warheads["Mk_81"] = he_bomb( 81,  45, FillerType.H6, nil, .08, .025)
+warheads["Mk_82"] = he_bomb(141,  87, FillerType.H6, nil, .2,  .032)
+warheads["Mk_83"] = he_bomb(215, 202, FillerType.H6, nil, .4,  .046)
+warheads["Mk_84"] = he_bomb(451, 443, FillerType.H6, nil, .8,  .051)
+warheads["BLU_109"] = make_penetrator(he_bomb(
+	874, 242, FillerType.PBXN109, nil, nil, .4), {5, 1, 5}, 8.0)
+warheads["BLU_122"] = make_penetrator(he_bomb(
+	2018, 354, FillerType.PBXN109, nil, nil, .4), {5, 1, 10}, 14.0)
+
+-- MK-80 seres GP bombs w/ pentrator caps
+warheads["Mk_82P"] = make_penetrator(predefined_warhead("Mk_82"), nil, 0.4)
+warheads["Mk_83P"] = make_penetrator(predefined_warhead("Mk_83"), nil, 1.0)
+warheads["Mk_84P"] = make_penetrator(predefined_warhead("Mk_84"), nil, 2.0)
+
+-- MK-80 seres GP bombs w/ guidance packages
+--warheads["GBU_11"] = predefined_warhead("Mk_??")
+-- Paveway II
+warheads["GBU_10"] = predefined_warhead("Mk_84")
+warheads["GBU_16"] = predefined_warhead("Mk_83")
+warheads["GBU_12"] = predefined_warhead("Mk_82")
+-- Paveway II w/ hardended warheads
+warheads["GBU_17"] = predefined_warhead("Mk_84P")  -- never built!
+warheads["GBU_27"] = predefined_warhead("BLU_109")
+warheads["GBU_28"] = predefined_warhead("BLU_122")
+-- Paveway III
+warheads["GBU_22"] = predefined_warhead("Mk_82")
+warheads["GBU_24"] = predefined_warhead("Mk_84")
+
+-- Glide
+warheads["GBU_15"] = predefined_warhead("BLU_109")
+
+-- JDAM
+warheads["GBU_29"] = predefined_warhead("Mk_83")
+warheads["GBU_30"] = predefined_warhead("Mk_84")
+
+-- Other Bombs
 warheads["FAB_100"] = simple_warhead(100.0); -- Explosive 45 kg + fragments bonus
 
 warheads["FAB_250"] = simple_warhead(200.0); -- Explosive 100 kg + fragments bonus
@@ -409,51 +509,8 @@ warheads["BETAB_M"] = penetrating_warhead(20.0, 100.0);
 warheads["OFAB_50UD"] = simple_warhead(40.0, 100.0);
 
 warheads["M_117"] = simple_warhead(350.0); -- Explosive 175 kg + fragments bonus
-warheads["Mk_81"] = simple_warhead(90.0); -- Explosive 45 kg + fragments bonus
-warheads["Mk_82"] = simple_warhead(180.0); -- Explosive 89 kg + fragments bonus
-warheads["Mk_83"] = simple_warhead(400.0); -- Explosive 202 kg + fragments bonus
-warheads["Mk_84"] = simple_warhead(850.0); -- Explosive 428 kg + fragments bonus
 warheads["AN_M64"] = simple_warhead(250.0); -- Explosive 121 kg + fragments bonus
 warheads["BDU"] = simple_warhead(0.0001); -- inert warhead for training munition
-
-warheads["Mk_82P"] = 
-{
-	caliber					= 273,
-	mass					= 180.0*explosivePercent,
-	expl_mass				= 180.0*explosivePercent,
-    other_factors			= { 1.0, 1.0, 1.0 },
-    concrete_factors		= { 1.3, 1.0, 1.5 },
-    concrete_obj_factor		= 0.5,
-    obj_factors				= { 1.0, 1.0, 1.0 },
-    cumulative_factor		= 0.0,
-    cumulative_thickness	= 0.0
-}
-
-warheads["Mk_83P"] = 
-{
-	caliber					= 356,
-	mass					= 400.0*explosivePercent,
-	expl_mass				= 400.0*explosivePercent,
-    other_factors			= { 1.0, 1.0, 1.0 },
-    concrete_factors		= { 1.3, 1.0, 1.5 },
-    concrete_obj_factor		= 0.5,
-    obj_factors				= { 1.0, 1.0, 1.0 },
-    cumulative_factor		= 0.0,
-    cumulative_thickness	= 0.0
-}
-
-warheads["Mk_84P"] = 
-{
-	caliber					= 457,
-	mass					= 850.0*explosivePercent,
-	expl_mass				= 850.0*explosivePercent,
-    other_factors			= { 1.0, 1.0, 1.0 },
-    concrete_factors		= { 1.3, 1.0, 1.5 },
-    concrete_obj_factor		= 0.5,
-    obj_factors				= { 1.0, 1.0, 1.0 },
-    cumulative_factor		= 0.0,
-    cumulative_thickness	= 0.0
-}
 
 warheads["KAB_500Kr"] = 
 {
@@ -473,43 +530,6 @@ warheads["KAB_500S"] = simple_warhead(460.0); --Explosive 195 kg
 warheads["KAB_500KrOD"] = simple_warhead(560.0);	-- Explosive 280 kg + fuel-air explosive bonus
 warheads["KAB_1500Kr"] = penetrating_warhead(1120.0); --(L-Pr, LG-Pr)
 warheads["KAB_1500F"] = simple_warhead(1170.0);	-- Explosive 440 kg (Kr,LG-F) 
-warheads["GBU_10"] = simple_warhead(850.0); -- Explosive 428 kg + fragments bonus
-warheads["GBU_11"] = simple_warhead(850.0); -- Explosive 428 kg + fragments bonus
-warheads["GBU_12"] = simple_warhead(180.0); -- Explosive 89 kg + fragments bonus
-warheads["GBU_22"] = simple_warhead(180.0); -- Explosive 89 kg + fragments bonus
-warheads["GBU_16"] = simple_warhead(400.0); -- Explosive 202 kg + fragments bonus
-warheads["GBU_17"] = simple_warhead(240.0); 
-warheads["GBU_24"] = simple_warhead(850.0); -- Explosive 428 kg + fragments bonus
-warheads["GBU_15"] = simple_warhead(850.0); -- Explosive 428 kg + fragments bonus
-
-warheads["GBU_27"] = 
-{
-    mass 			= 240.0, 
-	expl_mass        = 240.0,
-    other_factors    = { 0.2, 1.0, 1.0 },
-    concrete_factors = { 5.0, 1.0, 5.0 },
-    concrete_obj_factor = 8.0,
-    obj_factors      = { 1.0, 1.0, 1.0 },
-    cumulative_factor= 0.0,
-    cumulative_thickness = 0.0
-};
-
-warheads["GBU_28"] = 
-{
-    mass 			= 325.0, 
-	expl_mass        = 325.0,
-    other_factors    = { 0.2, 1.0, 1.0 },
-    concrete_factors = { 5.0, 1.0, 10.0 },
-    concrete_obj_factor = 8.0,
-    obj_factors      = { 1.0, 1.0, 1.0 },
-    cumulative_factor= 0.0,
-    cumulative_thickness = 0.0
-};
-
-warheads["BLU_109"] = penetrating_warhead(874, 370);
-
-warheads["GBU_29"] = simple_warhead(850.0); 		-- Explosive 428 kg + fragments bonus
-warheads["GBU_30"] = simple_warhead(400.0); 		-- Explosive 202 kg + fragments bonus
 warheads["AGM_62"] = cumulative_warhead(914,457); 	-- 2015 lb Walleye 2 warhead 
 
 
@@ -1140,59 +1160,65 @@ for warheadName, warhead in pairs(warheads) do
 	end
 end
 
--- Описание коэффициентов
-
 --[[
-expl_mass        = 2.0, 
-Масса взрывчатого вещества в боевой части боеприпаса в килограммах
+Description of the coefficients
 
- other_factors   =  { HE1, HE2, HE3};
-Коэффициенты фугасного действия при попадания в землю:
-HE1. – фугасный поражающий эффект (expl_mass *HE1)
-HE2. – размер эффекта взрыва
-HE3. – размер воронки от взрыва
+ expl_mass = 2.0,
+The mass of the explosive in the warhead of the ammunition in kilograms
 
- concrete_factors = { HE1, HE2, HE3},
-Коэффициенты фугасного действия при попадания в бетон:
-HE1 – фугасный поражающий эффект (expl_mass *HE1)
-HE2 – размер эффекта взрыва
-HE3 – размер воронки от взрыва
+ other_factors = {HE1, HE2, HE3};
+Coefficients of high-explosive action when hitting the ground:
+HE1. - high-explosive striking effect (expl_mass * HE1)
+HE2. - explosion effect size
+HE3. - the size of the explosion funnel
+
+ concrete_factors = {HE1, HE2, HE3},
+Coefficients of high-explosive action when hitting concrete:
+HE1 - high explosive striking effect (expl_mass * HE1)
+HE2 - explosion effect size
+HE3 - explosion funnel size
 
  concrete_obj_factor = CP,
-Коэффициенты бетонобойно-проникающего действия при попадания в бетон:
-CP – бетонобойно-проникающий эффект для бетонобойных боеприпасов (expl_mass *CP)
+Coefficients of concrete-piercing action when hitting concrete:
+CP - concrete piercing effect for concrete ammunition (expl_mass * CP)
 
- obj_factors      = { HE1, HE2 },
-Коэффициент фугасного действия при попадания в наземный объект (технику):
-HE1 – фугасный поражающий эффект (expl_mass *HE1)
-HE2 – размер эффекта взрыва
+ obj_factors = {HE1, HE2},
+High-explosive coefficient of action when hitting a ground object (equipment):
+HE1 - high explosive striking effect (expl_mass * HE1)
+HE2 - explosion effect size
 
- cumulative_factor= SC,
-SC – кумулятивный эффект для кумулятивных боеприпасов (expl_mass *SC)
+ cumulative_factor = SC,
+SC - cumulative effect for cumulative ammunition (expl_mass * SC)
+
  cumulative_thickness = TH
-TH - максимальная толщина брони, которую пробивает кумулятивная часть демеджа (в метрах).  
-     Если броня юнита больше, то кумулятивный демедж не наносится.
+TH is the maximum thickness of the armor that the cumulative part of the
+demage penetrates (in meters).  If the unit's armor is larger, then the
+cumulative damage is not applied.
 
+Let us assume that the warhead of a conventional bomb has an explosive
+mass of 10 kg.
 
-Пусть у нас боевая часть условной бомбы имеет массу взрывчатого вещества 10 кг. 
+The bomb has the following coefficients:
 
-Бомба имеет следующие коэффициенты:
+  obj_factors = {0.5, 1},
+  concrete_factors = {0.8, 1, 1},
+  other_factors = {0.9, 1, 1},
+  cumulative_factor = 5,
+  concrete_obj_factor = 3
+  cumulative_thickness = 0.05
 
-obj_factors = {0.5, 1}, 
-concrete_factors = {0.8, 1, 1}, 
-other_factors = {0.9, 1, 1}, 
-cumulative_factor = 5, 
-concrete_obj_factor = 3
-cumulative_thickness = 0.05
+then,
 
-тогда, 
+  1. if a bomb falls into the ground, then the high-explosive effect will
+     be 10 * 0.9 = 9
+  2. If a bomb falls on a concrete object, then the high-explosive effect
+     will be 10 * 0.8, plus an additional 3 * 10 = 30 concrete-piercing
+     damaging effect is transferred to this object
+  3. If a bomb hits a car, then the high-explosive effect will be 10 * 0.5,
+     plus an additional 5 * 10 = 50 cumulative lethal action is transferred
+     to this object if the vehicle's armor is less than 5 cm.
 
-1.  если бомба падает в землю, то фугасный эффект будет 10*0.9 = 9
-2.  если бомба падает на бетонный объект, то фугасный эффект будет 10*0.8, плюс дополнительно этому объекту передается еще 3*10 = 30 бетонобойного поражающего действия
-3.  если бомба попадает в машину, то фугасный эффект будет 10*0.5, 
-    плюс дополнительно этому объекту передается еще 5*10=50 кумулятивного поражающего действия, если броня машины меньше 5 см.
-
-Для того, чтобы не писать большие таблицы на каждую боеголовку, есть функция simple_warhead, которая принимает один параметр - массу взрывчатки. На выходе получается обычная боеголовка с фугасно-осколочным эффектом.
-
-
+In order not to write large tables for each warhead, there is a simple_warhead
+function that takes one parameter - a mass of explosives. The output is a
+conventional warhead with a high-explosive fragmentation effect.
 --]]
