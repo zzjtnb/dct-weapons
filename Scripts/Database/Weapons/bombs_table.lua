@@ -1,6 +1,18 @@
--- wind_sigma  = 5, -- Значение определяет величину постоянного ускорения (определяемую случайно в момент выброса суббоеприпаса), которое будет воздействовать на него в течение всего полёта.
--- impulse_sigma = 0, -- СКВО по векору случайного импульса. Cреднее квадратическое значение по трем составляющим вектора скорости с которым складывается вектор скорости самой бомбы для получения начальной скорости суббоеприпаса (В общем определяет насколько вектор скорости суббоеприпаса будет отличаться от вектора скорости самой бомбы)
--- moment_sigma = 0,01, -- Значение определяет насколько вектор угловой скорости вращения суббоеприпаса будет отличаться от вектора угловой скорости вращения самой бомбы, в момент раскрытия
+--[[
+-- wind_sigma = 5, - The value determines the amount of constant
+--   acceleration (determined randomly at the moment the submunition is
+--   ejected) that will affect it throughout the flight.
+-- impulse_sigma = 0, - MSWO along the vector of a random impulse. The mean
+--   square value of the three components of the velocity vector with which
+--   the velocity vector of the bomb itself is added to obtain the initial
+--   velocity of the submunition (In general, it determines how much the
+--   velocity vector of the submunition will differ from the velocity
+--   vector of the bomb itself)
+-- moment_sigma = 0.01, - The value determines how much the vector of the
+--   angular velocity of rotation of the submunition will differ from the
+--   vector of the angular velocity of rotation of the bomb itself, at the
+--   moment of deployment
+--]]
 
 weapons_table.weapons.bombs = namespace();
 weapons_table.weapons.bombs.targeting = namespace();
@@ -10,54 +22,54 @@ function form_bomb(name, user_name, model, level3, scheme, data, targeting_data,
 	if  wstype_name == nil then
 		wstype_name = _G[name]
 	end
-	
-    local res = dbtype(class_name or "wAmmunitionFuzeCtrl", 
+
+    local res = dbtype(class_name or "wAmmunitionFuzeCtrl",
     {
-        ws_type = {wsType_Weapon,wsType_Bomb, level3, wstype_name},    
+        ws_type = {wsType_Weapon,wsType_Bomb, level3, wstype_name},
         model   = model,
     })
-	
+
 	copy_origin(res,data)
-	
+
     data.fm.wind_time = 1000;
-	
+
 	data.fm.I = data.fm.I or calcIyz(data.fm.mass, data.fm.L, 0)
 	data.fm.Ma = data.fm.Ma or calcMa(data.fm.I, data.fm.L, calcS(data.fm.caliber), 400)
 	data.fm.Mw = data.fm.Mw or calcMw(data.fm.I, data.fm.L, calcS(data.fm.caliber))
 	if data.warhead ~= nil then
 		data.warhead.caliber = data.fm.caliber * 1000 --mm
 	end
-	
+
     if data.launcher ~= nil then
 	    if data.launcher.ammunition_name ~= nil then
 		   data.launcher.ammunition = weapons_table.weapons.bombs[data.launcher.ammunition_name]
-		end 
+		end
 	end
-	
+
 	-- Arming vane activated by incoming air mass. Disabled by default.
 	if data.arming_vane == nil then
 		data.arming_vane = {enabled = false, velK = 1}
 	end
-	
+
 	-- Arming delay timer. Enabled by default.
 	if data.arming_delay == nil then
 		data.arming_delay = {enabled = true, delay_time = 0.8}
 	end
-		
+
     res.server = {}
     res.client = {}
-    
+
     copy_recursive_with_metatables(res.server, data)
     copy_recursive_with_metatables(res.client, data)
-	
+
 	res.server.scheme = "schemes/bombs/"..scheme..".sch"
     res.client.scheme = "schemes/bombs/"..scheme..".sch"
-	
-    if data.warhead ~= nil then 
+
+    if data.warhead ~= nil then
         res.server.warhead.fantom = 0
         res.client.warhead.fantom = 1
     end
-    
+
 	if data.launcher ~= nil then
         res.server.launcher.server = 1
         res.client.launcher.server = 0
@@ -68,19 +80,19 @@ function form_bomb(name, user_name, model, level3, scheme, data, targeting_data,
 	res.display_name   = user_name
     res.type_name      = "bomb"
 	res.targeting_data = targeting_data
-	
+
 	res.skin_arg = data.skin_arg
 
-	if not res.sounderName then 
+	if not res.sounderName then
 		res.sounderName = "Weapons/Bomb"
 	end
     return res;
 end
 
 function declare_bomb(name, user_name, model, level3, scheme, data, targeting_data, class_name, wstype_name)
-	
+
 	local res = form_bomb(name, user_name, model, level3, scheme, data, targeting_data, class_name, wstype_name)
-	
+
 	weapons_table.weapons.bombs[res.name] = res
     register_targeting_data(res.name, res.ws_type,res.targeting_data);
 	registerResourceName(res,CAT_BOMBS)
@@ -88,7 +100,7 @@ function declare_bomb(name, user_name, model, level3, scheme, data, targeting_da
 end
 
 function register_targeting_data(name, wstype, targeting_data)
-    local res = dbtype("wBombSightData", 
+    local res = dbtype("wBombSightData",
     {
         ws_type = wstype;
     });
@@ -98,36 +110,36 @@ end
 
 
 function declare_cluster(name, level3, data)
-    local res = cluster_desc(name, level3, data)    
-	
+    local res = cluster_desc(name, level3, data)
+
     weapons_table.weapons.bombs[name] = res
-    
+
     return res;
 end
 
 declare_bomb("FAB_100", _("FAB-100"), "fab-100", wsType_Bomb_A, "bomb-common", {
 
-    fm = 
+    fm =
     {
-        mass        = 100,  
-        caliber     = 0.3,  
+        mass        = 100,
+        caliber     = 0.3,
         cx_coeff    = {1,0.39,0.38,0.236,1.31},
         L           = 0.9,
         I           = 6.75,
         Ma          = 0.68,
         Mw          = 1.116,
-        
+
         wind_sigma  = 20,
     },
-    
-    
+
+
     warhead = warheads["FAB_100"],
 }, {
     char_time = 20.91
 });
 
 declare_bomb("FAB_250", _("FAB-250"), "fab-250-n1", wsType_Bomb_A, "bomb-common", {
-    
+
     fm =
     {
             mass            = 236.000000,
@@ -140,14 +152,14 @@ declare_bomb("FAB_250", _("FAB-250"), "fab-250-n1", wsType_Bomb_A, "bomb-common"
 
             wind_sigma      = 30.000000,
     },
-    
+
     warhead = warheads["FAB_250"],
 }, {
     char_time = 20.56
 });
 
 declare_bomb("FAB_500", _("FAB-500"), "fab-500-n3", wsType_Bomb_A, "bomb-common", {
-    
+
     fm =
     {
             mass            = 500.000000,
@@ -160,7 +172,7 @@ declare_bomb("FAB_500", _("FAB-500"), "fab-500-n3", wsType_Bomb_A, "bomb-common"
 
             wind_sigma      = 100.000000,
     },
-    
+
     warhead = warheads["FAB_500"],
 }, {
     char_time = 20.35
@@ -168,7 +180,7 @@ declare_bomb("FAB_500", _("FAB-500"), "fab-500-n3", wsType_Bomb_A, "bomb-common"
 
 
 declare_bomb("FAB_1500", _("FAB-1500"), "fab-1500", wsType_Bomb_A, "bomb-common", {
-    
+
     fm =
     {
             mass            = 1347.000000,
@@ -222,7 +234,7 @@ declare_bomb("LUU_2B", _("LUU-2B"), "luu-2", wsType_Bomb_Lighter, "bomb-light",
     },
     {
         v0 = 200,
-        data = 
+        data =
         {
             {1.000000, 22.341401, 0.012462},
             {10.000000, 23.654340, 0.004693},
@@ -290,7 +302,7 @@ declare_bomb("S-8OM_LE", _("S-8OM"), "luu-2", wsType_Bomb_Lighter, "bomb-light",
             light_attenuation = 660.0, -- * 3.0 ! -- light attenuation
             smoke_position = {0.45, -0.07, 0.0}, -- smoke position at shape center, m
             smoke_color = {0.952, 0.952, 0.952}, -- color of smoke
-            smoke_transparency = 200.0/255.0, -- Transparensy of smoke, first digit 0...255 
+            smoke_transparency = 200.0/255.0, -- Transparensy of smoke, first digit 0...255
             smoke_width = 1, -- Width of smoke
         },
         control =
@@ -300,7 +312,7 @@ declare_bomb("S-8OM_LE", _("S-8OM"), "luu-2", wsType_Bomb_Lighter, "bomb-light",
     },
     {
         v0 = 200,
-        data = 
+        data =
         {
             {1.000000, 22.341401, 0.012462},
             {10.000000, 23.654340, 0.004693},
@@ -340,7 +352,7 @@ declare_bomb("S-8OM_LE", _("S-8OM"), "luu-2", wsType_Bomb_Lighter, "bomb-light",
             {8000.000000, 80.206119, -0.190171},
             {9000.000000, 86.456436, -0.212829},
             {10000.000000, 93.539509, -0.164750},
-        }    
+        }
     },
     "wAmmunition_viHeavyObject",
     0
@@ -369,7 +381,7 @@ declare_bomb("SAB_100_LE", _("SAB-100"), "luu-2", wsType_Bomb_Lighter, "bomb-lig
             light_attenuation = 2000.0, -- * 3.0 ! -- light attenuation
             smoke_position = {0.45, -0.07, 0.0}, -- smoke position at shape center, m
             smoke_color = {0.952, 0.952, 0.952}, -- color of smoke
-            smoke_transparency = 200.0/255.0, -- Transparensy of smoke, first digit 0...255 
+            smoke_transparency = 200.0/255.0, -- Transparensy of smoke, first digit 0...255
             smoke_width = 1, -- Width of smoke
         },
         control =
@@ -379,7 +391,7 @@ declare_bomb("SAB_100_LE", _("SAB-100"), "luu-2", wsType_Bomb_Lighter, "bomb-lig
     },
     {
         v0 = 200,
-        data = 
+        data =
         {
             {1.000000, 22.341401, 0.012462},
             {10.000000, 23.654340, 0.004693},
@@ -419,7 +431,7 @@ declare_bomb("SAB_100_LE", _("SAB-100"), "luu-2", wsType_Bomb_Lighter, "bomb-lig
             {8000.000000, 80.206119, -0.190171},
             {9000.000000, 86.456436, -0.212829},
             {10000.000000, 93.539509, -0.164750},
-        }    
+        }
     },
     "wAmmunition_viHeavyObject",
     0
@@ -441,7 +453,7 @@ declare_bomb("BetAB_500", _("BetAB-500"), "betab-500", wsType_Bomb_BetAB, "bomb-
         wind_sigma      = 100.000000,
         cx_factor       = 300,
     },
-    
+
     warhead = warheads["BetAB_500"],
 }, {
     char_time       = 20.420000
@@ -459,12 +471,12 @@ local BetAB_500ShP = declare_bomb("BetAB_500ShP", _("BetAB-500ShP"), 'betab-500s
         Mw              = 2.769849,
         wind_time       = 1000.000000,
         wind_sigma      = 100.000000,
-        
+
         cx_factor       = 300,
     },
-    
+
     warhead = warheads["BetAB_500ShP"],
-    
+
     engine =
     {
         fuel_mass   = 51.8,
@@ -481,8 +493,8 @@ local BetAB_500ShP = declare_bomb("BetAB_500ShP", _("BetAB-500ShP"), 'betab-500s
         smoke_color = {0.6, 0.6, 0.6},
         smoke_transparency = 0.3,
     },
-    
-    control = 
+
+    control =
     {
         delay_par   = 1.5,
         delay_eng   = 10,
@@ -529,39 +541,39 @@ local BetAB_500ShP = declare_bomb("BetAB_500ShP", _("BetAB-500ShP"), 'betab-500s
         {7000.000000, 46.284544, -0.034433},
         {8000.000000, 47.064678, -0.033892},
         {9000.000000, 47.829238, -0.033280},
-        {10000.000000, 48.574960, -0.032601},   
+        {10000.000000, 48.574960, -0.032601},
     }
 })
 
 BetAB_500ShP.sounderName = "Weapons/BetAB_500ShP"
-	
+
 register_targeting_data("PTAB_2_5",    {wsType_Weapon, wsType_Bomb, wsType_Bomb_A, PTAB_2_5KO}, { char_time = 21.5 });
 register_targeting_data("AO_2_5_DATA", {wsType_Weapon, wsType_Bomb, wsType_Bomb_A, AO_2_5RT},   { char_time = 21.5 });
 
-declare_cluster("KMGU_2_PTAB_2_5KO", wsType_Container, 
+declare_cluster("KMGU_2_PTAB_2_5KO", wsType_Container,
     combine_cluster(PTAB_2_5_DATA,
         {
             cluster = {
                 count        = 12,
                 effect_count = 12,
-            
+
                 wind_sigma  = 5,
                 impulse_sigma = 0,
                 moment_sigma = 0.0001,
             }
-            
+
         },
 		"cluster"
     )
 );
 
-declare_cluster("KMGU_2_AO_2_5RT", wsType_Container, 
+declare_cluster("KMGU_2_AO_2_5RT", wsType_Container,
     combine_cluster(AO_2_5_DATA,
         {
             cluster = {
                 count        = 12,
                 effect_count = 12,
-            
+
                 wind_sigma  = 5,
                 impulse_sigma = 0,
                 moment_sigma = 0.1,
@@ -589,11 +601,11 @@ declare_bomb("RBK_250", _("RBK-250"), "RBK_250_PTAB_25M_cassette", wsType_Bomb_C
 
 	launcher =
     {
-        cluster = cluster_desc("PTAB_2_5KO", wsType_Bomb_Cluster, 
+        cluster = cluster_desc("PTAB_2_5KO", wsType_Bomb_Cluster,
 		{
-			scheme = 
+			scheme =
 			{
-				bomb_nose = 
+				bomb_nose =
 				{
 					mass					= 15,
 					caliber					= 0.325,
@@ -605,7 +617,7 @@ declare_bomb("RBK_250", _("RBK-250"), "RBK_250_PTAB_25M_cassette", wsType_Bomb_C
 					model_name				= "RBK_250_PTAB_25M_nose",
 					init_impulse			= {{300,0,0}},
 				},
-				dispenser = 
+				dispenser =
 				{
 					mass					= 244,
 					caliber					= 0.325,
@@ -643,8 +655,8 @@ declare_bomb("RBK_250", _("RBK-250"), "RBK_250_PTAB_25M_cassette", wsType_Bomb_C
 					moment_sigma			= 0.12,
 					count					= 42,
 					effect_count			= 42,
-					mass					= 2.8,	
-					caliber					= 0.068,	
+					mass					= 2.8,
+					caliber					= 0.068,
 					cx_coeff				= {1,0.39,0.38,0.236,1.31},
 					L						= 0.332,
 					I						= 0.025719,
@@ -658,22 +670,22 @@ declare_bomb("RBK_250", _("RBK-250"), "RBK_250_PTAB_25M_cassette", wsType_Bomb_C
 				},
 				warhead = warheads["PTAB-2-5"],
 			},
-			
+
 			name    		= _("PTAB-2-5"),
 			type_name		= _("cluster"),
 			cluster_scheme	= "rbk_simple",
 		}
 		)
-    },  
+    },
 
-    control = 
+    control =
     {
         open_delay = 3.4,
     },
-    
+
 }, {
     v0 = 200.0,
-    data = 
+    data =
     {
         {1.000000, 20.200000, 0.000000},
         {10.000000, 20.355862, 0.000077},
@@ -729,15 +741,15 @@ declare_bomb("RBK_500AO", _("RBK-500-255 PTAB-10-5"), "RBK_500_255_PTAB_10_5_cas
 		Mw              = 1.588636,
 		wind_time       = 1000.0,
 		wind_sigma      = 100.0,
-    },  
-    
+    },
+
 	launcher =
     {
-        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, 
+        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster,
 		{
-			scheme = 
+			scheme =
 			{
-				bomb_nose = 
+				bomb_nose =
 				{
 					mass					= 15,
 					caliber					= 0.4,
@@ -749,7 +761,7 @@ declare_bomb("RBK_500AO", _("RBK-500-255 PTAB-10-5"), "RBK_500_255_PTAB_10_5_cas
 					model_name				= "RBK_500_255_PTAB_10_5_nose",
 					init_impulse			= {{300,0,0}},
 				},
-				dispenser = 
+				dispenser =
 				{
 					mass					= 253,
 					caliber					= 0.4,
@@ -803,7 +815,7 @@ declare_bomb("RBK_500AO", _("RBK-500-255 PTAB-10-5"), "RBK_500_255_PTAB_10_5_cas
 				},
 				warhead = warheads["PTAB-10-5"],
 			},
-			
+
 			name    		= _("PTAB-10-5"),
 			type_name		= _("cluster"),
 			cluster_scheme	= "rbk_simple",
@@ -811,11 +823,11 @@ declare_bomb("RBK_500AO", _("RBK-500-255 PTAB-10-5"), "RBK_500_255_PTAB_10_5_cas
 		)
     },
 
-    control = 
+    control =
     {
         open_delay = 3.5,
     },
-    
+
 }, {
     v0 = 200.0,
     data =
@@ -858,7 +870,7 @@ declare_bomb("RBK_500AO", _("RBK-500-255 PTAB-10-5"), "RBK_500_255_PTAB_10_5_cas
         {8000.000000, 21.189321, -0.000120},
         {9000.000000, 21.210072, -0.000178},
         {10000.000000, 21.227430, -0.000236},
-    }       
+    }
 });
 
 declare_bomb("RBK_500U", _("RBK-500 PTAB-1M"), "RBK_500_PTAB_1M_cassette", wsType_Bomb_Cluster, "bomb-cassette", {
@@ -870,15 +882,15 @@ declare_bomb("RBK_500U", _("RBK-500 PTAB-1M"), "RBK_500_PTAB_1M_cassette", wsTyp
 		L               = 2.430000,
 		wind_time       = 1000,
 		wind_sigma      = 100,
-    },  
-    
+    },
+
     launcher =
     {
-        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, 
+        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster,
 		{
-			scheme = 
+			scheme =
 			{
-				bomb_nose = 
+				bomb_nose =
 				{
 					mass					= 20,
 					caliber					= 0.4,
@@ -890,7 +902,7 @@ declare_bomb("RBK_500U", _("RBK-500 PTAB-1M"), "RBK_500_PTAB_1M_cassette", wsTyp
 					model_name				= "RBK_500_PTAB_1M_nose",
 					init_impulse			= {{300,0,0}},
 				},
-				dispenser = 
+				dispenser =
 				{
 					mass					= 253,
 					caliber					= 0.4,
@@ -944,19 +956,19 @@ declare_bomb("RBK_500U", _("RBK-500 PTAB-1M"), "RBK_500_PTAB_1M_cassette", wsTyp
 				},
 				warhead = warheads["PTAB-1M"],
 			},
-			
+
 			name    		= _("PTAB-1M"),
 			type_name		= _("cluster"),
 			cluster_scheme	= "rbk_simple",
 		}
 		)
-    },  
-	
-    control = 
+    },
+
+    control =
     {
         open_delay = 3.5,
     },
-    
+
 }, {
     v0 = 200.0,
     data =
@@ -999,7 +1011,7 @@ declare_bomb("RBK_500U", _("RBK-500 PTAB-1M"), "RBK_500_PTAB_1M_cassette", wsTyp
         {8000.000000, 21.189321, -0.000120},
         {9000.000000, 21.210072, -0.000178},
         {10000.000000, 21.227430, -0.000236},
-    }       
+    }
 });
 
 declare_bomb("SAB_100", _("SAB-100"), "sab-100", wsType_Bomb_Lighter, "bomb-sab", {
@@ -1014,20 +1026,20 @@ declare_bomb("SAB_100", _("SAB-100"), "sab-100", wsType_Bomb_Lighter, "bomb-sab"
         Mw              = 2.244756,
 
         wind_sigma      = 30.000000,
-    },  
-    
-    launcher = 
+    },
+
+    launcher =
     {
         ammunition = weapons_table.weapons.bombs["SAB_100_LE"],
     },
-    
-    control = 
+
+    control =
     {
         open_delay    = 4.0,
         open_interval = 1.0,
         items_count   = 7,
     },
-    
+
 }, {
     v0 = 200.0,
     data =
@@ -1070,11 +1082,11 @@ declare_bomb("SAB_100", _("SAB-100"), "sab-100", wsType_Bomb_Lighter, "bomb-sab"
         {8000.000000, 37.129366, -0.057049},
         {9000.000000, 39.047051, -0.064647},
         {10000.000000, 41.245435, -0.073455},
-    }  
+    }
 });
 
 declare_bomb("M_117", _("M117"), "m117", wsType_Bomb_A, "bomb-common", {
-    
+
     fm =
     {
             mass            = 408.000000,
@@ -1086,8 +1098,8 @@ declare_bomb("M_117", _("M117"), "m117", wsType_Bomb_A, "bomb-common", {
             Mw              = 2.146083,
             wind_time       = 1000.000000,
             wind_sigma      = 150.000000,
-    },      
-    
+    },
+
     warhead = warheads["M_117"],
 }, {
     char_time       = 20.33560000
@@ -1095,7 +1107,7 @@ declare_bomb("M_117", _("M117"), "m117", wsType_Bomb_A, "bomb-common", {
 
 
 declare_bomb("Mk_81", _("Mk-81"), "mk-81", wsType_Bomb_A, "bomb-common", {
-    
+
     fm =
     {
             mass            = 113.000000,
@@ -1108,7 +1120,7 @@ declare_bomb("Mk_81", _("Mk-81"), "mk-81", wsType_Bomb_A, "bomb-common", {
             wind_time       = 1000.000000,
             wind_sigma      = 80.000000,
     },
-    
+
     warhead = warheads["Mk_81"],
 }, {
     char_time       = 20.360000
@@ -1127,10 +1139,10 @@ declare_bomb("Mk_82", _("Mk-82"), "mk-82", wsType_Bomb_A, "bomb-common", {
             wind_time       = 1000.000000,
             wind_sigma      = 80.000000,
     },
-    
+
     warhead = warheads["Mk_82"],
 }, {
-    char_time       = 20.320000    
+    char_time       = 20.320000
 });
 
 declare_bomb("AN_M64", _("AN-M64"), "AN-M64", wsType_Bomb_A, "bomb-common", {
@@ -1146,10 +1158,10 @@ declare_bomb("AN_M64", _("AN-M64"), "AN-M64", wsType_Bomb_A, "bomb-common", {
             wind_time       = 1000.000000,
             wind_sigma      = 80.000000,
     },
-    
+
     warhead = warheads["AN_M64"],
 }, {
-    char_time       = 20.320000    
+    char_time       = 20.320000
 });
 
 declare_bomb("BDU_50LD", _("BDU-50LD"), "BDU-50LD", wsType_Bomb_A, "bomb-common", {
@@ -1165,36 +1177,36 @@ declare_bomb("BDU_50LD", _("BDU-50LD"), "BDU-50LD", wsType_Bomb_A, "bomb-common"
             wind_time       = 1000.000000,
             wind_sigma      = 80.000000,
     },
-    
+
     warhead = warheads["BDU"],
 }, {
-    char_time       = 20.320000    
+    char_time       = 20.320000
 });
 
 declare_bomb("BDU_50HD", _("BDU-50HD"), "BDU-50HD", wsType_Bomb_A, "bomb-parashute", {
       fm =
-    {			
+    {
 			mass            = 232.000000,
             caliber         = 0.273000,
             cx_coeff        = {1.000000, 0.290000, 0.710000, 0.140000, 1.280000},
             L               = 2.210000,
 			I				= 94.42593,
 			cx_factor   	= 100,
-			
+
 			wind_time 		= 1000,
 			wind_sigma      = 8.0,
     },
-    
+
     warhead = warheads["BDU"],
-	
-	control = 
+
+	control =
     {
         open_delay = 0.2,
     },
-	
-},{	
+
+},{
 	v0 = 200,
-	data = 
+	data =
     {
   	{1.000000, 21.147949, 0.002807},
 	{10.000000, 28.262668, -0.017193},
@@ -1234,7 +1246,7 @@ declare_bomb("BDU_50HD", _("BDU-50HD"), "BDU-50HD", wsType_Bomb_A, "bomb-parashu
 	{8000.000000, 33.839206, -0.008505},
 	{9000.000000, 33.846586, -0.008868},
 	{10000.000000, 33.845625, -0.009258},
-    }    
+    }
 },
 "wAmmunitionBallute"
 );
@@ -1252,10 +1264,10 @@ declare_bomb("BDU_33", _("BDU-33"), "BDU-33", wsType_Bomb_A, "bomb-smoke", {
             wind_time       = 1000.000000,
             wind_sigma      = 80.000000,
     },
-    
+
     warhead = warheads["HYDRA_70_SMOKE"],
 }, {
-    char_time       = 20.540000    
+    char_time       = 20.540000
 });
 
 declare_bomb("Mk_83", _("Mk-83"), "mk-83", wsType_Bomb_A, "bomb-common", {
@@ -1273,7 +1285,7 @@ declare_bomb("Mk_83", _("Mk-83"), "mk-83", wsType_Bomb_A, "bomb-common", {
     },
     warhead = warheads["Mk_83"],
 }, {
-    char_time       = 20.280000     
+    char_time       = 20.280000
 });
 
 declare_bomb("Mk_84", _("Mk-84"), "mk-84", wsType_Bomb_A, "bomb-common", {
@@ -1307,35 +1319,35 @@ declare_bomb("ROCKEYE", _("ROCKEYE"), "rockeye", wsType_Bomb_Cluster, "bomb-cass
         Mw              = 1.987409,
         wind_time       = 1000.000000,
         wind_sigma      = 100.000000,
-    },  
-    
-    launcher = 
+    },
+
+    launcher =
     {
         cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, combine_cluster(MK118_DATA,
         {
             cluster = {
                 count        = 247,
                 effect_count = 20,
-            
+
                 wind_sigma  = 50,
                 impulse_sigma = 2,
                 moment_sigma = 0.0001,
             }
-        }, 
+        },
 		"cluster"
 		)
 		)
     },
-    
-    control = 
+
+    control =
     {
         default_delay		= 1.2,
 		default_open_height = 457,
     },
-    
+
 }, {
     char_time				= 20.43,
-	bomblet_char_time		= 23.8,        
+	bomblet_char_time		= 23.8,
 });
 
 declare_bomb("CBU_52B", _("CBU-52B"), "cbu-24b", wsType_Bomb_Cluster, "bomb-cassette", {
@@ -1350,31 +1362,31 @@ declare_bomb("CBU_52B", _("CBU-52B"), "cbu-24b", wsType_Bomb_Cluster, "bomb-cass
 		Mw              = 2.326556,
 		wind_time       = 1000.000000,
 		wind_sigma      = 100.000000,
-    },  
-    
-    launcher = 
+    },
+
+    launcher =
     {
         cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, combine_cluster(BLU61_DATA,
         {
             cluster = {
                 count        = 220,
                 effect_count = 50,
-            
+
                 wind_sigma  = 5,
                 impulse_sigma = 2, -- было 20
                 moment_sigma = 0.0001,
             }
-        }, 
+        },
 		"cluster"
 		)
 		)
     },
-    
-    control = 
+
+    control =
     {
         open_delay = 4.0,
     },
-    
+
 }, {
     v0 = 200.0,
     data =
@@ -1417,7 +1429,7 @@ declare_bomb("CBU_52B", _("CBU-52B"), "cbu-24b", wsType_Bomb_Cluster, "bomb-cass
         {8000.000000, 21.339423, -0.000244},
         {9000.000000, 21.367518, -0.000314},
         {10000.000000, 21.391591, -0.000383},
-   }        
+   }
 });
 
 local function make_CBU_87_103_DATA()
@@ -1429,7 +1441,7 @@ local function make_CBU_87_103_DATA()
 		impulse_sigma 	= 2, -- было 20
 		moment_sigma 	= 0.0001,
 	}
-	
+
 	return t
 end
 
@@ -1442,9 +1454,9 @@ declare_bomb("CBU_87", _("CBU-87"), "CBU-97", wsType_Bomb_Cluster, "bomb-cassett
         L               = 2.3552,
         wind_time       = 1000.000000,
         wind_sigma      = 30.0,
-    },  
-    
-    launcher = 
+    },
+
+    launcher =
     {
         cluster = cluster_desc("Bomb_Other",
 			wsType_Bomb_Cluster,
@@ -1473,16 +1485,16 @@ declare_bomb("CBU_103", _("CBU-103"), "CBU-97", wsType_Bomb_Cluster, "bomb-casse
 			maxAoa			= 0.26,
 			finsTau			= 0.1,
     },
-	WCMD_guidence = 
-	{	
+	WCMD_guidence =
+	{
 		PID_koef   = 12.0,
 		PID_integr = 0.0,
 		PID_differ = 0.5,
 		char_time  = 20.34,
 		bomblet_char_time = 20.34,
 	},
-	
-    launcher = 
+
+    launcher =
     {
 		cluster = cluster_desc("Bomb_Other",
 			wsType_Bomb_Cluster,
@@ -1504,19 +1516,19 @@ declare_bomb("CBU_97", _("CBU-97"), "CBU-97", wsType_Bomb_Cluster, "bomb-cassett
         L               = 2.3552,
         wind_time       = 1000.000000,
         wind_sigma      = 30.0,
-    },  
-    
+    },
+
     launcher =
     {
-        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, 
+        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster,
 		{
-			scheme = CBU97_CLUSTER_SCHEME_DATA,			
+			scheme = CBU97_CLUSTER_SCHEME_DATA,
 			name    		= _("BLU-108"),
 			type_name		= _("cluster"),
 			cluster_scheme	= "CBU_97",
 		})
-    },  
-}, 
+    },
+},
 {
     char_time = 20.40,
 	bomblet_char_time = 99.14,
@@ -1539,20 +1551,20 @@ declare_bomb("CBU_105", _("CBU-105"), "CBU-97", wsType_Bomb_Cluster, "bomb-casse
 			finsTau			= 0.1,
 			Sw				= 0.6,
     },
-    
+
     launcher =
     {
-        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, 
+        cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster,
 		{
-			scheme = CBU97_CLUSTER_SCHEME_DATA,			
+			scheme = CBU97_CLUSTER_SCHEME_DATA,
 			name    		= _("BLU-108"),
 			type_name		= _("cluster"),
 			cluster_scheme	= "CBU_97",
 		})
     },
-	
-	WCMD_guidence = 
-	{	
+
+	WCMD_guidence =
+	{
 		PID_koef   		  = 12.0,
 		PID_integr 		  = 0.0,
 		PID_differ 		  = 0.5,
@@ -1581,16 +1593,16 @@ declare_bomb("BL_755", _("BL-755"), "t-bl-755", wsType_Bomb_Cluster, "bomb-casse
         Mw              = 1.655525,
         wind_time       = 1000.000000,
         wind_sigma      = 100.000000,
-    },  
-    
-    launcher = 
+    },
+
+    launcher =
     {
         cluster = cluster_desc("Bomb_Other", wsType_Bomb_Cluster, combine_cluster(HEAT_DATA,
         {
             cluster = {
                 count        = 147,
                 effect_count = 50,
-            
+
                 wind_sigma  = 5,
                 impulse_sigma = 2, -- было 20
                 moment_sigma = 0.0001,
@@ -1600,12 +1612,12 @@ declare_bomb("BL_755", _("BL-755"), "t-bl-755", wsType_Bomb_Cluster, "bomb-casse
 		)
 		)
     },
-    
-    control = 
+
+    control =
     {
         open_delay = 4.0,
     },
-    
+
 }, {
     v0 = 200.0,
     data =
@@ -1654,28 +1666,28 @@ declare_bomb("BL_755", _("BL-755"), "t-bl-755", wsType_Bomb_Cluster, "bomb-casse
 
 declare_bomb("MK_82AIR", _("Mk-82AIR"), "Mk-82AIR", wsType_Bomb_A, "bomb-parashute", {
     fm =
-    {			
+    {
 			mass            = 232.000000,
             caliber         = 0.273000,
             cx_coeff        = {1.000000, 0.290000, 0.710000, 0.140000, 1.280000},
             L               = 2.210000,
 			I				= 94.42593,
 			cx_factor   	= 100,
-			
+
 			wind_time 		= 1000,
 			wind_sigma      = 8.0,
     },
-    
+
     warhead = warheads["Mk_82"],
-	
-	control = 
+
+	control =
     {
         open_delay = 0.2,
     },
-	
-},{	
+
+},{
 	v0 = 200,
-	data = 
+	data =
     {
   	{1.000000, 21.147949, 0.002807},
 	{10.000000, 28.262668, -0.017193},
@@ -1715,35 +1727,35 @@ declare_bomb("MK_82AIR", _("Mk-82AIR"), "Mk-82AIR", wsType_Bomb_A, "bomb-parashu
 	{8000.000000, 33.839206, -0.008505},
 	{9000.000000, 33.846586, -0.008868},
 	{10000.000000, 33.845625, -0.009258},
-    }    
+    }
 },
 "wAmmunitionBallute"
 );
 
 declare_bomb("MK_82SNAKEYE", _("Mk-82 SnakeEye"), "MK-82_Snakeye", wsType_Bomb_A, "bomb-parashute", {
     fm =
-    {			
+    {
 			mass            = 232.000000,
             caliber         = 0.273000,
             cx_coeff        = {1.000000, 0.290000, 0.710000, 0.140000, 1.280000},
             L               = 2.210000,
 			I				= 94.42593,
 			cx_factor   	= 100,
-			
+
 			wind_time 		= 1000,
 			wind_sigma      = 8.0,
     },
-    
+
     warhead = warheads["Mk_82"],
-	
-	control = 
+
+	control =
     {
         open_delay = 0.2,
     },
-	
-},{	
+
+},{
 	v0 = 200,
-	data = 
+	data =
     {
   	{1.000000, 21.147949, 0.002807},
 	{10.000000, 28.262668, -0.017193},
@@ -1783,7 +1795,7 @@ declare_bomb("MK_82SNAKEYE", _("Mk-82 SnakeEye"), "MK-82_Snakeye", wsType_Bomb_A
 	{8000.000000, 33.839206, -0.008505},
 	{9000.000000, 33.846586, -0.008868},
 	{10000.000000, 33.845625, -0.009258},
-    }    
+    }
 },
 "wAmmunitionBallute"
 );
@@ -1844,7 +1856,7 @@ declare_paveway_2("GBU_12", _("GBU-12"), "GBU-12", wsType_Bomb_Guided, "bomb-pav
     },
 	bang_bang_autopilot = {
 		omegaDumpingK = 0.8
-	},	
+	},
     warhead = warheads["Mk_82"],
 }, {
     char_time       = 20.380000
@@ -1870,7 +1882,7 @@ declare_paveway_2("GBU_16", _("GBU-16"), "GBU-16", wsType_Bomb_Guided, "bomb-pav
     },
 	bang_bang_autopilot = {
 		omegaDumpingK = 0.36
-	},	
+	},
     warhead = warheads["Mk_83"],
 }, {
     char_time       =  20.280000
@@ -1896,7 +1908,7 @@ declare_paveway_2("BDU_50LGB", _("BDU-50LGB"), "BDU-50LGB", wsType_Bomb_Guided, 
     },
 	bang_bang_autopilot = {
 		omegaDumpingK = 0.36
-	},	
+	},
     warhead = warheads["BDU"],
 }, {
     char_time       = 20.420000
@@ -1923,7 +1935,7 @@ declare_paveway_2("KAB_1500Kr", _("KAB-1500L-Pr"), "kab-1500", wsType_Bomb_Guide
     },
 	bang_bang_autopilot = {
 		omegaDumpingK = 0.5
-	},	
+	},
     warhead = warheads["KAB_1500Kr"],
 }, {
     char_time = 20.3
@@ -1951,9 +1963,9 @@ declare_paveway_2("KAB_500Kr", _("KAB-500Kr"), "kab-500t", wsType_Bomb_Guided, "
 		Ki			= 0.0,
 		finsLimit	= 0.25,
 		delay		= 2.0
-	},	
+	},
     warhead = warheads["KAB_500Kr"],
-}, 
+},
 {
     char_time = 20.7
 },
@@ -1979,7 +1991,7 @@ declare_paveway_2("KAB_500", _("KAB-500"), "kab-500", wsType_Bomb_Guided, "bomb-
     },
 	bang_bang_autopilot = {
 		omegaDumpingK = 0.5
-	},	
+	},
     warhead = warheads["KAB_500"],
 }, {
     char_time = 20.4
@@ -2015,13 +2027,13 @@ declare_bomb("GBU_31", _("GBU-31(V)1/B"), "GBU-31", wsType_Bomb_Guided, "bomb_jd
 		Mw_x			= 4.5,
 		model_roll 		= math.rad(-45),
     },
-	
+
 	seeker = {
 		CEP 					= 5.0,
 		coalition				= 2,
 		coalition_rnd_coeff		= 5.0,
 	},
-	
+
 	autopilot = {
 		delay				= 1.0,
 		op_time				= 9000,
@@ -2040,7 +2052,7 @@ declare_bomb("GBU_31", _("GBU-31(V)1/B"), "GBU-31", wsType_Bomb_Guided, "bomb_jd
 		KDI					= 0.6 * 925 / 0.5,
 		KLM					= 1.3 * 0.164 * 3 / 925,
 	},
-	
+
     warhead = warheads["Mk_84"],
 },
 {
@@ -2049,7 +2061,7 @@ declare_bomb("GBU_31", _("GBU-31(V)1/B"), "GBU-31", wsType_Bomb_Guided, "bomb_jd
 "wAmmunitionChangeableTrajectory");
 
 declare_bomb("GBU_31_V_3B", _("GBU-31(V)3/B"), "GBU31_V_3B_BLU109", wsType_Bomb_Guided, "bomb_jdam", {
-	
+
 	fm =
     {
 		mass			= 961.0,
@@ -2074,13 +2086,13 @@ declare_bomb("GBU_31_V_3B", _("GBU-31(V)3/B"), "GBU31_V_3B_BLU109", wsType_Bomb_
 		Mw_x			= 6.5,
 		model_roll 		= math.rad(-45),
     },
-	
+
 	seeker = {
 		CEP 					= 5.0,
 		coalition				= 2,
 		coalition_rnd_coeff		= 5.0,
 	},
-	
+
 	autopilot = {
 		delay				= 1.0,
 		op_time				= 9000,
@@ -2099,7 +2111,7 @@ declare_bomb("GBU_31_V_3B", _("GBU-31(V)3/B"), "GBU31_V_3B_BLU109", wsType_Bomb_
 		KDI					= 0.6 * 961 / 0.5,
 		KLM					= 1.3 * 0.1 * 5 / 961,
 	},
-	
+
     warhead = warheads["BLU_109"],
 },
 {
@@ -2131,13 +2143,13 @@ declare_bomb("GBU_38", _("GBU-38"), "GBU-38", wsType_Bomb_Guided, "bomb_jdam", {
 		Mw_x			= 3.5,
 		model_roll 		= math.rad(-45),
     },
-	
+
 	seeker = {
 		CEP 					= 5.0,
 		coalition				= 2,
 		coalition_rnd_coeff		= 5.0,
 	},
-	
+
 	autopilot = {
 		delay				= 1.0,
 		op_time				= 9000,
@@ -2167,8 +2179,8 @@ declare_bomb("GBU_38", _("GBU-38"), "GBU-38", wsType_Bomb_Guided, "bomb_jdam", {
 
 declare_bomb("AGM_62", _("AGM-62 Walleye II"), "agm-62", wsType_Bomb_Guided, "AGM-62", {
     fm = {
-		mass        = 1061,  
-		caliber     = 0.457,  
+		mass        = 1061,
+		caliber     = 0.457,
 		cx_coeff    = {1,0.39,0.38,0.236,1.31},
 		L           = 4.04,
 		I           = 1 / 12 * 1061 * 4.04 * 4.04,
@@ -2185,18 +2197,18 @@ declare_bomb("AGM_62", _("AGM-62 Walleye II"), "agm-62", wsType_Bomb_Guided, "AG
 		Mw_x		= 1.5,
 		I_x			= 40,
 	},
-	
+
 	seeker = {
 		delay			= 0.0,
 		op_time			= 200,
 		FOV				= math.rad(60),
 		max_w_LOS		= 0.06,
 		max_w_LOS_surf	= 0.03,
-	
+
 		max_target_speed			= 33,
 		max_target_speed_rnd_coeff	= 10,
 	},
-	
+
 	PN_autopilot = {
 		K			= 0.024,
 		Ki			= 0.001,
@@ -2205,12 +2217,12 @@ declare_bomb("AGM_62", _("AGM-62 Walleye II"), "agm-62", wsType_Bomb_Guided, "AG
 		fins_limit	= 0.5,
 		K_GBias		= 0.5,
 	},
-	
+
 	march = {
 		smoke_color			= {0.9, 0.9, 0.9},
 		smoke_transparency	= 0.5,
 	},
-	
+
     warhead		= warheads["AGM_62"],
 },
 {
@@ -2219,12 +2231,12 @@ declare_bomb("AGM_62", _("AGM-62 Walleye II"), "agm-62", wsType_Bomb_Guided, "AG
 "wAmmunitionSelfHoming");
 
 declare_bomb("GBU_24", _("GBU-24 Paveway III"), "GBU-24", wsType_Bomb_Guided, "bomb-paveway-III", {
-    
+
 	seeker = {
-		delay	= 0,	
-		FOV		= math.rad(30),		
+		delay	= 0,
+		FOV		= math.rad(30),
 	},
-	
+
 	fm =
     {
         mass			= 934.0,
@@ -2246,7 +2258,7 @@ declare_bomb("GBU_24", _("GBU-24 Paveway III"), "GBU-24", wsType_Bomb_Guided, "b
 		Ma_z			= 0.5,
 		Mw_x			= 2.0,
     },
-	
+
 	autopilot = {
 		delay				= 1.0,
 		Kw					= 1.0,
@@ -2263,7 +2275,7 @@ declare_bomb("GBU_24", _("GBU-24 Paveway III"), "GBU-24", wsType_Bomb_Guided, "b
 		PN_dist_data 		= {	2000,	1,
 								500,	1},
 	},
-	
+
     warhead = warheads["Mk_84"],
 },
 {

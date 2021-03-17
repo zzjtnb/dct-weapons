@@ -170,9 +170,10 @@ end
 local FillerType = {
 	["TNT"]      = 1,
 	["H6"]       = 1.356,
-	["CompB"]    = 1.2,
+	["CompB"]    = 1.33,
 	["Tritonal"] = 1.05,
 	["PBXN109"]  = 1.17,
+	["Torpex"]   = 1.30,
 }
 
 -- make a shallow copy of the table passed to it
@@ -193,8 +194,10 @@ end
 -- cf - concrete factor for penetrating concrete
 -- armor - armor thickness the bomb is capable of penetrating in meters
 --]]
-local function he_bomb(wmass, emass, filler, caliber, cf, armor)
-	local warhead = {};
+local function he_warhead(wmass, emass, filler, caliber, cf, armor)
+	local warhead = {}
+	filler = filler or FillerType.TNT
+
 	-- physical properties
 	warhead.caliber              = caliber
 	warhead.mass                 = wmass
@@ -203,11 +206,11 @@ local function he_bomb(wmass, emass, filler, caliber, cf, armor)
 	-- explosive properties
 	warhead.expl_mass            = emass * filler
 	warhead.other_factors        = {1, 1, 1}
-	warhead.concrete_obj_factor  = cf
+	warhead.concrete_obj_factor  = cf or 0
 	warhead.concrete_factors     = {1, 1, 1}
 	warhead.obj_factors          = {1, 1}
 	warhead.cumulative_factor    = 0
-	warhead.cumulative_thickness = armor
+	warhead.cumulative_thickness = armor or 0
 	return warhead
 end
 
@@ -218,7 +221,7 @@ end
 -- cf - concrete_factors table
 -- cf_obj - concrete_object_factor value
 --]]
-local function make_penetrator(origin, cf, cf_obj)
+local function make_penetrator(origin, cf, cf_obj, of)
 	local warhead = make_copy(origin)
     warhead.other_factors = { 0.2, 1.0, 1.0 }
 	warhead.concrete_factors = cf or { 1.3, 1.0, 1.5 }
@@ -434,82 +437,44 @@ warheads["HVAR"] = -- HVAR HE
 ------------------------------------------------
 -- Bombs
 ------------------------------------------------
+-- inert warhead for training munitions
+warheads["BDU"] = simple_warhead(0.0001)
+
+warheads["M_117"] = simple_warhead(350.0)
+
 -- MK-80 seres GP bombs
-warheads["Mk_81"] = he_bomb( 81,  45, FillerType.H6, nil, .08, .025)
-warheads["Mk_82"] = he_bomb(141,  87, FillerType.H6, nil, .2,  .032)
-warheads["Mk_83"] = he_bomb(215, 202, FillerType.H6, nil, .4,  .046)
-warheads["Mk_84"] = he_bomb(451, 443, FillerType.H6, nil, .8,  .051)
-warheads["BLU_109"] = make_penetrator(he_bomb(
-	874, 242, FillerType.PBXN109, nil, nil, .4), {5, 1, 5}, 8.0)
-warheads["BLU_122"] = make_penetrator(he_bomb(
-	2018, 354, FillerType.PBXN109, nil, nil, .4), {5, 1, 10}, 14.0)
+warheads["Mk_81"] = he_warhead( 81,  45, FillerType.H6, nil, .08, .025)
+warheads["Mk_82"] = he_warhead(141,  87, FillerType.H6, nil, .2,  .032)
+warheads["Mk_83"] = he_warhead(215, 202, FillerType.H6, nil, .4,  .046)
+warheads["Mk_84"] = he_warhead(451, 443, FillerType.H6, nil, .8,  .051)
 
 -- MK-80 seres GP bombs w/ pentrator caps
 warheads["Mk_82P"] = make_penetrator(predefined_warhead("Mk_82"), nil, 0.4)
 warheads["Mk_83P"] = make_penetrator(predefined_warhead("Mk_83"), nil, 1.0)
 warheads["Mk_84P"] = make_penetrator(predefined_warhead("Mk_84"), nil, 2.0)
 
--- MK-80 seres GP bombs w/ guidance packages
---warheads["GBU_11"] = predefined_warhead("Mk_??")
--- Paveway II
-warheads["GBU_10"] = predefined_warhead("Mk_84")
-warheads["GBU_16"] = predefined_warhead("Mk_83")
-warheads["GBU_12"] = predefined_warhead("Mk_82")
--- Paveway II w/ hardended warheads
-warheads["GBU_17"] = predefined_warhead("Mk_84P")  -- never built!
-warheads["GBU_27"] = predefined_warhead("BLU_109")
-warheads["GBU_28"] = predefined_warhead("BLU_122")
--- Paveway III
-warheads["GBU_22"] = predefined_warhead("Mk_82")
-warheads["GBU_24"] = predefined_warhead("Mk_84")
-
--- Glide
-warheads["GBU_15"] = predefined_warhead("BLU_109")
-
--- JDAM
-warheads["GBU_29"] = predefined_warhead("Mk_83")
-warheads["GBU_30"] = predefined_warhead("Mk_84")
+-- BLU series GP bombs w/ hardened pentrator casing
+warheads["BLU_109"] = make_penetrator(he_warhead(
+	874, 242, FillerType.PBXN109, nil, nil, .4), {5, 1, 5}, 8.0)
+warheads["BLU_122"] = make_penetrator(he_warhead(
+	2018, 354, FillerType.PBXN109, nil, nil, .4), {5, 1, 10}, 14.0)
 
 -- Other Bombs
-warheads["FAB_100"] = simple_warhead(100.0); -- Explosive 45 kg + fragments bonus
+warheads["FAB_100"] = he_warhead(123,  39)  -- FAB-100 M62
+warheads["FAB_250"] = he_warhead(240, 104)  -- FAB-250 M62
+warheads["FAB_500"] = he_warhead(500, 213)  -- FAB-500 M62
+warheads["FAB_1500"] = he_warhead(1500, 1110.0) -- FAB-1500 M62
 
-warheads["FAB_250"] = simple_warhead(200.0); -- Explosive 100 kg + fragments bonus
+warheads["BetAB_500"] = make_penetrator(predefined_warhead("FAB_500"),
+    { 5.0, 1.0, 5.0 }, 5.0, { 0.5, 0.5, 1.0 })
 
-warheads["FAB_500"] = simple_warhead(500.0); -- Explosive 200 kg + fragments bonus
-
-warheads["FAB_1500"] = simple_warhead(1400.0); -- Explosive 700 kg + fragments bonus
-
-warheads["BetAB_500"] =
-{
-    mass        	= 200.0,
-	expl_mass        = 200.0,
-    other_factors    = { 0.5, 0.5, 1.0 },
-    concrete_factors = { 5.0, 1.0, 5.0 },
-    concrete_obj_factor= 5.0;
-    obj_factors      = { 1.0, 1.0 },
-    cumulative_factor= 0.0,
-    cumulative_thickness = 0.0
-};
-
-warheads["BetAB_500ShP"] =
-{
-    mass 			= 200.0,
-	expl_mass        = 200.0,
-    other_factors    = { 0.5, 0.5, 1.0 },
-    concrete_factors = { 5.0, 1.0, 5.0 },
-    concrete_obj_factor = 10.0,
-    obj_factors      = { 1.0, 1.0, 1.0 },
-    cumulative_factor= 0.0,
-    cumulative_thickness = 0.0
-};
+warheads["BetAB_500ShP"] = make_penetrator(predefined_warhead("FAB_500"),
+    { 5.0, 1.0, 5.0 }, 10.0, { 0.5, 0.5, 1.0 })
 
 warheads["AO_1SCH"] = simple_warhead(1.0, 68.0);
 warheads["BETAB_M"] = penetrating_warhead(20.0, 100.0);
 warheads["OFAB_50UD"] = simple_warhead(40.0, 100.0);
-
-warheads["M_117"] = simple_warhead(350.0); -- Explosive 175 kg + fragments bonus
 warheads["AN_M64"] = simple_warhead(250.0); -- Explosive 121 kg + fragments bonus
-warheads["BDU"] = simple_warhead(0.0001); -- inert warhead for training munition
 
 warheads["KAB_500Kr"] =
 {
