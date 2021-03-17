@@ -1,0 +1,26 @@
+ATZ-10
+
+ural_atz-10
+
+
+Type: Fuel truck
+Chassis: Ural-4320
+Seating Capacity (cab): 1 + 2
+The wheel formula: 6x6
+Weight, kg: 
+ own: 9520
+ full: 20100
+Tank capacity, l: 10000
+Overall dimensions, m:
+ length, m: 9,75
+ Width, m: 2,5
+ Cabin height, m: 2,98
+Clearance, m: 0,4
+Engine: YaMZ-238M2 - eight-cylinder V-shaped turbocharged diesel engine 
+HP power: 240 (176 kW) at 2100 rpm
+Maximum speed on the highway, km/h: 75
+Power reserve, km (at 60 km/h): 750
+
+Aircraft refueling truck on the chassis
+of the Ural-4320-30 car is designed
+for refueling aircraft and helicopters with simultaneous measurement of fuel output, as well as for storage and transportation of light oil products on all types of roads and terrain.

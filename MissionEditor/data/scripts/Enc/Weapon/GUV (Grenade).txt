@@ -1,0 +1,18 @@
+GUV-8700 (9A800)
+
+GUV-7800_G
+
+
+Name: GUV-8700 (9A800)
+Type: Gun Pod
+Developed: Russia
+Weight, kg: 274
+Gun type: 1 x AP-30
+Number of barrels: 1
+Caliber: 30
+Firing rate, rounds/minute: 500
+Muzzle velocity, m/s: 185 
+Range, km: 1.7
+Ammunition storage, rounds: 300
+
+The GUV-8700 pod is an universal gun pod that can carry either a single four-barrel 12.7 mm YakB Gatling-type machine gun or a 30 mm grenade launcher.

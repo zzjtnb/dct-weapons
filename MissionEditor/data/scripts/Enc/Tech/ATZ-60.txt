@@ -1,0 +1,24 @@
+ATZ-60
+
+atz-60
+
+
+Type: Fuel truck
+Tractor: MAZ-74103
+Chassis: semi-trailer CHMZAP-8685
+Seating Capacity (cab): 2
+Wheel formula: 8x8
+Weight, kg: 
+ own: 54000
+ full: 101500
+Tank capacity, l: 60,000
+Overall dimensions, m:
+ length, m: 23.5
+ width, m: 3,12
+ height, m: 4
+Clearance, m: 0,4
+Engine: D12A-525A, diesel, V-shaped, 12-cylinder
+Engine power, HP: 525 (386.1 kW) at 2000 rpm.
+Maximum speed, km/h: 60
+
+The refueling truck is intended for refueling of various types of aircraft (strategic and long-range aircraft) by open and closed refueling with filtered fuel at ground and stationary airfields. Currently, they are operated at military and civil airfields in the CIS countries.

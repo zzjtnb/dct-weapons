@@ -1,0 +1,17 @@
+S-8OM
+
+s-8_om
+
+
+Name: S-8OM
+Type: 80 mm unguided aircraft rocket
+Developed: Spetztekhnika Vympel NPO, Russia
+Weight, kg: 12.1
+Length, m: 1.632
+Caliber, mm: 80
+Warhead weight, kg: 4.3
+Warhead type: illuminating compound 
+Firing range, m: 6000 - 7000
+Illumination duration, s: 35
+
+This rocket is intended for terrain illumination at night. It is an auxiliary purpose rocket.

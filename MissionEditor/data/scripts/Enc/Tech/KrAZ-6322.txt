@@ -1,0 +1,24 @@
+KrAZ-6322
+
+kraz-6322
+
+
+Designation: KrAZ-6322
+Type: Cargo truck
+Seating Capacity (cab): 1+2 men
+Length: 8.98 m
+Height: 3.26 m
+Width: 2.95 m
+Empty weight: 12,700 kg
+Max cargo weight: 12,000 kg
+Engine: YaMZ 238DE2 8V turbodiesel 
+Power output: 243 KW (330 h/p)
+Torque: 1,274 N*m at 1,100-1,300 rpm
+Wheel configuration: 6x6
+Ground clearance: 0.37 m
+Max road speed: 80 km/h
+Operational Range: 1,300 km
+
+The KrAZ-6322 is an off-road truck 6x6 developed by the Ukrainian AvtoKrAZ in 1994. At the moment the truck is in service with Ukraine, Angola, Egypt, India, Indonesia and Yemen. Over 2,000 trucks were ordered by the US Government for the new Iraqi Army.
+
+The KrAZ-6322 is produced in a large number of variants, including KrAZ "Forpost" MRAP, KrAZ-6322RA - a variant of BM-21 Grad multiple rocket launcher on the KrAZ-6322 chassis, ATs-12-63221 fuel tanker and others.

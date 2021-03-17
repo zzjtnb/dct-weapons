@@ -1,0 +1,17 @@
+Kh-22
+
+x-22
+
+
+Name: Kh-22 (AS-4 'Kitchen')
+Type: Long-range, radar-guided, air-to-surface 
+missile
+Developed: OKB-155, Russia
+Warhead weight: 350 kT nuclear or 1000 kg
+Guidance: inertial with active or passive radar
+Weight, kg: 6800
+G limit: 16
+Length, m: 11.67
+Body diameter, m: 1.00
+Range, km: 400
+Maximum Mach number: 4.6

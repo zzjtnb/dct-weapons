@@ -1,0 +1,2052 @@
+dialog = {
+	["children"] = {
+		["main_panel"] = {
+			["children"] = {
+				["pWork"] = {
+					["children"] = {
+						["bBanned"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 25,
+									["w"] = 135,
+									["x"] = 852,
+									["y"] = 11,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Banned",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin_select_role",
+								},
+							},
+							["type"] = "Button",
+						},
+						["bKick"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 25,
+									["w"] = 135,
+									["x"] = 1015,
+									["y"] = 11,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$KickPlayer",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin_select_role",
+								},
+							},
+							["type"] = "Button",
+						},
+						["bUnbanned"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 25,
+									["w"] = 135,
+									["x"] = 689,
+									["y"] = 11,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Unbanned",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin_select_role",
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 13,
+									["w"] = 13,
+									["x"] = 1251,
+									["y"] = 18,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_close",
+								},
+							},
+							["type"] = "Button",
+						},
+						["pCenter"] = {
+							["children"] = {
+								["gridPool"] = {
+									["children"] = {
+										["GridHeaderCell1"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 36,
+													["w"] = 106,
+													["x"] = 498,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$Ships",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 7,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x2b2b2bff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_top"] = "0x464646ff",
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["GridHeaderCell2"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 36,
+													["w"] = 100,
+													["x"] = 605,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$Loss",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 8,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x464646ff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_top"] = "0x464646ff",
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell0"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 75,
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$Callsign",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x464646ff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "0x000000ff",
+																["right_center"] = "0x000000ff",
+																["right_top"] = "0x000000ff",
+															},
+															["text"] = {
+																["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "0x000000ff",
+																["right_center"] = "0x000000ff",
+																["right_top"] = "0x000000ff",
+															},
+															["text"] = {
+																["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "0x000000ff",
+																["right_center"] = "0x000000ff",
+																["right_top"] = "0x000000ff",
+															},
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["fontSize"] = 14,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell1"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 63,
+													["x"] = 76,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$Ping",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x2b2b2bff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "0x000000ff",
+																["right_center"] = "0x000000ff",
+																["right_top"] = "0x000000ff",
+															},
+															["text"] = {
+																["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "0x000000ff",
+																["right_center"] = "0x000000ff",
+																["right_top"] = "0x000000ff",
+															},
+															["text"] = {
+																["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "0x000000ff",
+																["right_center"] = "0x000000ff",
+																["right_top"] = "0x000000ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+																["horzAlign"] = {
+																	["type"] = "middle",
+																},
+																["rect"] = {
+																	["x2"] = 20,
+																	["y1"] = 180,
+																	["y2"] = 200,
+																},
+															},
+															["text"] = {
+																["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell2"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 64,
+													["x"] = 140,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$Unit",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 2,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x464646ff",
+													["name"] = "gridHeaderCellSkin",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell3"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 78,
+													["x"] = 205,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$BoardNo",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 3,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x2b2b2bff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell4"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 49,
+													["x"] = 284,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$Score",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 4,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x464646ff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell5"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 76,
+													["x"] = 334,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$LA",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 5,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x2b2b2bff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell6"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 86,
+													["x"] = 411,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "$GroundTargets",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 6,
+											},
+											["skin"] = {
+												["params"] = {
+													["columnColor"] = "0x464646ff",
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["right"] = 0,
+																},
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_center"] = "0x00000000",
+															},
+															["text"] = {
+																["color"] = "0x000000ff",
+																["font"] = "",
+																["fontSize"] = 0,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 0,
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 112,
+											["w"] = 787,
+											["x"] = 74,
+											["y"] = 15,
+										},
+										["enabled"] = true,
+										["fixedColumns"] = 0,
+										["rows"] = 5,
+										["text"] = "grid0",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["headerHeight"] = 36,
+											["name"] = "gridSkin_Multiplayer_Server_List",
+											["rowColors"] = {
+												[1] = "0xffffff08",
+												[2] = "0x41434500",
+											},
+											["selectionColor"] = "0x2da1beff",
+											["vertLineColor"] = "0xffffff1f",
+										},
+										["skins"] = {
+											["header"] = {
+												["skinData"] = {
+													["states"] = {
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_center"] = "0x52575a00",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 0,
+																		["top"] = 0,
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["headerCell"] = {
+												["skinData"] = {
+													["states"] = {
+														["released"] = {
+															[1] = {
+																["text"] = {
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "$nil$",
+														["insets"] = "$nil$",
+														["left_bottom"] = "0x343434ff",
+														["left_top"] = "0x343434ff",
+														["right_bottom"] = "0x343434ff",
+														["right_top"] = "0x343434ff",
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Grid",
+								},
+								["pNoVisible"] = {
+									["children"] = {
+										["gridHeaderCellNoSort"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 137,
+													["x"] = 33,
+													["y"] = 54,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin_SortDown",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellNoSortPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 137,
+													["x"] = 224,
+													["y"] = 54,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortDown_SmallPadding",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortDown"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 28,
+													["w"] = 163,
+													["x"] = 29,
+													["y"] = 94,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin_SortDown",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortDownPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 28,
+													["w"] = 138,
+													["x"] = 224,
+													["y"] = 92,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortDown_SmallPadding",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortUp"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 177,
+													["x"] = 30,
+													["y"] = 15,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortUp",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["left_center"] = "$nil$",
+																["right_center"] = "$nil$",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortUpPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 137,
+													["x"] = 228,
+													["y"] = 14,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortUp_SmallPadding",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+																["right_center"] = "0xffffff1f",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff33",
+															},
+															["picture"] = {
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["sBlueText"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 435,
+													["y"] = 85,
+												},
+												["enabled"] = true,
+												["text"] = "sBlueText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0x3d46ffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sBlueTextSelected"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 561,
+													["y"] = 85,
+												},
+												["enabled"] = true,
+												["text"] = "sBlueText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x2da1beff",
+															},
+															["text"] = {
+																["color"] = "0x3d46ffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddle"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 288,
+													["x"] = 679,
+													["y"] = 7,
+												},
+												["enabled"] = true,
+												["text"] = "sGridItemAlignMiddle",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff00",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddleSelected"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 288,
+													["x"] = 697,
+													["y"] = 48,
+												},
+												["enabled"] = true,
+												["text"] = "sGridItemAlignMiddle",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x2da1beff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 286,
+													["x"] = 697,
+													["y"] = 87,
+												},
+												["enabled"] = true,
+												["text"] = "sGridItemPadding",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff00",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPaddingSelected"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 286,
+													["x"] = 704,
+													["y"] = 126,
+												},
+												["enabled"] = true,
+												["text"] = "sGridItemPadding",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x2da1beff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sLockNo"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 49,
+													["x"] = 67,
+													["y"] = 208,
+												},
+												["enabled"] = true,
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+												},
+											},
+											["type"] = "Static",
+										},
+										["sRedText"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 432,
+													["y"] = 45,
+												},
+												["enabled"] = true,
+												["text"] = "sRedText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xff2d2dff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sRedTextSelected"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 561,
+													["y"] = 44,
+												},
+												["enabled"] = true,
+												["text"] = "sRedText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x2da1beff",
+															},
+															["text"] = {
+																["color"] = "0xff2d2dff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sWhiteText"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 435,
+													["y"] = 123,
+												},
+												["enabled"] = true,
+												["text"] = "sWhiteText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xffffffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sWhiteTextSelected"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 560,
+													["y"] = 122,
+												},
+												["enabled"] = true,
+												["text"] = "sWhiteText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x2da1beff",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sYellowText"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 432,
+													["y"] = 6,
+												},
+												["enabled"] = true,
+												["text"] = "sYellowText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xf2c149ff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sYellowTextSelected"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 100,
+													["x"] = 561,
+													["y"] = 4,
+												},
+												["enabled"] = true,
+												["text"] = "sYellowText",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+													["textWrapping"] = true,
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x2da1beff",
+															},
+															["text"] = {
+																["color"] = "0xf2c149ff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 165,
+											["w"] = 1124,
+											["x"] = 77,
+											["y"] = 173,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "panel0",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+									},
+									["type"] = "Panel",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 387,
+									["w"] = 1280,
+									["x"] = -6,
+									["y"] = 54,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "Panel1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+							},
+							["type"] = "Panel",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 387,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x0000005a",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 526,
+					["w"] = 1296,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x343434ff",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x0000007f",
+								["insets"] = {
+									["top"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 783,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 115,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = "dxgui\\skins\\skinme\\images\\window\\campaign_dialog\\background.png",
+						["horzAlign"] = {
+							["type"] = "middle",
+						},
+						["vertAlign"] = {
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,33 @@
+SAU 2S3 "Akatsia"
+
+2-c3
+
+
+Type: Self-propelled Gun-Howitzer
+Length: 8.4 m
+Width: 3.25 m
+Height: 3.05 m
+Ground clearance: 0.45 m
+Combat weight: 27500 kg
+Ground pressure: 0.59 kg/sq.cm
+Crew: 4+2 in ammunition carrier
+Engine: V-59 V-12 diesel 520 hp
+Power-to-weight ratio: 17.33 hp/t
+Max road speed: 60 km/h
+Operational range:
+- Road 500 km
+- Cross-country 270 km
+
+Turret traverse: 360°
+Gun elevation/depression: +60°/-4°
+Armour:
+Hull: (max) 15 mm
+Turret: (max) 20 mm
+
+Armament:
+
+- 152 mm 2A33 gun
+- 7.62 mm PKT anti-aircraft machine gun
+
+Rate of fire:
+(max) 4 rds/min

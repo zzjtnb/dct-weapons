@@ -1,0 +1,292 @@
+DCS World Project
+
+MANAGEMENT
+
+Nick Grey
+Founder & CEO Eagle Dynamics SA
+
+[Igor Tishin ]
+Project Development Manager, Director of Eagle Dynamics, Russia
+
+Ekaterina Perederko
+Chief Operational Officer
+
+Matt "Wags" Wagner
+Senior Producer, game and technical documentation, game design
+
+Andrey Chizh
+Producer, Assistant Development & QA Manager, technical documentation
+
+Sergey Gerasev
+Project manager
+
+Konstantin "const" Borovik
+IT Director, Web developer
+
+Matthias "Groove" Techmanski
+Producer, Localization Management
+
+
+
+PROGRAMMERS
+
+Alexander Oikin
+Lead programmer, avionics, aircraft systems
+
+Dmitry Baikov
+Architector programmer, multiplayer
+
+Ilya Belov
+GUI, map, input, mission editor
+
+Maxim Zelensky
+AC, AI AC, flight dynamics, damage model
+
+Andrey Kovalenko
+AI AC, weapons
+
+Evgeny Pod'yachev
+Graphics, EDM models, build system
+
+Timur Ivanov
+Effects, graphics
+
+Oleg "Olgerd" Tischenko
+Avionics
+
+Vladimir Feofanov
+AI AC flight dynamics
+
+Konstantin Tarakanov
+GUI, mission editor
+
+Dmitri Robustov
+Terrain
+
+Eugeny Panov
+AI
+
+Alexey Militov
+Graphics, effects, 3d models
+
+Michael Ershov
+AI
+
+Alexey Saenko
+Graphics
+
+Grigory Manukyan
+Graphics
+
+Roman "Made Dragon" Deniskin
+Aircraft systems, flight dynamics
+
+Pavel Khamlov
+Tools
+
+
+LAND WARFARE DEPARTMENT
+
+Roman "Dr.lex" Podvoyskiy
+Combined Arms
+
+Alexander "SFINX" Kurbatov
+Vehicles, ships
+
+
+ARTISTS
+
+Pavel "DGambo" Sidorov
+Lead artist
+
+Alexander "Skylark" Drannikov
+GUI graphic, AC models
+
+Eugeny "GK" Khizhnyak
+AC, vehicles
+
+Sergey "tama" Ashuiko
+Buildings, Terrain
+
+Andrey "LISA" Reshetko
+Characters
+
+Maxim Lysov
+AC models
+
+Igor Piskunov
+2D artist
+
+Yury Starov
+AC models
+
+
+
+MEDIA
+
+Konstantin "btd" Kuznetsov 
+Sound Engineer, Music Composer
+
+Lead Video Producer
+Cato "GlowingAmraam" Bye
+
+
+
+QA
+
+Valery "USSR_Rik" Khomenok
+Lead Tester
+
+Alexander "BillyCrusher" Bilievsky
+Testing
+
+Nikita "Nim" Opredelenkov
+Testing
+
+Oleg "Dzen" Fedorenko
+Testing
+
+Denis "Maestro" Alekseev
+Testing
+
+Dmitry "Laivynas" Koshelev
+Testing
+
+
+
+SCIENCE SUPPORT
+
+Dmitry "Yo-Yo" Moskalenko
+Mathematical models of dynamics, systems, ballistics
+
+
+
+IT AND CUSTOMER SUPPORT
+
+Andrey Filin
+System and network administrator, Customer Support
+
+Konstantin "MotorEAST" Kharin
+Customer support
+
+Anatoly Zhavoronkov
+Customer support  
+
+Special thanks to:
+Werner "derelor" Siedenburg for proofreading of manuals
+Xueqian "uboats" Zhao for creating/supporting many useful tools and scripts
+
+
+RUSSIAN Localization
+
+Vadim "VR" Repin
+Vyacheslav "Saylors" Prokofiev
+
+
+GERMAN LOCALIZATION
+
+Hardy "I./ZG15_FALKE" Bauer
+Sebastian "Lino_Germany" Benner
+Tomico "Madman 2H2K" von Bergen
+Thomas "shagrat" Gaussmann
+Torsten "monthypython76" Goddek
+Charly "Nirvi" Kramer
+Marcel "EagleEye" Kruger
+Sebastian "Rakuzard" Markert
+Daniel "Luigi Gorgonzola" Atencio Psille
+Matthias "Groove" Techmanski
+
+Special thanks to:
+Werner "derelor" Siedenburg
+
+
+SPANISH LOCALIZATION
+
+Roberto "Vibora" Seoane Penas
+Pedro "Azzameen" Millán
+
+FRENCH LOCALIZATION
+
+Clement "Azrayen" Bakes
+Gaetan "cameleon33" Delaporte
+Bruno "caramel"	Pelfort
+Marc "MarcSupilami" Michault
+Erwan "Erforce" Quelmé
+Jean-Christophe	"Jo_le_trembleur" Jourdan
+Alain "Vascocap" Perez
+
+CZECH LOCALIZATION
+
+Honza Lehky
+
+CHINESE LOCALIZATION
+
+Xueqian "uboats" Zhao
+Jiong "billeinstein" Zhang
+Jiutian "Yukari" Cai
+Wenyu "mie1721" Song
+Yong "Anderson" Ye
+Yonglong "RglsPhoto" Zhao
+Zupei "groovy" Li
+
+
+KOREAN LOCALIZATION
+
+Tae Seon "duria" So
+Hyojin "poq0424" Kim
+Seon Ki "freeman_m30" Jang
+Sungbae "ihopi" Cho
+HoSeok "Kee" Kee
+
+
+ENGLISH LOCALIZATION
+
+Jzan Lo
+
+
+
+PARTNERS
+
+Chris "BeachAV8R" Frishmuth
+Grayson "graywo1fg" Frohberg
+
+
+
+SME
+
+Alexander "AlexT" Titorenko
+Aleksei "SALESMAN" Kibirev
+Kairat "Kairat" Jaksbaev
+Vadim "Wadim" Ishchuk
+Victor "vic702" Kravchuk
+
+
+
+COMMUNITY MANAGERS
+
+Norm "NineLine" Loewen
+Scott "BIGNEWY" Newnham
+
+
+BETA-TESTER STAFF
+
+Adrian "ody81" Clement
+Ciaran "ciribob" Fisher
+Danny "Stuka" Vanvelthoven
+[Eric "gospadin" Mudama ]
+Gareth "Maverick" Moore
+Jeff "Grimes" Szorc
+Peter "Weta43" McAllister
+Phil "Druid_" Phillips
+Robert "Tricker" Treat
+Roberto "Vibora" Seoane Penas
+Werner "derelor" Siedenburg
+William "SkateZilla" Belmont
+Xueqian "uboats" Zhao
+
+
+Special thanks to Grim Reapers Team for testing.
+
+Special thanks to all the Open Beta testers.
+
+ 

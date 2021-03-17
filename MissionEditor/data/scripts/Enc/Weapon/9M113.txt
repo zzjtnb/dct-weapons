@@ -1,0 +1,16 @@
+9M113
+
+9m113
+
+
+Name: 9M113 Konkurs (AT-5 Spandrel)
+Type: Short-range, wire-guided, anti-tank 
+guided missile
+Developed: Russia
+Warhead weight, kg: 2.7
+Guidance: wire-guided
+Weight, kg: 14.5
+Length, m: 1.3
+Body diameter, m: 0.15
+Range, km: 4
+Maximum Mach number: 0.6

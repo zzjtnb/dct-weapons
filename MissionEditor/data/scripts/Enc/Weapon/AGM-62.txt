@@ -1,0 +1,13 @@
+AGM-62 Walleye II
+
+agm-62
+
+
+Name: AGM-62 Walleye II
+Type: TV-guided bomb
+Guidance: TV-command
+Warhead weight, kg: 900
+Weight, kg: 1060
+Developed: USA
+Length, m: 4.04
+Body diameter, m: 0.457

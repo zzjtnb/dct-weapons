@@ -1,0 +1,12 @@
+Rockeye
+Weapon/Rockeye.png
+
+
+
+Name: Rockeye Mk-20
+Type: Multipurpose cluster bomb
+Developed: USA
+Weight, kg: 222
+Length, m: 2.34
+Body diameter, m: 0.335
+Warhead weight, kg: 50

@@ -1,0 +1,14 @@
+CBU-87
+
+cbu-97
+
+
+Name: CBU-87
+Dispenser: SUU-65
+Type: Combined Effects Munitions
+Developed: USA
+Weight, kg: 430
+Length, m: 2.34
+Body diameter, m: 0.406
+
+The CBU-87 Combined Effects Munitions (CEM) weighs 950 lbs and is an all-purpose cluster bomb. The SW-65 Tactical Munitions Dispenser contains 202 BLU-97/B Combined Effects Bomblets (CEB) and they are effective against unarmored targets. The general bomblet footprint coverage is 200 by 400 meters. 

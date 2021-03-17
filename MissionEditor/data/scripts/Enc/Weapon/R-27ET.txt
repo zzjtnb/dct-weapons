@@ -1,0 +1,16 @@
+R-27ET
+
+r-27et
+
+
+Name: R-27ET (AA-10 'Alamo') 
+Type: Long-range, infrared, air-to-air missile
+Weight, kg: 343
+Guidance: inertial, command and infrared
+G limit: 18
+Maximum Mach number: 3
+Developed: Spetztekhnika Vympel NPO, Russia
+Length, m: 4.50
+Body diameter, m: 0.26
+Warhead weight, kg: 39
+Range, km: 70

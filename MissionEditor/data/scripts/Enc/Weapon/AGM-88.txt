@@ -1,0 +1,16 @@
+AGM-88
+
+agm-88
+
+
+Name: AGM-88
+Type: antiradiation, air-to-surface missile
+Developed: USA
+Weight, kg: 361
+Guidance: passive radar
+G limit: 16
+Maximum Mach number: 3.0
+Length, m: 4.17
+Body diameter, m: 0.254
+Warhead weight, kg: 66
+Range, km: 148

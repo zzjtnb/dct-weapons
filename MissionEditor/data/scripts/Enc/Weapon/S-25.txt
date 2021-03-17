@@ -1,0 +1,14 @@
+S-25
+
+c-25
+
+
+Name: S-25
+Type: 340 mm unguided aircraft rocket
+Developed: Russia
+Weight, kg: 480
+Speed, km/h: 2520
+Range, km: 3
+Length, m: 3.31
+Body diameter, m: 0.34
+Warhead weight, kg: 190

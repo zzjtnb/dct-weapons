@@ -1,0 +1,848 @@
+dialog = {
+	["children"] = {
+		["controlPanel"] = {
+			["children"] = {
+				["buttonClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 25,
+							["x"] = 302,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x23303eff",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["right"] = "$nil$",
+										},
+										["left_bottom"] = "0x23303eff",
+										["left_center"] = "0x23303eff",
+										["left_top"] = "0x23303eff",
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconstop.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x23303eff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["rect"] = {
+										},
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2e4157ff",
+										["insets"] = {
+											["left"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x1c2733ff",
+										["left_center"] = "0x1c2733ff",
+										["left_top"] = "0x1c2733ff",
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconstop.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x2e4157ff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["rect"] = {
+										},
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x23303eff",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["right"] = "$nil$",
+										},
+										["left_bottom"] = "0x23303eff",
+										["left_center"] = "0x23303eff",
+										["left_top"] = "0x23303eff",
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconstop.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x23303eff",
+										["rect"] = {
+										},
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x23303eff",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["right"] = "$nil$",
+										},
+										["left_bottom"] = "0x1c2733ff",
+										["left_center"] = "0x1c2733ff",
+										["left_top"] = "0x1c2733ff",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconstop.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x23303eff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["rect"] = {
+										},
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["slider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 206,
+							["x"] = 61,
+							["y"] = 1,
+						},
+						["enabled"] = true,
+						["pageStep"] = 10,
+						["range"] = {
+							["max"] = 100,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["tabOrder"] = 0,
+						["text"] = "horzSlider0",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzSliderSkin_ME",
+							["thumbAlign"] = {
+								["type"] = "middle",
+							},
+						},
+						["skins"] = {
+							["thumb"] = {
+								["skinData"] = {
+									["params"] = {
+										["maxSize"] = {
+											["horz"] = 0,
+										},
+									},
+									["states"] = {
+										["disabled"] = {
+											[1] = {
+												["picture"] = {
+													["color"] = "0xffffff80",
+													["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\music player\\icon position.png",
+													["resizeToFill"] = false,
+													["tileHorizontally"] = false,
+													["tileVertically"] = false,
+												},
+											},
+										},
+										["hover"] = {
+											[1] = {
+												["picture"] = {
+													["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\music player\\icon position.png",
+													["resizeToFill"] = false,
+													["tileHorizontally"] = false,
+													["tileVertically"] = false,
+												},
+											},
+										},
+										["pressed"] = {
+											[1] = {
+												["picture"] = {
+													["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\music player\\icon position.png",
+													["resizeToFill"] = false,
+													["tileHorizontally"] = false,
+													["tileVertically"] = false,
+												},
+											},
+										},
+										["released"] = {
+											[1] = {
+												["picture"] = {
+													["color"] = "0xffffffcc",
+													["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\music player\\icon position.png",
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\music player\\sliderline.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 280,
+											["vert"] = 2,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\sliderline.png",
+										["insets"] = {
+											["bottom"] = 7,
+											["top"] = 7,
+										},
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = "$nil$",
+										},
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["size"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["userTexSampler"] = "$nil$",
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "HorzSlider",
+				},
+				["toggleButtonPlay"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 35,
+							["x"] = -1,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x23303eff",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconplay.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x23303eff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2e4157ff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconplay.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x2e4157ff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x23303eff",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconplay.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x23303eff",
+										["right_bottom"] = "0x23303eff",
+										["right_center"] = "0x23303eff",
+										["right_top"] = "0x23303eff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x23303eff",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconplay.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x23303eff",
+										["insets"] = {
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["right_bottom"] = "0x1c2733ff",
+										["right_center"] = "0x1c2733ff",
+										["right_top"] = "0x1c2733ff",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconpause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 25,
+					["w"] = 327,
+					["x"] = 85,
+					["y"] = 79,
+				},
+				["enabled"] = true,
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x23303ee6",
+								["center_top"] = "0x2a394aff",
+								["insets"] = {
+									["top"] = 1,
+								},
+								["left_top"] = "0x2a394aff",
+								["right_top"] = "0x2a394aff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 195,
+			["w"] = 580,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

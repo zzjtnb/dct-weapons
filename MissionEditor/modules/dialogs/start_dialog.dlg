@@ -1,0 +1,64 @@
+dialog = {
+	["children"] = {
+		["horzProgressBar"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 90,
+					["w"] = 801,
+					["x"] = -18,
+					["y"] = 160,
+				},
+				["enabled"] = true,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["text"] = "0%",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "horzProgressBarStartDialogSkin",
+				},
+			},
+			["type"] = "HorzProgressBar",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "0%",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

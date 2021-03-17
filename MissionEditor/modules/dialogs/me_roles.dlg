@@ -1,0 +1,824 @@
+dialog = {
+	["children"] = {
+		["artilleryCommanderLavel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 140,
+					["x"] = 14,
+					["y"] = 134,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$artillery_commander",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["artillery_commanderBlueSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 305,
+					["y"] = 134,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 50,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["artillery_commanderRedSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 194,
+					["y"] = 134,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 40,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["blueLabel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 305,
+					["y"] = 85,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$blue",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0x196affff",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["forward_observerBlueSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 305,
+					["y"] = 158,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 70,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["forward_observerLabel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 140,
+					["x"] = 14,
+					["y"] = 158,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$forward_observer",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["forward_observerRedSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 194,
+					["y"] = 158,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 60,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["instructorBlueSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 305,
+					["y"] = 110,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 30,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["instructorLabel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 140,
+					["x"] = 14,
+					["y"] = 110,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$instructor",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["instructorRedSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 194,
+					["y"] = 110,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 20,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["observerBlueSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 305,
+					["y"] = 182,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 90,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["observerLabel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 140,
+					["x"] = 14,
+					["y"] = 182,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$observer",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["observerRedSB"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 194,
+					["y"] = 182,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 80,
+				["text"] = "0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+		["pNeutrals"] = {
+			["children"] = {
+				["artilleryCommanderLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 140,
+							["x"] = 14,
+							["y"] = 49,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$artillery_commander",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["artillery_commanderNeutralsSB"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 70,
+							["x"] = 194,
+							["y"] = 49,
+						},
+						["checkRange"] = true,
+						["enabled"] = true,
+						["pageStep"] = 10,
+						["range"] = {
+							["max"] = 100,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["tabOrder"] = 40,
+						["text"] = "0",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "spinBoxSkin_MENew",
+						},
+					},
+					["type"] = "SpinBox",
+				},
+				["forward_observerLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 140,
+							["x"] = 14,
+							["y"] = 73,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$forward_observer",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["forward_observerNeutralsSB"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 70,
+							["x"] = 194,
+							["y"] = 73,
+						},
+						["checkRange"] = true,
+						["enabled"] = true,
+						["pageStep"] = 10,
+						["range"] = {
+							["max"] = 100,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["tabOrder"] = 60,
+						["text"] = "0",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "spinBoxSkin_MENew",
+						},
+					},
+					["type"] = "SpinBox",
+				},
+				["instructorLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 140,
+							["x"] = 14,
+							["y"] = 25,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$instructor",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["instructorNeutralsSB"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 70,
+							["x"] = 194,
+							["y"] = 25,
+						},
+						["checkRange"] = true,
+						["enabled"] = true,
+						["pageStep"] = 10,
+						["range"] = {
+							["max"] = 100,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["tabOrder"] = 20,
+						["text"] = "0",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "spinBoxSkin_MENew",
+						},
+					},
+					["type"] = "SpinBox",
+				},
+				["neutralsLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 87,
+							["x"] = 185,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$neutrals",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["observerLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 140,
+							["x"] = 14,
+							["y"] = 96,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$observer",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["observerNeutralsSB"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 70,
+							["x"] = 194,
+							["y"] = 96,
+						},
+						["checkRange"] = true,
+						["enabled"] = true,
+						["pageStep"] = 10,
+						["range"] = {
+							["max"] = 100,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["tabOrder"] = 80,
+						["text"] = "0",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "spinBoxSkin_MENew",
+						},
+					},
+					["type"] = "SpinBox",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 236,
+					["w"] = 352,
+					["x"] = 0,
+					["y"] = 244,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pilotControlCheck"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 18,
+					["w"] = 240,
+					["x"] = 14,
+					["y"] = 11,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 10,
+				["text"] = "$pilotCanControlVehicles",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["redLabel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 194,
+					["y"] = 85,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$red",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xff3e3eff",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["roleLabel"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 35,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 40,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$multiplayerRoles",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticTitleSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_top"] = "0x223141ff",
+								["insets"] = {
+									["left"] = 15,
+									["right"] = 15,
+									["top"] = 1,
+								},
+							},
+							["text"] = {
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["offset"] = 15,
+								},
+								["vertAlign"] = {
+									["type"] = "max",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 543,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$groundControl",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinME",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 375,
+	},
+}

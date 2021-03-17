@@ -1,0 +1,16 @@
+P-500
+
+bazalt
+
+
+Name: P-500 (SS-N-12) "Sandbox"
+Type: Long-range anti-ship cruise missile
+Developed: Russia
+Weight, kg: 4800
+Guidance: Autopilot
+G limit: 17
+Maximum Mach number: 2.5
+Length, m: 11.7
+Body diameter, m: 0.95
+Warhead weight, kg: 1000
+Range, km: 550

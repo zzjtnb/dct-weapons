@@ -1,0 +1,11 @@
+ZU-23 Emplacement
+SAM/Zu-23 Emplacement.png
+zu-23
+
+
+Name: ZU-23
+Type: Short-Range Air Defense Cannon
+
+Armament: 2 x 2A14 Afanasyev-Yakushev (23x115mm) autocannons
+Effective range: 2 - 2.5 km
+Effective altitude: 1,5 - 2 km

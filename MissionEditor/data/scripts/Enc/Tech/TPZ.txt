@@ -1,0 +1,19 @@
+TPZ
+
+tpz
+
+
+Type: Armoured Personnel Carrier
+Length: 6.83 m
+Width: 2.98 m
+Height: 2.3 m
+Ground clearance: 0.406 m
+Combat weight: 19000 kg
+Crew: 2+10
+Engine: Mercedes-Benz Model OM 402A V8
+Diesel 320 hp
+Power-to-weight ratio: 16.84 hp/t
+Max road speed: 105 km/h
+Max water speed: 10.5 km/h
+Operational range: 800 km
+Wheel formula: 6x6

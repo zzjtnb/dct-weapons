@@ -1,0 +1,17 @@
+R-40T
+
+r-40t
+
+
+Name: R-40T (AA-6 'Acrid')
+Type: Medium-range, infrared, air-to-air 
+missile
+Developed: Russia
+Warhead weight, kg: 70
+Guidance: command, inertial and infrared
+Weight, kg: 475
+G limit: 18
+Length, m: 6.2
+Body diameter, m: 0.355
+Range, km: 30
+Maximum Mach number: 3

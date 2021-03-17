@@ -1,0 +1,12 @@
+FAB-500
+
+fab-500-n3
+
+
+Name: FAB-500
+Type: General purpose bomb
+Developed: Russia
+Weight, kg: 506
+Body diameter, m: 0.447
+Length, m: 2.41
+Warhead weight, kg: 240

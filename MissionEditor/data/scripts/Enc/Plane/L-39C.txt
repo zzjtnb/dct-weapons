@@ -1,0 +1,29 @@
+L-39С
+
+L-39_C
+L-39С
+
+Name: L-39С
+Type: Trainer
+Developed: Aero Vodochody, Czechoslovakia
+Crew: 2
+Length: 12.13 m
+Height: 4.77 m
+Wing span: 9.46 m
+Wing area: 18.8 m²
+Maximum Mach at height: 0.8
+Weight empty: 3,455 kg
+Normal weight: 4,525 kg
+Maximum weight: 4,700 kg
+G limit: +8/-4
+Service ceiling: 11,500 m
+Range with nominal load: 1,650 km
+Maximum fuel: 980 kg
+Landing speed: 270 km/h
+
+Armament:
+- up to 250 kg of stores on two external hardpoints
+
+The Aero L-39 Albatros is a high-performance jet trainer aircraft developed in Czechoslovakia by Aero Vodochody. The aircraft was designed during the 1960s as a replacement for the Aero L-29 Delfín as a principal training aircraft. The L-39 Albatros has the distinction of being the first of the second-generation jet trainers to be produced, as well as being the first trainer aircraft to be equipped with a turbofan powerplant. 
+
+The L-39 Albatros was produced from 1971 to 1996. The aircraft was widely exported to a wide range of international operators as a military trainer. To date, more than 2,800 L-39s have served with over 30 air forces around the world. 

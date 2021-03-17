@@ -1,0 +1,24 @@
+Shilka ZSU-23-4
+SAM/ZSU-23-4M3 Shilka.png
+zsu-23-4
+
+
+Name: ZSU-23-4 "Shilka"
+Type: Self-propelled Anti-aircraft Gun System
+Crew: 4
+Engine: V-6R V-6 diesel 280 hp
+Max road speed: 44 km/h
+Fuel distance: 450 km
+Combat weight: 20-500 kg
+Power-to-weight ratio: 20.0 hp/t
+Ground pressure: 0.69 kg/sq.cm
+Length: 6.54 m
+Width: 2.95 m
+Height: 3.8 m
+Ground clearance: 0.4 m
+Armament:
+4x23 mm AZP-23M cannon
+Ammunition: 2000 rounds
+Gun elevation/depression: +85°/-4°
+Turret traverse: 360°
+Max effective range: 2500 m

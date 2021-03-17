@@ -1,0 +1,20 @@
+AIM-9B (GAR-8)
+
+AIM-9B
+
+
+Name: AIM-9B (GAR-8)
+Type: Short-range, air-to-air 
+missile
+Developed: USA
+Warhead weight, kg: 11
+Guidance: infrared
+Weight, kg: 75
+Maximum Mach number: 2
+Length, m: 2.83
+Body diameter, m: 0.127
+Range, km: 11
+
+The AIM-9B missile is the initial Sidewinder production version entered operational use in 1956 and has been improved upon steadily since. The AIM-9B was most numerous production version with almost 80,000 manufactured. 
+
+The missile has a cylindrical body with a roll-stabilizing rear wing/rolleron assembly. The IR seeker provides maximal tracking rate of 11 deg/sec and has a 4 degree instantaneous field of view. The seeker detector is an uncooled photoresistor of lead sulphide. The AIM-9B uses a fragmentation warhead triggered by a passive infrared proximity fuse. The solid propellant rocket delivered 8,200 lb/sec of impulse.

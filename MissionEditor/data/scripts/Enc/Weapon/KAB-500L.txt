@@ -1,0 +1,14 @@
+KAB-500L
+
+kab-500
+
+
+Name: KAB-500L
+Type: Laser-guided bomb
+Developed: GNPP (State Research Production 
+Association), Russia
+Body diameter, m: 0.4
+Length, m: 3.05
+Warhead weight, kg: 195
+Guidance: Laser-command
+Weight, kg: 534

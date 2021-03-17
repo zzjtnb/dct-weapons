@@ -1,0 +1,23 @@
+APA-80
+
+zil_apa-80
+
+
+Type: aerodrome electric generating set
+Chassis: ZiL-131
+Seating Capacity (cab): 2
+Wheel formula: 6x6
+Weight, kg: 
+ own: 9500
+ full: 10245
+Overall dimensions, m:
+ length, m: 7,12
+ Width, m: 2.4
+ Cabin height, m: 2,48
+Clearance, uh: 0,33
+Engine: ZiL-131 8-cylinder 4-stroke V-shaped 4-stroke  
+HP power: 150
+Maximum speed on the highway, km/h: 85
+Power reserve, km (at 60 km/h): 850
+
+Designed to power on-board equipment, as well as for electric starter start of aircraft engines. The unit supplies three-phase current of 208 volts 400 hertz, single-phase current of 120 volts, 400 hertz, three-phase 36 volts 400 hertz, direct current of 28.5 volts.

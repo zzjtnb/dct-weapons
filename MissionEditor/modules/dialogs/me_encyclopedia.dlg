@@ -1,0 +1,1737 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["pButtons"] = {
+					["children"] = {
+						["radiobuttonAircrafts"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Plane",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\aircrafts\\aircrafts_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\aircrafts\\aircrafts_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\aircrafts\\aircrafts_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\aircrafts\\aircrafts_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\aircrafts\\aircrafts_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\aircrafts\\aircrafts_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonHelicopters"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 100,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Helicopter",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\helicopters\\helicopters_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\helicopters\\helicopters_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\helicopters\\helicopters_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\helicopters\\helicopters_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\helicopters\\helicopters_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\helicopters\\helicopters_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonMiscellanious"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 700,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Miscellanious",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\buildings\\buildings_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\buildings\\buildings_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\buildings\\buildings_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\buildings\\buildings_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\buildings\\buildings_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\buildings\\buildings_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonPersonnel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 600,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Personnel",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\personnel\\personnel_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\personnel\\personnel_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\personnel\\personnel_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\personnel\\personnel_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\personnel\\personnel_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\personnel\\personnel_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonSAM"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 500,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$SAM",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\sam\\sam_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\sam\\sam_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\sam\\sam_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\sam\\sam_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\sam\\sam_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\sam\\sam_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonShips"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 200,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Ship",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\ships\\ships_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\ships\\ships_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\ships\\ships_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\ships\\ships_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\ships\\ships_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\ships\\ships_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonTech"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 300,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Tech",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\tech\\tech_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\tech\\tech_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\tech\\tech_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\tech\\tech_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\tech\\tech_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\tech\\tech_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonWeapon"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 60,
+									["w"] = 65,
+									["x"] = 400,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$Weapon",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonEcyclopediaTabSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\weapon\\weapon_hover.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\weapon\\weapon_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\weapon\\weapon_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\weapon\\weapon_pressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\weapon\\weapon_normal.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\encyclopedia\\weapon\\weapon_pressed.png",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "RadioButton",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 60,
+							["w"] = 767,
+							["x"] = 54,
+							["y"] = 78,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pDown"] = {
+					["children"] = {
+						["btnCancel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 130,
+									["x"] = 11,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$cancel",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 718,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pLeft"] = {
+					["children"] = {
+						["buttonNext"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 21,
+									["w"] = 19,
+									["x"] = 167,
+									["y"] = 78,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$next",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = "0",
+										["left"] = "0",
+										["right"] = "0",
+										["top"] = "0",
+									},
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 26,
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnright\\btnrighthover.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnright\\btnrightpressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnright\\btnrightrl.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["color"] = "0x787c63ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 26,
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonPrev"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 21,
+									["w"] = 16,
+									["x"] = 120,
+									["y"] = 78,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$previous",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = "0",
+										["left"] = "0",
+										["right"] = "0",
+										["top"] = "0",
+									},
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = -26,
+													["type"] = "max",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnleft\\btnlefthover.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnleft\\btnleftpressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnleft\\btnleftrl.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["color"] = "0x787c63ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["comboboxObject"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 25,
+									["w"] = 216,
+									["x"] = 45,
+									["y"] = 42,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["currentTabName"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 27,
+									["w"] = 250,
+									["x"] = 24,
+									["y"] = 8,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$currentTabName",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["editBoxDetails"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 550,
+									["w"] = 281,
+									["x"] = 8,
+									["y"] = 111,
+								},
+								["enabled"] = true,
+								["multiline"] = true,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_modul",
+									["textOffset"] = {
+										["left"] = 8,
+									},
+								},
+								["skins"] = {
+									["vertScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 0,
+												},
+											},
+											["skins"] = {
+												["decreaseButton"] = {
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["left"] = 1,
+															},
+															["maxSize"] = {
+																["horz"] = 10,
+															},
+															["minSize"] = {
+																["horz"] = 10,
+															},
+														},
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffff",
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_dis.png",
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																		["vertAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["increaseButton"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffff",
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_dis.png",
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																		["vertAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["thumb"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "0xffffffff",
+																		["center_center"] = "0xffffffff",
+																		["center_top"] = "0xffffffff",
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_dis.png",
+																		["left_bottom"] = "0xffffffff",
+																		["left_center"] = "0xffffffff",
+																		["left_top"] = "0xffffffff",
+																		["right_bottom"] = "0xffffffff",
+																		["right_center"] = "0xffffffff",
+																		["right_top"] = "0xffffffff",
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 1,
+																			["right"] = 1,
+																			["top"] = 1,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "0xffffffff",
+																		["center_center"] = "0xffffffff",
+																		["center_top"] = "0xffffffff",
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 1,
+																			["right"] = 1,
+																			["top"] = 1,
+																		},
+																		["left_bottom"] = "0xffffffff",
+																		["left_center"] = "0xffffffff",
+																		["left_top"] = "0xffffffff",
+																		["right_bottom"] = "0xffffffff",
+																		["right_center"] = "0xffffffff",
+																		["right_top"] = "0xffffffff",
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["bkg"] = {
+															["center_bottom"] = "0x00000000",
+															["center_center"] = "0xffffffff",
+															["center_top"] = "0x00000000",
+															["file"] = "dxgui\\skins\\skinme\\images\\vertscrollbarskinsvbg.png",
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["left_bottom"] = "0x00000000",
+															["left_center"] = "0x00000000",
+															["left_top"] = "0x00000000",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+															["right_bottom"] = "0x00000000",
+															["right_center"] = "0x00000000",
+															["right_top"] = "0x00000000",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "0xffffffff",
+												["file"] = "$nil$",
+											},
+										},
+										[2] = {
+											["bkg"] = {
+												["file"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["lineHeight"] = 20,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 671,
+							["w"] = 300,
+							["x"] = 980,
+							["y"] = 48,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50cc",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pTop"] = {
+					["children"] = {
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 13,
+									["w"] = 13,
+									["x"] = 1252,
+									["y"] = 18,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_closeNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sEncyclopedia"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 354,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Encyclopedia",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 18,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticPicture"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 669,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 51,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["horzAlign"] = {
+											["type"] = "stretch",
+										},
+										["vertAlign"] = {
+											["type"] = "stretch",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 768,
+					["w"] = 1280,
+					["x"] = 0,
+					["y"] = 9,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 1024,
+						["vert"] = 650,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x5ea6ef00",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 791,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+					["picture"] = {
+						["horzAlign"] = {
+							["type"] = "middle",
+						},
+						["vertAlign"] = {
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

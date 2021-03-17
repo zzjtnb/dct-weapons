@@ -1,0 +1,28 @@
+Su-30
+
+su-30
+
+
+Name: Su-30 "Flanker-C"
+Type: Combat aircraft
+Developed: Sukhoi OKB, Russia
+Crew: 2
+Length: 22 m
+Height: 6.35 m
+Wing span: 14.7 m
+Wing area: 62 m²
+Maximum Mach at S/L: 1.14
+Maximum Mach at height: 2.35
+Weight empty: 17700 kg
+Normal weight: 22000 kg
+Maximum weight: 30500 kg
+G limit: 9
+Maximum range: 3000 km
+Maximum fuel: 9400 kg
+Service ceiling: 17250 m
+Take-off speed: 270 km/h
+Range with nominal load: 3000 km
+Landing speed: 234 km/h
+
+Armament:
+- GSh-301 cannon

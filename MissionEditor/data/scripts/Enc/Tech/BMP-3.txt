@@ -1,0 +1,28 @@
+BMP-3
+
+bmp-3
+
+
+Name: BMP-3
+Type: Infantry Combat Vehicle
+Manufacturer: Kurganmashzavod, Russia 
+In service: 1987–present 
+Crew: 3 + 7 troopers
+Specifications:
+ Mass: 18.7 tonnes (18.4 long tons; 20.6 short tons) 
+ Length: 7.2 m 
+ Width: 3.3 m  
+ Height: 2.3 m  
+Engine: UTD-29M diesel 
+Power: 500 hp (375 kW) 
+Max speed:
+ road: 72 km/h 
+ off-road: 45 km/h
+ water: 10 km/h 
+Operating range: 600 km
+Armament:
+ 1 x 100 mm 2A70 gun capable of firing tube-launched AT-10 ATGM
+ 1 x 30 mm 2A72 cannon
+ 3 х 7.62 mm PKT machine guns
+ ATGM 9M117 
+

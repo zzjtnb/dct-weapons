@@ -1,0 +1,23 @@
+R-3S
+
+r-3s
+
+
+Name: R-3S (AA-2 'Atoll B')
+Type: short-range, infrared-guided, air-to-air 
+missile
+Developed: Russia
+Warhead, kg: 11.3
+Guidance: infrared
+Weight, kg: 75.3
+Maximum Mach number: 2.5
+Length, m: 2.838
+Body diameter, m: 0.127
+Range, km: 7.5
+
+On 28 September 1958 an AIM-9B Sidewinder, fired from a Taiwanese F-86 Sabre aircraft, lodged in a MiG-17 without exploding, allowing it to be removed after landing. Later, the Soviets became aware that the Chinese had at least one Sidewinder, and after some wrangling, were able to convince the Chinese to send them one of the captured missiles. Gennadiy Sokolovskiy, later chief engineer at the Vympel team, said that "the Sidewinder missile was to us a university offering a course in missile construction technology which has upgraded our engineering education and updated our approach to production of future missiles."
+
+The Sidewinder was reverse engineered as the K-13 (also called R-3 or Object 300) and entered limited service only two years later in 1960. This was followed by the improved K-13A (R-3S, Object 310), which entered service in 1962. The R-3S was the first version to enter widespread production, in spite of a very long seeker settling time on the order of 22 seconds (as opposed to 11 for the original).
+
+
+

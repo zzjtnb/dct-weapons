@@ -1,0 +1,16 @@
+S-8OFP2
+Weapon/S-8OFP2.png
+s-8_ofp2
+
+
+Name: S-8OFP2
+Type: 80 mm unguided aircraft rocket
+Developed: RUSSIAN FEDERAL STATE UNITARY ENTERPRISE "SPLAV STATE RESEARCH and PRODUCTION ASSOCIATION", Russia
+Weight, kg: 16.7
+Length, m: 1.476
+Caliber, mm: 80
+Warhead weight, kg: 9.2
+Warhead type: high explosive fragmentation
+Firing range, m: 1300 - 4000
+
+This rocket is designed to engage personnel, soft and lightly armored targets.

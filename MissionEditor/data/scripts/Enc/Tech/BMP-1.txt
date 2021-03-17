@@ -1,0 +1,24 @@
+BMP-1
+
+bmp-1
+
+
+Type: Infantry Combat Vehicle
+Crew: 3+8
+Ground pressure: 0.6 kg/sq.cm
+Height: 2.15 m
+Width: 2.94 m
+Length: 6.74 m
+Ground clearance: 0.39 m
+Power-to-weight ratio: 22.22 hp/t
+Engine: UTD-20 V-6 diesel 300 hp
+Max road speed: 65 km/h
+Max water speed: 7 km/h
+Combat weight: 13,500 kg
+Operational range: 550-600 km
+
+Armament:
+- 73mm low pressure smoothbore short-recoil semi-automatic gun
+- 7.62 mm PKT coaxial machine gun
+- 9S428 ATGM launcher capable of firing AT-3A Sagger A and AT-3B Sagger B
+

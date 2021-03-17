@@ -1,0 +1,31 @@
+MQ/RQ-1
+
+predator
+RQ-1A Predator
+
+Name: MQ/RQ-1 Predator
+Type: UAV
+Developed: General Atomics, USA
+Crew: none
+Length: 8.22 m
+Height: 2.1 m
+Wing span: 14.8 m
+Wing area: 11.5 m²
+Weight empty: 512 kg
+Maximum weight: 1,020 kg
+Maximum Speed: 217 km/h
+Maximum range: 3704 km
+Service ceiling: 7,620 m
+Take-off speed: 100 km/h
+
+
+Armament:
+2 x AGM-114 Hellfire (MQ-1)
+
+The General Atomics MQ-1 Predator is an unmanned aerial vehicle (UAV) which the United States Air Force describes as a MALE (medium-altitude, long-endurance) UAV system. It can serve in a reconnaissance role and fire two AGM-114 Hellfire missiles.
+
+The MQ-1 Predator is a system, not just an aircraft. The fully operational system consists of four air vehicles (with sensors), a ground control station (GCS), a Predator primary satellite link communication suite, and 55 people.
+
+The Predator air vehicle and sensors are controlled from the ground station via a C-band line-of-sight data link or a Ku-band satellite data link for beyond-line-of-sight operations. During flight operations the crew in the ground control station is a pilot and two sensor operators. The aircraft is equipped with the AN/AAS-52 Multi-spectral Targeting System, a color nose camera (generally used by the pilot for flight control), a variable aperture day-TV camera, and a variable aperture infrared camera (for low light/night). Previously, Predators were equipped with a synthetic aperture radar for looking through smoke, clouds or haze, but lack of use validated its removal to reduce weight. 
+
+All Predators are equipped with a laser designator that allows the pilot to identify targets for other aircraft and even provide the laser-guidance for manned aircraft. This laser is also the designator for the AGM-114 Hellfire that are carried on the MQ-1.

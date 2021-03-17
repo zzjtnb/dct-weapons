@@ -1,0 +1,17 @@
+BGM-71D TOW-2
+
+bgm-71d
+
+
+Name: BGM-71D TOW-2
+Type: Short-range, wire-guided, anti-tank 
+missile
+Developed: USA
+Warhead weight, kg: 4
+Guidance: wire-guided
+Weight, kg: 19
+G limit: 16
+Length, m: 1.45
+Body diameter, m: 0.150
+Range, km: 4
+Maximum Mach number: 0.6

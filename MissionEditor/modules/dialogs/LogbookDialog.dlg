@@ -1,0 +1,3866 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["footerPanel"] = {
+					["children"] = {
+						["Static32"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 1280,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "0x2d3e50ff",
+												["center_top"] = "0x00000080",
+												["insets"] = {
+													["top"] = 1,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["btnCancel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 120,
+									["x"] = 15,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$cancel",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnOk"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 120,
+									["x"] = 1145,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$ok",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 719,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+				["headPanel"] = {
+					["children"] = {
+						["Static3"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 1280,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x2d3e50ff",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 13,
+									["x"] = 1250,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_closeNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sReplay"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 219,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Logbook",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 18,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 53,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+				["middlePanel"] = {
+					["children"] = {
+						["buttonDelete"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 27,
+									["w"] = 27,
+									["x"] = 925,
+									["y"] = 187,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnminus\\btnminushover.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnminus\\btnminuspressed.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnminus\\btnminusrl.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonNew"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 27,
+									["w"] = 27,
+									["x"] = 888,
+									["y"] = 187,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnplus\\btnplushover.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnplus\\btnpluspressed.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnplus\\btnplusrl.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["listUnits"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 635,
+									["w"] = 322,
+									["x"] = -1,
+									["y"] = 35,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "listBoxSkinNew",
+								},
+								["skins"] = {
+									["vertScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 0,
+												},
+												["maxSize"] = {
+													["horz"] = 11,
+												},
+												["minSize"] = {
+													["horz"] = 11,
+												},
+											},
+											["skins"] = {
+												["decreaseButton"] = {
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["left"] = 1,
+															},
+															["maxSize"] = {
+																["horz"] = 10,
+															},
+															["minSize"] = {
+																["horz"] = 10,
+															},
+														},
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffff",
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_dis.png",
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																		["vertAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["picture"] = {
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_hover.png",
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["picture"] = {
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_pressed.png",
+																		["rect"] = {
+																			["x1"] = "$nil$",
+																			["x2"] = "$nil$",
+																			["y1"] = "$nil$",
+																			["y2"] = "$nil$",
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["picture"] = {
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_normal.png",
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["increaseButton"] = {
+													["skinData"] = {
+														["params"] = {
+															["maxSize"] = {
+																["horz"] = 11,
+															},
+															["minSize"] = {
+																["horz"] = 11,
+															},
+														},
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffff",
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_dis.png",
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																		["vertAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["picture"] = {
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_hover.png",
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["picture"] = {
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_pressed.png",
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["picture"] = {
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_normal.png",
+																	},
+																},
+															},
+														},
+													},
+												},
+												["thumb"] = {
+													["skinData"] = {
+														["params"] = {
+															["maxSize"] = {
+																["horz"] = 5,
+																["vert"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 5,
+															},
+														},
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "0xffffffff",
+																		["center_center"] = "0xffffffff",
+																		["center_top"] = "0xffffffff",
+																		["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_dis.png",
+																		["left_bottom"] = "0xffffffff",
+																		["left_center"] = "0xffffffff",
+																		["left_top"] = "0xffffffff",
+																		["right_bottom"] = "0xffffffff",
+																		["right_center"] = "0xffffffff",
+																		["right_top"] = "0xffffffff",
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["insets"] = {
+																			["left"] = 0,
+																			["right"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 1,
+																			["right"] = 1,
+																			["top"] = 1,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 1,
+																			["right"] = 1,
+																			["top"] = 1,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["bkg"] = {
+															["center_bottom"] = "0x00000000",
+															["center_center"] = "0xffffffff",
+															["center_top"] = "0x00000000",
+															["file"] = "dxgui\\skins\\skinme\\images\\vertscrollbarskinsvbg.png",
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["left_bottom"] = "0x00000000",
+															["left_center"] = "0x00000000",
+															["left_top"] = "0x00000000",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+															["right_bottom"] = "0x00000000",
+															["right_center"] = "0x00000000",
+															["right_top"] = "0x00000000",
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["bkg"] = {
+															["center_bottom"] = "0x363636ff",
+															["center_top"] = "0x363636ff",
+															["left_bottom"] = "0x363636ff",
+															["left_center"] = "0x363636ff",
+															["left_top"] = "0x363636ff",
+															["rect"] = {
+																["x1"] = "$nil$",
+																["x2"] = "$nil$",
+																["y1"] = "$nil$",
+																["y2"] = "$nil$",
+															},
+															["right_bottom"] = "0x363636ff",
+															["right_center"] = "0x363636ff",
+															["right_top"] = "0x363636ff",
+														},
+														["picture"] = {
+															["horzAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ListBox",
+						},
+						["pRight"] = {
+							["children"] = {
+								["pnlawards"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 35,
+											["w"] = 316,
+											["x"] = 0,
+											["y"] = 186,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "$awards",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000080",
+														["center_center"] = "0x00000040",
+														["center_top"] = "0x00000080",
+														["insets"] = {
+															["bottom"] = 1,
+															["top"] = 1,
+														},
+													},
+													["text"] = {
+														["blur"] = 0,
+														["color"] = "0x6ed8f3ff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 14,
+														["horzAlign"] = {
+															["offset"] = 15,
+															["type"] = "min",
+														},
+														["lineHeight"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Panel",
+								},
+								["scrollpaneMedals"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 389,
+											["w"] = 280,
+											["x"] = 20,
+											["y"] = 239,
+										},
+										["enabled"] = true,
+										["horzMouseWheel"] = false,
+										["layout"] = {
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["vertMouseWheel"] = true,
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "scrollPaneSkin",
+											["pixelsPerWheelClick"] = 128,
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "$nil$",
+														["center_top"] = "$nil$",
+														["insets"] = "$nil$",
+														["left_bottom"] = "$nil$",
+														["left_center"] = "$nil$",
+														["left_top"] = "$nil$",
+														["right_bottom"] = "$nil$",
+														["right_center"] = "$nil$",
+														["right_top"] = "$nil$",
+													},
+												},
+											},
+										},
+									},
+									["type"] = "ScrollPane",
+								},
+								["widgetEmblem"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 130,
+											["w"] = 273,
+											["x"] = 22,
+											["y"] = 21,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinME\\images\\campaign\\default campaign picture.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 637,
+									["w"] = 316,
+									["x"] = 964,
+									["y"] = 35,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "panel0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["insets"] = {
+													["left"] = 1,
+												},
+												["left_center"] = "0x00000040",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["pStat"] = {
+							["children"] = {
+								["containerLeftGrid"] = {
+									["children"] = {
+										["widgetCampaigns"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 266,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$campaigns",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetCampaignsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 266,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetCommissioned"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 235,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$commissioned",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["insets"] = {
+																	["top"] = 1,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetCommissionedVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 235,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetDayTime"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 39,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$daytime",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x00000040",
+																["insets"] = {
+																	["bottom"] = 1,
+																},
+															},
+															["text"] = {
+																["bkgColor"] = "0x00000000",
+																["blurColor"] = "0x00000000",
+																["color"] = "0xffffffff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 15,
+																},
+																["lineThroughColor"] = "0x00000000",
+																["lineThroughHeight"] = 1,
+																["shadowColor"] = "0x00000000",
+																["vertAlign"] = {
+																	["type"] = "min",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetDayTimeVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 39,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xc8c8c8ff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = -15,
+																	["type"] = "max",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetEjections"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 132,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$ejections",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x00000040",
+																["insets"] = {
+																	["bottom"] = 1,
+																},
+															},
+															["text"] = {
+																["bkgColor"] = "0x00000000",
+																["blurColor"] = "0x00000000",
+																["color"] = "0xffffffff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 15,
+																},
+																["lineThroughColor"] = "0x00000000",
+																["lineThroughHeight"] = 1,
+																["shadowColor"] = "0x00000000",
+																["vertAlign"] = {
+																	["type"] = "min",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetEjectionsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 132,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xc8c8c8ff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = -15,
+																	["type"] = "max",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetFlighHours"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 8,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$flighthours",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x00000040",
+																["insets"] = {
+																	["bottom"] = 1,
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 15,
+																},
+																["vertAlign"] = {
+																	["type"] = "min",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetFlightHoursVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 8,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xc8c8c8ff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = -15,
+																	["type"] = "max",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetLandings"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 101,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$landings",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x000d0040",
+																["insets"] = {
+																	["bottom"] = 1,
+																},
+															},
+															["text"] = {
+																["bkgColor"] = "0x00000000",
+																["blurColor"] = "0x00000000",
+																["color"] = "0xffffffff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 15,
+																},
+																["lineThroughColor"] = "0x00000000",
+																["lineThroughHeight"] = 1,
+																["shadowColor"] = "0x00000000",
+																["vertAlign"] = {
+																	["type"] = "min",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetLandingsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 101,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xc8c8c8ff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = -15,
+																	["type"] = "max",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetMissions"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 297,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$companing_missions",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetMissionsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 297,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetNightTime"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 70,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$nighttime",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x00000040",
+																["insets"] = {
+																	["bottom"] = 1,
+																},
+															},
+															["text"] = {
+																["bkgColor"] = "0x00000000",
+																["blurColor"] = "0x00000000",
+																["color"] = "0xffffffff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 15,
+																},
+																["lineThroughColor"] = "0x00000000",
+																["lineThroughHeight"] = 1,
+																["shadowColor"] = "0x00000000",
+																["vertAlign"] = {
+																	["type"] = "min",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetNightTimeVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 70,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xc8c8c8ff",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = -15,
+																	["type"] = "max",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetRefuels"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 320,
+													["x"] = 0,
+													["y"] = 163,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$refuels",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetRefuelsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 230,
+													["y"] = 163,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 352,
+											["w"] = 320,
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 3,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["insets"] = {
+															["right"] = 1,
+														},
+														["right_center"] = "0x00000040",
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Panel",
+								},
+								["containerRightGrid"] = {
+									["children"] = {
+										["comboInvulnerable"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 60,
+													["x"] = 248,
+													["y"] = 293,
+												},
+												["enabled"] = false,
+												["tabOrder"] = 0,
+												["text"] = "Item1",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "comboListSkinProfile",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x00000059",
+																["center_center"] = "0x5b6a7bff",
+																["center_top"] = "0x00000059",
+																["left_bottom"] = "0x00000059",
+																["left_center"] = "0x00000059",
+																["left_top"] = "0x00000059",
+																["right_bottom"] = "0x00000059",
+																["right_center"] = "0x00000059",
+																["right_top"] = "0x00000059",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "ComboList",
+										},
+										["widgetAAKills"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 39,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$aakills",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetAAKillsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 39,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetAGKills"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 8,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$agkills",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetAGKillsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 8,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetDeaths"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 132,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$deaths",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetDeathsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 132,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetFriendlyAAKills"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 266,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$friendlyaakills",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetFriendlyAAKillsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 266,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetFriendlyAGKills"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 235,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$friendlyagkills",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetFriendlyAGKillsVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 235,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetInvulnerable"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 297,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$invulnerable",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetKillRatio"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 328,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$killratio",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "$nil$",
+																["insets"] = {
+																	["bottom"] = "$nil$",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetKillRatioVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 328,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetNaval"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 70,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$naval",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetNavalVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 70,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetStaticVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 70,
+													["x"] = 159,
+													["y"] = -56,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkin",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetTotalScore"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 23,
+													["w"] = 323,
+													["x"] = 0,
+													["y"] = 101,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$totalscore",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookCaptionSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+										["widgetTotalScoreVal"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 15,
+													["w"] = 90,
+													["x"] = 233,
+													["y"] = 101,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticLogbookValueSkinNew",
+												},
+											},
+											["type"] = "Static",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 352,
+											["w"] = 323,
+											["x"] = 320,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+									},
+									["type"] = "Panel",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 351,
+									["w"] = 643,
+									["x"] = 321,
+									["y"] = 256,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000040",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["pUser"] = {
+							["children"] = {
+								["Panel1"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 634,
+											["w"] = 315,
+											["x"] = 644,
+											["y"] = -5,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "Panel1",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+									},
+									["type"] = "Panel",
+								},
+								["buttonPilotPic"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 140,
+											["w"] = 140,
+											["x"] = 15,
+											["y"] = 15,
+										},
+										["enabled"] = true,
+										["tabOrder"] = 0,
+										["text"] = "button0",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 3,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "buttonSkin",
+										},
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000040",
+														["center_center"] = "0x00000040",
+														["center_top"] = "0x00000040",
+														["insets"] = {
+															["bottom"] = 2,
+															["left"] = 2,
+															["right"] = 2,
+															["top"] = 2,
+														},
+														["left_bottom"] = "0x00000040",
+														["left_center"] = "0x00000040",
+														["left_top"] = "0x00000040",
+														["right_bottom"] = "0x00000040",
+														["right_center"] = "0x00000040",
+														["right_top"] = "0x00000040",
+													},
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnloadpic.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000040",
+														["center_center"] = "0x00000059",
+														["center_top"] = "0x00000040",
+														["insets"] = {
+															["bottom"] = 2,
+															["left"] = 2,
+															["right"] = 2,
+															["top"] = 2,
+														},
+														["left_bottom"] = "0x00000040",
+														["left_center"] = "0x00000040",
+														["left_top"] = "0x00000040",
+														["right_bottom"] = "0x00000040",
+														["right_center"] = "0x00000040",
+														["right_top"] = "0x00000040",
+													},
+													["picture"] = {
+														["color"] = "0xffffffcc",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnloadpic.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000040",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000040",
+														["file"] = "$nil$",
+														["insets"] = {
+															["bottom"] = 2,
+															["left"] = 2,
+															["right"] = 2,
+															["top"] = 2,
+														},
+														["left_bottom"] = "0x00000040",
+														["left_center"] = "0x00000040",
+														["left_top"] = "0x00000040",
+														["right_bottom"] = "0x00000040",
+														["right_center"] = "0x00000040",
+														["right_top"] = "0x00000040",
+													},
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["blur"] = "$nil$",
+														["color"] = "$nil$",
+														["font"] = "$nil$",
+														["fontSize"] = "$nil$",
+														["shadowOffset"] = {
+															["horz"] = "$nil$",
+															["vert"] = "$nil$",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Button",
+								},
+								["comboNation"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 30,
+											["w"] = 230,
+											["x"] = 398,
+											["y"] = 25,
+										},
+										["enabled"] = true,
+										["tabOrder"] = 0,
+										["text"] = "Item1",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = -1,
+											},
+											["name"] = "comboListSkinNew_",
+										},
+										["skins"] = {
+											["button"] = {
+												["skinData"] = {
+													["states"] = {
+														["disabled"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "$nil$",
+																	["file"] = "$nil$",
+																	["horzAlign"] = {
+																		["offset"] = "$nil$",
+																	},
+																	["rect"] = {
+																		["x1"] = "$nil$",
+																		["x2"] = "$nil$",
+																		["y1"] = "$nil$",
+																		["y2"] = "$nil$",
+																	},
+																	["size"] = {
+																		["horz"] = "$nil$",
+																		["vert"] = "$nil$",
+																	},
+																	["userTexSampler"] = "$nil$",
+																	["vertAlign"] = {
+																		["offset"] = "$nil$",
+																	},
+																},
+															},
+														},
+														["hover"] = {
+															[1] = {
+																["picture"] = {
+																	["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\combobox_ME_arrow down_hover.png",
+																},
+															},
+														},
+														["pressed"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "0xffffffff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\combobox_ME_arrow down_pressed.png",
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "0xffffffff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\combolist_ME_arrow_released.png",
+																},
+															},
+														},
+													},
+												},
+											},
+											["listBox"] = {
+												["skinData"] = {
+													["params"] = {
+														["itemHeight"] = 28,
+													},
+													["skins"] = {
+														["item"] = {
+															["skinData"] = {
+																["states"] = {
+																	["hover"] = {
+																		[1] = {
+																			["bkg"] = {
+																				["center_center"] = "0x00000059",
+																			},
+																		},
+																		[2] = {
+																			["bkg"] = {
+																				["center_center"] = "0x00000059",
+																			},
+																		},
+																	},
+																},
+															},
+														},
+														["vertScrollBar"] = {
+															["skinData"] = {
+																["params"] = {
+																	["decreaseButtonAlign"] = {
+																		["type"] = "min",
+																	},
+																	["increaseButtonAlign"] = {
+																		["type"] = "min",
+																	},
+																	["maxSize"] = {
+																		["horz"] = 15,
+																	},
+																	["minSize"] = {
+																		["horz"] = 15,
+																	},
+																},
+																["skins"] = {
+																	["decreaseButton"] = {
+																		["skinData"] = {
+																			["params"] = {
+																				["maxSize"] = {
+																					["horz"] = 15,
+																				},
+																				["minSize"] = {
+																					["horz"] = 15,
+																				},
+																			},
+																			["states"] = {
+																				["hover"] = {
+																					[1] = {
+																						["picture"] = {
+																							["color"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\scroll\\hover_up.png",
+																						},
+																					},
+																				},
+																				["pressed"] = {
+																					[1] = {
+																						["picture"] = {
+																							["color"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\scroll\\pressed_up.png",
+																						},
+																					},
+																				},
+																				["released"] = {
+																					[1] = {
+																						["picture"] = {
+																							["color"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\scroll\\normal_up.png",
+																						},
+																					},
+																				},
+																			},
+																		},
+																	},
+																	["increaseButton"] = {
+																		["skinData"] = {
+																			["params"] = {
+																				["maxSize"] = {
+																					["horz"] = 15,
+																				},
+																				["minSize"] = {
+																					["horz"] = 15,
+																				},
+																			},
+																			["states"] = {
+																				["hover"] = {
+																					[1] = {
+																						["picture"] = {
+																							["color"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\scroll\\hover_down.png",
+																						},
+																					},
+																				},
+																				["pressed"] = {
+																					[1] = {
+																						["picture"] = {
+																							["color"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\scroll\\pressed_down.png",
+																						},
+																					},
+																				},
+																				["released"] = {
+																					[1] = {
+																						["picture"] = {
+																							["color"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\scroll\\normal_down.png",
+																						},
+																					},
+																				},
+																			},
+																		},
+																	},
+																	["thumb"] = {
+																		["skinData"] = {
+																			["params"] = {
+																				["maxSize"] = {
+																					["horz"] = 7,
+																					["vert"] = 0,
+																				},
+																				["minSize"] = {
+																					["horz"] = 7,
+																				},
+																			},
+																			["states"] = {
+																				["disabled"] = {
+																					[1] = {
+																						["bkg"] = {
+																							["center_center"] = "0x00000000",
+																							["insets"] = {
+																								["bottom"] = 0,
+																								["left"] = 0,
+																								["right"] = 0,
+																								["top"] = 0,
+																							},
+																						},
+																					},
+																				},
+																				["hover"] = {
+																					[1] = {
+																						["bkg"] = {
+																							["center_bottom"] = "0xffffffff",
+																							["center_center"] = "0xffffffff",
+																							["center_top"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_hover.png",
+																							["left_bottom"] = "0xffffffff",
+																							["left_center"] = "0xffffffff",
+																							["left_top"] = "0xffffffff",
+																							["rect"] = {
+																								["x1"] = 0,
+																								["x2"] = 0,
+																								["y1"] = 0,
+																								["y2"] = 0,
+																							},
+																							["right_bottom"] = "0xffffffff",
+																							["right_center"] = "0xffffffff",
+																							["right_top"] = "0xffffffff",
+																						},
+																					},
+																				},
+																				["pressed"] = {
+																					[1] = {
+																						["bkg"] = {
+																							["center_bottom"] = "0xffffffff",
+																							["center_center"] = "0xffffffff",
+																							["center_top"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+																							["left_bottom"] = "0xffffffff",
+																							["left_center"] = "0xffffffff",
+																							["left_top"] = "0xffffffff",
+																							["rect"] = {
+																								["x1"] = 0,
+																								["x2"] = 0,
+																								["y1"] = 0,
+																								["y2"] = 0,
+																							},
+																							["right_bottom"] = "0xffffffff",
+																							["right_center"] = "0xffffffff",
+																							["right_top"] = "0xffffffff",
+																						},
+																						["picture"] = {
+																							["file"] = "",
+																							["horzAlign"] = {
+																								["offset"] = 0,
+																							},
+																							["rect"] = {
+																								["x1"] = 0,
+																								["x2"] = 0,
+																								["y1"] = 0,
+																								["y2"] = 0,
+																							},
+																							["size"] = {
+																								["horz"] = 0,
+																								["vert"] = 0,
+																							},
+																							["userTexSampler"] = 0,
+																							["vertAlign"] = {
+																								["offset"] = 0,
+																							},
+																						},
+																					},
+																				},
+																				["released"] = {
+																					[1] = {
+																						["bkg"] = {
+																							["center_bottom"] = "0xffffffff",
+																							["center_center"] = "0xffffffff",
+																							["center_top"] = "0xffffffff",
+																							["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+																							["left_bottom"] = "0xffffffff",
+																							["left_center"] = "0xffffffff",
+																							["left_top"] = "0xffffffff",
+																							["rect"] = {
+																								["x1"] = 0,
+																								["x2"] = 0,
+																								["y1"] = 0,
+																								["y2"] = 0,
+																							},
+																							["right_bottom"] = "0xffffffff",
+																							["right_center"] = "0xffffffff",
+																							["right_top"] = "0xffffffff",
+																						},
+																						["picture"] = {
+																							["file"] = "",
+																							["horzAlign"] = {
+																								["offset"] = 0,
+																							},
+																							["rect"] = {
+																								["x1"] = 0,
+																								["x2"] = 0,
+																								["y1"] = 0,
+																								["y2"] = 0,
+																							},
+																							["size"] = {
+																								["horz"] = 0,
+																								["vert"] = 0,
+																							},
+																							["userTexSampler"] = 0,
+																							["vertAlign"] = {
+																								["offset"] = 0,
+																							},
+																						},
+																					},
+																				},
+																			},
+																		},
+																	},
+																},
+																["states"] = {
+																	["released"] = {
+																		[1] = {
+																			["bkg"] = {
+																				["center_center"] = "0x363636ff",
+																				["insets"] = {
+																					["bottom"] = 1,
+																					["left"] = 1,
+																					["right"] = 1,
+																					["top"] = 1,
+																				},
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+													["states"] = {
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_center"] = "0x364a5fff",
+																},
+															},
+														},
+													},
+												},
+											},
+											["view"] = {
+												["skinData"] = {
+													["states"] = {
+														["released"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "0xffffffff",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "min",
+																	},
+																	["size"] = {
+																		["horz"] = 16,
+																		["vert"] = 16,
+																	},
+																	["vertAlign"] = {
+																		["type"] = "min",
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["window"] = {
+												["skinData"] = {
+													["states"] = {
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000059",
+																	["center_top"] = "0x00000059",
+																	["left_bottom"] = "0x00000059",
+																	["left_center"] = "0x00000059",
+																	["left_top"] = "0x00000059",
+																	["right_bottom"] = "0x00000059",
+																	["right_center"] = "0x00000059",
+																	["right_top"] = "0x00000059",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000040",
+														["center_center"] = "$nil$",
+														["center_top"] = "0x00000040",
+														["left_bottom"] = "0x00000040",
+														["left_center"] = "0x00000040",
+														["left_top"] = "0x00000040",
+														["right_bottom"] = "0x00000040",
+														["right_center"] = "0x00000040",
+														["right_top"] = "0x00000040",
+													},
+													["picture"] = {
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "ComboList",
+								},
+								["comboPilot"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 30,
+											["w"] = 200,
+											["x"] = 170,
+											["y"] = 25,
+										},
+										["enabled"] = true,
+										["readOnly"] = false,
+										["tabOrder"] = 0,
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "comboListSkinProfile1",
+										},
+									},
+									["type"] = "ComboBox",
+								},
+								["comboSquadron"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 30,
+											["w"] = 230,
+											["x"] = 398,
+											["y"] = 58,
+										},
+										["enabled"] = true,
+										["tabOrder"] = 0,
+										["text"] = "Item1",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "comboListSkinProfile",
+										},
+										["skins"] = {
+											["listBox"] = {
+												["skinData"] = {
+													["skins"] = {
+														["item"] = {
+															["skinData"] = {
+																["states"] = {
+																	["disabled"] = {
+																		[1] = {
+																			["text"] = {
+																				["fontSize"] = 13,
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["window"] = {
+												["skinData"] = {
+													["states"] = {
+														["released"] = {
+															[1] = {
+																["text"] = {
+																	["fontSize"] = 13,
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "ComboList",
+								},
+								["editCallsign"] = {
+									["params"] = {
+										["acceptDecimalPoint"] = false,
+										["bounds"] = {
+											["h"] = 26,
+											["w"] = 200,
+											["x"] = 170,
+											["y"] = 58,
+										},
+										["enabled"] = true,
+										["multiline"] = false,
+										["numeric"] = false,
+										["password"] = false,
+										["readOnly"] = false,
+										["tabOrder"] = 0,
+										["text"] = "editBox0",
+										["textWrapping"] = true,
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "editBoxSkin",
+											["textOffset"] = {
+												["top"] = 5,
+											},
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000040",
+														["center_center"] = "$nil$",
+														["center_top"] = "0x00000040",
+														["left_bottom"] = "0x00000040",
+														["left_center"] = "0x00000040",
+														["left_top"] = "0x00000040",
+														["right_bottom"] = "0x00000040",
+														["right_center"] = "0x00000040",
+														["right_top"] = "0x00000040",
+													},
+													["text"] = {
+														["color"] = "0xffffffff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 13,
+														["lineHeight"] = 0,
+													},
+												},
+											},
+										},
+									},
+									["type"] = "EditBox",
+								},
+								["panel0"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 47,
+											["w"] = 301,
+											["x"] = 650,
+											["y"] = 175,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "panel0",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+									},
+									["type"] = "Panel",
+								},
+								["sUploadImg"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 136,
+											["w"] = 136,
+											["x"] = 17,
+											["y"] = 17,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 1,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\window\\campaing_builder\\bgnew.png",
+														["horzAlign"] = {
+															["type"] = "stretch",
+														},
+														["vertAlign"] = {
+															["type"] = "stretch",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["widgetRankPic"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 25,
+											["w"] = 57,
+											["x"] = 171,
+											["y"] = 112,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = "0",
+															["x2"] = "0",
+															["y1"] = "0",
+															["y2"] = "0",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["widgetRankText"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 25,
+											["w"] = 210,
+											["x"] = 243,
+											["y"] = 112,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "Leutenant",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0x6ed8f3ff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 14,
+														["lineHeight"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 180,
+									["w"] = 643,
+									["x"] = 321,
+									["y"] = 42,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "panel0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000040",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["pnlgridhed"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 8,
+									["w"] = 643,
+									["x"] = 321,
+									["y"] = 475,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000040",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["static0"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 35,
+									["w"] = 1280,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["right_bottom"] = "0x00000038",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x00000040",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static02"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 15,
+									["w"] = 206,
+									["x"] = 0,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Units",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static03"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 206,
+									["x"] = 321,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$InfoProfile",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static04"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 27,
+									["w"] = 206,
+									["x"] = 964,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$AnotherInfo",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static05"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 34,
+									["w"] = 16,
+									["x"] = 949,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["insets"] = {
+													["right"] = 1,
+												},
+												["right_center"] = "0x00000040",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static06"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 34,
+									["w"] = 16,
+									["x"] = 305,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["insets"] = {
+													["right"] = 1,
+												},
+												["right_center"] = "0x00000040",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static07"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 35,
+									["w"] = 643,
+									["x"] = 321,
+									["y"] = 221,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$statistic",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x00000040",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 672,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 48,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50cc",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 768,
+					["w"] = 1295,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 1300,
+						["vert"] = 700,
+					},
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pNoVisible"] = {
+			["children"] = {
+				["listBoxItemFlags"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 244,
+							["x"] = 631,
+							["y"] = 43,
+						},
+						["enabled"] = true,
+						["text"] = "listBoxItem0",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "comboListListBoxItemLogbookNationSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 60,
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000026",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 60,
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x00000059",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 60,
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["vertAlign"] = {
+											["type"] = "stretch",
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 60,
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x00000040",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["type"] = "stretch",
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 60,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ListBoxItem",
+				},
+				["listBoxUnitItem"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 70,
+							["w"] = 244,
+							["x"] = 453,
+							["y"] = 21,
+						},
+						["enabled"] = true,
+						["text"] = "listBoxItem0",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "listBoxItemDriveNew",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000040",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x00000059",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["text"] = {
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["text"] = {
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0x00000059",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["text"] = {
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ListBoxItem",
+				},
+				["staticCaption"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 23,
+							["w"] = 170,
+							["x"] = 252,
+							["y"] = 124,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "Caption",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticLogbookInvalidCaptionSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticInvalidCaption"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 23,
+							["w"] = 170,
+							["x"] = 256,
+							["y"] = 40,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "Caption",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticLogbookInvalidCaptionSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x945959ff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticIvalidValue"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 23,
+							["w"] = 70,
+							["x"] = 112,
+							["y"] = 46,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "123",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticLogbookInvalidValueSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x945959ff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = -15,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticValue"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 23,
+							["w"] = 70,
+							["x"] = 131,
+							["y"] = 133,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "123",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticLogbookInvalidValueSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = -15,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 192,
+					["w"] = 877,
+					["x"] = 241,
+					["y"] = 778,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 925,
+			["w"] = 1536,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$campaign",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = "dxgui\\skins\\skinme\\images\\m1\\background image\\logbookbg.png",
+						["horzAlign"] = {
+							["type"] = "stretch",
+						},
+						["resizeToFill"] = true,
+						["userTexSampler"] = 1,
+						["vertAlign"] = {
+							["type"] = "stretch",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

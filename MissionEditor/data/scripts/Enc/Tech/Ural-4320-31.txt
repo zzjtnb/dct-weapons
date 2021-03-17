@@ -1,0 +1,24 @@
+Ural-4320-09-31
+
+ural_4320-31
+
+
+Type: Armored Cargo Truck
+Chassis: Ural-4320
+Seating Capacity (cab): 2
+Wheel formula: 6x6
+Gross weight, kg: 15470
+Carrying capacity, kg: 3500
+Length, m: 7,74
+Width, m: 2,5
+Height, m: 3,065
+Clearance, m: 0,4
+Engine: YaMZ-238M2 diesel, four-stroke, compression-ignition, eight-cylinder, V-shaped
+HP power: 240 (176 kW) at 2100 rpm
+Max speed, km/h: 85
+Power reserve, km: 1080
+
+The Ural-4320-09-31 is a military version of the Ural-4320 basic truck equipped with an armored cabin and partially armored engine compartment. It was designed to transport military cargo, personnel and trailers on all types of roads and terrain. It can be equipped with protected modules for various purposes. Prior to certification, it had the Ural-4320B index.
+
+The floor of the cabin, rear wall, safe doors and the roof are made of armored sheet, and there is an armored hatch in the roof. The cabin became a two-seater cabin with separate Spartan seats. This is how a place for special equipment was found: night vision, radiation and chemical reconnaissance devices, etc. In addition to the usual "stove", a filter-ventilation unit (FVU) is being installed. Armored cabin is much heavier than usual, so the front suspension was reinforced
+The YaMZ engine was also protected with an iron mask on the radiator, side panels and an armour plate hood.

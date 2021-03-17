@@ -1,0 +1,19 @@
+M270 MLRS
+
+mlrs
+
+
+Type: Multiple launch rocket system
+Crew: 3
+Engine Cummins Diesel, 400 HP
+Max road speed: 64 km/h
+Operational range: 483 km
+
+M26 Rocket specifications:
+Length: 3.94 m (12.93 ft) 
+Weight: 306 kg (675 lb) 
+Warhead: 644 M77 DPICM submunitions 
+Caliber: 227 mm (8.94 in) 
+Motor: Solid-fuel rocket 
+Maximum range: 32 km (20 miles) 
+Reload time: 8 minutes

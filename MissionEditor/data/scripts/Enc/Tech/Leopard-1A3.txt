@@ -1,0 +1,36 @@
+Leopard 1A3
+
+leopard-1a3
+
+
+Type: Main Battle Tank (Germany)
+Crew: 4
+Length: 9.54 m
+Height: 2.39 m
+Width: 3.37 m
+Engine: MTU MB 838 CaM 500 10-cylinder 830 hp
+Power-to-weight ratio: 19.6 hp/t
+Combat weight: 42 200 kg
+Max road speed: 65 km/h
+Operational range (road): 600 km
+Ground clearance: 0.487 m
+
+Armament:
+- 105 mm Royal Ordnance L7A3 L/52 rifled gun;
+13 round in turret, 42 round in chassis
+- 7.62 mm MG3 coaxial machine gun;
+- 7.62 mm MG3 anti-aircraft machine gun;
+5500 rounds
+
+
+Armor: RHA, 70 mm (maximum), 10mm (minimum)
+
+The Leopard 1 is a tank designed and produced in Germany that first entered service in 1965. It was used as the main battle tank by over a dozen countries worldwide.
+
+It is a fairly conventional tank, armed with a German-built version of the British L7 105-mm gun. The Leopard is known for its good cross-country speed.
+
+Leopard 1A3
+Tanks were fitted with a new welded turret incorporating spaced armor and a wedge-shaped gun mantlet, creating the Leopard 1A3. Although the level of armor area density was equivalent to the A2's new welded version, the internal volume was increased by 1.2 m3 and the effective protection level was increased by half. The improved TRP 2A independent sight was installed for the commander. Upgrades were identical to the 1A2 models, the Leopard 1A3A1 with the night sights, Leopard 1A3A2 with the new radios, and the Leopard 1A3A3 with both.
+
+
+

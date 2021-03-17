@@ -1,0 +1,772 @@
+dialog = {
+	["children"] = {
+		["container_bottom"] = {
+			["children"] = {
+				["leftBtn"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 58,
+							["w"] = 153,
+							["x"] = 17,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["sound"] = "EditorControl2.ogg",
+						["tabOrder"] = 0,
+						["text"] = "$leftBtn",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["lineHeight"] = 0,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v1.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "50",
+											["x2"] = "100",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v1.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "150",
+											["x2"] = "200",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v1.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "50",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = 50,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["middleBtn"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 58,
+							["w"] = 153,
+							["x"] = 205,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["sound"] = "EditorControl2.ogg",
+						["tabOrder"] = 0,
+						["text"] = "$middleBtn",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "ThinKeys.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "145",
+											["y1"] = "50",
+											["y2"] = "100",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "ThinKeys.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "145",
+											["y1"] = "100",
+											["y2"] = "150",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "ThinKeys.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "145",
+											["y1"] = "0",
+											["y2"] = "50",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["color"] = "0xb4b4b4ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["rightBtn"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 58,
+							["w"] = 153,
+							["x"] = 411,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["sound"] = "EditorControl2.ogg",
+						["tabOrder"] = 0,
+						["text"] = "$rightBtn",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = -50,
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "LightKeys.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "50",
+											["x2"] = "100",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "LightKeys.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "150",
+											["x2"] = "200",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "LightKeys.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "50",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = -50,
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 76,
+					["w"] = 663,
+					["x"] = 114,
+					["y"] = 573,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "background-details-1.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["rect"] = {
+									["x1"] = "0",
+									["x2"] = 5000,
+									["y1"] = "53",
+									["y2"] = "129",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["container_top"] = {
+			["children"] = {
+				["Static1"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 340,
+							["y"] = 72,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["static0"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 193,
+							["y"] = 82,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticLogo"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 100,
+							["x"] = 14,
+							["y"] = 30,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "logotypes-v1.png",
+										["rect"] = {
+											["x1"] = "526",
+											["x2"] = "626",
+											["y1"] = "47",
+											["y2"] = "81",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticText"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 29,
+							["w"] = 53,
+							["x"] = 194,
+							["y"] = 41,
+						},
+						["enabled"] = true,
+						["text"] = "123",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans-BoldOblique.ttf",
+										["fontSize"] = 23,
+										["horzAlign"] = {
+											["offset"] = -20,
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 110,
+					["w"] = 596,
+					["x"] = 66,
+					["y"] = 53,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["horzGap"] = 0,
+						["vertGap"] = 0,
+					},
+					["type"] = "border",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "background-details-1.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["rect"] = {
+									["x1"] = 0,
+									["x2"] = 5000,
+									["y1"] = 0,
+									["y2"] = 40,
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelCenter"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 100,
+					["w"] = 100,
+					["x"] = 143,
+					["y"] = 243,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 0,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 768,
+			["w"] = 1024,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["horzGap"] = 0,
+				["vertGap"] = 0,
+			},
+			["type"] = "border",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x780000ff",
+					},
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["horzAlign"] = {
+							["type"] = "middle",
+						},
+						["resizeToFill"] = true,
+						["userTexSampler"] = 1,
+						["vertAlign"] = {
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

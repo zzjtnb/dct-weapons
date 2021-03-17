@@ -1,0 +1,20 @@
+S-300PS, 54K6 CP
+SAM/S-300PS 54K6 cp.png
+54k6
+
+
+Name: S-300PS 54K6 (SA-10)
+Type: Low-to High-Altitude SAM
+Command Post Vehicle
+Armament: 4x 5V55 missiles
+Max number of target tracks handed
+over by TAR vehicle: 100
+Time into action/time to close down: 5 min
+Chassis: MAZ-7910 (8x8)
+Engine: D12A-525 V-12 diesel 525 hp
+Combat weight: 39-900 kg
+Max road speed: 60 km/h
+Fuel distance: 650 km
+Length: 14.2 m
+Width: 3.15 m
+Height: 3.8 m

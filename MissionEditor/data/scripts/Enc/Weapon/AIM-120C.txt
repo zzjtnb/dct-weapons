@@ -1,0 +1,24 @@
+AIM-120C
+
+aim-120c
+
+
+Name: AIM-120C AMRAAM
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: USA
+Warhead weight, kg: 22
+Guidance: inertial and active radar
+Weight, kg: 150
+G limit: 22
+Maximum Mach number: 4
+Length, m: 3.65
+Body diameter, m: 0.178
+Range, km: 55
+The AIM-120C will include a redesigned warhead 
+and improvements to the rocket motor, fuzing 
+logic, guidance algorithms, and ECCM logic. 
+
+Modified for internal carriage on the F-22, the 
+AIM-120C will have "clipped wings" to reduce 
+its box size from 17.4 to 12.5 inches.

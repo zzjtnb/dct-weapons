@@ -1,0 +1,19 @@
+KAB-1500LG-Pr-E
+
+kab-1500lg
+
+
+Name: KAB-1500LG-Pr-E
+Type: Laser-guided bomb
+Developed: Russia
+Length, m: 4.28
+Body diameter, m: 0.58
+Warhead weight, kg: 1120
+Guidance: Laser-command
+Weight, kg: 1500
+
+The KAB-1500 bombs are guided and corrected air bomb family with weight of 1500 kg. The bombs designed to engage various stationary ground/surface small-sized hardened targets, such as reinforced concrete shelters, military industrial installations, depots, and seaport terminals.
+
+The LG modification equipped the laser gyro-stabilized seeker. The LG series contains KAB-1500LG-F-E, 1500LG and 1500LG-OD-E bombs with HE, concrete piercing or fuel-air explosions warheads. The KAB-1500LG bombs can be dropped from front-line aircrafts like Su-24M, Su-34, Su-35 etc. equipped with the target laser illumination system as well as other carriers equipped with simple collimator sights for preliminary target designation (using target ground illumination) day and night. 
+
+KAB-1500LG-Pr-E is a variant with penetrating warhead to engage starionary small and extremely strong buried targets like strong concrete objects, command points, ammunition depots.

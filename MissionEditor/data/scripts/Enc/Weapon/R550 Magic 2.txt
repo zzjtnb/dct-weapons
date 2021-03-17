@@ -1,0 +1,16 @@
+R550 Magic 2
+
+magic-r550
+
+
+Name: R550 Magic 2
+Type: Short-range, infrared, air-to-air missile
+Developed: France
+Weight, kg: 90
+Guidance: Infrared seeker
+G limit: 18
+Maximum Mach number: 2
+Length, m: 2.75
+Body diameter, m: 0.157
+Warhead weight, kg: 13
+Range, km: 5

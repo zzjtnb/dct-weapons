@@ -1,0 +1,18 @@
+Patriot M901 LM
+SAM/Patriot M901 LN.png
+PATRIOT-PU
+
+
+Type: Medium-to-High Altitude Air Defense 
+Warhead: 73 kg HE
+System M901 Launcher Station
+Launch weight: 700 kg
+Max speed: Mach 5
+Min effective range: 3000 m
+Max effective range: 160 000 m
+Min effective altitude: 60 m
+Max effective altitude: 24 240 m
+Turret traverse: -110° to +110°
+
+Armament: 
+- 4x MIM-104 SAMs

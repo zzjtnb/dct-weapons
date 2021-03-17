@@ -1,0 +1,16 @@
+P-700
+
+granit
+
+
+Developed: Russia
+Name: P-700 (SS-N-19)
+Type: Long-range anti-ship cruise missile
+Weight, kg: 7000
+Guidance: Autopilot
+G limit: 16
+Maximum Mach number: 2.5
+Length, m: 10.0
+Body diameter, m: 0.85
+Warhead weight, kg: 750
+Range, km: 550

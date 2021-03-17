@@ -1,0 +1,29 @@
+Ural-375/4320
+
+ural-375
+
+
+Type: Cargo truck
+Chassis: Ural-4320
+Seating Capacity (cab): 1 + 2
+The wheel formula: 6x6
+Empty weight, kg: 8050
+Load capacity, kg: 7000
+Length, m: 7,865
+Width, m: 2,5
+Height, m: 2,805
+Clearance, m: 0,4
+Engine: YaMZ-236M2 - six-cylinder V-shaped turbocharged diesel engine 
+HP power: 180 (132 kW) at 2100 rpm
+Max. speed, km/h: 80
+Power reserve, km (at 60 km/h): 750
+
+One of the main army transport trucks. It is in mass numbers in service with the armies of the former Soviet Union and the Warsaw Pact.
+The Ural-375D (all-metal cabin) is a four-wheel drive, off-road truck produced at the Ural Automobile Plant in Miass since the early 1960s. It was equipped with a gasoline engine ZIL-375 (V8, 7 liters, 180 hp)
+The truck was used to transport troops and cargo, as well as as a chassis for shock weapons, such as multiple rocket launchers "Grad", in the economy are still used, as a rule, with diesel engines.
+
+In the Soviet Army, the Ural-375D was replaced by the Ural-4320 by 1982.
+Production of trucks and chassis of the Ural-4320 range was started on November 17, 1977 and in fact this series is still in production, although in a significantly upgraded form. The main difference between the Ural-4320 and the Ural-375D line of carburettors (all-metal cabin) is the economical and tractive diesel engine.
+Initially, the modifications with YaMZ-238 engine differed in appearance by a longer engine compartment, and the trucks with YaMZ-236 engine retained the same engine compartment as the trucks with KAMAZ-740 engine (the difference is that the trucks with YaMZ-236 engine have an air filter on the right wing due to a different, denser layout of the engine compartment).
+
+In DCS World is presented a range of models on the chassis of Ural-4320.

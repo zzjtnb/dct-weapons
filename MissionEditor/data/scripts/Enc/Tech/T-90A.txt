@@ -1,0 +1,56 @@
+T-90А
+
+t-90
+
+
+Designation: T-90A
+Type: main battle tank
+Country of origin: Russia
+Production date: 1992
+Weight: 46.5 t
+Crew: 3
+Dimensions:
+ Length: 9.530 m
+ Width: 3.780 m
+ Height: 2.220 m
+ Clearance: 0.470 m
+Armor: steel, composite, reactive
+Armament:
+ 1 х 125 mm 2A46M-5 smoothbore gun
+ 1 х 7.62 mm PKT coaxial machine gun
+ 1 х 12.7 mm NSVT air defense heavy machine gun
+ 1 х 9K119M “Reflex-M” ATGM
+Engagement rage, m:
+ Main gun: 100-5000
+Initial round velocity, m/sec:
+APFSDS: 1500
+Rate of fire (rounds/min):
+Main gun: up to 8
+Ammunition capacity:
+ Main gun rounds: 42
+ (of them in the conveyor belt of the charging mechanism): 22
+ coaxial machine gun rounds: 2000
+ heavy machine gun rounds: 300
+ ATGM: 4
+Turret traverse angles:
+    azimuth: 360°
+    elevation: -15°...+20°
+    ATGM elevation: unknown
+Engine: V-92S2 diesel 
+Horsepower: 1000
+Maximum travel speed, km/h:
+ paved surface: 60
+ off road: 55
+ water: unknown
+Range: 550 km
+Obstacle clearance capability:
+ maximum incline (deg.): 30
+ maximum bank (deg): 25
+ vertical obstacle height, m: 0.85
+ trench width (m): 2.6
+ fording depth (m): 1.2 (with OPVT-5 snorkel)
+
+The T-90 is a further evolution of the T-72 MBT, created in 1989 by the UKBTM design bureau as the T-72BU (“object 188”). The tank underwent and successfully completed state trials the same year. The tank was designed in parallel with the more technologically advanced “object 187”, but as a consequence of the worsening economic situation, the relatively simpler T-72BU was selected for production and e-named as the T-90.
+Limited serial production was launched in 1992. Initially the tank was equipped with a cast turret similar to the turret of the T-72B, but this was later changed to a welded turret design.
+The fire control system of the T-90 was largely borrowed from the T-80U with some modifications. The “Shtora-1” electro-optical IR jamming system is a standard feature of the tank’s defense systems, used to jam incoming SACLOS type laser-guided anti-tank missiles.
+The T-90’s level of protection is a significant improvement over its T-72B predecessor. At the time of service entry, it was capable of withstanding nearly every NATO anti-armor round. Today however, this level of protection is no longer current and cannot defend against the latest NATO anti-armor projectiles such as the M-829A2/M829A3.

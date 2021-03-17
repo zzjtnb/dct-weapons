@@ -1,0 +1,28 @@
+Su-24MR
+
+su-24mr
+su-24mr
+
+Name: Su-24MR "Fencer"
+Type: Reconnaissance aircraft
+Developed: Sukhoi OKB, Russia
+Crew: 2
+Length: 24.53 m
+Height: 4.97 m
+Wing span: 17.64 m
+Wing area: 55.17 m²
+Maximum Mach at S/L: 1.08
+Maximum Mach at height: 1.35
+Weight empty: 22300 kg
+Normal weight: 33325 kg
+Maximum weight: 39700 kg
+G limit: 5.9
+Maximum range: 1200 km
+Maximum fuel: 11700 kg
+Service ceiling: 17500 m
+Take-off speed: 280.8 km/h
+Range with nominal load: 1200 km
+Landing speed: 270 km/h
+
+Armament:
+- GSh-6-23M cannon

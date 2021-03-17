@@ -1,0 +1,35 @@
+Yak-40
+
+yak-40
+
+
+Name: Yak-40 "Codling"
+Type: regional jet transport
+Developed: Yakovlev OKB, USSR
+First flight: October 21, 1966 
+Crew: 2-3
+Length: 20.36 m
+Height: 6.5 m
+Wing span: 25.0 m
+Wing area: 70.0 m²
+Weight empty: 9 400 kg
+Normal weight: 14 850 kg
+Maximum weight: 17 200 kg
+Maximum speed, km/h: 600
+Cruise speed, km/h: 500
+G limit: -1.7...3.5
+Maximum range, km: 2500
+Commercial range, km, 1350
+Maximum fuel, kg: 3000
+Service ceiling, m: 12 300
+Take-off speed: 185 km/h
+Landing speed: 165 km/h
+Engines: 3*Ivchenko AI-25 turbofans, 14.7 kN (3,300 lbf) each
+
+The Yakovlev Yak-40 is a small, three-engined airliner that is often called the first regional jet transport aircraft. It was introduced in September 1968 with Aeroflot.
+
+Built to replace the the Ilyushin Il-12/14, its main design feature was ease of operation outside major airport service areas. It was equipped with a built-in airstair and capable of STOL operations. It also featured a unique S-duct central engine.
+
+Since the demise of the old Aeroflot, many have been converted from passenger service layout to more luxurious corporate layouts and are in use as corporate and private aircraft.
+
+Most of the Yak-40s in active service fly in the former Soviet Union and other countries.

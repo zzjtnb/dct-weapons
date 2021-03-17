@@ -1,0 +1,20 @@
+AGM-84E
+
+agm-84e
+
+
+Name: AGM-84E SLAM (Stand-Off Land Attack Missile)
+Type: Long-range, Air-launched precision land attack cruise missile
+Developed: USA
+Warhead weight, kg: 222
+Weight, kg: 627
+Length, m: 4.50 
+Guidance: inertial navigation with GPS correction,
+infrared terminal guidance, datalink to the controlling aircraft
+Body diameter, m: 0.343
+G limit: 14
+Range, km: 110
+
+The AGM-84E Harpoon/SLAM (Stand-Off Land Attack Missile) Block 1E is an intermediate range weapon system designed to provide day, night and adverse weather precision strike capability against high value land targets and ships in port.
+
+The AGM-84E uses an inertial navigation system with GPS, infrared terminal guidance, and is fitted with a Tomahawk warhead for better penetration. SLAM can be launched from land-based or aircraft carrier-based F/A-18 Hornet aircraft. It was employed successfully in Operation Desert Storm and UN relief operations in Bosnia prior to Operation Joint Endeavor.

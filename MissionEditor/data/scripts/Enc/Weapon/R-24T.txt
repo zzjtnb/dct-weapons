@@ -1,0 +1,17 @@
+R-24T
+
+r-24t
+
+
+Name: R-24T (AA-7 'Apex')
+Type: Medium-range, infrared, air-to-air 
+missile
+Developed: Vympel OKB, Russia
+Warhead weight, kg: 30
+Guidance: command and infrared
+Weight, kg: 215
+G limit: 18
+Length, m: 4.16
+Body diameter, m: 0.2
+Range, km: 20
+Maximum Mach number: 3

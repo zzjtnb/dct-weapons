@@ -1,0 +1,17 @@
+9M14
+
+malutka
+
+
+Name: 9M14 "Malyutka" (AT-3 "Sagger")
+Type: Short-range, wire-guided, air-to-surface 
+missile
+Developed: Kolomna NPO, Russia
+Warhead weight, kg: 2.5
+Guidance: wire-guided
+Weight, kg: 11.30
+G limit: 16
+Length, m: 0.86
+Body diameter, m: 0.125
+Range, km: 3
+Maximum Mach number: 0.34

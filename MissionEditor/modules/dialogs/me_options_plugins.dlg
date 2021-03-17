@@ -1,0 +1,197 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["containerPlugins"] = {
+					["children"] = {
+						["listBoxModulItem"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 70,
+									["w"] = 244,
+									["x"] = 101,
+									["y"] = 307,
+								},
+								["enabled"] = true,
+								["text"] = "listBoxItem0",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "listBoxItemDriveNew1",
+								},
+							},
+							["type"] = "ListBoxItem",
+						},
+						["listModuls"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 635,
+									["w"] = 252,
+									["x"] = -2,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "listBox0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "listBoxSkinNew",
+								},
+							},
+							["type"] = "ListBox",
+						},
+						["pPluginContainer"] = {
+							["children"] = {
+								["staticDialogPlaceholder"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 632,
+											["w"] = 1012,
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["text"] = "dialog placeholder",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x000000ff",
+														["center_top"] = "0x000000ff",
+														["file"] = "",
+														["left_bottom"] = "0x000000ff",
+														["left_center"] = "0x000000ff",
+														["left_top"] = "0x000000ff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x000000ff",
+														["right_center"] = "0x000000ff",
+														["right_top"] = "0x000000ff",
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 632,
+									["w"] = 1013,
+									["x"] = 261,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "panel0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+							},
+							["type"] = "Panel",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 635,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 634,
+					["w"] = 1280,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 974,
+						["vert"] = 645,
+					},
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 632,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x2d3e50cc",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

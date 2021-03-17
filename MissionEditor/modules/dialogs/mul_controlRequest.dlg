@@ -1,0 +1,145 @@
+dialog = {
+	["children"] = {
+		["pQuery"] = {
+			["children"] = {
+				["bAllow"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 41,
+							["w"] = 126,
+							["x"] = 39,
+							["y"] = 93,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$allow",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin_Multiplayer_btn",
+						},
+					},
+					["type"] = "Button",
+				},
+				["bDeny"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 126,
+							["x"] = 201,
+							["y"] = 93,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$deny",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin_Multiplayer_btn",
+						},
+					},
+					["type"] = "Button",
+				},
+				["sQuery"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 295,
+							["x"] = 39,
+							["y"] = 27,
+						},
+						["enabled"] = true,
+						["text"] = "$query",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 159,
+					["w"] = 360,
+					["x"] = 13,
+					["y"] = 13,
+				},
+				["enabled"] = true,
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x2c2b2cff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 189,
+			["w"] = 389,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1000,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

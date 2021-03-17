@@ -1,0 +1,28 @@
+Su-25
+
+su-25
+
+
+Name: Su-25 "Frogfoot"
+Type: Close support aircraft
+Developed: Sukhoi OKB, Russia
+Crew: 1
+Length: 15.36 m
+Height: 4.8 m
+Wing span: 14.35 m
+Wing area: 30.1 m²
+Maximum Mach at S/L: 0.77
+Maximum Mach at height: 0.8
+Weight empty: 9500 kg
+Normal weight: 12750 kg
+Maximum weight: 17600 kg
+G limit: 5.9
+Maximum range: 1250 km
+Maximum fuel: 3000 kg
+Service ceiling: 7000 m
+Take-off speed: 259.2 km/h
+Range with nominal load: 1250 km
+Landing speed: 244.8 km/h
+
+Armament:
+- GSh-2-30 cannon

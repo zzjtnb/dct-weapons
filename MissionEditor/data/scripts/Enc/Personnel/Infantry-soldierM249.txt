@@ -1,0 +1,13 @@
+Soldier with M249
+
+soldier_m249
+
+
+Armament: M249 SAW
+Tip: A manual machine gun
+Weight: 6.85 kg
+Caliber: 5.56 mm
+Speed of fire: 700 rounds/minute
+Initial speed: 950 m/s
+Range of sight: 600-1000m
+Type of power supply: 100 or 200 chargers

@@ -1,0 +1,24 @@
+T-80U
+
+t-80ud
+
+
+Type: Main Battle Tank
+Crew: 3
+Length: 9.656 m
+Width: 3.589 m
+Height: 2.202 m
+Ground clearance: 0.446 m
+Ground pressure: 0.93 kg/sq.cm
+Combat weight: 46000 kg
+Engine: 1,250 hp GTD-1250 gas-turbine engine
+Power-to-weight ratio: 23.9 hp/t
+Max road speed: 70 km/h
+Operational range: 335 km without external fuel 
+
+Armament:
+- 125 mm gun
+- 7.62 mm PKT coaxial machine gun
+Rate of fire: 7-9 rounds/min
+Ammunition Types: APFSDS, HEAT, HEF
+

@@ -1,0 +1,26 @@
+ATMZ-5
+
+ural_atmz-5
+
+
+Type: Fuel and lubrication oil supply truck
+Chassis: Ural-4320
+Seating Capacity (cab): 2
+Wheel formula: 6x6
+Weight, kg: 
+ own: 9520
+ full: 14250
+Fuel tank capacity, l: 5000
+Oil tank capacity, l: 250
+Overall dimensions, m:
+ length, m: 7,69
+ Width, m: 2,5
+ Cabin height, m: 2,715
+ height of special equipment, m: 2,72
+Clearance, m: 0,4
+Engine: YaMZ-236M2 turbocharged diesel, six-cylinder, V-shaped 
+HP power: 180 (132 kW) at 2100 rpm
+Maximum speed on the highway, km/h: 75
+
+Designed for transportation and refueling with fuel and oil of automobile and armored vehicles in the field conditions.
+The main components of the fuel and lube oil refiller are: equipment of fuel and oil systems, which is placed on the chassis of the Ural-4320. The fuel system provides transportation and refueling of vehicles with fuel. The oil system is used for transportation and refueling of vehicles with oil.

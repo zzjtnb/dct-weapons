@@ -1,0 +1,27 @@
+F-5E
+
+f-5e3
+F-5E-3
+
+Name: F-5E
+Type: Tactical fighter
+Crew: 1
+Length: 14.68 m
+Height: 4.06 m
+Wing span: 8.53 m
+Weight empty: 4392 kg
+Normal weight: 7800 kg
+Maximum weight: 11187 kg
+Maximum Mach at height: 1.61
+G limit: 7.5
+Range with nominal load: 2112 km
+Maximum fuel: 2000 kg
+Service ceiling: 16150 m
+Take-off speed: 234 km/h
+Wing area: 17.3 m2
+Landing speed: 244.8 km/h
+Maximum range: 2112 km
+Maximum Mach at S/L: 1.1
+
+Armament:
+- IWKA-Mauser

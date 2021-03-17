@@ -1,0 +1,24 @@
+Leopard-2
+
+leopard-2
+
+
+Type: Main Battle Tank (Germany)
+Crew: 4
+Length: 9.668 m
+Height: 2.48 m
+Width: 3.7 m
+Engine: MTU MB 873 Ka-501 V-12 diesel 1500 hp
+Power-to-weight ratio: 27.0 hp/t
+Combat weight: 55150 kg
+Ground pressure: 0.83 kg/sq.cm
+Max road speed: 72 km/h
+Operational range (road): 550 km
+(anti-aircraft) 1x7.62 mm MG3 MG
+Ground clearance: 0.487 m
+
+Armament:
+
+- 120 mm cannon
+- 7.62 mm MG3 coaxial machine gun
+- 7.62 mm MG3 anti-aircraft machine gun

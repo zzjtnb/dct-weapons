@@ -1,0 +1,21 @@
+MANPADS Stinger
+
+soldier_stinger
+
+
+Type: Low-Altitude SAM System
+Length (missile): 1.52 m
+Wingspan: 0.091 m
+Weight (launcher complete): 15.7 kg
+Warhead weight: 3.0 kg
+Diameter (missile): 0.07 m
+Max range: 8000 m
+Min effective range: 200 m
+Max effective range:
+(FIM-92A) greater than 4000 m
+(FIM-92B/C) greater than 4500 m
+Min altitude: effectively ground level
+Max altitude:
+(FIM-92A) 3500 m
+(FIM-92B/C) 3800 m
+Max speed: Mach 2.2

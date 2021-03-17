@@ -1,0 +1,18 @@
+R-27R
+
+r-27r
+
+
+Name: R-27R (AA-10 'Alamo')
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: Spetztekhnika Vympel NPO, Russia
+Warhead weight, kg: 39
+Guidance: inertial, command and semi-active 
+radar
+Weight, kg: 253
+Length, m: 4.00
+Body diameter, m: 0.23
+Range, km: 50
+Maximum Mach number: 3
+G limit: 18

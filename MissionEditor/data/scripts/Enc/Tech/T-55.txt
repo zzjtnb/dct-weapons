@@ -1,0 +1,20 @@
+T-55
+
+t-55
+
+
+Type: Main Battle Tank
+Length: 9.0 m
+Width: 3.14 m
+Height: 2.20 m
+Crew: 4
+Combat weight: 36.6 tonnes
+Engine: V-55 Diesel (520hp)
+Max road speed: 50 km/h
+Fuel range: (road) 500 km
+
+Armament:
+1 x 100 mm D-10T series rifled gun
+1 x 7.62 mm SGMT coaxial machine gun
+1 x 12.7 mm DShK anti-aircraft machine gun
+

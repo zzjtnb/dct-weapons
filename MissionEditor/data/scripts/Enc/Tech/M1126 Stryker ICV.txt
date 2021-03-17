@@ -1,0 +1,19 @@
+M1126 Stryker ICV
+
+m1126
+
+
+Type: Infantry Carrier Vehicle
+Crew: 2+9
+Length: 6.985 m
+Width: 2.717 m
+Height: 2.641 m
+Combat weight: 17 234 kg
+Engine: diesel 350 hp
+Fuel distance: 531 km
+Wheel formula: 8x8
+Max road speed: 96 km/h
+
+Armament: 
+- 12.7 mm M2 machine gun
+

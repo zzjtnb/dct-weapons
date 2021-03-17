@@ -1,0 +1,12 @@
+RBK-500AO
+
+RBK_500_255_PTAB_10_5_cassette
+
+
+Name: RBK-500AO
+Type: Anti-personnel/anti-material cluster bomb
+Developed: Russia
+Weight, kg: 504
+Length, m: 2.5
+Body diameter, m: 0.45
+Filling, bomblet: 108 

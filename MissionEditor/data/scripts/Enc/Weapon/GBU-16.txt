@@ -1,0 +1,14 @@
+GBU-16
+
+gbu-16
+
+
+Name: GBU-16
+Type: Laser-guided bomb
+Developed: USA
+Guidance: Laser-command
+Warhead weight, kg: 202
+Weight, kg: 454
+Length, m: 3.68
+Body diameter, m: 0.35
+

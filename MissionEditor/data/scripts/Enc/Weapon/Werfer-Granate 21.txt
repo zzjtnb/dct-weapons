@@ -1,0 +1,31 @@
+Werfer-Granate 21
+
+WGr21
+
+
+Name: Werfer-Granate 21 (also BR 21)
+Type: unguided aircraft rocket
+Developed: Germany
+Weight, kg: 112.6  
+Speed, km/h: 1.15
+Range, km: 1.2
+Length, m: 1.26
+Body diameter, m: 0.21
+Warhead weight, kg: 40.8
+
+The Werfer-Granate 21 rocket launcher, also known as the BR 21 (Bordrakete), was the first on-board rocket in Luftwaffe service. The Werfer-Granate 21 was developed by Rheinmetall-Borsig and introduced into service in mid 1943. 
+
+By mid 1943 Allied bombers started regularly bombing the German territory. At that time Luftwaffe had no cannons or rockets that could be effectively used against heavy four-engined bombers flying in the combat box formation. The fast solution was found in modifying a very effective ground-launched rocket, the 21 cm Nebelwerfer 42 infantry barrage rocket projectile, into an air-launched variant. The original rocket was equiped with a powerfull warhead that warranted destroying a heavy bomber even without direct hit. The air-to-air modification of the Nebelwerfer 42 was designated as the Werfer-Granate 21.
+
+Werfer-Granate 21 rockets enabled the German pilots to attack the bomber targets out to a distance of 1,200 metres. While a single fighter's payload of two or four such rockets was extremely unlikely to hit an aerial target, a mass launch by an entire fighter squadron (12-16 aircraft) would likely score two or three hits, about 15% accuracy. The rocket's huge blast radius compensated for inaccuracy, and even a non-lethal hit on a bomber by a showering of shrapnel would have psychological effects and perhaps cause it to take evasive maneuvers that would drive it from the protection of its fellows. 
+
+The Werfer-Granate 21 were also used against ground targets from late 1943 onwards.
+
+
+
+
+
+
+
+
+

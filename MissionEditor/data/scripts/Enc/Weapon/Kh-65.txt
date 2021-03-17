@@ -1,0 +1,17 @@
+Kh-65
+
+x-65
+
+
+Name: Kh-65 (AS-15B 'Kent')
+Type: Long-range, inertial-guided, nuclear 
+cruise missile
+Developed: Raduga NPO, Russia
+Warhead weight, kT: 200
+Guidance: inertial and terrain comparison
+Weight, kg: 1700
+G limit: 16
+Length, m: 6.04
+Body diameter, m: 0.770
+Range, km: 3.000
+Maximum Mach number: 0.77

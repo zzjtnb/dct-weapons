@@ -1,0 +1,17 @@
+CH-53E
+
+ch-53e
+
+
+Name: CH-53E
+Type: Heavy transport heliopter
+Crew: 3
+Main rotor diameter: 24.07 m
+Range with nominal load: 536 km
+Weight empty: 16480 kg
+Normal weight: 25400 kg
+Maximum weight: 31630 kg
+Maximum fuel: 1908 kg
+Service celling: 3520 m
+Maximum speed: 315 km/h
+Maximum range: 536 km

@@ -1,0 +1,17 @@
+Kh-31P
+
+x-31
+
+
+Name: Kh-31P (AS-17 'Krypton')
+Type: Medium-range, radar-guided, air-to-
+surface missile
+Developed: Zvezda-Strela, Russia
+Warhead weight, kg: 90
+Guidance: inertial with passive radar
+Weight, kg: 600
+G limit: 16
+Length, m: 4.70
+Body diameter, m: 0.360
+Range, km: 150
+Maximum Mach number: 3.04

@@ -1,0 +1,17 @@
+AGM-45
+
+agm-45
+
+
+Name: AGM-45
+Type: Medium-range, anti-radar, air-to-surface 
+missile
+Developed: USA
+Warhead weight, kg: 66
+Guidance: passive radar
+Weight, kg: 177
+G limit: 16
+Length, m: 3.05
+Body diameter, m: 0.203
+Range, km: 12
+Maximum Mach number: 2

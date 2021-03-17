@@ -1,0 +1,16 @@
+R-60
+
+r-60
+
+
+Name: R-60 (AA-8 'Aphid')
+Type: Short-range, infrared, air-to-air missile
+Developed: Molniya OKB, Russia
+Weight, kg: 65
+Guidance: infrared
+G limit: 18
+Maximum Mach number: 2
+Length, m: 2.08
+Body diameter, m: 0.13
+Warhead weight, kg: 6.0
+Range, km: 5.0

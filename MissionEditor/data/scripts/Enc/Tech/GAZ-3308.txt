@@ -1,0 +1,15 @@
+GAZ-3308
+
+gaz-3308
+
+
+Type: Military truck
+Combined weight: 13118 (13889) lbs
+Payload: 4409 lbs 
+Engine: Hino (Belorussian D-245.7, with intercooler) 6 cylinder turbo-diesel
+Power output: 140 (122) hp @ 3200 (2400) rpm
+Torque: 258 (313) ft.-lb. @ 1800 (1300) rpm
+Maximum speed: 56 mph
+Gearbox: 5 speed  
+Fuel economy: 13.8 mpg (at 19 mph)
+

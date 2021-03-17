@@ -1,0 +1,17 @@
+M48 Chaparral
+SAM/M48 Chaparrel.png
+m48
+
+
+Type: Forward Area Air-Defense System 
+Base: M-730A2
+Length (missile): 2.91 m
+Max altitude: 2500 m
+Missile: MIM-72G
+Max speed: Mach 2.5
+Wingspan: 0.64 m
+Launch Weight: 84 kg
+Warhead weight: 12.7 kg
+Min effective range: 400 m
+Max range: 4800 m
+

@@ -1,0 +1,16 @@
+S-8TsM
+Weapon/S-8CM.png
+s-8_sm
+
+
+Name: S-8TsM
+Type: 80 mm unguided aircraft rocket
+Developed: Spetztekhnika Vympel NPO, Russia
+Weight, kg: 11.1
+Length, m: 1.605
+Caliber, mm: 80
+Warhead weight, kg: 3.6
+Warhead type: marker 
+Firing range, m: 1300 - 3000
+
+This rocket is intended to mark ground targets, routes of movement and landing areas in daytime.

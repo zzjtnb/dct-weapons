@@ -1,0 +1,14 @@
+Som (Tango)
+
+som
+
+
+Type: Patrol submarine
+Complement: 78
+Displacement, tons: 2750 standard 3546 full 
+Dimensions, m: 90,2x8,6x5,9
+Speed, knots: 13/16
+
+Range, miles: 450 at 2 kts dived, 6000 at 7 kts 
+
+Armament: 6 -21in tubes

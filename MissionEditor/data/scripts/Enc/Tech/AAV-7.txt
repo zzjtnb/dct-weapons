@@ -1,0 +1,24 @@
+AAV-7
+
+aav-7
+
+
+Type: Amphibious Assault Vehicle
+Crew: 3+25
+Length: 7.943 m
+Height: 3.263 m
+Width: 3.27 m
+Engine: 8V-53T V-8 diesel 400 hp
+Power-to-weight ratio: 17.51 hp/t
+Ground pressure: 0.57 kg/sq.cm
+Ground clearance: 0.406 m
+Combat weight: 22838 kg
+Max road speed: 64 km/h
+Max water speed: 13.5 km/h
+
+Armour: 12-45 mm
+
+Armament:
+
+- 12.7 mm M2 machine gun
+

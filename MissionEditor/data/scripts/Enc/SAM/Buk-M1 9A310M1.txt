@@ -1,0 +1,10 @@
+Buk 9A310M1 ln
+
+9a310m1
+
+
+Name: 9A310M1 "Buk" (SA-11)
+Type: Low-to High-Altitude SAM
+Reaction time: 26 s
+Combat weight: 32340 kg
+Armament: 4x SA-11 (9M38M1) missiles

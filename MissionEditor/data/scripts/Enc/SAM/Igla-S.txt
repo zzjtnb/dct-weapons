@@ -1,0 +1,24 @@
+MANPADS Igla-S 
+
+soldier_ru_03
+
+
+Name: 9К338 Igla-S (SA-24 Grinch) 
+Type: Low-Altitude SAM System
+Developer: Research-and-production corporation "Konstruktorskoye byuro mashynostroyeniya" (JSC "RPC "KBM"), Russia
+Zone of defeat, m:
+  Target range: 500-6000
+  Target altitude: 10-3500
+Target speed, m/s:
+  head-on engagement: up to 400
+  tail-chase engagement: up to 320
+Combat equipment weight, (in combat position), kg: 18.25
+Missile caliber, mm: 72,2
+The length of the missile, mm: 1,690
+Missile launch weight, kg: 11.3
+Time to change over from travelling to combat position, s: 13	
+Sustainer: Solid-propellant, two-thrust
+Warhead: Blast fragmentation with proximity and impact fuze
+Seeker: Optical, two-colour, homing (passive)
+
+

@@ -1,0 +1,24 @@
+B-1B
+
+b-1b
+
+
+Name: B-1B
+Type: Strategic heavy bomber
+Crew: 4
+Length: 44.81 m
+Weight empty: 87090 kg
+Height: 10.36 m
+Wing span: 41.67 m
+Wing area: 181 m²
+Normal weight: 140000 kg
+Maximum weight: 216360 kg
+Maximum Mach at height: 1.68
+G limit: 3.5
+Range with nominal load: 12000 km
+Maximum fuel: 88450 kg
+Service ceiling: 12300 m
+Take-off speed: 284.4 km/h
+Landing speed: 280.8 km/h
+Maximum range: 12000 km
+Maximum Mach at S/L: 1.08

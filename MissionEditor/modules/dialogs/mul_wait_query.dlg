@@ -1,0 +1,187 @@
+dialog = {
+	["children"] = {
+		["pBox"] = {
+			["children"] = {
+				["bCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 45,
+							["w"] = 132,
+							["x"] = 67,
+							["y"] = 115,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$cancel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["sNick"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 36,
+							["w"] = 221,
+							["x"] = 21,
+							["y"] = 61,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$Nick",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xedededff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sWait"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 36,
+							["w"] = 221,
+							["x"] = 22,
+							["y"] = 23,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$Wait",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xedededff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 186,
+					["w"] = 266,
+					["x"] = 5,
+					["y"] = 5,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x2c3e51ff",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 204,
+			["w"] = 287,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1000,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,17 @@
+AGM-119A
+
+penquin
+
+
+Name: AGM-119A
+Type: Medium-range, infrared guided, air-to-
+surface missile
+Developed: Norway
+Warhead weight, kg: 140
+Guidance: inertial and passive infrared
+Weight, kg: 370
+G limit: 16
+Length, m: 3.18
+Body diameter, m: 0.280
+Range, km: 55
+Maximum Mach number: 2.1

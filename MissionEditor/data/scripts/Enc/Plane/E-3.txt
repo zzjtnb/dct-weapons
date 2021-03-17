@@ -1,0 +1,20 @@
+E-3C
+
+e-3
+
+
+Name: E-3C
+Type: AWACS
+Flight crew: 4
+Mission crew: 13-19
+Length: 46.61 m
+Wingspan: 44.42 m
+Height: 12.6 m
+Wing area: 283.4 m²
+Empty weight: 73,480 kg
+Loaded weight: 147,400 kg
+Max takeoff weight: 156,000 kg
+Powerplant: 4 x Pratt and Whitney TF33-PW-100A turbofan, 93 kN each
+Maximum speed: 855 km/h
+Range: 7,400 km (8 hr)
+Service ceiling: 9,000 m

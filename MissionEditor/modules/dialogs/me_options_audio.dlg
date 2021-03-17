@@ -1,0 +1,1247 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["containerAudio"] = {
+					["children"] = {
+						["FakeAfterburnerCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 470,
+									["x"] = 184,
+									["y"] = 476,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$FakeAfterburner",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["GBreathEffectCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 470,
+									["x"] = 184,
+									["y"] = 442,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 20,
+								["text"] = "$GBreathEffect",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cockpitLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 225,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$inCockpit",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["cockpitSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 222,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 0,
+									["min"] = -30,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["cockpitWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 224,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["guiLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 157,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$gui",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["guiSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 153,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 0,
+									["min"] = -30,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["guiWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 156,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["headphonesLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 259,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Helmet",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["headphonesSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 256,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 0,
+									["min"] = -30,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["headphonesWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 258,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["headphones_on_external_viewsCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 530,
+									["x"] = 730,
+									["y"] = 442,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$headphones_sounds",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["hear_in_helmetCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 470,
+									["x"] = 184,
+									["y"] = 411,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 10,
+								["text"] = "$hear_in_helmet",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["hp_outputComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 220,
+									["x"] = 883,
+									["y"] = 159,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["main_outputComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 220,
+									["x"] = 883,
+									["y"] = 124,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["microphone_useComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 151,
+									["x"] = 952,
+									["y"] = 261,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["musicLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 293,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$music",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["musicSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 290,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 0,
+									["min"] = -30,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["musicWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 292,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["play_audio_while_minimizedCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 530,
+									["x"] = 730,
+									["y"] = 504,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$play_audio_while_minimized",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["radioSpeechCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 470,
+									["x"] = 184,
+									["y"] = 504,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 30,
+								["text"] = "$radioSpeech",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["subtitlesCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 530,
+									["x"] = 730,
+									["y"] = 411,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$subtitles",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["switchesLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 327,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$switches",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["switchesSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 327,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 0,
+									["min"] = -30,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["switchesWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 327,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["voice_chatCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 530,
+									["x"] = 730,
+									["y"] = 473,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$VoiceChat",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["voice_chat_inputComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 220,
+									["x"] = 883,
+									["y"] = 226,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["voice_chat_outputComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 220,
+									["x"] = 883,
+									["y"] = 192,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["volumeLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 123,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$volume",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["volumeLabel2"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 150,
+									["x"] = 730,
+									["y"] = 123,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$MainAudioOut",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["volumeLabel22"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 150,
+									["x"] = 730,
+									["y"] = 191,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$VoiceChatOut",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["volumeLabel3"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 150,
+									["x"] = 730,
+									["y"] = 157,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Headphones",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["volumeLabel32"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 150,
+									["x"] = 730,
+									["y"] = 225,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$VoiceChatIn",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["volumeLabel322"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 218,
+									["x"] = 730,
+									["y"] = 260,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Microphone_use",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["volumeSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 120,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 100,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 1,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["volumeWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 122,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["worldLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 150,
+									["x"] = 184,
+									["y"] = 191,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$world",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["worldSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 247,
+									["x"] = 350,
+									["y"] = 188,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 0,
+									["min"] = -30,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["worldWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 50,
+									["x"] = 633,
+									["y"] = 190,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 645,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 650,
+					["w"] = 1280,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 1024,
+						["vert"] = 650,
+					},
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 645,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x2d3e50cc",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,17 @@
+MIM-104
+
+mim-104
+
+
+Name: MIM-104
+Type: Long-range, radio command guidance + TVM, 
+surface-to-air-missile for Patriot
+Developed: USA
+Warhead weight, kg: 73
+Guidance: Semi-active radar
+Weight, kg: 912
+G limit: 30
+Length, m: 5.3
+Body diameter, m: 0.41
+Range, km: 90
+Maximum Mach number: 5

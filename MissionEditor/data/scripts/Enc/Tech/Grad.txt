@@ -1,0 +1,20 @@
+Grad
+
+bm-21-40
+
+
+Type: Multiple Rocket System
+Crew: 6
+Caliber: 122.4 mm
+Reload time: 8 min
+Elevation: 0-55°
+Number of tubes: 40
+Traverse: 120° left, 60° right
+Time into action: 2.5 min
+Chassis: URAL-375
+Armament: 9M21OF solid propellant rocket 
+Time out of action: 0.5 min
+Combat weight: 13700 kg
+Rate of fire: 40 rds/20 s
+
+

@@ -1,0 +1,441 @@
+dialog = {
+	["children"] = {
+		["panelbg"] = {
+			["children"] = {
+				["btnNew"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 220,
+							["w"] = 250,
+							["x"] = 50,
+							["y"] = 50,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$create_new_mission",
+						["tooltip"] = "$create_new_mission",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = "$nil$",
+								["left"] = "$nil$",
+								["right"] = "$nil$",
+								["top"] = "$nil$",
+							},
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xffffff80",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbutton_me.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcreate_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 49,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["color"] = "0x6c7c8c80",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbuttonhover_me.png",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcreate_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 49,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6c7c8cff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xffffffcc",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbuttonhover_me.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcreate_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 49,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6c7c8ccc",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbutton_me.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcreate_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 49,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["color"] = "0x6c7c8cff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnOpen"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 220,
+							["w"] = 250,
+							["x"] = 330,
+							["y"] = 50,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$open_mission",
+						["tooltip"] = "$open_mission",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = "$nil$",
+								["left"] = "$nil$",
+								["right"] = "$nil$",
+								["top"] = "$nil$",
+							},
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xffffff80",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbutton_me.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconopen_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 55,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["color"] = "0x6c7c8c80",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbuttonhover_me.png",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconopen_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 55,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6c7c8cff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xffffffcc",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbuttonhover_me.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconopen_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 55,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6c7c8ccc",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\bgbutton_me.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconopen_me.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 55,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["color"] = "0x6c7c8cff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["vertAlign"] = {
+											["offset"] = -32,
+											["type"] = "max",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 600,
+					["w"] = 1000,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x1b232cff",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x1b232cff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 600,
+			["w"] = 1000,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 100,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+}

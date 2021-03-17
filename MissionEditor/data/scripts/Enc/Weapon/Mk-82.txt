@@ -1,0 +1,12 @@
+Mk 82
+
+mk-82
+
+
+Name: Mk 82
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 241
+Length, m: 2.21
+Body diameter, m: 0.273
+Warhead weight, kg: 89

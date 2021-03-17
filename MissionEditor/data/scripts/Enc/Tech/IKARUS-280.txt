@@ -1,0 +1,19 @@
+IKARUS-280
+
+ikarus
+
+
+Type: Bus
+Chassis: IKARUS-260
+Passenger capacity: 120
+Length: 16.5 m
+Height: 3.00 m
+Width: 2.00 m
+Weight : 20,630 kg
+Max road speed: 80 km/h
+Operational range: 500 km
+
+One of the most popular articulated buses in the CIS.
+
+
+

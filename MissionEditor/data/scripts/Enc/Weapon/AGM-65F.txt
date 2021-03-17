@@ -1,0 +1,18 @@
+AGM-65F
+
+agm-65f
+
+
+Name: AGM-65F
+Type: Anti-ship
+Manufacturer: Hughes Missile Systems, Raytheon Company, USA
+Weight, kg: 306
+Length, m: 2.49
+Body diameter, m: 0.305
+Warhead: 136 kg, penetrator fragmentation
+Guidance: imaging infrared
+Max. number M: 2
+Max. starting range, km: 25
+Target range, km: 9
+
+Developed by the American firm "Hughes Aircraft Co" on request of the U.S. Navy Command for use on maritime targets. It differs from the similar "Maverick" ASM-65D missile in service with the Air Force in that it is optimized for the most vulnerable points of the ship. The ship's high thermal contrast on the surface of the water has increased the range of target capture, so you can launch the missile at a range of more than 9 km. It is designed for arming A-7E and F-18 maritime aircraft.

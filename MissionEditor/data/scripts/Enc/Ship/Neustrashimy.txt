@@ -1,0 +1,18 @@
+Neustrashimy
+
+neustrash
+
+
+Name: Neustrashimy
+Type: Frigate
+Dimensions, m: 129.6 x 15.5 x 4.62
+Speed, knots: 32
+Crew: 210
+Range, miles: 4500 at 16 knots
+Displacement, tons: 4250 full, 3450 standart
+Developed: Russia
+
+Armament: 4x8 SAM Kynshal, 6 533mm torpedoes, 2 
+mortars RBU-6000, 1 Ka-27 Helix
+1 100mm AK-100, 2x6 30mm AK-630, 12 A/S 
+SAM Kashtan,

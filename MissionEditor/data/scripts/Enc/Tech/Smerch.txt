@@ -1,0 +1,42 @@
+MLRS 9А52 Smerch
+
+smerch
+
+
+Type: Multiple Rocket System 9A52
+Chassis: MAZ-543M
+Length: 12.1 m
+Width: 3.05 m
+Height: 3.05 m
+Ground clearance: 0.44 m
+Combat weight: 43700 kg
+Crew: 4
+Engine: D12A-525A, diesel, V-shaped, 12-cylinder
+Engine power, HP: 525 (386.1 kW) at 2000 rpm.
+Max road speed: 60 km/h
+Operational range (road): 850 km
+Wheel formula: 8x8
+
+Armament: 9M55K solid propellant rocket  
+Caliber: 300 mm
+Rate of fire: 12 rds/38-40 s
+Launcher traverse: 30° left and right
+Elevation: 0-55°
+Number of tubes: 12
+Deployment time: 3 min
+
+The Smerch Multiple Rocket Launcher System (MLRS) is designed to engage at the far outskirts of any group targets, the vulnerable elements of which are open and concealed manpower, unarmed, lightly armored and armored equipment of motorized infantry and tank companies, artillery units, tactical missiles, anti-aircraft systems and helicopters in the parking lots, destruction of command posts, communication centers and military industrial facilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

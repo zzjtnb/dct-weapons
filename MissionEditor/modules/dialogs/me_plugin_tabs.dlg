@@ -1,0 +1,472 @@
+dialog = {
+	["children"] = {
+		["panelTabsAndButtons"] = {
+			["children"] = {
+				["buttonNext"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 47,
+							["x"] = 422,
+							["y"] = 26,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 101,
+					},
+					["skin"] = {
+						["params"] = {
+							["maxSize"] = {
+								["horz"] = 20,
+							},
+							["minSize"] = {
+								["horz"] = 20,
+							},
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "21",
+											["y1"] = "58",
+											["y2"] = "79",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "21",
+											["x2"] = "42",
+											["y1"] = "58",
+											["y2"] = "79",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "42",
+											["x2"] = "63",
+											["y1"] = "58",
+											["y2"] = "79",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "21",
+											["y1"] = "58",
+											["y2"] = "79",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonPrev"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 16,
+							["x"] = 381,
+							["y"] = 24,
+						},
+						["enabled"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 100,
+					},
+					["skin"] = {
+						["params"] = {
+							["maxSize"] = {
+								["horz"] = 20,
+							},
+							["minSize"] = {
+								["horz"] = 20,
+							},
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "21",
+											["y1"] = "78",
+											["y2"] = "99",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "21",
+											["x2"] = "42",
+											["y1"] = "78",
+											["y2"] = "99",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "42",
+											["x2"] = "63",
+											["y1"] = "78",
+											["y2"] = "99",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "Keys-v2.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "21",
+											["y1"] = "78",
+											["y2"] = "99",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["panelTabs"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 44,
+							["w"] = 228,
+							["x"] = 57,
+							["y"] = 12,
+						},
+						["enabled"] = true,
+						["layout"] = {
+							["data"] = {
+								["gap"] = 0,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+							},
+							["type"] = "horz",
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 129,
+					["w"] = 486,
+					["x"] = 33,
+					["y"] = 23,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 0,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "stretch",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["tabGroupItem"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 55,
+					["w"] = 100,
+					["x"] = 239,
+					["y"] = 216,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["text"] = "tabGroupItem0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 104,
+					},
+					["name"] = "tabGroupItemOptionsSkin",
+				},
+			},
+			["type"] = "TabGroupItem",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+				["count"] = 1,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,18 @@
+Tor 9A331
+SAM/SA-15 Tor 9A331.png
+9a331
+
+
+Name: 9A331 "Tor" (SA-15)
+Type: Low-to Medium-Altitude SAM System
+Crew: 3
+Engine: V-64-4 V-12 diesel 740 hp
+Max road speed: 60 km/h
+Fuel distance: 500 km
+Length: 7.5 m
+Width: 3.3 m
+Height: 4.1 m
+Turret traverse: 360°
+
+Armament: 
+- 2x4 SA-15 (9M330) missiles

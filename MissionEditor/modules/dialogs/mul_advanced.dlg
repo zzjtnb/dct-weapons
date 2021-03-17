@@ -1,0 +1,751 @@
+dialog = {
+	["children"] = {
+		["main_panel"] = {
+			["children"] = {
+				["btnCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 130,
+							["x"] = 13,
+							["y"] = 538,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$Cancel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnOk"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 130,
+							["x"] = 152,
+							["y"] = 538,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$ok",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["pBox"] = {
+					["children"] = {
+						["Static1"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 148,
+									["x"] = 16,
+									["y"] = 490,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$pingAllowed",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static12"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 200,
+									["x"] = 40,
+									["y"] = 60,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$show_chat_events",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static122"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 148,
+									["x"] = 40,
+									["y"] = 210,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$permissions",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["cbAllowChangeNumber"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 333,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$AllowChangeNumber",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbAllowChangeSkins"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 308,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$AllowChangeSkins",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbAllowToScreenshot"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 358,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$AllowToScreenshot",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbCrash"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 134,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 30,
+								["text"] = "$Crash",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbEjecting"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 159,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$Ejecting",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbEventRole"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 184,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 50,
+								["text"] = "$eventRole",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbExport"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 233,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$Export",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbKill"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 29,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 80,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 10,
+								["text"] = "$Kill",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbPlayersExport"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 283,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$PlayersExport",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbSensorsExport"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 258,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$SensorsExport",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbTakeoff"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 22,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 108,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 20,
+								["text"] = "$Takeoff",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbVoiceChatServer"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 19,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 383,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$VoiceChatServer",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["rbResumeManual"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 415,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$ResumeManual",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkinNew",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["rbResumeOnLoad"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 440,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$ResumeOnLoad",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkinNew",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["rbResumeWithClients"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 465,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$ResumeWithClients",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkinNew",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["spPingAllowed"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 100,
+									["x"] = 177,
+									["y"] = 489,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 500,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "spinBox0",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin_ME",
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["static0"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 291,
+									["x"] = 1,
+									["y"] = 2,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$DETAILED_SETTINGS",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x2d3e50ff",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 518,
+							["w"] = 295,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["horzMouseWheel"] = false,
+						["horzScrollBarPageStep"] = 0,
+						["horzScrollBarStep"] = 1,
+						["layout"] = {
+						},
+						["text"] = "scrollPane0",
+						["tooltip"] = "",
+						["vertMouseWheel"] = true,
+						["vertScrollBarPageStep"] = 0,
+						["vertScrollBarStep"] = 1,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "scrollPaneSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["insets"] = "$nil$",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ScrollPane",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 585,
+					["w"] = 295,
+					["x"] = 40,
+					["y"] = 36,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 0,
+						["top"] = 0,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["type"] = "min",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 647,
+			["w"] = 652,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

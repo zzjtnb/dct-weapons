@@ -1,0 +1,18 @@
+GBU-31(V)3/B
+
+GBU31_V_3B_BLU109
+
+
+Name: GBU-31(V)3/B
+Type: Inertially Aided Munitions with penetrator warhead
+Developed: USA
+Guidance: Global Positioning System (GPS) guided and Inertial-guided system (INS) guided
+Warhead: BLU-109
+Weight, kg: 981
+Length, m: 3.77
+Wingspan, m: 0.64
+
+The Joint Direct Attack Munition (JDAM) is a guidance kit that converts unguided bombs, or "dumb bombs" into all-weather "smart" munitions. JDAM-equipped bombs are guided by an integrated inertial guidance system coupled to a Global Positioning System (GPS) receiver, giving them a published range of up to 15 nautical miles (28 km). The guidance system was developed by the United States Air Force and United States Navy, hence the "joint" in JDAM. The JDAM was meant to improve upon laser-guided bomb and imaging infrared technology, which can be hindered by bad ground and weather conditions. 
+
+The GBU-31(V)3/B has a BLU-109 penetrator wahead with KMU-556 guidance kit. 
+The BLU-109/B is a hardened penetration warhead used by the United States Air Force (BLU is an acronym for Bomb Live Unit). As with other "bunker busters", it is intended to smash through concrete shelters and other hardened structures before exploding.

@@ -1,0 +1,20 @@
+3M-54E1
+
+3m54e1
+
+
+Name: 3M-54E1 "Club-S" (SS-N-27 Sizzler)
+Type: Anti-ship cruise missile
+Developed: Russia
+Weight, kg: 1,780
+Warhead weight, kg: 400
+Warhead type: High-explosive penetrating 
+Guidance: INS/Radar homing at the terminal phase
+Length, m: 6.2
+Maximum Mach number: 0.8
+Range, km: 300
+Body diameter, m: 0.533
+
+The 3M-54E1 is a submarine-launched anti-ship variant of the 3M-54 "Club" missiles family developed for export purposes. The missile's length is 6.2 meters that is the same as the length of the standard torpedo tubes being used in Western submarines. The missile range is 300 km (190 mi).
+
+The "Club" missile family designed to destroy submarine and surface vessels, and ground static objects with coordinates known in advance.

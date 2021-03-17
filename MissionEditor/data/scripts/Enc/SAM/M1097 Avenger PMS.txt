@@ -1,0 +1,29 @@
+M1097 Avenger PMS
+SAM/M1097 Avenger.png
+hmmwv_m973
+
+
+Type: Low Level Air Defense System.
+Chassis: Hummer
+Length: 4.953 m
+Width: 2.184 m
+Height: 2.59 m
+Combat weight: 3900 kg
+Ground clearance: 0.406 m
+Wheel formula: 4x4
+Crew: 2
+Operational range: 563 km
+Gun elevation/depression: +70°/-10°
+Turret traverse: 360°
+Launch max speed: Mach 2.2
+Max effective range: 7000 m
+Min effective range: 300 m
+
+Sensors:
+- Forward Looking Infrared (FLIR) 
+- Laser rangefinder 
+- Optical sight 
+
+Armament:
+- 2x4 Stinger SAMs
+- 12.7 mm M2 machine gun

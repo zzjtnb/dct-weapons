@@ -1,0 +1,17 @@
+AIM-7M
+
+aim-7
+
+
+Name: AIM-7M
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: USA
+Warhead weight, kg: 39
+Guidance: semi-active radar
+Weight, kg: 230
+G limit: 20
+Length, m: 3.66
+Body diameter, m: 0.203
+Range, km: 45
+Maximum Mach number: 3

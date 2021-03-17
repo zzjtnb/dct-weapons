@@ -1,0 +1,322 @@
+dialog = {
+	["children"] = {
+		["box"] = {
+			["children"] = {
+				["Static0"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 150,
+							["x"] = 14,
+							["y"] = 6,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$start_time",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["Static1"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 150,
+							["x"] = 14,
+							["y"] = 30,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$route_time",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["Static2"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 150,
+							["x"] = 14,
+							["y"] = 54,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$dist",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["Static3"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 150,
+							["x"] = 14,
+							["y"] = 78,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$speed",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["w_dist"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 160,
+							["x"] = 215,
+							["y"] = 54,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = true,
+						["tabOrder"] = 30,
+						["text"] = "0",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxNew",
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["w_speed"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 160,
+							["x"] = 215,
+							["y"] = 78,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = true,
+						["tabOrder"] = 40,
+						["text"] = "0",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxNew",
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["w_start_time"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 160,
+							["x"] = 215,
+							["y"] = 6,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = true,
+						["tabOrder"] = 10,
+						["text"] = "0:0:0/1",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxNew",
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["w_time"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 160,
+							["x"] = 215,
+							["y"] = 30,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = true,
+						["tabOrder"] = 20,
+						["text"] = "0:0:0/1",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxNew",
+						},
+					},
+					["type"] = "EditBox",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 400,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x2d3e50ff",
+								["insets"] = {
+									["left"] = 1,
+								},
+								["left_center"] = "0x1a232dff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 400,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+				["count"] = 1,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 375,
+	},
+}

@@ -1,0 +1,16 @@
+AGM-84D
+
+agm-84s
+
+
+Name: AGM-84D
+Developed: USA
+Guidance: Autopilot
+Length, m: 3.8
+Body diameter, m: 0.343
+G limit: 14
+Maximum Mach number: 0.9
+Range, km: 95
+Weight, kg: 661.5
+Warhead weight, kg: 225
+

@@ -1,0 +1,19 @@
+BTR-RD
+
+btr-d
+
+
+Name: BTR-RD "Robot"
+Type: Airborn armored personnel carrier
+Length: 5.884 m
+Height: 1.66 m
+Width: 2.94
+Crew: 1+12
+Engine: diesel 240 hp
+Max road speed: 61 km/h
+Combat weight: 8000 kg
+Operating range: 500 km
+
+Armament: 
+ 2 х 7.62-мм (2 courses) PKT
+- various configurations are available capable of launching AT-4 and AT-5 ATGMs

@@ -1,0 +1,20 @@
+BTR-80
+
+btr-80
+
+
+Type: Armoured Personnel Carrier
+Crew: 2+9
+Combat weight: 13 600 kg
+Length: 7.6 m
+Width: 2.9 m
+Height: 2.3 m
+Engine: V-8 260 hp
+Max road speed: 80 km/h
+Max water speed: 10 km/h
+Operating range: 700 km
+Wheel formula: 8x8
+
+Armament:
+- 14.5 mm KPVT machine gun
+- 7.62 mm PKT machine gun

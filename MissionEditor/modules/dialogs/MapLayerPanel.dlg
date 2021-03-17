@@ -1,0 +1,1075 @@
+dialog = {
+	["children"] = {
+		["cbBlue"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 360,
+					["x"] = 15,
+					["y"] = 484,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 0,
+				["text"] = "$blue",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["cbHideBlue"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 360,
+					["x"] = 15,
+					["y"] = 580,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 0,
+				["text"] = "$blue",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["cbHideNeutrals"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 360,
+					["x"] = 15,
+					["y"] = 622,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 0,
+				["text"] = "$neutrals",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["cbHideRed"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 360,
+					["x"] = 15,
+					["y"] = 601,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 0,
+				["text"] = "$red",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["cbNeutrals"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 360,
+					["x"] = 15,
+					["y"] = 526,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 0,
+				["text"] = "$neutrals",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["cbRed"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 360,
+					["x"] = 15,
+					["y"] = 505,
+				},
+				["enabled"] = true,
+				["state"] = false,
+				["tabOrder"] = 0,
+				["text"] = "$red",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_MENew",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 12,
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["check"] = {
+								["horzAlign"] = {
+									["type"] = "max",
+								},
+							},
+							["text"] = {
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["checkListBox"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 404,
+					["w"] = 361,
+					["x"] = 14,
+					["y"] = 42,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkListBoxSkin_ME",
+				},
+				["skins"] = {
+					["horzScrollBar"] = {
+						["skinData"] = {
+							["skins"] = {
+								["thumb"] = {
+									["skinData"] = {
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 2,
+															["top"] = 2,
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 2,
+															["top"] = 2,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["vertScrollBar"] = {
+						["skinData"] = {
+							["skins"] = {
+								["thumb"] = {
+									["skinData"] = {
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "$nil$",
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 1,
+															["left"] = 2,
+															["right"] = 2,
+															["top"] = 1,
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 1,
+															["left"] = 2,
+															["right"] = 2,
+															["top"] = 1,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "CheckListBox",
+		},
+		["sHideUnits"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 23,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 556,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$HideUnits",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blur"] = 0,
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+								["fontSize"] = 13,
+								["horzAlign"] = {
+									["offset"] = 15,
+									["type"] = "min",
+								},
+								["lineHeight"] = 0,
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sShowUnits"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 23,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 460,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$ShowUnits",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blur"] = 0,
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+								["fontSize"] = 13,
+								["horzAlign"] = {
+									["offset"] = 15,
+									["type"] = "min",
+								},
+								["lineHeight"] = 0,
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["text"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 23,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$filter",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blur"] = 0,
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+								["fontSize"] = 12,
+								["horzAlign"] = {
+									["offset"] = 15,
+									["type"] = "min",
+								},
+								["lineHeight"] = 0,
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 724,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$title",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 36,
+			["name"] = "windowSkinME",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["insets"] = {
+										["right"] = 1,
+										["top"] = 1,
+									},
+									["left_bottom"] = "$nil$",
+									["right_bottom"] = "$nil$",
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["insets"] = {
+										["right"] = 1,
+										["top"] = 1,
+									},
+									["left_bottom"] = "$nil$",
+									["right_bottom"] = "$nil$",
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_bottom"] = "$nil$",
+						["left_bottom"] = "0x1a232dff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 375,
+	},
+}

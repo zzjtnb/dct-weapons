@@ -1,0 +1,13 @@
+GBU-10
+
+gbu-10
+
+
+Name: GBU-10
+Type: Laser-guided bomb
+Developed: USA
+Guidance: Laser-command
+Warhead weight, kg: 428
+Weight, kg: 900
+Length, m: 4.32
+Body diameter, m: 0.46

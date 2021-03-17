@@ -1,0 +1,23 @@
+R-3R
+
+r-3r
+
+
+Name: R-3R (AA-2 'Atoll C')
+Type: short-range, semi-active radar-guided, air-to-air 
+missile
+Developed: Russia
+Warhead weight, kg: 11.3
+Guidance: semi-active radar
+Weight, kg: 83.5
+Maximum Mach number: 2.5
+Length, m: 3.417
+Body diameter, m: 0.127
+Range, km: 8
+
+While the R-3S was being introduced in 1961, work started on a semi-active radar homing K-13R (R-3R or Object 320) with a semiactive radar head, which was entered service with combat aircraft in 1967.
+
+
+
+
+

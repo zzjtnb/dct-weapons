@@ -1,0 +1,12 @@
+Dry cargo ship Yakushev
+
+barge-2
+
+
+Type: dry-cargo ship
+Complement: 15
+Displacement, tons: 3650
+Dimensions, m: 85x15x2.4
+Speed, knots: 13
+Range, miles: 1500 at 12 kts
+Armament: None

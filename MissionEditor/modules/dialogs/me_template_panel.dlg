@@ -1,0 +1,963 @@
+dialog = {
+	["children"] = {
+		["Static2"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["text"] = "$panel_set_title",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticTitleSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_top"] = "0x223141ff",
+								["insets"] = {
+									["left"] = 15,
+									["right"] = 15,
+									["top"] = 0,
+								},
+							},
+							["text"] = {
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["offset"] = 15,
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static6"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 14,
+					["y"] = 127,
+				},
+				["enabled"] = true,
+				["text"] = "$heading",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static8"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 30,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 184,
+				},
+				["enabled"] = true,
+				["text"] = "$panel_create_title",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticTitleSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_top"] = "0x223141ff",
+								["insets"] = {
+									["left"] = 15,
+									["right"] = 15,
+									["top"] = 1,
+								},
+							},
+							["text"] = {
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["offset"] = 15,
+								},
+								["vertAlign"] = {
+									["type"] = "max",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["buttonDelete"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 20,
+					["x"] = 355,
+					["y"] = 68,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "-",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkin_ME",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcircle.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffcc",
+								["fontSize"] = 15,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcircle.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffff",
+								["fontSize"] = 15,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcircle.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffcc",
+								["fontSize"] = 15,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffcc",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\iconcircle.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["color"] = "0xd8d8d8ff",
+								["fontSize"] = 15,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["comboListCountries"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 361,
+					["x"] = 14,
+					["y"] = 43,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["comboListTemplates"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 330,
+					["x"] = 14,
+					["y"] = 68,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["dialHeading"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 55,
+					["w"] = 56,
+					["x"] = 265,
+					["y"] = 114,
+				},
+				["cyclic"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 359,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "dialSkin_ME",
+				},
+				["skins"] = {
+					["arrow"] = {
+						["skinData"] = {
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["picture"] = {
+											["color"] = "0xffffff80",
+											["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\dial_ME_arrow.png",
+											["horzAlign"] = {
+												["offset"] = 0,
+												["type"] = "stretch",
+											},
+											["resizeToFill"] = false,
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["tileHorizontally"] = false,
+											["tileVertically"] = false,
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["offset"] = 0,
+												["type"] = "stretch",
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\dial_me.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\dial_me.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Dial",
+		},
+		["editBoxInvalidSkin"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 361,
+					["x"] = 14,
+					["y"] = 559,
+				},
+				["enabled"] = true,
+				["multiline"] = false,
+				["numeric"] = false,
+				["password"] = false,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "output",
+				["textWrapping"] = true,
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0xff000064",
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_center"] = "0xff000064",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "EditBox",
+		},
+		["panelSave"] = {
+			["children"] = {
+				["Static11"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 288,
+							["x"] = 14,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["text"] = "$selected_group",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["Static12"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 288,
+							["x"] = 14,
+							["y"] = 65,
+						},
+						["enabled"] = true,
+						["text"] = "$template_name",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_ME",
+						},
+					},
+					["type"] = "Static",
+				},
+				["buttonSave"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 145,
+							["x"] = 123,
+							["y"] = 124,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$save",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin_ME",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnbig1.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffcc",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["lineThroughOffset"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnbig1.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["lineThroughOffset"] = 1,
+										["shadowColor"] = "0x00000000",
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnbig1.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffcc",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["lineThroughOffset"] = 1,
+										["shadowColor"] = "0x00000000",
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnbig1.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["color"] = "0xd8d8d8ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["editBoxGroupName"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 361,
+							["x"] = 14,
+							["y"] = 36,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = true,
+						["tabOrder"] = 20,
+						["text"] = "",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxSkin_ME",
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["editBoxName"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 361,
+							["x"] = 14,
+							["y"] = 89,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = false,
+						["tabOrder"] = 30,
+						["text"] = "",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxSkin_ME",
+						},
+					},
+					["type"] = "EditBox",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 289,
+					["w"] = 390,
+					["x"] = 0,
+					["y"] = 221,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["spinBoxHeading"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 118,
+					["y"] = 125,
+				},
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 359,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 10,
+				["text"] = "",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 724,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$title",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinME",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 375,
+		[3] = 195,
+	},
+}

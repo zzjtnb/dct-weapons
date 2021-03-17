@@ -1,0 +1,27 @@
+F-16C
+
+f-16
+f-16c bl.52d
+
+Name: F-16C
+Type: Tactical fighter
+Crew: 1
+Length: 15.067 m
+Height: 5.02 m
+Wing span: 9.45 m
+Wing area: 28 m²
+Weight empty: 8853 kg
+Maximum weight: 19187 kg
+Normal weight: 11000 kg
+Maximum Mach at height: 2
+G limit: 9
+Range with nominal load: 1500 km
+Maximum fuel: 3104 kg
+Service ceiling: 15240 m
+Take-off speed: 234 km/h
+Landing speed: 244.8 km/h
+Maximum range: 1500 km
+Maximum Mach at S/L: 1.1
+
+Armament:
+- M61A-1 cannon

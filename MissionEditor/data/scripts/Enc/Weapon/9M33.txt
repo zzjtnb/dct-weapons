@@ -1,0 +1,17 @@
+9M33
+
+9m33
+
+
+Name: 9M33
+Type: Short-ragne, radio command guidance, 
+surface-to-air-missile for OSA
+Developed: Russia
+Warhead weight, kg: 20
+Guidance: Semi-active radar
+Weight, kg: 126.3
+G limit: 18
+Length, m: 3.1
+Body diameter, m: 0.21
+Range, km: 7
+Maximum Mach number: 2.4

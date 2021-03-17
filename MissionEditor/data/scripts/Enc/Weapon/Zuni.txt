@@ -1,0 +1,14 @@
+Zuni
+
+zuni
+
+
+Name: Zuni
+Type: 127 mm unguided aircraft rockets
+Developed: USA
+Weight, kg: 56.3
+Speed, km/h: 2520
+Range, km: 4
+Length, m: 2.93
+Body diameter, m: 0.127
+Warhead weight, kg: 26

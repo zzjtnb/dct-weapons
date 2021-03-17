@@ -1,0 +1,28 @@
+Su-17M4
+
+su-17
+su-17m4
+
+Name: Su-17M4 "Fitter-D"
+Type: Close support aircraft
+Developed: Sukhoi OKB, Russia
+Crew: 1
+Length: 19.26 m
+Height: 5.129 m
+Wing span: 13.68 m
+Wing area: 38.5 m²
+Maximum Mach at S/L: 1.1
+Maximum Mach at height: 1.7
+Weight empty: 10670 kg
+Normal weight: 15230 kg
+Maximum weight: 19430 kg
+G limit: 5.9
+Maximum range: 2300 km
+Maximum fuel: 3770 kg
+Service ceiling: 15200 m
+Take-off speed: 360 km/h
+Range with nominal load: 1760 km
+Landing speed: 284.4 km/h
+
+Armament:
+- GSh-301 cannon

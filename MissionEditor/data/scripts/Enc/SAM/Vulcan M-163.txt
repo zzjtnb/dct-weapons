@@ -1,0 +1,32 @@
+M-163 Vulcan
+SAM/M163 Vulkan.png
+vulcan
+
+
+Name: M-163 Vulcan
+Type: Self-propelled Anti-aircraft Gun System
+Crew: 4
+Length: 4.86 m
+Width: 2.85 m
+Height: 2.736 m
+Ground clearance: 0.406 m
+Ground pressure: 0.61 kg/sq.cm
+Combat weight: 12310 kg
+Engine: 6V-53 V-6 diesel 215 hp
+Power-to-weight ratio: 17.46 hp/t
+Max road speed: 67.6 km/h
+Max water speed: 5.6 km/h
+Operational range: 483 km
+Armour: 12-38 mm
+
+Armament: 
+- 1x6 barrel 20 mm cannon
+
+Max rate of power traverse: 60°/s
+Max rate power elevation: 45°/s
+Gun elevation/depression: +80°/-5°
+Turret traverse: 360°
+Max effective range: 2600 m
+
+Ammunition: 
+- 2280 rounds

@@ -1,0 +1,17 @@
+R-27T
+
+r-27t
+
+
+Name: R-27T (AA-10 'Alamo')
+Type: Medium-range, infrared, air-to-air 
+missile
+Developed: Spetztekhnika Vympel NPO, Russia
+Warhead weight, kg: 39
+Guidance: inertial, command and infrared
+Weight, kg: 254
+G limit: 18
+Length, m: 3.70
+Body diameter, m: 0.23
+Range, km: 40
+Maximum Mach number: 3

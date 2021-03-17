@@ -1,0 +1,1439 @@
+dialog = {
+	["children"] = {
+		["pBox"] = {
+			["children"] = {
+				["bClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 13,
+							["w"] = 13,
+							["x"] = 573,
+							["y"] = 19,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnclosehover.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnclosepressed.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btncloserl.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["pCenter"] = {
+					["children"] = {
+						["sTitle"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 557,
+									["x"] = 0,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["text"] = "static0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["scrollPaneCredits"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 494,
+									["w"] = 596,
+									["x"] = 0,
+									["y"] = 40,
+								},
+								["enabled"] = true,
+								["horzMouseWheel"] = false,
+								["layout"] = {
+									["data"] = {
+										["gap"] = 0,
+										["horzAlign"] = {
+											["offset"] = 15,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+									},
+									["type"] = "vert",
+								},
+								["text"] = "scrollPane0",
+								["tooltip"] = "",
+								["vertMouseWheel"] = true,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "scrollPaneSkin",
+								},
+								["skins"] = {
+									["horzScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["decreaseButtonAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["increaseButtonAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["insets"] = {
+													["bottom"] = 0,
+													["left"] = 0,
+													["right"] = 0,
+													["top"] = 0,
+												},
+												["maxSize"] = {
+													["vert"] = 12,
+												},
+												["minSize"] = {
+													["vert"] = 12,
+												},
+												["textLineHeight"] = 0,
+												["textWrapping"] = false,
+												["thumbAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["skins"] = {
+												["decreaseButton"] = {
+													["disabled"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 73,
+																["y2"] = 89,
+															},
+														},
+													},
+													["hover"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 73,
+																["y2"] = 89,
+															},
+														},
+													},
+													["pressed"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 91,
+																["y2"] = 107,
+															},
+														},
+													},
+													["released"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 73,
+																["y2"] = 89,
+															},
+														},
+													},
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["maxSize"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["textLineHeight"] = 0,
+															["textWrapping"] = false,
+														},
+														["states"] = {
+															["hover"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffbf",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\leftarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["userTexSampler"] = 0,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffa6",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\leftarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffff80",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\leftarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["increaseButton"] = {
+													["disabled"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 37,
+																["y2"] = 53,
+															},
+														},
+													},
+													["hover"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 37,
+																["y2"] = 53,
+															},
+														},
+													},
+													["pressed"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 55,
+																["y2"] = 71,
+															},
+														},
+													},
+													["released"] = {
+														["picture"] = {
+															["rect"] = {
+																["y1"] = 37,
+																["y2"] = 53,
+															},
+														},
+													},
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["maxSize"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["textLineHeight"] = 0,
+															["textWrapping"] = false,
+														},
+														["states"] = {
+															["hover"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffbf",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\rightarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["userTexSampler"] = 0,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffa6",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\rightarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffff80",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\rightarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["thumb"] = {
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["maxSize"] = {
+																["horz"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["textLineHeight"] = 0,
+															["textWrapping"] = false,
+														},
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "0x00000000",
+																		["center_center"] = "0x00000000",
+																		["center_top"] = "0x00000000",
+																		["file"] = "",
+																		["insets"] = {
+																			["bottom"] = 0,
+																			["left"] = 0,
+																			["right"] = 0,
+																			["top"] = 0,
+																		},
+																		["left_bottom"] = "0x00000000",
+																		["left_center"] = "0x00000000",
+																		["left_top"] = "0x00000000",
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["right_bottom"] = "0x00000000",
+																		["right_center"] = "0x00000000",
+																		["right_top"] = "0x00000000",
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_center"] = "0x425161ff",
+																		["insets"] = {
+																			["bottom"] = 2,
+																			["top"] = 2,
+																		},
+																	},
+																	["picture"] = {
+																		["file"] = "",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["userTexSampler"] = 0,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_center"] = "0x425161ff",
+																		["insets"] = {
+																			["bottom"] = 2,
+																			["top"] = 2,
+																		},
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "$nil$",
+																		["center_center"] = "0x425161ff",
+																		["center_top"] = "$nil$",
+																		["file"] = "$nil$",
+																		["insets"] = {
+																			["bottom"] = 2,
+																			["left"] = "$nil$",
+																			["right"] = "$nil$",
+																			["top"] = 2,
+																		},
+																		["left_bottom"] = "$nil$",
+																		["left_center"] = "$nil$",
+																		["left_top"] = "$nil$",
+																		["right_bottom"] = "$nil$",
+																		["right_center"] = "$nil$",
+																		["right_top"] = "$nil$",
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["bkg"] = {
+															["file"] = "dxgui\\skins\\skinME\\images\\down.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["bkg"] = {
+															["center_bottom"] = "0x363636ff",
+															["center_center"] = "0x1f262dff",
+															["center_top"] = "0x363636ff",
+															["file"] = "",
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["left_bottom"] = "0x363636ff",
+															["left_center"] = "0x363636ff",
+															["left_top"] = "0x363636ff",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+															["right_bottom"] = "0x363636ff",
+															["right_center"] = "0x363636ff",
+															["right_top"] = "0x363636ff",
+														},
+													},
+												},
+											},
+										},
+									},
+									["vertScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["decreaseButtonAlign"] = {
+													["type"] = "middle",
+												},
+												["increaseButtonAlign"] = {
+													["type"] = "middle",
+												},
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 0,
+												},
+												["maxSize"] = {
+													["horz"] = 12,
+												},
+												["minSize"] = {
+													["horz"] = 12,
+												},
+												["textLineHeight"] = 0,
+												["textWrapping"] = false,
+												["thumbAlign"] = {
+													["offset"] = 0,
+												},
+											},
+											["skins"] = {
+												["decreaseButton"] = {
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["maxSize"] = {
+																["horz"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 0,
+															},
+															["textLineHeight"] = 0,
+															["textWrapping"] = false,
+														},
+														["states"] = {
+															["hover"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffbf",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["userTexSampler"] = 0,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffa6",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffff80",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["increaseButton"] = {
+													["skinData"] = {
+														["params"] = {
+															["insets"] = {
+																["bottom"] = 0,
+																["left"] = 0,
+																["right"] = 0,
+																["top"] = 0,
+															},
+															["maxSize"] = {
+																["horz"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 0,
+															},
+															["textLineHeight"] = 0,
+															["textWrapping"] = false,
+														},
+														["states"] = {
+															["hover"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffbf",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["userTexSampler"] = 0,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffffa6",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["picture"] = {
+																		["color"] = "0xffffff80",
+																		["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																		},
+																		["resizeToFill"] = false,
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["tileHorizontally"] = false,
+																		["tileVertically"] = false,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["thumb"] = {
+													["skinData"] = {
+														["params"] = {
+															["maxSize"] = {
+																["horz"] = 0,
+															},
+															["minSize"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["textLineHeight"] = 0,
+															["textWrapping"] = false,
+														},
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "0x00000000",
+																		["center_top"] = "0x00000000",
+																		["file"] = "",
+																		["insets"] = {
+																			["bottom"] = 0,
+																			["left"] = 0,
+																			["right"] = 0,
+																			["top"] = 0,
+																		},
+																		["left_bottom"] = "0x00000000",
+																		["left_center"] = "0x00000000",
+																		["left_top"] = "0x00000000",
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["right_bottom"] = "0x00000000",
+																		["right_center"] = "0x00000000",
+																		["right_top"] = "0x00000000",
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "$nil$",
+																		["center_center"] = "0x425161ff",
+																		["center_top"] = "$nil$",
+																		["file"] = "$nil$",
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 2,
+																			["right"] = 2,
+																			["top"] = 1,
+																		},
+																		["left_bottom"] = "$nil$",
+																		["left_center"] = "$nil$",
+																		["left_top"] = "$nil$",
+																		["right_bottom"] = "$nil$",
+																		["right_center"] = "$nil$",
+																		["right_top"] = "$nil$",
+																	},
+																	["picture"] = {
+																		["file"] = "",
+																		["horzAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																		["rect"] = {
+																			["x1"] = 0,
+																			["x2"] = 0,
+																			["y1"] = 0,
+																			["y2"] = 0,
+																		},
+																		["size"] = {
+																			["horz"] = 0,
+																			["vert"] = 0,
+																		},
+																		["userTexSampler"] = 0,
+																		["vertAlign"] = {
+																			["offset"] = 0,
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "$nil$",
+																		["center_center"] = "0x425161ff",
+																		["center_top"] = "$nil$",
+																		["file"] = "$nil$",
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 2,
+																			["right"] = 2,
+																			["top"] = 1,
+																		},
+																		["left_bottom"] = "$nil$",
+																		["left_center"] = "$nil$",
+																		["left_top"] = "$nil$",
+																		["right_bottom"] = "$nil$",
+																		["right_center"] = "$nil$",
+																		["right_top"] = "$nil$",
+																	},
+																	["picture"] = {
+																		["horzAlign"] = {
+																			["type"] = "middle",
+																		},
+																		["vertAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["center_bottom"] = "$nil$",
+																		["center_center"] = "0x425161ff",
+																		["center_top"] = "$nil$",
+																		["file"] = "$nil$",
+																		["insets"] = {
+																			["bottom"] = 1,
+																			["left"] = 2,
+																			["right"] = 2,
+																			["top"] = 1,
+																		},
+																		["left_bottom"] = "$nil$",
+																		["left_center"] = "$nil$",
+																		["left_top"] = "$nil$",
+																		["rect"] = {
+																			["x1"] = "$nil$",
+																			["x2"] = "$nil$",
+																			["y1"] = "$nil$",
+																			["y2"] = "$nil$",
+																		},
+																		["right_bottom"] = "$nil$",
+																		["right_center"] = "$nil$",
+																		["right_top"] = "$nil$",
+																	},
+																	["picture"] = {
+																		["vertAlign"] = {
+																			["type"] = "middle",
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["bkg"] = {
+															["center_bottom"] = "$nil$",
+															["center_center"] = "$nil$",
+															["center_top"] = "$nil$",
+															["file"] = "$nil$",
+															["insets"] = {
+																["bottom"] = "$nil$",
+																["left"] = "$nil$",
+																["right"] = "$nil$",
+																["top"] = "$nil$",
+															},
+															["left_bottom"] = "$nil$",
+															["left_center"] = "$nil$",
+															["left_top"] = "$nil$",
+															["right_bottom"] = "$nil$",
+															["right_center"] = "$nil$",
+															["right_top"] = "$nil$",
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["bkg"] = {
+															["center_bottom"] = "0x363636ff",
+															["center_center"] = "0x1f262dff",
+															["center_top"] = "0x363636ff",
+															["file"] = "",
+															["left_bottom"] = "0x363636ff",
+															["left_center"] = "0x363636ff",
+															["left_top"] = "0x363636ff",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+															["right_bottom"] = "0x363636ff",
+															["right_center"] = "0x363636ff",
+															["right_top"] = "0x363636ff",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000059",
+												["center_top"] = "0x00000059",
+												["file"] = "",
+												["insets"] = {
+													["bottom"] = 0,
+													["left"] = 0,
+													["right"] = 0,
+												},
+												["left_bottom"] = "0x00000059",
+												["left_center"] = "0x00000059",
+												["left_top"] = "0x00000059",
+												["right_bottom"] = "0x00000059",
+												["right_center"] = "0x00000059",
+												["right_top"] = "0x00000059",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ScrollPane",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 534,
+							["w"] = 596,
+							["x"] = 2,
+							["y"] = 50,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50e5",
+										["insets"] = {
+											["bottom"] = 0,
+											["left"] = 0,
+											["right"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["static0"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 596,
+							["x"] = 2,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["text"] = "$credits",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["right"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+									["text"] = {
+										["color"] = "0xbccecdff",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 586,
+					["w"] = 600,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["type"] = "stretch",
+								},
+								["vertAlign"] = {
+									["type"] = "stretch",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pNoVisible"] = {
+			["children"] = {
+				["staticMourningSkin"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 12,
+							["y"] = 15,
+						},
+						["enabled"] = true,
+						["text"] = "Static2",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["minSize"] = {
+								["vert"] = 20,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x000000ff",
+										["center_center"] = "0x00000000",
+										["center_top"] = "0x000000ff",
+										["file"] = "",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x000000ff",
+										["left_center"] = "0x000000ff",
+										["left_top"] = "0x000000ff",
+										["right_bottom"] = "0x000000ff",
+										["right_center"] = "0x000000ff",
+										["right_top"] = "0x000000ff",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xe0dedaff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 5,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticSkin"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 148,
+							["y"] = 16,
+						},
+						["enabled"] = true,
+						["text"] = "Static2",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["minSize"] = {
+								["vert"] = 22,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xe0dedaff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineHeight"] = 18,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 54,
+					["w"] = 279,
+					["x"] = 505,
+					["y"] = 610,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 686,
+			["w"] = 1153,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = true,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["insets"] = {
+							["bottom"] = "2",
+							["left"] = "8",
+							["right"] = "20",
+							["top"] = "8",
+						},
+					},
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 18,
+									["horzAlign"] = {
+										["offset"] = 15,
+									},
+									["lineHeight"] = 0,
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 18,
+									["horzAlign"] = {
+										["offset"] = 15,
+									},
+									["lineHeight"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

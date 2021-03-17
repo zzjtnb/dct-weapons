@@ -1,0 +1,13 @@
+RSP-7
+Radar/RSP-7.png
+
+
+
+Type: I/J-band (8 to 20 GHz) military PAR
+Chassis: URAL-375
+Frequency: I/J-band (8 to 20 GHz)
+Range: 35 km (15 km in rain)
+Coverage: 1-8° (elevation); 20° (azimuth)
+Accuracy: 0.35° (elevation); 0.5° (azimuth)
+Range accuracy: approx 60 m
+Resolution: 200 m (range); 1.2° (angular)

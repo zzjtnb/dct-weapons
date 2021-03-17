@@ -1,0 +1,18 @@
+LAZ-695
+
+laz-695
+
+
+Type: Bus
+Passenger capacity: 67
+Length: 9.19 m
+Height: 3.00 m
+Width: 2.00 m
+Combined Weight : 11,630 kg
+Engine: ZIL-508.10
+Chassis: ZIL-4331
+Max road speed: 80 km/h
+Operational range (road): 570 km
+
+
+

@@ -1,0 +1,36 @@
+E-2D
+
+e-2c
+
+
+Name: E-2D "Advanced Hawkeye"
+Type: AWACS
+Northrop Grumman (Prime), Westinghouse, USA
+
+Crew: 2+3
+Length: 17.54 m
+Height: 5.58 m
+Wing span: 24.56 m
+Wing area: 65.03 m²
+Weight empty: 17 850 kg
+Normal weight: 20 500 kg
+Maximum weight: 23 850 kg
+Maximum Speed: 300 knots (552 km/h)
+G limit: 2.5
+Range with nominal load: 2854 km
+Maximum fuel: 5624 kg
+Service ceiling: 11 275 m
+Take-off speed: 190.8 km/h
+Landing speed: 190.8 km/h
+Maximum range: 2854 km
+Time on station, 175 nautical miles from base: 4 hr. 24 min
+Engines: Two Allison T56-A-427 engines; each has approximately 5,100 horsepower
+Weapons: None
+
+Though once considered for replacement by the "Common Support Aircraft", this conception never went into production, and the Hawkeye will continue in its role as the Navy's primary AEW aircraft for years into the future in the E-2D version.
+
+The latest version of the E-2, the E-2D Advanced Hawkeye, is currently under testing. The E-2D features an entirely new avionics suite, including the new APY-9 radar, radio suite, mission computer, integrated satellite communications capability, flight management system, improved turboprop engines, a new "glass cockpit", and the added capability for air-to-air refueling. 
+
+The APY-9 radar features an Active Electronically Scanned Array, which adds electronic scanning to the mechanical rotation of the radar in its radome. The E-2D will include provisions for either one of the pilots to act as a Tactical 4th Operator, who will have access to the full range of the mission's acquired data. 
+
+The E-2D's first flight occurred on 3 August 2007. The E-2D undergo Initial Operational Test and Evaluation in 2011.

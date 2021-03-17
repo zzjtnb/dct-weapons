@@ -1,0 +1,27 @@
+Mi-24
+
+mi-24w
+
+
+Name: Mi-24 "Hind"
+Type: Gunship helicopter
+Developed: Mil OKB, Russia
+Crew: 2
+Main rotor diameter: 17.28 m
+Weight empty: 8200 kg                                
+Normal weight: 11200 kg
+Maximum weight: 11500 kg
+Maximum fuel: 1192 kg
+Service celling: 2500 m
+Maximum speed: 330 km/h
+Maximum range: 500 km
+
+Armament: 
+- Yak-B 12.7mm machine gun
+- 9K114 Shturm complex
+- Bombs within weight range (presumably ZAB, FAB, RBK, ODAB etc.), Up to 500 kg.
+- MBD multiple ejector racks (presumably MBD-4 with 4xFAB-100)
+- UB-32 S-5 rocket launchers
+- B-8V20 a lightweight long tubed helicopter version of the S-8 rocket launcher
+- S-24 240 mm rocket
+

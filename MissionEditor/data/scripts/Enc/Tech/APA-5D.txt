@@ -1,0 +1,31 @@
+APA-5D
+
+ural-apa
+
+
+Type: aerodrome electric generating set 
+Chassis: Ural-4320
+Seating Capacity (cab): 1 + 2
+The wheel formula: 6x6
+Empty weight, kg: 8050
+Overall dimensions, m:
+ length, m: 7,57
+ Width, m: 2,5
+ Cabin height, m: 2,8
+ Priming height, m: 2,4
+Clearance, m: 0,4
+Gross weight of the machine, kg, max: 11000
+Engine: YaMZ-236M2 - six-cylinder V-shaped turbocharged diesel engine 
+HP power: 180 (132 kW) at 2100 rpm
+Maximum speed on the highway, km/h: 85
+Power reserve, km (at 60 km/h): 750
+The total electricity output from the combined DC and AC power supply of consumers is not more than kW:
+ long: 60
+ in two minutes: 90.
+
+Aerodromic mobile electric unit APA-5D is an autonomous source of electrical energy and is designed for single and group start of aircraft engines, power supply of on-board electrical equipment of aircraft in ground conditions, as well as for towing of aircraft.
+
+APA-5D is designed for:
+ -Single or group electric starter start of aircraft engines in the modes "24V Startup", "24/48V Startup" with switching the power source from 24 to 48V both on the electric generating set and on the aircraft;
+ -Single electric starter start of aircraft engines in the "70 V startup" mode with a smooth increase in voltage from 0 to 70 V;
+ Single and group power supply of onboard electric equipment of aircraft with direct current voltage 28.5 V, alternating single-phase current 120 V with frequency 400 Hz, alternating three-phase current 208 V with deduced power neutral and voltage 37 V without power neutral with frequency 400 Hz.

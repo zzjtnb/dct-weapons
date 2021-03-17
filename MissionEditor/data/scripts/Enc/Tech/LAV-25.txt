@@ -1,0 +1,22 @@
+LAV-25
+
+lav-25
+
+
+Type: Light Armoured Vehicle
+Length: 6.393 m
+Height: 2.692 m
+Width: 2.499 m
+Crew: 3+6
+Combat weight: 12792 kg
+Engine: 6V-53T V-6 diesel 275 hp
+Power-to-weight ratio: 21.49 hp/t
+Wheel formula: 8x8
+Max road speed: 100 km/h
+Max water speed: 9.6 km/h
+Operational range: 668 km
+
+Armament:
+
+- 25 mm M242 cannon
+- 7.62 mm M240 machine gun

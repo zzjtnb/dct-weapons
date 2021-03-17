@@ -1,0 +1,14 @@
+Albatros (Grisha-5)
+
+albatros
+
+
+Type: Frigate
+Speed, knots: 32
+Dimensions, m: 71,2x10,15x3,72
+Complement: 79
+Displacement, tons: 954 standard 1070 full load
+Armament: 1x2 SAM Osa, 1x2 AK-176 gun, 1x6-30mm 
+AK-630 gun
+
+Range, miles: 950 at 27 kts, 2700 at 14  kts

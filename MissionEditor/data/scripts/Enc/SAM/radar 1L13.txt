@@ -1,0 +1,17 @@
+Radar 1L13 EWR station
+Radar/EWR 1L13.png
+1l13
+
+
+Type: Long-range mobile air surveillance radar
+Frequency range: VHF band (30 to 300 MHz)
+Antenna: Flat array 16x3.24 m
+Range: 500 km azimuth; 40 km altitude
+Detection range on a fighter: 230/300 km at 10/27 km altitude respectively
+Accuracy: 400 m range; 0.7° azimuth
+Antenna rotation speed: 10/20 rpm
+Switching on time: 3 min
+Setting up/closing down time: 45 min max
+Length: 18.86 m
+Width: 2.7 m
+Height: 7.8 m

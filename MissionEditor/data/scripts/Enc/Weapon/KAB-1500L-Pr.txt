@@ -1,0 +1,14 @@
+KAB-1500L-Pr
+
+kab-1500
+
+
+Name: KAB-1500L-Pr
+Type: Laser-guided bomb
+Developed: GNPP (State Research Production 
+Association), Russia
+Length, m: 4.6
+Body diameter, m: 0.58
+Warhead weight, kg: 1100
+Guidance: Laser-command
+Weight, kg: 1500

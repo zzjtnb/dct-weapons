@@ -1,0 +1,21 @@
+Marder 1A3
+
+marder
+
+
+Type: Infantry Fighting Vehicle
+Length: 6.79 m
+Height: 2.985 m
+Width: 3.24 m
+Ground clearance: 0.44 m
+Combat weight: 29,207 kg
+Crew: 9
+Ground pressure: 0.83 kg/sq.cm
+Engine: MTU MB 833 Ea-500 V-6 diesel 600 hp
+Power-to-weight ratio: 20.54 hp/t
+Max road speed: 75 km/h
+Operational range (road): 520 km
+
+Armament:
+- 20 mm MK 20 Rh 202 cannon
+- 7.62 mm MG3 coaxial machine gun

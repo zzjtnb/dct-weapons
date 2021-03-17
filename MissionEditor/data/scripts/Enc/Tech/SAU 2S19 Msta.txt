@@ -1,0 +1,23 @@
+SAU 2S19 "Msta"
+
+2-c19
+
+
+Type: Self-propelled Artillery System
+Length: 11.917 m
+Width: 3.584 m
+Height: 2.985 m
+Ground clearance: 0.435 m
+Crew: 5
+Engine: V-84A V-12 diesel 840 hp
+Power-to-weight ratio: 20.0 hp/t
+Max road speed: 60 km/h
+Operational ragne: 500 km
+
+Turret traverse: 360°
+Gun elevation/depression: +68°/-4°2
+
+Armament:
+- 152 mm 2A64 gun
+
+- 12.7 mm NSVT anti-aircraft machine gun

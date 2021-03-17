@@ -1,0 +1,16 @@
+Kub-M1 1S91 STR
+SAM/SA-6 Kub STR9S91.png
+1c91
+
+
+Name: 1S91 "Kub" (SA-6)
+Type: Low-to Medium-Altitude SAM System Search/Track Radar
+Length: 7.38 m
+Width: 3.73 m
+Height: 5.88 m
+Ground clearance: 0.4 m
+Engine: V-6R V-6 diesel 240 hp
+Operational range: 260 km
+Max road speed: 44 km/h
+Detection range: 75 km azimuth; 10 km altitude
+Tracking range: 28 km

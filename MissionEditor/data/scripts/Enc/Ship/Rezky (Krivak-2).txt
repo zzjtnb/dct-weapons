@@ -1,0 +1,15 @@
+Rezky (Krivak-2)
+
+rezky
+
+
+Type: Frigate
+Complement: 180
+Displacement, tons: 2735 standard 3190 full 
+Dimensions, m: 123,1x14,2x7,2
+Speed, knots: 32
+
+Range, miles: 1240 at 32 kts, 5125 at 14  kts
+
+Armament: 2x4 A/S Rastrub, 2x2 SAM Osa, 2x1 AK-
+100 gun

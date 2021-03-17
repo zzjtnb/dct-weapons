@@ -1,0 +1,18 @@
+PK-3
+
+pk-3
+
+
+Name: PK-3
+Type: Gun Pod
+Developed: Czech
+Weight, kg: 218
+Number of barrels: 3
+Caliber: 7.62 mm
+Firing rate, rounds/minute: 750
+Muzzle velocity, m/s:  
+Range, km: 1.5
+Ammunition storage, rounds: 1000
+
+The PK-3 gun pod designed to engage unarmoured vehicles and military personnel. The PK-3 includes three 7.62 machine guns with 750 rounds per gun.
+

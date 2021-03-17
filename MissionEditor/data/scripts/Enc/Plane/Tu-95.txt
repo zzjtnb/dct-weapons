@@ -1,0 +1,28 @@
+Tu-95
+
+tu-95ms
+
+
+Name: Tu-95 "Bear"
+Type: Long-range bomber
+Developed: Tupolev OKB, Russia
+Crew: 10
+Length: 49.13 m
+Height: 13.3 m
+Wing span: 50.04 m
+Wing area: 295 m²
+Maximum Mach at S/L: 0.53
+Maximum Mach at height: 0.83
+G limit: 2.5
+Weight empty: 96000 kg
+Normal weight: 150000 kg
+Maximum weight: 185000 kg
+Maximum range: 6400 km
+Maximum fuel: 87000 kg
+Service ceiling: 12000 m
+Take-off speed: 288 km/h
+Range with nominal load: 6400 km
+Landing speed: 270 km/h
+
+Armament:
+- GSh-23L cannon

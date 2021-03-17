@@ -1,0 +1,17 @@
+Kh-41
+
+x-41
+
+
+Name: Kh-41 (3M80 "Sunburn")
+Type: Long-range, inertial- and radar-guided, 
+air-to-surface missile
+Developed: Raduga NPO, Russia
+Warhead weight, kg: 320
+Guidance: inertial with active/passive radar
+Weight, kg: 4.500
+G limit: 17
+Length, m: 9.74
+Body diameter, m: 0.760
+Range, km: 250
+Maximum Mach number: 2.5

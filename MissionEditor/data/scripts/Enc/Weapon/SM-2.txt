@@ -1,0 +1,17 @@
+SM-2
+
+rim-66
+
+
+Name: SM-2 (RIM-66)
+Type: Long-range, radio command guidance + 
+SARH, naval surface-to-air-missile
+Developed: USA
+Warhead weight, kg: 98
+Guidance: Semi-active radar
+Weight, kg: 615
+G limit: 16
+Length, m: 4.4
+Body diameter, m: 0.34
+Range, km: 35
+Maximum Mach number: 2.7

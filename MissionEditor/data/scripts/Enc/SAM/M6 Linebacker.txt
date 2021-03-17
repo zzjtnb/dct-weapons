@@ -1,0 +1,23 @@
+M6 Linebacker
+SAM/M6 Linebacker.png
+M6
+
+
+Type: Bradley Stinger Fighting Vehicle
+Chassis: M2A2
+Length: 6.5 m
+Width: 3.6 m
+Height: 2.6 m
+Crew: 3+6
+Combat weight: 29 900 kg
+Engine: VTA-903T diesel V-8 600 hp
+Operational range: 550 km
+Turret traverse: 360°
+Gun elevation/depression: +70°/-10°
+Launch max speed: Mach 2.2
+Max road speed: 66 km/h
+
+Armament:
+- M242 Bushmaster 25mm cannon
+- 4-tube Stinger launcher
+- Coaxial M240C MG

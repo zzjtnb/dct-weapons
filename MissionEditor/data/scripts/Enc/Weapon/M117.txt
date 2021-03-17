@@ -1,0 +1,14 @@
+M117
+
+m117
+
+
+Name: M117
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 374
+Length, m: 2.29
+Body diameter, m: 0.406
+Warhead weight, kg: 280
+
+The M117 is a free-fall, unguided, general purpose 750-pound bomb. The M117 is employed in several configurations. The basic M117 dates from the Korean War and uses a low-drag tail fin for medium and high-altitude deliveries. The M117 series was used extensively during the Vietnam War, and B-52G aircraft dropped thousands of tons of M117 and M117R bombs during Operation Desert Storm. The B-52s dropped virtually all of the M117 bombs during Desert Storm.

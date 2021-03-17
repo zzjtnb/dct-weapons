@@ -1,0 +1,9 @@
+Roland Radar
+Radar\Roland rdr.png
+roland-rls
+
+
+Type: Low Altitude SAM System
+Chassis: Marder-1
+Frequency: E-band (2 to 3 GHz)
+Range: 30 km

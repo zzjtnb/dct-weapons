@@ -1,0 +1,12 @@
+BL755
+
+t-bl-755
+
+
+Name: BL755
+Type: Cluster Bomb
+Developed: UK
+Weight, kg: 500
+Length, m: 2.5
+Body diameter, m: 0.4
+Warhead weight, kg: 240

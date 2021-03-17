@@ -1,0 +1,8 @@
+Electric locomotive VL80
+
+elektrowoz
+
+
+Type: electric locomotive.
+
+Designed for transportation of railway trains by electrified railways.

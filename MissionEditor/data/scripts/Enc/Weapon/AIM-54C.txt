@@ -1,0 +1,18 @@
+AIM-54C
+
+aim-54
+
+
+Name: AIM-54C
+Type: Long-range, radar-guided, air-to-air 
+active radar
+missile
+Developed: USA
+Warhead weight, kg: 60.0
+Guidance: semi-active, update, inertial and 
+Weight, kg: 463
+Range, km: 150
+Body diameter, m: 0.380
+Length, m: 3.96
+Maximum Mach number: 3
+G limit: 16

@@ -1,0 +1,30 @@
+S-3B
+
+s-3a
+
+
+Name: S-3B "Viking"
+Type: Carrier based patrol/attack aircaft
+Length: 16.26 m
+Height: 6.93 m
+Wing span: 20.93 m
+Wing area: 55.55 m²
+Normal weight: 19278 kg
+Maximum weight: 23831 kg
+Weight empty: 12088 kg
+Maximum Mach at height: 0.682
+G limit: 2.5
+Range with nominal load: 3701 km
+Maximum fuel: 5500 kg
+missiles, torpedoes, rockets and bombs.
+Crew: 4
+Service ceiling: 7500 m
+Take-off speed: 216 km/h
+Landing speed: 190.08 km/h
+Maximum range: 3701 km
+Maximum Mach at S/L: 0.682
+
+Armament:
+- AGM-84 Harpoon
+- AGM-65 Maverick
+- AGM-84 SLAM

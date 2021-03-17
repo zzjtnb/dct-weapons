@@ -1,0 +1,279 @@
+dialog = {
+	["children"] = {
+		["pBox"] = {
+			["children"] = {
+				["bCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 13,
+							["x"] = 278,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_closeNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["bOk"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 55,
+							["x"] = 256,
+							["y"] = 69,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\chat\\go_hover.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\chat\\go_pressed.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\chat\\go_normal.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["eMsg"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 225,
+							["x"] = 16,
+							["y"] = 75,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = false,
+						["tabOrder"] = 0,
+						["text"] = "editBox0",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffff40",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["title"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 304,
+							["x"] = 2,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["text"] = "$Kickreason",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+									["text"] = {
+										["color"] = "0xbccecdff",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 126,
+					["w"] = 308,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 127,
+			["w"] = 309,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 200,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000000",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,1383 @@
+dialog = {
+	["children"] = {
+		["main_panel"] = {
+			["children"] = {
+				["btnBan"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 130,
+							["x"] = 433,
+							["y"] = 537,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$Ban",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 130,
+							["x"] = 220,
+							["y"] = 537,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$Cancel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["pBox"] = {
+					["children"] = {
+						["cbBanForever"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 298,
+									["x"] = 25,
+									["y"] = 472,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 10,
+								["text"] = "$BanForever",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["eBanReason"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 214,
+									["w"] = 750,
+									["x"] = 25,
+									["y"] = 127,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxNew",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["sCaption"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 798,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "Banned user - xxxxx",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x2d3e50ff",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 18,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["spDay"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 49,
+									["x"] = 514,
+									["y"] = 415,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 31,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 40,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin",
+									["placement"] = 0,
+								},
+								["skins"] = {
+									["decreaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 5,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "middle",
+															},
+															["size"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downrl.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = "$nil$",
+																["x2"] = "$nil$",
+																["y1"] = "$nil$",
+																["y2"] = "$nil$",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["editBox"] = {
+										["skinData"] = {
+											["params"] = {
+												["maxSize"] = {
+													["horz"] = 30,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+												["textOffset"] = {
+													["left"] = 0,
+												},
+											},
+											["states"] = {
+												["released"] = {
+													[1] = {
+														["text"] = {
+															["color"] = "0xffffffff",
+															["font"] = "DejaVuLGCSansCondensed.ttf",
+															["fontSize"] = 13,
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "min",
+															},
+															["lineHeight"] = 0,
+															["vertAlign"] = {
+																["type"] = "min",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["increaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 2,
+												},
+												["maxSize"] = {
+													["vert"] = 5,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["horzAlign"] = {
+																["type"] = "middle",
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uprl.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xf7b940ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["spHour"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 49,
+									["x"] = 715,
+									["y"] = 415,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 24,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 40,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin",
+									["placement"] = 0,
+								},
+								["skins"] = {
+									["decreaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 5,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "middle",
+															},
+															["size"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downrl.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = "$nil$",
+																["x2"] = "$nil$",
+																["y1"] = "$nil$",
+																["y2"] = "$nil$",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["editBox"] = {
+										["skinData"] = {
+											["params"] = {
+												["maxSize"] = {
+													["horz"] = 30,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+												["textOffset"] = {
+													["left"] = 0,
+												},
+											},
+											["states"] = {
+												["released"] = {
+													[1] = {
+														["text"] = {
+															["color"] = "0xffffffff",
+															["font"] = "DejaVuLGCSansCondensed.ttf",
+															["fontSize"] = 13,
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "min",
+															},
+															["lineHeight"] = 0,
+															["vertAlign"] = {
+																["type"] = "min",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["increaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 2,
+												},
+												["maxSize"] = {
+													["vert"] = 5,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["horzAlign"] = {
+																["type"] = "middle",
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uprl.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xf7b940ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["spMonth"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 59,
+									["x"] = 110,
+									["y"] = 415,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 12,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 40,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin",
+									["placement"] = 0,
+								},
+								["skins"] = {
+									["decreaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 5,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "middle",
+															},
+															["size"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downrl.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = "$nil$",
+																["x2"] = "$nil$",
+																["y1"] = "$nil$",
+																["y2"] = "$nil$",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["editBox"] = {
+										["skinData"] = {
+											["params"] = {
+												["maxSize"] = {
+													["horz"] = 30,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+												["textOffset"] = {
+													["left"] = 0,
+												},
+											},
+											["states"] = {
+												["released"] = {
+													[1] = {
+														["text"] = {
+															["color"] = "0xffffffff",
+															["font"] = "DejaVuLGCSansCondensed.ttf",
+															["fontSize"] = 13,
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "min",
+															},
+															["lineHeight"] = 0,
+															["vertAlign"] = {
+																["type"] = "min",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["increaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 2,
+												},
+												["maxSize"] = {
+													["vert"] = 5,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["horzAlign"] = {
+																["type"] = "middle",
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uprl.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xf7b940ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["spWeek"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 49,
+									["x"] = 306,
+									["y"] = 415,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 255,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 40,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin",
+									["placement"] = 0,
+								},
+								["skins"] = {
+									["decreaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 5,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "middle",
+															},
+															["size"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downhover.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\downrl.png",
+															["horzAlign"] = {
+																["offset"] = 0,
+															},
+															["rect"] = {
+																["x1"] = "$nil$",
+																["x2"] = "$nil$",
+																["y1"] = "$nil$",
+																["y2"] = "$nil$",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["editBox"] = {
+										["skinData"] = {
+											["params"] = {
+												["maxSize"] = {
+													["horz"] = 30,
+												},
+												["minSize"] = {
+													["vert"] = 0,
+												},
+												["textOffset"] = {
+													["left"] = 0,
+												},
+											},
+											["states"] = {
+												["released"] = {
+													[1] = {
+														["text"] = {
+															["color"] = "0xffffffff",
+															["font"] = "DejaVuLGCSansCondensed.ttf",
+															["fontSize"] = 13,
+															["horzAlign"] = {
+																["offset"] = 0,
+																["type"] = "min",
+															},
+															["lineHeight"] = 0,
+															["vertAlign"] = {
+																["type"] = "min",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["increaseButton"] = {
+										["skinData"] = {
+											["params"] = {
+												["insets"] = {
+													["bottom"] = 0,
+													["top"] = 2,
+												},
+												["maxSize"] = {
+													["vert"] = 5,
+												},
+											},
+											["states"] = {
+												["hover"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffff",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["horzAlign"] = {
+																["type"] = "middle",
+															},
+															["vertAlign"] = {
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["pressed"] = {
+													[1] = {
+														["picture"] = {
+															["color"] = "0xffffffcc",
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uphover.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["file"] = "dxgui\\skins\\skinme\\images\\window\\elements\\yellow triangles\\uprl.png",
+															["rect"] = {
+																["x1"] = 0,
+																["x2"] = 0,
+																["y1"] = 0,
+																["y2"] = 0,
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xf7b940ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["static03"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 14,
+									["w"] = 314,
+									["x"] = 25,
+									["y"] = 85,
+								},
+								["enabled"] = true,
+								["text"] = "$BanReason",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 55,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static032"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 70,
+									["x"] = 25,
+									["y"] = 415,
+								},
+								["enabled"] = true,
+								["text"] = "$Month",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 55,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "max",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static033"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 70,
+									["x"] = 221,
+									["y"] = 415,
+								},
+								["enabled"] = true,
+								["text"] = "$Week",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 55,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "max",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static0332"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 70,
+									["x"] = 429,
+									["y"] = 415,
+								},
+								["enabled"] = true,
+								["text"] = "$Day",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 55,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "max",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static0333"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 17,
+									["w"] = 70,
+									["x"] = 630,
+									["y"] = 415,
+								},
+								["enabled"] = true,
+								["text"] = "$Hour",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 55,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "max",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static034"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 14,
+									["w"] = 296,
+									["x"] = 25,
+									["y"] = 370,
+								},
+								["enabled"] = true,
+								["text"] = "$BanDuration",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 55,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 514,
+							["w"] = 800,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["horzMouseWheel"] = false,
+						["layout"] = {
+						},
+						["text"] = "scrollPane0",
+						["tooltip"] = "",
+						["vertMouseWheel"] = true,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "scrollPaneSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["insets"] = "$nil$",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ScrollPane",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 586,
+					["w"] = 800,
+					["x"] = 5,
+					["y"] = 5,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 0,
+						["top"] = 0,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["type"] = "min",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 604,
+			["w"] = 813,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 200,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x78899000",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

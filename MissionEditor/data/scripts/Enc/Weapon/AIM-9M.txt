@@ -1,0 +1,16 @@
+AIM-9M
+
+aim-9
+
+
+Name: AIM-9M
+Type: Short-range, infrared, air-to-air missile
+Weight, kg: 85.5
+Guidance: infrared
+G limit: 22
+Maximum Mach number: 2.5
+Developed: USA
+Length, m: 2.83
+Body diameter, m: 0.127
+Warhead weight, kg: 11
+Range Max, km: 18

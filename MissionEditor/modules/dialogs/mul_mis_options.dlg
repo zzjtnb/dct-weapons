@@ -1,0 +1,141 @@
+dialog = {
+	["children"] = {
+		["containerMis"] = {
+			["children"] = {
+				["Drive"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 135,
+							["x"] = 22,
+							["y"] = 107,
+						},
+						["enabled"] = true,
+						["text"] = "$SelectedMission",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["editBox0"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 332,
+							["w"] = 361,
+							["x"] = 7,
+							["y"] = 216,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = false,
+						["tabOrder"] = 0,
+						["text"] = "editBox0",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxSkin",
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["sSelectedMission"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 413,
+							["x"] = 194,
+							["y"] = 105,
+						},
+						["enabled"] = true,
+						["text"] = "sSelectedMission",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["static0"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 133,
+							["x"] = 15,
+							["y"] = 166,
+						},
+						["enabled"] = true,
+						["text"] = "$MissionDescription",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 567,
+					["w"] = 650,
+					["x"] = 30,
+					["y"] = 57,
+				},
+				["enabled"] = true,
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 683,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+}

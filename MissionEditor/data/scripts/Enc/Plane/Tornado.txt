@@ -1,0 +1,27 @@
+Tornado
+
+tornado_ids
+tornado ids
+
+Name: Tornado F.2 IDS GR.1A
+Type: Multi-role combat aircraft
+Crew: 2
+Length: 16.7 m
+Height: 5.7 m
+Wing span: 13.91 m
+Wing area: 26.6 m²
+Maximum Mach at S/L: 1.2
+Maximum Mach at height: 2.2
+G limit: 7.5
+Weight empty: 14090 kg
+Normal weight: 20000 kg
+Maximum weight: 26490 kg
+Maximum range: 2780 km
+Maximum fuel: 4663 kg
+Service ceiling: 15200 m
+Take-off speed: 212.4 km/h
+Range with nominal load: 2780 km
+Landing speed: 212.4 km/h
+
+Armament:
+- IWKA-Mauser

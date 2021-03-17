@@ -1,0 +1,170 @@
+dialog = {
+	["children"] = {
+		["btnOk"] = {
+			["children"] = {
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 380,
+					["y"] = 15,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "$ok",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkin_ME",
+				},
+			},
+			["type"] = "Button",
+		},
+		["eEdit"] = {
+			["children"] = {
+			},
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 330,
+					["x"] = 18,
+					["y"] = 15,
+				},
+				["enabled"] = true,
+				["multiline"] = false,
+				["numeric"] = false,
+				["password"] = false,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "editBox0",
+				["textWrapping"] = true,
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x212d3a00",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "EditBox",
+		},
+		["sError"] = {
+			["children"] = {
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 24,
+					["w"] = 321,
+					["x"] = 24,
+					["y"] = 47,
+				},
+				["enabled"] = true,
+				["text"] = "Static1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin2",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xf21613ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sHint"] = {
+			["children"] = {
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 330,
+					["x"] = 18,
+					["y"] = 15,
+				},
+				["enabled"] = true,
+				["text"] = "$info",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x212d3aff",
+							},
+							["text"] = {
+								["color"] = "0x636363ff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["offset"] = 15,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 100,
+			["w"] = 450,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$setCoord",
+		["zOrder"] = 10,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 20,
+			["name"] = "windowSkinME",
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,15 @@
+2B11
+
+2b11
+
+
+Designation: 2B11
+Type: Carrier mortar
+Crew: 5
+Weight: 210 kg
+Elevation: 45–80°
+Traverse: 5°
+Rate of fire: 12–15 rpm
+Range: 460–7,180 m
+
+The 2B11 is a 120 mm mortar developed by the Soviet Union in 1979. The mortar is a part of the 2S12 "Sani" heavy mortar system that includes a 2B11 mortar itself, the 2F510 or the 2F510A transport vehicle, the 2L81 2x1 wheeled chassis and the spares and tool kit.

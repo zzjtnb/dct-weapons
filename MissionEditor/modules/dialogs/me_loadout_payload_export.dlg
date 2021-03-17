@@ -1,0 +1,533 @@
+dialog = {
+	["children"] = {
+		["buttonCancel"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 90,
+					["x"] = 284,
+					["y"] = 327,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "$cancel",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkin_ME",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffcc",
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffcc",
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffcc",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["color"] = "0xd8d8d8ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["buttonOk"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 90,
+					["x"] = 186,
+					["y"] = 327,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "$ok",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkin_ME",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffcc",
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffff80",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["resizeToFill"] = false,
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["tileHorizontally"] = false,
+								["tileVertically"] = false,
+								["userTexSampler"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["bkgColor"] = "0x00000000",
+								["blurColor"] = "0x00000000",
+								["color"] = "0xffffffcc",
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughColor"] = "0x00000000",
+								["lineThroughHeight"] = 1,
+								["lineThroughOffset"] = 1,
+								["shadowColor"] = "0x00000000",
+								["shadowOffset"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffcc",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["color"] = "0xd8d8d8ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["listBoxTasks"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 305,
+					["w"] = 359,
+					["x"] = 15,
+					["y"] = 18,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "listBox0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "listBoxSkinMENew",
+				},
+			},
+			["type"] = "ListBox",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 400,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = true,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$export_payload_to_task",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinOpenD",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 375,
+	},
+}

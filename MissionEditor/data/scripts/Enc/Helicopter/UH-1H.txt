@@ -1,0 +1,15 @@
+UH-1H
+
+ab-212
+uh-1h
+
+Name: UH-1H
+Type: Multipurpose utility helicopter
+Crew: 2
+Passengers: 12-14
+Main rotor diameter: 14,63 m
+Equipped weight: 2520 kg
+Maximum weight: 4310 kg
+Service celling: 6250 m
+Maximum speed: 204 km/h
+

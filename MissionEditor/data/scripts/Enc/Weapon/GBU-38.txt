@@ -1,0 +1,18 @@
+GBU-38
+
+gbu-38
+
+
+Name: GBU-38
+Type: Inertially Aided Munitions
+Developed: USA
+Guidance: Global Positioning System (GPS) guided and Inertial-guided system (INS) guided
+Explosive Weight, kg: 87
+Weight, kg: 252
+Length, m: 2.35
+Glide Range, km: 15
+Impact Accuracy: Within 33 feet
+
+The Joint Direct Attack Munition (JDAM) is a guidance kit that converts unguided bombs, or "dumb bombs" into all-weather "smart" munitions. JDAM-equipped bombs are guided by an integrated inertial guidance system coupled to a Global Positioning System (GPS) receiver, giving them a published range of up to 15 nautical miles (28 km). The guidance system was developed by the United States Air Force and United States Navy, hence the "joint" in JDAM. The JDAM was meant to improve upon laser-guided bomb and imaging infrared technology, which can be hindered by bad ground and weather conditions.
+
+The GBU-38 is a standard Mk-82 general purpose bomb fitted with a GPS guidance kit. This kit, referred to as the Joint Directed Attack Munition (JDAM) kit, turns an ordinary Mk-82 into a precision guided munition with a significant stand-off glide range. The kit consists of the GPS antenna on the rear of the bomb, actuated tail surfaces to steer it, and strakes along the body of some JDAM versions (not so with the GBU-38). As long as the bomb can be provided adequate GPS signal, it can strike within 33 feet of inputted target coordinates day or night and in most any weather. This ability to strike targets through clouds and weather gives it a significant advantage of laser-guided bombs.

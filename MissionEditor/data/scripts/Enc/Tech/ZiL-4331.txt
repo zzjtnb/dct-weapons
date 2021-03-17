@@ -1,0 +1,23 @@
+ZiL-4331
+
+zil-4334
+
+
+Type: Truck
+Chassis: ZiL-4331
+Seating Capacity (cab): 1 + 2
+The wheel formula: 4x2
+Mass:
+ shellged, kg: 5500
+ full, kg: 11700
+Load capacity, kg: 6000
+Length, m: 6,37
+Width, m: 2,422
+Height, m: 2,81
+Clearance, m: 0,33
+Engine: ZiL-645; V8, 185 hp
+Max. speed, km/h: 95
+Power reserve, km: n/a
+
+A basic on-board vehicle. The ZiL-4331 was designed to take the best from the ZiL-130 and become a much more powerful and economical vehicle. In its field of application, the ZiL-4331, like its predecessor, is a "super-universal". Short and long wheelbase chassis of these vehicles were used for production of flatbed and awning trucks, industrial and agricultural dump trucks, conventional, isothermal and refrigerated vans, tanks and fuel tankers, firefighters and utility trucks, tractor units, loaders and cranes, off-road vehicles.
+

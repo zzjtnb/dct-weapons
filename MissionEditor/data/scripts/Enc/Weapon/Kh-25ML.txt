@@ -1,0 +1,17 @@
+Kh-25ML
+
+x-25ml
+
+
+Name: Kh-25ML (AS-10 'Karen')
+Type: Short-range, laser-guided, air-to-surface 
+missile
+Developed: Zvezda-Strela, Russia
+Warhead weight, kg: 90
+Guidance: semi-active laser
+Weight, kg: 300
+G limit: 20
+Length, m: 3.71
+Body diameter, m: 0.275
+Range, km: 20
+Maximum Mach number: 0.72

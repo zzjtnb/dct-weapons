@@ -1,0 +1,29 @@
+MiG-23MLD
+
+mig-23
+mig-23mld
+
+Name: MiG-23MLD "Flogger-K"
+Type: Fighter
+Developed: Mikoyan-Gurevich OKB, Russia
+Crew: 1
+Length: 15.7 m
+Height: 5.772 m
+Wing span: 14 m
+Wing area: 37 m²
+Weight empty: 10550 kg
+Maximum range: 1950 km
+Normal weight: 14700 kg
+Maximum Mach at S/L: 1.1
+Maximum Mach at height: 2.35
+G limit: 6.5
+Maximum weight: 17800 kg
+Maximum fuel: 3800 kg
+Service ceiling: 18500 m
+Take-off speed: 252 km/h
+Range with nominal load: 1950 km
+Landing speed: 252 km/h
+
+Armament:
+- GSh-23L cannon
+

@@ -1,0 +1,16 @@
+Improved Kilo
+
+kilo_636
+
+
+Type: Patrol submarine
+Displacement, tons: 2,350 standard, 3,950 full 
+Dimensions, m: 73.8 x 9.9 x 6.2
+Complement: 52
+Endurance, days: 45 
+Speed, knots: 17/20
+Range, miles: 400 at 3 kts submerged, 7,500 at 7 kts with snorkel
+
+Armament: 8 SAM Igla-1, 6 -21in tubes
+
+Improved Kilo is the advanced version of the Kilo-class submarine. The submarine designated as Project 636 Varshavyanka in Russia.

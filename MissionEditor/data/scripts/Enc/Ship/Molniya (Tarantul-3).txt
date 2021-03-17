@@ -1,0 +1,13 @@
+Molniya (Tarantul-3)
+
+molniya
+
+
+Type: Corvette
+Displacement, tons: 398 standard 469 full load
+Speed, knots: 42
+Range, miles: 450 at 36 kts, 2400 at 13  kts
+Dimensions, m: 56,1x10,2x2,65
+Complement: 44
+Armament: 2x2 SSM Mosquit, 1x2 SAM Strela-3, 
+1x2 AK-176 gun, 2x6-30mm AK-630 gun

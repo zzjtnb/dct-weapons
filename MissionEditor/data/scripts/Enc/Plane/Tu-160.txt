@@ -1,0 +1,28 @@
+Tu-160
+
+tu-160
+
+
+Name: Tu-160 "Blackjack"
+Type: Long-range strategic bomber
+Developed: Tupolev OKB, Russia
+Crew: 4
+Length: 54.1 m
+Height: 13.25 m
+Wing span: 55.7 m
+Wing area: 360 m²
+Maximum Mach at S/L: 1.06
+Maximum Mach at height: 2.05
+Weight empty: 117000 kg
+Normal weight: 200000 kg
+Maximum weight: 275000 kg
+G limit: 3.5
+Maximum range: 12300 km
+Maximum fuel: 157000 kg
+Service ceiling: 15000 m
+Take-off speed: 284.4 km/h
+Range with nominal load: 12300 km
+Landing speed: 280.8 km/h
+
+Armament: Kh-15 missiles, Kh-55,
+Kh-65 cruise missiles, bombs

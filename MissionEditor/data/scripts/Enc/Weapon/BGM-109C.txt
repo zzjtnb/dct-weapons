@@ -1,0 +1,19 @@
+BGM-109C
+
+tomahawk
+
+
+Name: BGM-109C TLAM-C
+Type: Long-range land attack cruise missile
+Developed: USA
+Weight, kg: 1,225
+Warhead weight, kg: 340
+Warhead type: High-explosive
+Guidance: INS/NAVSTAR/TERCOM and DSMAC at the terminal phase
+G limit: 17
+Length, m: 6.2
+Maximum Mach number: 0.7
+Range, km: 1,250
+Body diameter, m: 0.531
+
+The BGM-109C TLAM-C (Tomahawk Land-Attack Missile - Conventional) is a conventionally-armed missile for long-range strikes against high-value targets. The missile entered U.S. Navy operational service in 1986. It uses the INS/TERCOM suite for mid-course guidance and the AN/DXQ-1 DSMAC (Digital Scene Matching Area Correlation) system for higher accuracy in the terminal phase of the flight. The AN/DXQ-1 DSMAC's accuracy is about 10 m (30 ft) CEP.

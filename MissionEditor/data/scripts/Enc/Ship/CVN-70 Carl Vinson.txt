@@ -1,0 +1,17 @@
+CVN-70 Carl Vinson
+
+vinson
+
+
+Type: Aircraft carrier
+Complement: 3184
+Displacement, tons: 72916 full load
+Dimensions, m: 332,9x76,8x11,5
+Speed, knots: 30
+
+Armament: 3 SAM Mk 29 Sea Sparrow, 4x6-20mm 
+Vulcan Phalanx gun, 20 F-14, 36 F/A-18, 4 EA-
+6B, 4 E-2C, 8 S-3A/B
+
+Range, miles: 3850 at 29 kts, 8500 at 18 kts
+

@@ -1,0 +1,14 @@
+GAZ-3307
+
+gaz-3307
+
+
+Type: Truck
+Combined weight: 17,306 lbs. 
+Payload: 8,820 lbs.
+Engine: ZMZ-5311 type, V8 gasoline (carburetor)
+Output: 125 hp @ 3,200 rpm. Torque 217 ft.-lb, 
+Suspension: dependent, with leaf springs, 
+Brakes: drum type, with hydraulic control. 
+Axels: front beam axle, rear solid axle. 
+Fuel tank capacity: 27.7 gal

@@ -1,0 +1,31 @@
+MiG-31
+
+mig-31
+
+
+Name: MiG-31 "Foxhound"
+Type: Strategic interceptor
+Developed: Mikoyan-Gurevich OKB, Russia
+Crew: 2
+Length: 22.7 m
+Height: 6.15 m
+Wing span: 13.46 m
+Wing area: 61.6 m²
+Maximum Mach at S/L: 1.225
+Maximum Mach at height: 2.83
+Weight empty: 21820 kg
+Normal weight: 35000 kg
+Maximum weight: 46200 kg
+G limit: 5
+Maximum range: 2400 km
+Maximum fuel: 15500 kg
+Service ceiling: 21000 m
+Take-off speed: 259.2 km/h
+Range with nominal load: 2400 km
+Landing speed: 259.2 km/h
+
+Armament:
+- GSh-6-23 cannon
+- 4xR-33
+- 2xR-40
+- 4xR-60

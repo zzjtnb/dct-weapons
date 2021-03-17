@@ -1,0 +1,13 @@
+Zwezdny
+
+zwezdny
+
+
+Type: Civilian boat
+Complement: 14+200
+Displacement, tons: 75 standard 95 full load
+Dimensions, m: 33,5x5,3x1,6
+Speed, knots: 14.2
+Range, miles: 120 at 12 kts, 350 at 8  kts
+
+Armament: None

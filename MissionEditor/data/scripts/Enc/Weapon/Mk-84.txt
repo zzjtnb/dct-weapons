@@ -1,0 +1,14 @@
+Mk 84
+
+mk-84
+
+
+Name: Mk 84
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 925
+Length, m: 3.28
+Body diameter, m: 0.46
+Warhead weight, kg: 429
+
+It is the largest of the Mark 80 series of weapons.

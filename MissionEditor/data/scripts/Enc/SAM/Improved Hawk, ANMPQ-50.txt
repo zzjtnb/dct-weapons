@@ -1,0 +1,8 @@
+Hawk AN/MPQ-50 SR
+
+hawk-rls
+
+
+Type: Low-to-Medium Altitude Air Defense System
+AN/MPQ-50 Improved Pulse Acquisition radar
+Frequency: C-band

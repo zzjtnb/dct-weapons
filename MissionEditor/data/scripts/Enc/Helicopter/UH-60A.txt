@@ -1,0 +1,16 @@
+UH-60A
+
+uh-60a
+
+
+Name: UH-60A
+Type: Infantry squad transport helicopter
+Crew: 2
+Main rotor diameter: 14.712 m
+Weight empty: 5735 kg
+Normal weight: 9260 kg
+Maximum weight: 9980 kg
+Maximum fuel: 1157 kg
+Service celling: 4170 m
+Maximum speed: 293 km/h
+Maximum range: 600 km

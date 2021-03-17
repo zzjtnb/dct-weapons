@@ -1,0 +1,18 @@
+AIM-9X
+
+aim-9x
+
+
+Name: AIM-9X
+Type: Short-range, infrared, air-to-air missile
+Developed: USA
+Weight, kg: 85
+Guidance: IR with imaging
+G limit: 35 
+Maximum Mach number: 2.5
+Length, m: 2.87
+Body diameter, m: 0.127
+Warhead weight, kg: 9.4
+Range Max, km: 18
+
+The AIM-9X Sidewinder entered service in November 2003 with the USAF (lead platform is the F-15C; the USN lead platform is the F/A-18C) and is a substantial upgrade to the Sidewinder family featuring an imaging infrared focal-plane array (FPA) seeker with claimed 90° off-boresight capability, compatibility with helmet-mounted displays such as the new U.S. Joint Helmet Mounted Cueing System, and a totally new three-dimensional thrust-vectoring control (TVC) system providing increased turn capability over traditional control surfaces. Utilizing the JHMCS, a pilot can point the AIM-9X missile's seeker and "lock on" by simply looking at a target, thereby increasing air combat effectiveness. It retains the same rocket motor, fuze and warhead of the 9-"Mike", but its lower drag gives it improved range and speed.

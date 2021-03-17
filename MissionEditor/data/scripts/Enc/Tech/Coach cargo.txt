@@ -1,0 +1,6 @@
+Coach cargo
+
+wagon-gruz
+
+
+Coach cargo open it is intended for transportation of loose cargoes.

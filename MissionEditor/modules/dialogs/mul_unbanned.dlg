@@ -1,0 +1,601 @@
+dialog = {
+	["children"] = {
+		["main_panel"] = {
+			["children"] = {
+				["pBox"] = {
+					["children"] = {
+						["btnCancel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 200,
+									["x"] = 35,
+									["y"] = 435,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Cancel",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnUnban"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 200,
+									["x"] = 558,
+									["y"] = 435,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$unbanSelected",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["rect"] = {
+													["x2"] = 140,
+												},
+												["size"] = {
+													["horz"] = 230,
+													["vert"] = 50,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["eInfo"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 126,
+									["w"] = 735,
+									["x"] = 29,
+									["y"] = 502,
+								},
+								["enabled"] = true,
+								["multiline"] = true,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_ME",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["sCaption"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 798,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$BANNED",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x2d3e50ff",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 18,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["spPanel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 334,
+									["w"] = 723,
+									["x"] = 35,
+									["y"] = 76,
+								},
+								["enabled"] = true,
+								["horzMouseWheel"] = false,
+								["layout"] = {
+								},
+								["text"] = "spPanel",
+								["tooltip"] = "",
+								["vertMouseWheel"] = true,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "scrollPane_Briefing",
+								},
+							},
+							["type"] = "ScrollPane",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 661,
+							["w"] = 800,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["horzMouseWheel"] = false,
+						["layout"] = {
+						},
+						["text"] = "scrollPane0",
+						["tooltip"] = "",
+						["vertMouseWheel"] = true,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "scrollPaneSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["insets"] = "$nil$",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ScrollPane",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 483,
+					["w"] = 800,
+					["x"] = 5,
+					["y"] = 5,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 0,
+						["top"] = 0,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50f3",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["type"] = "min",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pNoVisible"] = {
+			["children"] = {
+				["btnSkin"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 120,
+							["x"] = 194,
+							["y"] = 28,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$buy",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\btnbuy.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffff80",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\btnbuy.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffe6",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\btnbuy.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["vertAlign"] = {
+											["offset"] = 1,
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffcc",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\btnbuy.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["cbSelect"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 27,
+							["y"] = 77,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "cbSelect",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "checkBoxSkin_MENew",
+						},
+					},
+					["type"] = "CheckBox",
+				},
+				["pUserSkin"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 42,
+							["w"] = 174,
+							["x"] = 366,
+							["y"] = 46,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "pUserSkin",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000026",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticSkin"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 139,
+							["x"] = 12,
+							["y"] = 32,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sGridItemPadding",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin_table_rowLeftText_withPadding",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffff00",
+									},
+									["text"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 121,
+					["w"] = 579,
+					["x"] = 127,
+					["y"] = 726,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkinTab",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 499,
+			["w"] = 812,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 200,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x78899000",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

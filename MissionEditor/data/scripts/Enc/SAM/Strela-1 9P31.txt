@@ -1,0 +1,35 @@
+Strela-1 9P31
+SAM/Strela-1 9P31.png
+9p31
+
+
+Name: 9P31 "Strela-1" (SA-9)
+Type: Low-Altitude SAM System
+Length: 5.8 m
+Height: 2.3 m
+Width: 2.4 m
+Ground clearance: 0.43 m
+Combat weight: 7000 kg
+Crew: 3
+Engine: GAZ-41 V-8  140 hp
+Power-to-weight ratio: 20 hp/t
+Wheel formula: 4x4
+Operational range: 750 km
+Max road speed: 100 km/h
+Max water speed: 10 km/h
+Armour: 5-14 mm
+
+Armament: 
+- 4 x 9M31(SA-9) missile
+
+Launch weight: 32 kg
+Warhead: 2.6 kg HE
+Min effective range: 800 m
+Max effective range: 4200 m
+Min effective altitude: 30 m
+Max effective altitude: 3500 m
+Max target speed: 300m/s
+Max speed: Mach 1,8
+Tracking rate: 15-20°/s
+Traverse: 360°
+Elevation: +20° to +80°

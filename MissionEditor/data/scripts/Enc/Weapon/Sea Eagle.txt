@@ -1,0 +1,17 @@
+Sea Eagle
+
+t-sea-eagle
+
+
+Name: Sea Eagle
+Type: Long-range, radar-guided, antiship 
+Developed: UK
+Warhead weight, kg: 230
+Guidance: inertial and active radar
+Weight, kg: 600
+G limit: 20
+missile
+Length, m: 4.14
+Body diameter, m: 0.400
+Range, km: 110
+Maximum Mach number: 0.85

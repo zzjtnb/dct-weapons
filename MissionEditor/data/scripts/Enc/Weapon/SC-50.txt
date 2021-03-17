@@ -1,0 +1,17 @@
+SC-50
+
+SC50
+
+
+Name: SC-50
+Developed: 1933
+Type: General Purpose Bomb
+Country of Origin: Germany
+Weight, kg: 50
+Length, m: 1.095
+Body diameter, m: 0.2
+Explosive Charge, kg: 23, 40/60 Amatol-TNT (Trialen in the anti-ship variant)
+Fuze Type: non-delay/delayed action
+
+SC series bombs were general purpose bombs of different sizes with nominal weights from 50 to 2500 kg.
+

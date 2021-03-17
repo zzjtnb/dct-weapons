@@ -1,0 +1,17 @@
+R-24R
+
+r-24r
+
+
+Name: R-24R (AA-7 'Apex')
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: Vympel OKB, Russia
+Warhead weight, kg: 30
+Guidance: command and semi-active radar
+Weight, kg: 235
+G limit: 18
+Length, m: 4.46
+Body diameter, m: 0.2
+Range, km: 20
+Maximum Mach number: 3

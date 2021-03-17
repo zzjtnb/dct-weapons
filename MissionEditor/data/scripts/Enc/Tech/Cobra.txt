@@ -1,0 +1,23 @@
+Cobra
+
+otokar_cobra
+
+
+Designation: Cobra
+Type: Armored Personnel Carrier
+Length: 5.23 m
+Width: 2.22 m
+Height: 2.1 m
+Crew: 1+8
+Engine: General Motors V8 diesel 190 hp
+Wheel Configuration: 4x4
+Empty weight : 4,800 kg
+Ground clearance: 0.266 m
+Max road speed: 115 km/h
+Max water speed: 8 km/h
+Operational range (road): 752 km
+
+Armament: 
+- 12.7 mm M2 machine gun
+
+Cobra is Light Armored Personnel Carrier developed by Turkey company "Otokar". The Cobra has a full-closed hull welded from steel armor plates. Armor protects crew and personnel from 7.62-mm bullets and small caliber artillery projectiles and mines. Main armament consists from 12.7-mm machine gun placed on the roof. The Cobra is also a base chassis for a number of various armored vehicles sush as Armored Ambulance Vehicle, Self-propelled 81-mm Mortar, Ground Surveillance Radar Vehicle etc.

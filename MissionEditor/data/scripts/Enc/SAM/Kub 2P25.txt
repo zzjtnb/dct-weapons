@@ -1,0 +1,33 @@
+Kub 2P25 LN
+SAM/SA-6 Kub LN 2P25.png
+2p25
+
+
+Name: Kub 2P25 ln (SA-6)
+Type: Low-to Medium-Altitude
+Crew: 3
+Length: 7.389 m
+Width: 3.18 m
+Height: 3.45 m
+Ground clearance: 0.4 m
+Combat weight: 14-000 kg
+Ground pressure: 0.48 kg/sq.cm
+Launch weight: 599 kg
+Warhead: 59 kg HE
+Engine: V-6R V-6 diesel 240 hp
+Power-to-weight ratio: 17.14 hp/t
+Max road speed: 44 km/h
+Operational range: 260 km
+Max speed: Mach 2,8
+Min effective range: 4000 m
+Max effective altitude: 14-000 m
+Max effective range: 24-000 m
+Min effective altitude:
+(optical mode) 25 m
+(radar mode) 100 m
+Max target speed:
+(approaching) 600 m/s
+(receding) 300 m/s
+Reload time (SPU): 10 min
+
+Armament: 3 SA-6 (3M9M) missile

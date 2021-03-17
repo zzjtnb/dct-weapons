@@ -1,0 +1,17 @@
+AGM-65E
+
+agm-65e
+
+
+Name: AGM-65E
+Type: Medium-range, laser-guided, air-to-
+surface missile
+Developed: USA
+Warhead weight, kg: 136
+Guidance: semi-active laser
+Weight, kg: 293
+G limit: 16
+Length, m: 2.49
+Body diameter, m: 0.305
+Range, km: 20
+Maximum Mach number: 0.85

@@ -1,0 +1,16 @@
+AGM-65G
+
+agm-65g
+
+
+Name: AGM-65G
+Type: precision-guided, stand-off air-to-ground missile
+Developed: USA
+Warhead: 136 kg, penetrator fragmentation
+Guidance: imaging infrared
+Weight, kg: 304
+Length, m: 2.49
+Body diameter, m: 0.305
+Max range, km: 27, effective 5-12
+
+The AGM-65G is an improved "IIR Maverick" for the USAF. It is based on the AGM-65D, but uses the heavy warhead and fuze of the AGM-65E/F because it is especially designed for use against hardened tactical targets. The AGM-65G also has a new digital autopilot and improved tracking and target selection options. The new autopilot allows the operator to select a lower trajectory to prevent break of lock in clouds. The AGM-65G entered operational service with the USAF in 1989.

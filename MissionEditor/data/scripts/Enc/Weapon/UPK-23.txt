@@ -1,0 +1,20 @@
+UPK-23-250
+
+upk-23-250
+
+
+Name: UPK-23-250
+Type: Gun Pod
+Developed: Russia
+Weight, kg: 218
+Gun type: 1 x GSh-23L
+Number of barrels: 2
+Caliber: 23 mm
+Firing rate, rounds/minute: 3000
+Muzzle velocity, m/s: 690 
+Range, km: 3
+Ammunition storage, rounds: 250
+
+The UPK-23-250 is a gun pod fitted with a twin barrel GSh-23L autocannon. The pod carries 250 rounds of 23x110 mm ammunition. The UPK-23-250 designed to engage a variety of targets including light and medium armorred vehicles, military personal, low-speed aircraft etc. 
+
+The UPK-23-250 can be carried on a wide range of Russian-made aircraft including Mi-24, Mi-28, Ka-50 attack helicopters and also the Mi-8 armed variants. 

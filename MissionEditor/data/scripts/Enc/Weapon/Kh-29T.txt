@@ -1,0 +1,17 @@
+Kh-29T
+
+x-29t
+
+
+Name: Kh-29T (AS-14 'Kedge')
+Type: Medium-range, TV-guided, air-to-surface 
+missile
+Developed: Spetztekhnika Vympel NPO, Russia
+Warhead weight, kg: 317
+Guidance: TV-command
+Weight, kg: 670
+G limit: 24
+Length, m: 3.87
+Body diameter, m: 0.380
+Range, km: 12
+Maximum Mach number: 2.5

@@ -1,0 +1,17 @@
+9M39 Igla
+
+9m39
+
+
+Name: Igla
+Type: Short-range, infrared-guided, surface-to-
+air-missile, man-portable
+Developed: Russia
+Warhead weight, kg: 1.2
+Guidance: Infrared seeker
+Weight, kg: 10.8
+G limit: 20
+Length, m: 1.55
+Body diameter, m: 0.072
+Range, km: 4.5
+Maximum Mach number: 2.8

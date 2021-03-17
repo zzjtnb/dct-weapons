@@ -1,0 +1,25 @@
+ZiL-131 KUNG
+
+zil_p19_kung
+
+
+Type: Truck with command office
+Chassis: ZiL-131
+Seating Capacity (cab): 2
+Wheel formula: 6x6
+Own weight, kg: 10425
+Carrying capacity, kg: 2900
+Overall dimensions, m:
+ length, m: 7,47
+ Width, m: 2.4
+ height, m: 3,39
+Clearance, m: 0,33
+Engine: ZIL-131, carburetor, four-stroke, eight-cylinder, V-shaped, overhead valve
+Maximum power, HP: 150
+Max. speed, km/h: 80
+Power reserve, km: 630
+
+One of the main army transport trucks. Consists in mass numbers in service with the armies of the former Soviet Union and the Warsaw Pact.
+
+KUNG is the English transcription of the Cyrillic initialism КУНГ for Russian: Кузов Унифицированный Нулевого (Нормального) Габарита (Unified Body of Zero [Standard] Dimension). The KUNG is a Soviet then Russian term for a standardized military vehicle module/trailer system.
+

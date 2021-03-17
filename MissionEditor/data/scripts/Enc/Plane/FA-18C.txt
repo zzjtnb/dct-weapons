@@ -1,0 +1,27 @@
+F/A-18C
+
+f-18c
+f_a-18c
+
+Name: F/A-18C
+Type: Combat/strike aircraft
+Crew: 1
+Length: 17.07 m
+Height: 4.66 m
+Wing span: 11.43 m
+Wing area: 37 m²
+Weight empty: 10810 kg
+Normal weight: 16651 kg
+Maximum weight: 25401 kg
+Maximum Mach at height: 1.8
+G limit: 7
+Range with nominal load: 1520 km
+Maximum fuel: 6531 kg
+Service ceiling: 15240 m
+Take-off speed: 248.4 km/h
+Landing speed: 234 km/h
+Maximum range: 1520 km
+Maximum Mach at S/L: 1.1
+
+Armament:
+- M61A-1 cannon

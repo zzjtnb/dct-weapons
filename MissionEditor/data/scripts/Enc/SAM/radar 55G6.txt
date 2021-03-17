@@ -1,0 +1,18 @@
+Radar 55G6 EWR station
+Radar/EWR 55G6.png
+55g6
+
+
+Type: Long-range mobile air detection radar
+Frequency range: VHF band (30 to 300 MHz)
+Antenna: Flat array 16x3.24 m
+Range: 500 km azimuth; 40 km altitude
+Detection range on a fighter: 300/400 km at 10/20 km
+altitude  respectively
+Accuracy: 400 m range; 0.5° azimuth; 750 m height
+Switching on time: 3 min max
+Setting up/closing down time: 22 h max
+Operations staff: 4
+Length: 18.36 m
+Width: 24.57 m
+Height: 35.8 m

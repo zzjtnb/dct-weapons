@@ -1,0 +1,15 @@
+ZU-23 Ural
+SAM/Ural_ZU-23.png
+ural_zu-23
+
+
+Name: ZU-23
+Type: Short-Range Air Defense Cannon
+Engine: Ural-4320
+Wheel formula: 6x6
+Operational range (road): 570 km
+Max road speed: 80 km/h
+
+Armament: 2 x 2A14 Afanasyev-Yakushev (23x115mm) autocannons
+Effective range: 2 - 2.5 km
+Effective altitude: 1,5 - 2 km

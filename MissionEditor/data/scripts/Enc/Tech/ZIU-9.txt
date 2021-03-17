@@ -1,0 +1,16 @@
+ZIU-9
+
+trolebus
+
+
+Type: Trolley bus
+Length: 12.62 m
+Height: 3.00 m
+Width: 2.51 m
+Weight : 10050 kg
+Max road speed: 65 km/h
+Passengers: 110
+
+ZiU-9 (also ZiU-682) is a Soviet high-capacity trolley bus for intra-city passenger transportation. The abbreviation ZiU comes from the full name of the manufacturing plant (the Order of the Red Banner of Labor Trolleybus Plant named after Uritsky), located in Engels, Saratov region (now JSC "Trollza"). This model of trolleybus has been in serial production since 1972 and has undergone several upgrades. The large output of the ZiU-9 allowed it to become the dominant trolleybus model in the Soviet Union since the late 1970s. This status is largely preserved in modern Russia. In the 1990s, based on the ZiU-9, other manufacturers of trolley buses, organized mainly on the basis of repair plants, developed their own variants of this machine (the so-called "clones"). In total, more than 42000 trolleybuses of the ZiU-9 family were built, which allowed them to become the most numerous trolleybus model in the world.
+
+The prototypes of the ZiU-682G modification were produced in 1988, and since February 1, 1991 the plant has been completely transferred to their serial production.

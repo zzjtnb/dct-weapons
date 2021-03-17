@@ -1,0 +1,17 @@
+9M333
+
+9m37
+
+
+Name: 9M333
+Type: Short-range, infrared guidance, surface-
+to-air-missile for Strela-10
+Developed: Russia
+Warhead weight, kg: 4
+Guidance: Infrared seeker
+Weight, kg: 42
+G limit: 16
+Length, m: 2.2
+Body diameter, m: 0.12
+Range, km: 5
+Maximum Mach number: 2

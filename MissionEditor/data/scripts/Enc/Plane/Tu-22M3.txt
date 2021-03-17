@@ -1,0 +1,28 @@
+Tu-22M3
+
+tu-22
+tu-22m3
+
+Name: Tu-22M3 "Backfire-C"
+Type: Medium bomber
+Developed: Tupolev OKB, Russia
+Crew: 4
+Length: 46.12 m
+Height: 11.05 m
+Wing span: 34.28 m
+Wing area: 183 m²
+Maximum Mach at S/L: 0.86
+Maximum Mach at height: 1.88
+G limit: 3.5
+Weight empty: 50000 kg
+Normal weight: 88000 kg
+Maximum weight: 124000 kg
+Maximum range: 2410 km
+Maximum fuel: 50000 kg
+Service ceiling: 13500 m
+Take-off speed: 284.4 km/h
+Range with nominal load: 2410 km
+Landing speed: 280.8 km/h
+
+Armament: Kh-22 antiship missiles, bombs, GSh-
+23L cannon

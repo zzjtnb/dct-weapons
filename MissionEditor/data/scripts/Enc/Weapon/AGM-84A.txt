@@ -1,0 +1,17 @@
+AGM-84A
+
+agm-84
+
+
+Name: AGM-84A 
+Type: Long-range, radar-guided, air-to-surface 
+missile
+Developed: USA
+Warhead weight, kg: 222
+Weight, kg: 661.5 (sea-launched)
+Length, m: 4.50
+Guidance: inertial with active radar
+Body diameter, m: 0.343
+Weight, kg: 515 (air-launched)
+G limit: 14
+Range, km: 120

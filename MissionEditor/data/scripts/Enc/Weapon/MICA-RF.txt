@@ -1,0 +1,17 @@
+MICA-RF
+
+mica-r
+
+
+Name: MICA-RF
+Type: Medium-range radar-guided air-to-air 
+missile
+Developed: France and UK
+Warhead weight, kg: 12
+Guidance: active radar
+Weight, kg: 110
+G limit: 18
+Length, m: 3.1
+Body diameter, m: 0.165
+Range, km: 50
+Maximum Mach number: 2.5

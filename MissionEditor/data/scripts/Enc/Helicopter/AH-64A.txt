@@ -1,0 +1,19 @@
+AH-64A
+
+ah-64a
+
+
+Name: AH-64A
+Type: Attack helicopter
+Crew: 2
+Main rotor diameter: 14.72 m
+Weight empty: 4881 kg
+Normal weight: 6552 kg
+Maximum weight: 9225 kg
+Maximum fuel: 1157 kg
+Service celling: 4570 m
+Maximum speed: 365 km/h
+Maximum range: 480 km
+
+Armament:
+- M230 30mm automatic gun

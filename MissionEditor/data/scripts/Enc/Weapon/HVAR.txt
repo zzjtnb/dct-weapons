@@ -1,0 +1,20 @@
+HVAR rocket
+
+HVAR_rocket
+
+
+Name: HVAR
+Developed: 1943
+Type: Air-Launched 5-Inch Rocket
+Country of Origin: USA
+Weight, kg: 64
+Length, m: 1.83
+Body diameter, m: 0.127
+Warhead, kg: 20 kg HE warhead
+Speed, km/h: 1,530
+Range, km: 5
+Propulsion: Solid-fueled rocket
+
+The first air-launched 5-inch rocket of the U.S. Navy was a derivative of an earlier 3.5-inch FFAR, which was developed by the Navy from June 1943 as an aircraft-launched ASW (Anti-Submarine Warfare) rocket. The 3.5-inch FFAR was considered accurate enough for use against surface ships and land targets, but needed an explosive warhead for these missions. A 5-inch anti-aircraft shell was modified as a warhead for the 3.5-inch rocket motor. The resulting rocket was the 5-Inch FFAR, which entered service in December 1943. Because of the increased weight, the speed of the 5-inch FFAR was only 780 km/h (485 mph).
+
+The 5-inch FFAR suffered from insufficient speed because of its small motor. Therefore the development of a larger rocket motor with 5-inch diameter was begun, and the first test firings occurred in December 1943. When fitted with the warhead of the 5-inch FFAR, the rocket achieved a velocity of 1,530 km/h (950 mph), making it a very powerful weapon for its time. It was officially designated as 5-Inch HVAR (High-Velocity Aircraft Rocket), but often called Holy Moses. It became operational in July 1944, and was used by Army Air Force and Navy aircraft.

@@ -1,0 +1,19 @@
+AH-64D
+
+ah-64d
+
+
+Name: AH-64D
+Type: Attack helicopter
+Crew: 2
+Main rotor diameter: 14.72 m
+Weight empty: 4881 kg
+Normal weight: 7480 kg
+Maximum weight: 10107 kg
+Maximum fuel: 1157 kg
+Service celling: 4115 m
+Maximum speed: 365 km/h
+Maximum range: 407 km
+
+Armament:
+- M230 30mm automatic gun

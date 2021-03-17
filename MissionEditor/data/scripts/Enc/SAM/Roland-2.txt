@@ -1,0 +1,26 @@
+Roland ADS
+SAM/Roland.png
+
+
+
+Type: Low Altitude SAM System
+Chassis: Marder-1
+Crew: 3
+Max road speed: 70 km/h
+Fuel distance: 520 km
+Combat weight: 32-500 kg
+Power-to-weight ratio: 18.5 hp/t
+Ground pressure: 0.93 kg/sq.cm
+Length: 6.915 m
+Width: 3.24 m
+Height: 2.92 m
+Ground clearance: 0.44 m
+Armament: MIM-115 SAM (2 in missile lancher and 8 in magazine drum)
+Launch weight: 66.5 kg
+Warhead: 6.5 kg HE
+Max speed: 500 m/s
+Max effective range: 6300 m
+Min effective range: 500 m
+Max effective altitude: 5500 m
+Min effective altitude: 10 m
+Reload time (from magazines): 6 s

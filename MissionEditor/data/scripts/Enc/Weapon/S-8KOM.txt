@@ -1,0 +1,18 @@
+S-8KOM
+Weapon/S-8KOM.png
+s-8_kom
+
+
+Name: S-8KOM
+Type: 80 mm unguided aircraft rocket
+Developed: Spetztekhnika Vympel NPO, Russia
+Weight, kg: 11.3
+Length, m: 1.57
+Caliber, mm: 80
+Warhead weight, kg: 3.6
+Warhead type: shaped-charge fragmentation
+Speed, m/s: 610
+Firing range, m: 1300 - 4000
+Armor penetration, mm: 400
+
+This rocket is intended to engage modern tanks, lightly armored and soft-skinned combat materiel. Owing to the fragmentation effect, the rocket also inflicts damage on manpower.

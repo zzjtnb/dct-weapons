@@ -1,0 +1,17 @@
+5V55
+
+5b55
+
+
+Name: 5V55
+Type: Long-range, radio command guidance + TVM, 
+surface-to-air-missile for S-300PS
+Developed: Russia
+Warhead weight, kg: 100
+Guidance: Semi-active radar
+Weight, kg: 1480
+G limit: 27
+Length, m: 7.0
+Body diameter, m: 0.508
+Range, km: 45
+Maximum Mach number: 6.25

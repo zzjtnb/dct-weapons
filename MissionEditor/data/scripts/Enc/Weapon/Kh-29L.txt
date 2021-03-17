@@ -1,0 +1,17 @@
+Kh-29L
+
+x-29l
+
+
+Name: Kh-29L (AS-14 'Kedge')
+Type: Medium-range, laser-guided, air-to-
+surface missile
+Developed: Spetztekhnika Vympel NPO, Russia
+Warhead weight, kg: 317
+Guidance: semi-active laser
+Weight, kg: 657
+G limit: 24
+Length, m: 3.87
+Body diameter, m: 0.380
+Range, km: 10
+Maximum Mach number: 2.5

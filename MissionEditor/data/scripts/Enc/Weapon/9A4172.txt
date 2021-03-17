@@ -1,0 +1,15 @@
+9A4172
+
+vichr
+
+
+Name: 9A4172 "Vikhr" (AT-16)
+Type: Medium-range, anti-tank, laser-guided, 
+air-to-surface missile
+Developed: Shipunov OKB, Russia
+Guidance: laser beam riding
+Weight, kg: 45
+Maximum Mach number: 1.8
+Length, m: 2.80
+Body diameter, m: 0.1308
+Range, km: 10

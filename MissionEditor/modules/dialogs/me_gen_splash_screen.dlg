@@ -1,0 +1,36 @@
+dialog = {
+	["params"] = {
+		["bounds"] = {
+			["h"] = 254,
+			["w"] = 501,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = "gen-splash-screen.png",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

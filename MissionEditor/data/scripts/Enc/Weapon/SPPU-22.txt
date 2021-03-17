@@ -1,0 +1,18 @@
+SPPU-22
+Weapon/SPPU-22.png
+
+
+
+Name: SPPU-22
+Type: Flexible cannon pod
+Developed: Russia
+Weight, kg: 320
+Gun type: GSh-23L
+Number of barrels: 2
+Barrel deflection angle, deg: 0-30
+Caliber: 23mm
+Deflection method: manual or laser lock
+Firing rate, rounds/minute: 2800-3000
+Muzzle velocity, m/s: 690-890
+Range, km: 3 
+Ammunition storage, rounds: 260

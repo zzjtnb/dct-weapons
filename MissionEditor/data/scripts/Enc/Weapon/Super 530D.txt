@@ -1,0 +1,17 @@
+Super 530D
+Weapon/Super-530.png
+
+
+
+Name: Super 530D
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: France
+Warhead weight, kg: 30
+Guidance: Semi-active radar
+Weight, kg: 270
+G limit: 18
+Length, m: 3.80
+Body diameter, m: 0.263
+Range, km: 40
+Maximum Mach number: 5

@@ -1,0 +1,24 @@
+Osa 9A33 ln
+SAM/9A33 Osa.png
+9a33
+
+
+Name: 9A33 "Osa" (SA-8)
+Min altitude: 100 m
+Type: Low-Altitude SAM System Launcher
+Crew: 5
+Length: 9.14 m
+Height: 4.2 m
+Width: 2.8 m
+Combat weight: 17500 kg
+Ground clearance: 0.4 m
+Launch weight: 126 kg
+Engine: D20B-200 diesel 200 hp
+Max road speed: 80 km/h
+Max water speed: 8 km/h
+Operational range (road): 500 km
+Reload time (SPU): 10 min
+
+Armament: 
+- 6 SA-8 (9M33) missile
+

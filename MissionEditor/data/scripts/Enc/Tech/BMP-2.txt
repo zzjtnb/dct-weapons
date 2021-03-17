@@ -1,0 +1,23 @@
+BMP-2
+
+bmp-2
+
+
+Type: Infantry Combat Vehicle
+Crew: 3+7
+Ground pressure: 0.64 kg/sq.cm
+Length: 6.735 m
+Width:  3.15m
+Height: 2.45 m
+Ground clearance: 0.42 m
+Power-to-weight ratio: 20.3 hp/t
+Engine: UTD-20 V-6 diesel 300 hp
+Max road speed: 65 km/h
+Max water speed: 7 km/h
+Combat weight: 14300 kg
+Operating range: 550-600 km
+
+Armament:
+- 1x30 mm 2A42 cannon
+- 7.62 PKT coaxial machinegun
+- AT-5 Konkurs ATGM

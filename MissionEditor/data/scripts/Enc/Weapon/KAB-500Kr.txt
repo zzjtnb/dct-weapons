@@ -1,0 +1,14 @@
+KAB-500Kr
+
+kab-500t
+
+
+Name: KAB-500Kr
+Type: TV-guided bomb
+Developed: GNPP (State Research Production 
+Association), Russia
+Length, m: 3.05
+Body diameter, m: 0.35
+Warhead weight, kg: 195
+Guidance: TV-command
+Weight, kg: 560

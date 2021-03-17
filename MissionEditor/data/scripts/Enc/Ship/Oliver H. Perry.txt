@@ -1,0 +1,16 @@
+Oliver H. Perry
+
+perry
+
+
+Type: Frigate
+Complement: 206
+Displacement, tons: 2750 standard 4100 full 
+Dimensions, m: 138,1x13,7x7,5
+Speed, knots: 29
+Range, miles: 4500 at 20 kts
+
+Armament: 2x4 SSM Harpoon, SAM Standard, 1x76 
+OTO Melara gun, 1x6-20mm Vulcan Phalanx gun, 2 
+SH-60B
+

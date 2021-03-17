@@ -1,0 +1,14 @@
+S-24
+
+c-24
+
+
+Name: S-24
+Type: 240 mm unguided aircraft rockets
+Developed: Spetztekhnika Vympel NPO, Russia
+Weight, kg: 235
+Speed, km/h: 2520
+Range, km: 2
+Length, m: 2.33
+Body diameter, m: 0.24
+Warhead weight, kg: 123

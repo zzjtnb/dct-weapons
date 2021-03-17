@@ -1,0 +1,29 @@
+B-52H
+
+b-52
+b-52h
+
+Name: B-52H
+Type: Long-range strategic bomber
+Crew: 5
+Length: 48.5 m
+Wingspan: 56.4 m
+Height: 12.4 m
+Wing area: 370 m²
+Airfoil: NACA 63A219.3 mod root, NACA 65A209.5 tip
+Empty weight: 83,250 kg
+Loaded weight: 120,000 kg
+Max takeoff weight: 220,000 kg
+Powerplant: 8 x Pratt & Whitney TF33-P-3/103 turbofans, 76 kN each
+Fuel capacity: 181,725 L
+Zero-lift drag coefficient: 0.0119 (estimated)
+Drag area: 4.42 m²
+Aspect ratio: 8.56
+Maximum speed: 1,000 km/h
+Combat radius: 7,210 km
+Ferry range: 16,232 km
+Service ceiling: 15,000 m
+Rate of climb: 31.85 m/s
+Wing loading: 595 kg/m²
+Thrust/weight: 0.31
+Lift-to-drag ratio: 21.5 (estimated)

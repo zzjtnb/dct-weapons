@@ -1,0 +1,19 @@
+BGM-109E
+
+BGM-109E
+
+
+Name: BGM-109E Tactical Tomahawk
+Type: Long-range land attack cruise missile
+Developed: USA
+Weight, kg: 1,500
+Warhead weight, kg: 340
+Warhead type: High-explosive
+Guidance: INS/NAVSTAR/TERCOM and DSMAC at the terminal phase
+G limit: 17
+Length, m: 6.2
+Maximum Mach number: 0.7
+Range, km: 1,600
+Body diameter, m: 0.531
+
+The BGM-109E Tactical Tomahawk (or TacTom) is a modern variant of the Tomahawk missile family offering enhanced deep-strike capabilities and significantly lower cost per a missile. Compared to the previous variants the BGM-109E fitted with a cheaper Williams F415-WR-400/402 engine and its strcuture made of lighter materials. The Tactical Tomahawk is equipped with a real-time targeting system and can be retargeted inflight to divert to any of 15 preprogrammed alternate targets. Additionally, the missile has the ability to transmit (via satellite link) an image immediately prior to impact to assess battle damage or to retarget.

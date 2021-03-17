@@ -1,0 +1,19 @@
+Kh-66
+
+kh-66
+
+
+Name: Kh-66 (AS-7 'Kerry')
+Type: Short-range, air-to-surface missile
+Developed: Zvezda, Russia
+Warhead weight, kg: 103
+Guidance: beam riding
+Weight, kg: 290
+Length, m: 3.63
+Body diameter, m: 0.275
+Range, km: 10
+Maximum Mach number: 1.9
+
+The Zvezda Kh-66 is an early Soviet tactical air-to-surface missiles with a range of 10 km. The missile was intended for use against small ground or naval targets. The Kh-66 was effectively a heavy-warhead, beam-riding version of the K-8 (AA-3 'Anab') air-to-air missile entered into service in Vietnam in 1968.
+
+The Kh-66 missile was a temporary solution because of technical issues appeared when developing the Kh-23 missile.

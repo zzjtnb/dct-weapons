@@ -1,0 +1,1523 @@
+dialog = {
+	["children"] = {
+		["button"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 25,
+					["w"] = 62,
+					["x"] = 64,
+					["y"] = 190,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "button0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = "1",
+						["left"] = "2",
+						["right"] = "2",
+						["top"] = "1",
+					},
+					["maxSize"] = {
+						["vert"] = 20,
+					},
+					["name"] = "buttonSkin_ME",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["text"] = {
+								["color"] = "0x858b8eff",
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["text"] = {
+								["color"] = "0xe0deda9b",
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["comboList"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 41,
+					["w"] = 116,
+					["x"] = 209,
+					["y"] = 170,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = "1",
+						["left"] = "1",
+						["right"] = "0",
+						["top"] = "1",
+					},
+					["maxSize"] = {
+						["horz"] = 7,
+						["vert"] = 16,
+					},
+					["minSize"] = {
+						["horz"] = 7,
+						["vert"] = 16,
+					},
+					["name"] = "comboListSkin_ME",
+				},
+				["skins"] = {
+					["button"] = {
+						["skinData"] = {
+							["params"] = {
+								["insets"] = {
+									["bottom"] = "0",
+									["left"] = "0",
+									["right"] = "0",
+									["top"] = "0",
+								},
+								["maxSize"] = {
+									["horz"] = 7,
+								},
+								["minSize"] = {
+									["horz"] = 7,
+								},
+							},
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["picture"] = {
+											["color"] = "0xffffff47",
+											["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\spinbox_ME_arrow R_released.png",
+											["horzAlign"] = {
+												["type"] = "max",
+											},
+											["vertAlign"] = {
+												["offset"] = 2,
+											},
+										},
+									},
+								},
+								["hover"] = {
+									[1] = {
+										["picture"] = {
+											["color"] = "0xffffff64",
+											["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\spinbox_ME_arrow R_hover.png",
+											["horzAlign"] = {
+												["type"] = "max",
+											},
+											["vertAlign"] = {
+												["offset"] = 2,
+											},
+										},
+									},
+								},
+								["pressed"] = {
+									[1] = {
+										["picture"] = {
+											["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\spinbox_ME_arrow R_pressed.png",
+											["horzAlign"] = {
+												["type"] = "max",
+											},
+											["vertAlign"] = {
+												["offset"] = 2,
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["picture"] = {
+											["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\spinbox_ME_arrow R_released.png",
+											["horzAlign"] = {
+												["type"] = "max",
+											},
+											["vertAlign"] = {
+												["offset"] = 2,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["listBox"] = {
+						["skinData"] = {
+							["params"] = {
+								["insets"] = {
+									["bottom"] = "1",
+									["left"] = "1",
+									["right"] = "1",
+									["top"] = "0",
+								},
+							},
+							["skins"] = {
+								["item"] = {
+									["skinData"] = {
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["text"] = {
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+													},
+												},
+												[2] = {
+													["text"] = {
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["text"] = {
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+													},
+												},
+												[2] = {
+													["text"] = {
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+													},
+												},
+												[2] = {
+													["text"] = {
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_top"] = "$nil$",
+											["insets"] = {
+												["top"] = "0",
+											},
+											["left_top"] = "$nil$",
+											["right_top"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["window"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "$nil$",
+											["center_center"] = "$nil$",
+											["center_top"] = "$nil$",
+											["file"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "$nil$",
+												["left"] = "$nil$",
+												["right"] = "$nil$",
+												["top"] = "$nil$",
+											},
+											["left_bottom"] = "$nil$",
+											["left_center"] = "$nil$",
+											["left_top"] = "$nil$",
+											["right_bottom"] = "$nil$",
+											["right_center"] = "$nil$",
+											["right_top"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["listBoxItemDrive"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 490,
+					["y"] = 188,
+				},
+				["enabled"] = true,
+				["text"] = "listBoxItem0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 0,
+						["top"] = 0,
+					},
+					["maxSize"] = {
+						["horz"] = 0,
+						["vert"] = 0,
+					},
+					["minSize"] = {
+						["horz"] = 0,
+						["vert"] = 0,
+					},
+					["name"] = "listBoxItemSkin",
+					["textLineHeight"] = 0,
+					["textWrapping"] = false,
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0x858b8eff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000000",
+								["center_center"] = "0x04abe2ff",
+								["center_top"] = "0x00000000",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["left_bottom"] = "0x00000000",
+								["left_center"] = "0x00000000",
+								["left_top"] = "0x00000000",
+								["rect"] = {
+									["x1"] = 0,
+									["x2"] = 0,
+									["y1"] = 0,
+									["y2"] = 0,
+								},
+								["right_bottom"] = "0x00000000",
+								["right_center"] = "0x00000000",
+								["right_top"] = "0x00000000",
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_center"] = "0x04abe2ff",
+							},
+							["text"] = {
+								["blur"] = 0,
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 13,
+								["horzAlign"] = {
+									["offset"] = 20,
+								},
+								["lineHeight"] = 0,
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["file"] = "btn-tools-01.png",
+								["rect"] = {
+									["x1"] = 16,
+									["x2"] = 29,
+									["y1"] = 207,
+									["y2"] = 215,
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000000",
+								["center_center"] = "0x52575aff",
+								["center_top"] = "0x00000000",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["left_bottom"] = "0x00000000",
+								["left_center"] = "0x00000000",
+								["left_top"] = "0x00000000",
+								["rect"] = {
+									["x1"] = 0,
+									["x2"] = 0,
+									["y1"] = 0,
+									["y2"] = 0,
+								},
+								["right_bottom"] = "0x00000000",
+								["right_center"] = "0x00000000",
+								["right_top"] = "0x00000000",
+							},
+							["picture"] = {
+								["file"] = "btn-tools-01.png",
+								["rect"] = {
+									["x1"] = 16,
+									["x2"] = 29,
+									["y1"] = 207,
+									["y2"] = 215,
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ListBoxItem",
+		},
+		["listBoxItemFile"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 356,
+					["y"] = 236,
+				},
+				["enabled"] = true,
+				["text"] = "ListBoxItem1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 4,
+						["top"] = 0,
+					},
+					["maxSize"] = {
+						["horz"] = 0,
+						["vert"] = 0,
+					},
+					["minSize"] = {
+						["horz"] = 0,
+						["vert"] = 0,
+					},
+					["name"] = "listBoxItemSkin",
+					["textLineHeight"] = 0,
+					["textWrapping"] = false,
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0x858b8eff",
+								["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000000",
+								["center_center"] = "0x04abe2ff",
+								["center_top"] = "0x00000000",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["left_bottom"] = "0x00000000",
+								["left_center"] = "0x00000000",
+								["left_top"] = "0x00000000",
+								["rect"] = {
+									["x1"] = 0,
+									["x2"] = 0,
+									["y1"] = 0,
+									["y2"] = 0,
+								},
+								["right_bottom"] = "0x00000000",
+								["right_center"] = "0x00000000",
+								["right_top"] = "0x00000000",
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_center"] = "0x04abe2ff",
+							},
+							["text"] = {
+								["blur"] = 0,
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 13,
+								["horzAlign"] = {
+									["offset"] = 20,
+								},
+								["lineHeight"] = 0,
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["file"] = "btn-tools-01.png",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["rect"] = {
+									["x1"] = 123,
+									["x2"] = 131,
+									["y1"] = 205,
+									["y2"] = 216,
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000000",
+								["center_center"] = "0x52575aff",
+								["center_top"] = "0x00000000",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["left_bottom"] = "0x00000000",
+								["left_center"] = "0x00000000",
+								["left_top"] = "0x00000000",
+								["rect"] = {
+									["x1"] = 0,
+									["x2"] = 0,
+									["y1"] = 0,
+									["y2"] = 0,
+								},
+								["right_bottom"] = "0x00000000",
+								["right_center"] = "0x00000000",
+								["right_top"] = "0x00000000",
+							},
+							["picture"] = {
+								["file"] = "btn-tools-01.png",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["rect"] = {
+									["x1"] = 123,
+									["x2"] = 131,
+									["y1"] = 205,
+									["y2"] = 216,
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ListBoxItem",
+		},
+		["listBoxItemFolder"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 194,
+					["y"] = 236,
+				},
+				["enabled"] = true,
+				["text"] = "listBoxItem0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = "0",
+						["left"] = "0",
+						["right"] = "4",
+						["top"] = "0",
+					},
+					["maxSize"] = {
+						["horz"] = 0,
+						["vert"] = 0,
+					},
+					["minSize"] = {
+						["horz"] = 0,
+						["vert"] = 0,
+					},
+					["name"] = "listBoxItemSkin",
+					["textLineHeight"] = 0,
+					["textWrapping"] = false,
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0x858b8eff",
+								["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x04abe2ff",
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_center"] = "0x04abe2ff",
+							},
+							["text"] = {
+								["blur"] = 0,
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 13,
+								["horzAlign"] = {
+									["offset"] = 20,
+									["type"] = "min",
+								},
+								["lineHeight"] = 0,
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["file"] = "btn-tools-01.png",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["rect"] = {
+									["x1"] = 90,
+									["x2"] = 103,
+									["y1"] = 205,
+									["y2"] = 216,
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+						[2] = {
+							["bkg"] = {
+								["center_center"] = "0x52575aff",
+							},
+							["picture"] = {
+								["file"] = "btn-tools-01.png",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["rect"] = {
+									["x1"] = "90",
+									["x2"] = "103",
+									["y1"] = "205",
+									["y2"] = "216",
+								},
+								["size"] = {
+									["horz"] = "$nil$",
+									["vert"] = "$nil$",
+								},
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["fontSize"] = 13,
+								["lineHeight"] = 0,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ListBoxItem",
+		},
+		["panel"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 63,
+					["w"] = 509,
+					["x"] = 63,
+					["y"] = 51,
+				},
+				["enabled"] = true,
+				["horzMouseWheel"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 0,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "scrollPane0",
+				["tooltip"] = "",
+				["vertMouseWheel"] = true,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "scrollPaneSkin",
+				},
+				["skins"] = {
+					["horzScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["decreaseButtonAlign"] = {
+									["offset"] = 0,
+								},
+								["increaseButtonAlign"] = {
+									["offset"] = 0,
+								},
+								["insets"] = {
+									["left"] = 1,
+									["right"] = 1,
+								},
+								["maxSize"] = {
+									["vert"] = 9,
+								},
+								["minSize"] = {
+									["vert"] = 9,
+								},
+								["textLineHeight"] = 0,
+								["textWrapping"] = false,
+								["thumbAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["skins"] = {
+								["decreaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+										},
+									},
+									["pressed"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 91,
+												["y2"] = 107,
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["vert"] = 0,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_arrowDec_hover.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_arrowDec_pressed.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_arrowDec_released.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["increaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["pressed"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 55,
+												["y2"] = 71,
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["vert"] = 0,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_arrowInc_hover.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_arrowInc_pressed.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_arrowInc_released.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["thumb"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 7,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+												["vert"] = 7,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["file"] = "",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xffffffff",
+														["center_center"] = "0xffffffff",
+														["center_top"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_thumb_hover.png",
+														["insets"] = {
+															["bottom"] = 3,
+															["left"] = 20,
+															["right"] = 20,
+															["top"] = 3,
+														},
+														["left_bottom"] = "0xffffffff",
+														["left_center"] = "0xffffffff",
+														["left_top"] = "0xffffffff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xffffffff",
+														["right_center"] = "0xffffffff",
+														["right_top"] = "0xffffffff",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xffffffff",
+														["center_center"] = "0xffffffff",
+														["center_top"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_thumb_pressed.png",
+														["insets"] = {
+															["bottom"] = 3,
+															["left"] = 20,
+															["right"] = 20,
+															["top"] = 3,
+														},
+														["left_bottom"] = "0xffffffff",
+														["left_center"] = "0xffffffff",
+														["left_top"] = "0xffffffff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xffffffff",
+														["right_center"] = "0xffffffff",
+														["right_top"] = "0xffffffff",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinME\\images\\mission_editor\\horzscroll_ME_thumb_released.png",
+														["insets"] = {
+															["bottom"] = 3,
+															["left"] = 20,
+															["right"] = 20,
+															["top"] = 3,
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "$nil$",
+											["center_center"] = "$nil$",
+											["center_top"] = "$nil$",
+											["file"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "$nil$",
+												["left"] = "$nil$",
+												["right"] = "$nil$",
+												["top"] = "$nil$",
+											},
+											["left_bottom"] = "$nil$",
+											["left_center"] = "$nil$",
+											["left_top"] = "$nil$",
+											["right_bottom"] = "$nil$",
+											["right_center"] = "$nil$",
+											["right_top"] = "$nil$",
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0x63686bff",
+											["center_center"] = "0x63686bff",
+											["center_top"] = "0x63686bff",
+											["file"] = "",
+											["left_bottom"] = "0x63686bff",
+											["left_center"] = "0x63686bff",
+											["left_top"] = "0x63686bff",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+											["right_bottom"] = "0x63686bff",
+											["right_center"] = "0x63686bff",
+											["right_top"] = "0x63686bff",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_top"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_top"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ScrollPane",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 297,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x30302fff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

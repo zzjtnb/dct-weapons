@@ -1,0 +1,10 @@
+GAZ-66
+
+gaz-66
+
+
+Type: Off-road military truck GAZ-66 
+Engine: ZMZ-66; 115hp/3200rpm, V8-cyl, 4254cc
+Fuel capacity: 2x105 L
+Maximal speed: 90 km/h
+Fuel consumption: 24 L/100km under 30-40 km/h 

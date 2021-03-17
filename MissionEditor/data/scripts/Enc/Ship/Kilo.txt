@@ -1,0 +1,14 @@
+Kilo
+
+kilo
+
+
+Type: Patrol submarine
+Displacement, tons: 2,325 standard, 3,076 full 
+Dimensions, m: 72.8 x 9.9 x 6.6
+Complement: 53
+Endurance, days: 45
+Speed, knots: 12/18
+Range, miles: 400 at 10 kts submerged, 6,000 at 7 kts with snorkel
+
+Armament: 8 SAM Igla-1, 6 -21in tubes

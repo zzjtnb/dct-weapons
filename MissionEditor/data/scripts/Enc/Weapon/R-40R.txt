@@ -1,0 +1,18 @@
+R-40R
+
+r-40r
+
+
+Name: R-40R (AA-6 'Acrid')
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: Russia
+Warhead weight, kg: 70
+Guidance: command, inertial and semi-active 
+radar
+Weight, kg: 475
+Length, m: 6.2
+Body diameter, m: 0.355
+Range, km: 30
+Maximum Mach number: 3
+G limit: 18

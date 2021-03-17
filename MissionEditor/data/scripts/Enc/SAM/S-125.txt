@@ -1,0 +1,8 @@
+S-125 LN 5P73
+SAM/SA-2 LN 5P73.png
+5p73_launch
+
+
+Name: S-125 5P73 (SA-3)
+Type: Quadruple launcher
+Armament: 4 SA-3 (V-600 or V-601) missile

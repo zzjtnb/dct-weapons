@@ -1,0 +1,18 @@
+R-33
+
+r-33
+
+
+Name: R-33 (AA-9 'Amos')
+Type: Long-range, radar-guided, air-to-air 
+missile 
+Developed: Spetztekhnika Vympel NPO, Russia
+Warhead weight, kg: 47
+Guidance: inertial, command updates and semi-
+active radar
+Weight, kg: 490
+Length, m: 4.15
+Body diameter, m: 0.38
+Range, km: 100
+Maximum Mach number: 3.5
+G limit: 16

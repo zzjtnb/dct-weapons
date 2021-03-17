@@ -1,0 +1,17 @@
+MIM-23B
+
+hawk-r
+
+
+Name: MIM-23B
+Type: Medium-range, SARH, surface-to-air-
+missile for HAWK
+Developed: USA
+Warhead weight, kg: 70
+Guidance: Semi-active radar
+Weight, kg: 630
+G limit: 16
+Length, m: 5
+Body diameter, m: 0.37
+Range, km: 16
+Maximum Mach number: 2.7

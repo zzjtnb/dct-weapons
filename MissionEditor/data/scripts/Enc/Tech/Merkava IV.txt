@@ -1,0 +1,32 @@
+Merkava Mk IV
+
+merkava_mk_iv
+
+
+Type: Main Battle Tank
+Crew: 4 (up to 6 passengers)
+Length: 9.04 m
+Height: 2.66 m
+Width: 3.72 m
+Engine: General Dynamics GD883 (MTU883) V-12 water-cooled diesel 1,500 hp
+Power-to-weight ratio: 23 hp/t
+Combat weight: 65 t
+Ground pressure: 1.12 kg/sq.cm
+Max speed: 64 km/h
+Operational range (road): 500 km
+Ground clearance: 0.45 m
+
+Armament:
+
+- 120 mm cannon
+- 2 x 7.62 mm machine gun
+- 1 x 12.7 mm machine gun
+- 1 x 60 mm internal mortar
+
+The Merkava Mark IV is being considered as one of the best MBTs nowadays. The Mk IV is a fourth generation of the Israeli tanks and the most recent variant of the Merkava tank family. The tank was in development since 1999 and put into service in 2004. 
+
+The Mk. IV has a new fire-control system, the El-Op Knight Mark 4, capable to deal with air threats like AT helicopters; removable modular armor, from the Merkava Mark IIID, is used on all sides, including the top and a V-shaped belly armor pack for the underside. Ammunition protection is also improved by giving a fireproof individual protection to all rounds, and removed for sensitive areas. The tracks are the TSAWS-type designed to reduce track-shedding under the harsh basalt rock conditions of Lebanon and the Golan Heights.
+
+The Mk. IV can fire Laser Guided anti-tank (LAHAT) missile that specially adapted for launching from the MG253 smoothbore cannon. The missile’s trajectory can be set to match either tank (top attack) or helicopter (direct attack) engagement. Finally, the missile uses a tandem warhead which can defeat modern armour and reactive panels. The main warhead has a high penetration capability, defeating all known armored vehicles at high impact angles typical of top attack trajectories.
+
+After the 2006 Lebanon War Merkava Mk. IV were equipped with the Trophy active protection system (APS). The Trophy APS was managed to successfully intercept RPG rounds and anti-tank guided missiles, including the 9M133 Kornet, fired by Hamas before and during Operation Protective Edge in 2014.

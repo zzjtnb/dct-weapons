@@ -1,0 +1,14 @@
+S-125 TR SNR-125 
+SAM/SNR-125.png
+
+
+
+Name: S-125 SNR-125 "Low Blow" (SA-3)
+Type: Low-to Medium-Altitude SAM
+Operating Band: ~9.0 GHz
+Peak Power: 0.270 MegaWatt
+Deploy/Stow Time: ~60 min
+Range: 40 km/25 miles
+
+SNR-125 Low Blow is the engagement radar for the S-125/SA-3 Goa family of command link guided SAM systems. The system was widely deployed by Warsaw Pact nations and some Soviet proxies in the Middle East. While the system is regarded to be now obsolete, like the SA-2, a number of manufacturers in former Soviet republics are offering deep technology upgrades to the Low Blow design to improve maintainability, performance and jam resistance.
+

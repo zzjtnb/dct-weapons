@@ -1,0 +1,11 @@
+Patriot AN/MSQ-104 CP
+SAM/Patriot AN_MSQ-104 CP.png
+PATRIOT-KP
+
+
+Type: Medium-to-High Altitude Air Defense
+System: AN/MSQ-104 Engagement Control Station 
+Combat weight: 17 000 kg
+Length: 6.7 m
+Height: 2.1 m
+Width: 2.6 m

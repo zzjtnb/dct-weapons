@@ -1,0 +1,13 @@
+S-300PS 30N6 TR
+Radar/S-300PS 40V6M tr.png
+40b6m
+
+
+Name: S-300PS 30N6 (SA-10)
+Type: Low-to High-Altitude SAM Multifunction radar
+Time into action/time to close down: 60 min
+Chassis: MAZ-7910 (8x8)
+Engine: D12A-525 V-12 diesel 525 hp
+Length: 20.3 m
+Width: 18.2 m
+Height: 27.7 m

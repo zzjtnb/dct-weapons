@@ -1,0 +1,12 @@
+FAB-1500
+
+fab-1500
+
+
+Name: FAB-1500
+Type: General purpose bomb
+Developed: Russia
+Weight, kg: 1500
+Length, m: 2.8
+Body diameter, m: 0.622
+Warhead weight, kg: 1100

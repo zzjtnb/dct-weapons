@@ -1,0 +1,29 @@
+Su-27
+
+su-27
+
+
+Name: Su-27 "Flanker-B"
+Type: Air-superiority fighter
+Developed: Sukhoi OKB, Russia
+Crew: 1
+Length: 21.93 m
+Height: 5.93 m
+Wing span: 14.7 m
+Wing area: 62.04 m²
+Maximum Mach at S/L: 1.14
+Maximum Mach at height: 2.35
+Weight empty: 16,300 kg
+Normal weight: 23,000 kg
+Maximum weight: 28,000 kg
+Maximum fuel: 9,400 kg
+G limit: 9
+Service ceiling: 18,500 m
+Take-off speed: 270 km/h
+Landing speed: 234 km/h
+Range with nominal load: 3,740 km
+Powerplant: 2 x Saturn AL-31F turbofan engines; 123 kN (27,700 lbf)
+
+Armament:
+- 1 x 30 mm GSh-30-1 cannon
+- Payload: up to 4,000 kg on 10 hardpoints

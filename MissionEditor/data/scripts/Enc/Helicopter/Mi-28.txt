@@ -1,0 +1,17 @@
+Mi-28
+
+mi-28
+
+
+Name: Mi-28 "Havoc"
+Type: Attack helicopter
+Developed: Mil OKB, Russia
+Crew: 2
+Main rotor diameter: 17.2 m
+Weight empty: 8500 kg
+Normal weight: 1000 kg
+Maximum weight: 12000 kg
+Maximum fuel: 1500 kg
+Service celling: 5070 m
+Maximum speed: 300 km/h
+Maximum range: 530 km

@@ -1,0 +1,6 @@
+Coach a passenger
+
+wagon-pass
+
+
+Passenger coach.

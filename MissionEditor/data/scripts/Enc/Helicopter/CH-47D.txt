@@ -1,0 +1,16 @@
+CH-47D
+
+ch-47d
+
+
+Name: CH-47D
+Type: Transport helicopter
+Crew: 2
+Main rotor diameter: 17.8 m
+Weight empty: 10615 kg
+Normal weight: 17460 kg
+Maximum weight: 22680 kg
+Maximum fuel: 3120 kg
+Service celling: 2675 m
+Maximum speed: 315 km/h
+Maximum range: 615 km

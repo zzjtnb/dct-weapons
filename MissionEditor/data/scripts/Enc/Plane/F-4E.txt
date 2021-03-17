@@ -1,0 +1,27 @@
+F-4E
+
+f-4e
+
+
+Name: F-4E
+Type: Multi-role fighter
+Crew: 2
+Length: 19.2 m
+Height: 5 m
+Wing span: 11.68 m
+Wing area: 49.24 m2
+Weight empty: 14461 kg
+Maximum weight: 28055 kg
+Normal weight: 24430 kg
+Maximum Mach at height: 2.17
+G limit: 5.9
+Range with nominal load: 2593 km
+Maximum fuel: 4864 kg
+Service ceiling: 17907 m
+Take-off speed: 208.8 km/h
+Landing speed: 219.6 km/h
+Maximum range: 2593 km
+Maximum Mach at S/L: 1.09
+
+Armament:
+- M61A-1 cannon

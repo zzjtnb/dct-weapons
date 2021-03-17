@@ -1,0 +1,14 @@
+Mk 82 Snake Eye
+
+mk-82_snakeye
+
+
+Name: Mk 82 Snake Eye
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 258
+Length, m: 2.27
+Body diameter, m: 0.274
+Warhead weight, kg: 136
+
+The Mk 82 Snake Eye bomb is a general purpose bomb with a fin retarding device. The high drag caused by opened fins permits high-speed, low-angle and/or low-altitude delivery by eliminating the danger of aircraft damage due to ricocheting bombs or fragments from detonating bombs.

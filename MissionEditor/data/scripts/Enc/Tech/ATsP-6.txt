@@ -1,0 +1,24 @@
+ATsP-6
+
+ural_acp6
+
+
+Type: Fire truck
+Chassis: Ural 5557-1152-10
+Seating Capacity (cab): 1 + 5
+The wheel formula: 6x6
+Weight, kg: 
+ own: 9520
+ full: 16750
+Tank capacity, l: 6000
+Overall dimensions, m:
+ length, m: 8
+ width, m: 2.5
+ height of special equipment, m: 3,4
+Clearance, m: 0,4
+Engine: YaMZ-236Ne2-3 turbocharged diesel, six-cylinder, V-shaped 
+HP power: 230 (169 kW) at 2100 rpm
+Maximum speed on the highway, km/h: 75
+
+Fire truck with the volume of 6 m3 on the chassis of Ual-5557 is intended for delivery to the place of fire of combat crew, fire-technical weapons, water and foam. It is used as a standalone unit or as a pumping unit when working in "pumping" with one or more tank trucks when extinguishing fires with water, air and mechanical foam in settlements and industrial facilities.
+It can be used in areas of moderate climate with annual temperature difference in the range from -40C to + 40C on all types of roads and off-road.

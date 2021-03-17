@@ -1,0 +1,16 @@
+AGM-65H
+
+agm-65h
+
+
+Name: AGM-65H
+Type: precision-guided, stand-off air-to-ground missile
+Developed: USA
+Warhead: 56 kg, shaped charge
+Guidance: electro-optical television guidance system
+Weight, kg: 304
+Length, m: 2.49
+Body diameter, m: 0.305
+Max range, km: 27, effective 5-12
+
+The designation AGM-65H was assigned to AGM-65B/D missiles upgraded with the new CCD TV seeker. It was originally planned to convert many old AGM-65Bs and -65Ds to AGM-65H standard, but these plans were apparently cancelled in favour of the AGM-65K. Same 125 lbs warhead as in AGM-65A. The CATM-65H is the captive-carry training version of the AGM-65H.

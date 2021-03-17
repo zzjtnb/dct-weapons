@@ -1,0 +1,25 @@
+A-50
+
+a50
+a-50
+
+Name: A-50 "Mainstay"
+Type: AWACS
+Developed: Ilyushin OKB, Russia
+Crew: 10
+Length: 46.59 m
+Height: 14.76 m
+Wing span: 50.5 m
+Wing area: 300 m²
+Maximum Mach at S/L: 0.77
+Maximum Mach at height: 0.77
+Weight empty: 90000 kg
+Normal weight: 160000 kg
+Maximum weight: 190000 kg
+G limit: 2.5
+Take-off speed: 208.8 km/h
+Landing speed: 219.6 km/h
+Maximum range: 7300 km
+Maximum fuel: 70000 kg
+Service ceiling: 12247 m
+Range with nominal load: 7300 km

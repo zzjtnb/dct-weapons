@@ -1,0 +1,27 @@
+Mirage 2000-5
+
+m2000
+
+
+Name: Mirage 2000-5
+Type: Multi-role fighter
+Crew: 1
+Length: 14.36 m
+Height: 5.2 m
+Wing span: 9.13 m
+Wing area: 41 m²
+Weight empty: 7500 kg
+Normal weight: 9525 kg
+Maximum weight: 17000 kg
+Maximum Mach at height: 2.2
+G limit: 9
+Range with nominal load: 1852 km
+Maximum fuel: 3160 kg
+Service ceiling: 16460 m
+Take-off speed: 230.4 km/h
+Landing speed: 230.4 km/h
+Maximum range: 1852 km
+Maximum Mach at S/L: 1.2
+
+Armament:
+- 2x30mm DEFA-554 guns

@@ -1,0 +1,14 @@
+S-13
+
+c-13
+
+
+Name: S-13
+Type: 122 mm unguided aircraft rockets
+Developed: Spetztekhnika Vympel NPO, Russia
+Weight, kg: 68
+Speed, km/h: 2700
+Range, km: 2.5
+Length, m: 1.80
+Body diameter, m: 0.122
+Warhead weight, kg: 32.5

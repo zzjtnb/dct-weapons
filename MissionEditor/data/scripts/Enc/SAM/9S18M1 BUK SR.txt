@@ -1,0 +1,32 @@
+Buk TAR 9S18M1 Kupol
+
+9s18m1
+
+
+Self-propelled 3D target aquisition radar (TAR) 9S18M1 "Kupol".
+
+The system is designed to provide radar data to air defense forces command posts, army air defense units and air defense command and control centers of motorized rifle and tank divisions armed with the "Buk-M1-2" and "Tor-M1" SAM systems.
+
+The radar is equipped with digitial processing units for automatic and semi-automatic coordinate determination and non-cooperative target recognition (NCTR) capability. All of the system functions are highly automated by use of high-speed central processor units. The system utilizes advanced electronic counter-counter measures (ECCM) devices and techniqies to maintain capability in a complex ECM environment.
+
+The radar is installed on a tracked chassis offering high off-road capability. It is equipped with independent power generation equipment, navigation systems, radio datalink and communications systems. It is also equipped with an extensive Built-In-Test (BIT) system, as well as Training modes to enable realistic crew training. Automated set-up and recover equipment and functionality is used to prepare the system to and from combat readiness state.
+
+The radar can be utilized in difficult climate conditions, transit on and off roads and transported by all standard transportation modes, including aicraft.
+
+Performance characteristics:
+
+Coverage zone:
+azimuth, deg.  360
+elevation, deg.  0-40
+instrumented range, km 10-160
+Scan time, sec. 4.5; 6; 12; 60
+
+Resolution: 
+in range, m 400
+in azimuth, deg. 3-4.5
+in elevation, deg. 3-4.5
+Maximum non-stop operational time, hrs. 48
+Time to/from combat readiness, min. 5
+Maximum ground speed, km/h. 65
+Weight, t. 34
+Crew, ppl. 3

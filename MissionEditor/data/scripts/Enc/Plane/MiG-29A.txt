@@ -1,0 +1,28 @@
+MiG-29A
+
+mig-29
+mig-29a
+
+Name: MiG-29A "Fulcrum-A"
+Type: Counter-air fighter
+Developed: Mikoyan-Gurevich OKB, Russia
+Crew: 1
+Length: 17.32 m
+Height: 4.73 m
+Wing span: 11.36 m
+Wing area: 38.1 m²
+Maximum Mach at S/L: 1.225
+Maximum Mach at height: 2.3
+Weight empty: 11200 kg
+Normal weight: 13240 kg
+Maximum weight: 19700 kg
+G limit: 9
+Maximum range: 1500 km
+Maximum fuel: 3380 kg
+Service ceiling: 18000 m
+Take-off speed: 241.2 km/h
+Range with nominal load: 1500 km
+Landing speed: 252 km/h
+
+Armament:
+- GSh-301 cannon

@@ -1,0 +1,28 @@
+M818
+
+m-818
+
+
+Name: M818
+Type: Tractor
+Length: 6.71 m
+Height: 2.946 m
+Width: 2.464 m
+Weight : (empty) 9202 kg
+Cab seating: 1+2
+Ground clearance: 0.295 m
+Engine: NHC-250 V-6 240 hp
+Max road speed: 84 km/h
+Wheel formula: 6x6
+Operational range (road): 563 km
+Towed load (road): 24943 kg
+Towed load (cross-country): 17007 kg
+
+
+
+
+
+
+
+
+

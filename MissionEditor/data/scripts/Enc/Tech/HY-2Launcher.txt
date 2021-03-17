@@ -1,0 +1,21 @@
+SS-N-2 Silkworm
+
+hy_launcher
+
+
+Type: ASM
+Dimensions: 
+Length: 7.48 m
+Diameter: 0.76 m
+Wingspan: 2.4 m
+Launch weight: 2,998 kg
+Warhead: 513 kg shaped charge high-explosive
+Propulsion: One liquid rocket engine and one solid rocket booster
+Speed: Mach 0.8
+Range: 200 km 
+Flight altitude: < 20m
+Guidance: Inertial + active conical scanning terminal guidance radar 
+Single-shot hit probability: 90%
+
+China's ground-based anti-ship missile is an updated version of the HY-1 ASM (licensed copy of the Soviet P-15 "Termite" ASM). 
+

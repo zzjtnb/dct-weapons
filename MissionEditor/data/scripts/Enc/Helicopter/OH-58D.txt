@@ -1,0 +1,16 @@
+OH-58D
+
+oh-58d
+
+
+Name: OH-58D
+Type: Infantry squad transport helicopter
+Crew: 1
+Main rotor diameter: 10.67 m
+Weight empty: 1490 kg
+Normal weight: 1900 kg
+Maximum weight: 2495 kg
+Maximum fuel: 454 kg
+Service celling: 6250 m
+Maximum speed: 222 km/h
+Maximum range: 556 km

@@ -1,0 +1,22 @@
+Ural-4320T
+
+ural_4320_t
+
+
+Type: Cargo truck
+Chassis: Ural-4320
+Seating Capacity (cab): 1 + 2
+The wheel formula: 6x6
+Empty weight, kg: 8120
+Load capacity, kg: 6500
+Length, m: 7,74
+Width, m: 2,5
+Height, m: 3,065
+Clearance, m: 0,4
+Engine: YaMZ-236M2 - six-cylinder V-shaped turbocharged diesel engine 
+HP power: 180 (132 kW) at 2100 rpm
+Max. speed, km/h: 80
+Power reserve, km (at 60 km/h): 750
+
+A dual-purpose truck with 6x6 wheel arrangement produced at the Ural Automobile Plant in Miass, Russia. The main purpose is to transport people and cargo, tow various vehicles and trailers on roads of any type and on rough terrain. Thanks to the 6x6 wheel configuration, impressive ground clearance and a powerful unit, the vehicle confidently crosses the wetlands and has a huge off-road potential. 
+

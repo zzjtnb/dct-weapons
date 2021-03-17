@@ -1,0 +1,31 @@
+Challenger 2
+
+challenger-2
+
+
+Type: Main Battle Tank
+Crew: 4
+Length: 8.03 m (13.5 m with gun forward)
+Height: 2.66 m
+Width: 3.5 m (4.2 m with appliqué armour)
+Engine: Perkins CV-12 V-12 diesel 1,200 hp
+Power-to-weight ratio: 19.2 hp/t
+Combat weight: 62.5 t
+Ground pressure: 0.9 kg/sq.cm
+Max speed: 59 km/h
+Operational range (road): 550 km
+Ground clearance: 0.5 m
+
+Armament:
+
+- 120 mm L30A1 cannon
+- 1 x 7.62 mm L94A1 coaxial machine gun
+- 1 x 7.62 mm L37A2 anti-aircraft machine gun
+
+The FV4034 Challenger 2 is a British main battle tank designed and built by the British company Vickers Defence Systems. The tank is in service with the armies of the United Kingdom and Oman.
+
+The Challenger 2 is equipped with a 120 mm 55-calibre long L30A1 tank gun, the successor to the L11 gun used on Chieftain and Challenger 1. The gun is fitted with a muzzle reference system and fume extraction. Effective range of fire with armor-piercing round is over 3,000 m.
+
+The turret and hull are protected by the second generation of Chobham armour (also known as Dorchester), the details of which are classified but which is said to be more than twice as strong as steel. A nuclear, biological and chemical (NBC) protection system is located in the turret bustle. The turret has a rotation time of 9 seconds through 360 degrees.
+
+The first combat use of Challenger 2s came in March 2003 during the invasion of Iraq. The 7th Armoured Brigade, part of the 1st Armoured Division, was in action with 120 Challenger 2s around Basra. The type saw extensive use during the siege of Basra, providing fire support to the British forces and knocking out multiple enemy tanks, mainly T-54/55s.

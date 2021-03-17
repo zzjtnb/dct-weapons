@@ -1,0 +1,27 @@
+R4M
+
+R4M
+
+
+Name: R4M
+Type: unguided aircraft rocket
+Developed: Germany
+Weight, kg: 3.85 
+Speed, km/h: 1,890
+Range, km: 1
+Length, m: 0.812
+Body diameter, m: 0.055
+Warhead weight, kg: 0.815
+
+The 55 mm R4M was the first air-to-air rocket that could be effectively used against aerial targets. The R4M warhead equiped with strongly brisant Hexogen explosive charge of 520 g that provided destroying of a heavy Allied bomber with one hit. As a comparison, accordingly to the Luftwaffe statistic it took an average of twenty 20 mm hits to shoot down a typical four-engined Allied bomber.
+
+The R4M could be fired from 1,000 m, just outside the range of the bomber's defensive machine guns. Only a small number of aircraft were fitted with the R4M, mostly Messerschmitt Me 262s and Fw 190s, which mounted them on small wooden racks under the wings.
+
+
+
+
+
+
+
+
+

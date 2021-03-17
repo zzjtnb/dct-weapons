@@ -1,0 +1,3110 @@
+dialog = {
+	["children"] = {
+		["box"] = {
+			["children"] = {
+				["panelBase"] = {
+					["children"] = {
+						["Static1"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 70,
+									["x"] = 5,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$waypoint",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static10"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 70,
+									["x"] = 5,
+									["y"] = 46,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$steer",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static12"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 70,
+									["x"] = 5,
+									["y"] = 69,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$vnav",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static14"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 70,
+									["x"] = 5,
+									["y"] = 92,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$vangle",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static16"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 70,
+									["x"] = 5,
+									["y"] = 115,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$angle",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static6"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 27,
+									["x"] = 266,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$of",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static8"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 70,
+									["x"] = 5,
+									["y"] = 23,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$scale",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_ME",
+								},
+							},
+							["type"] = "Static",
+						},
+						["c_scale_combo"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 108,
+									["x"] = 95,
+									["y"] = 23,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkinNew_",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["c_steer_combo"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 108,
+									["x"] = 95,
+									["y"] = 46,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkinNew_",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["c_vangle_combo"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 108,
+									["x"] = 95,
+									["y"] = 92,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkinNew_",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["c_vnav_combo"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 108,
+									["x"] = 95,
+									["y"] = 69,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkinNew_",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["e_angle"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 60,
+									["x"] = 95,
+									["y"] = 115,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = true,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 20,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxNew",
+								},
+								["states"] = {
+									["released"] = {
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_top"] = "0x00000080",
+												["left_bottom"] = "0x00000080",
+												["left_center"] = "0x00000080",
+												["left_top"] = "0x00000080",
+												["right_bottom"] = "0x00000080",
+												["right_center"] = "0x00000080",
+												["right_top"] = "0x00000080",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["e_wptof"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 45,
+									["x"] = 311,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = true,
+								["tabOrder"] = 10,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxNew",
+								},
+								["states"] = {
+									["released"] = {
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_top"] = "0x00000080",
+												["left_bottom"] = "0x00000080",
+												["left_center"] = "0x00000080",
+												["left_top"] = "0x00000080",
+												["right_bottom"] = "0x00000080",
+												["right_center"] = "0x00000080",
+												["right_top"] = "0x00000080",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["staticSpinWPTPlaceholder"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 154,
+									["x"] = 95,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "staticSpinWPTPlaceholder",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxNew",
+								},
+								["skins"] = {
+									["caret"] = {
+										["skinData"] = {
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["bkg"] = {
+															["rect"] = {
+															},
+														},
+														["picture"] = {
+															["rect"] = {
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["bkg"] = {
+															["rect"] = {
+															},
+														},
+														["picture"] = {
+															["rect"] = {
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["horzScrollBar"] = {
+										["skinData"] = {
+											["skins"] = {
+												["decreaseButton"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["increaseButton"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["thumb"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["picture"] = {
+															["rect"] = {
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["rect"] = {
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["vertScrollBar"] = {
+										["skinData"] = {
+											["skins"] = {
+												["decreaseButton"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["increaseButton"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												["thumb"] = {
+													["skinData"] = {
+														["states"] = {
+															["disabled"] = {
+																[1] = {
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["hover"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["pressed"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+															["released"] = {
+																[1] = {
+																	["bkg"] = {
+																		["rect"] = {
+																		},
+																	},
+																	["picture"] = {
+																		["rect"] = {
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["bkg"] = {
+															["rect"] = {
+															},
+														},
+														["picture"] = {
+															["rect"] = {
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["picture"] = {
+															["rect"] = {
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["disabled"] = {
+										[2] = {
+											["bkg"] = {
+												["rect"] = {
+												},
+											},
+											["picture"] = {
+												["rect"] = {
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["rect"] = {
+												},
+											},
+											["picture"] = {
+												["rect"] = {
+												},
+											},
+										},
+										[2] = {
+											["bkg"] = {
+												["rect"] = {
+												},
+											},
+											["picture"] = {
+												["rect"] = {
+												},
+											},
+										},
+									},
+									["released"] = {
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_top"] = "0x00000080",
+												["left_bottom"] = "0x00000080",
+												["left_center"] = "0x00000080",
+												["left_top"] = "0x00000080",
+												["rect"] = {
+												},
+												["right_bottom"] = "0x00000080",
+												["right_center"] = "0x00000080",
+												["right_top"] = "0x00000080",
+											},
+											["picture"] = {
+												["rect"] = {
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 150,
+							["w"] = 360,
+							["x"] = 9,
+							["y"] = 8,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelCustom"] = {
+					["children"] = {
+						["Grid"] = {
+							["children"] = {
+								["GridHeaderCell1"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 161,
+											["x"] = 119,
+											["y"] = 0,
+										},
+										["draggable"] = true,
+										["enabled"] = true,
+										["text"] = "$Value",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 1,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "gridHeaderCellSkinNew",
+										},
+									},
+									["type"] = "GridHeaderCell",
+								},
+								["GridHeaderCell2"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 54,
+											["x"] = 281,
+											["y"] = 0,
+										},
+										["draggable"] = true,
+										["enabled"] = true,
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 2,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "gridHeaderCellSkinNew",
+										},
+									},
+									["type"] = "GridHeaderCell",
+								},
+								["gridHeaderCell0"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 118,
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["draggable"] = true,
+										["enabled"] = true,
+										["text"] = "$Name",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "gridHeaderCellSkinNew",
+										},
+									},
+									["type"] = "GridHeaderCell",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 234,
+									["w"] = 327,
+									["x"] = 5,
+									["y"] = 16,
+								},
+								["enabled"] = true,
+								["fixedColumns"] = 0,
+								["rows"] = 5,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridSkin_Multiplayer_roleNew",
+									["selectionColor"] = "0x6ed8f340",
+								},
+								["skins"] = {
+									["headerCell"] = {
+										["skinData"] = {
+											["states"] = {
+												["released"] = {
+													[1] = {
+														["text"] = {
+															["color"] = "0xffffffff",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Grid",
+						},
+						["btnAdd"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 237,
+									["y"] = 257,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$add",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin_ME",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffcc",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffcc",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffcc",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\buttons\\btnmini\\btnmean2.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["color"] = "0xd8d8d8ff",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonDown"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 18,
+									["x"] = 342,
+									["y"] = 140,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\icondown.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\icondown.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\icondown.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffcc",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\icondown.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonUp"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 18,
+									["x"] = 342,
+									["y"] = 106,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\iconup.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\iconup.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\iconup.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffcc",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\iconup.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 303,
+							["w"] = 360,
+							["x"] = 9,
+							["y"] = 173,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 500,
+					["w"] = 380,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["horzMouseWheel"] = false,
+				["layout"] = {
+				},
+				["text"] = "scrollPane0",
+				["tooltip"] = "",
+				["vertMouseWheel"] = true,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["skins"] = {
+					["horzScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["decreaseButtonAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["hasButtons"] = true,
+								["increaseButtonAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["maxSize"] = {
+									["horz"] = 0,
+									["vert"] = 12,
+								},
+								["minSize"] = {
+									["horz"] = 0,
+									["vert"] = 12,
+								},
+								["textLineHeight"] = 0,
+								["textWrapping"] = false,
+								["thumbAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["skins"] = {
+								["decreaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["maxSize"] = {
+										["horz"] = 16,
+										["vert"] = 16,
+									},
+									["minSize"] = {
+										["horz"] = 16,
+										["vert"] = 16,
+									},
+									["pressed"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 91,
+												["y2"] = 107,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffbf",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\leftarrow.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffa6",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\leftarrow.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffff80",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\leftarrow.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["version"] = 1,
+								},
+								["increaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["maxSize"] = {
+										["horz"] = 16,
+										["vert"] = 16,
+									},
+									["minSize"] = {
+										["horz"] = 16,
+										["vert"] = 16,
+									},
+									["pressed"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 55,
+												["y2"] = 71,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["color"] = {
+												["a"] = 1,
+												["b"] = 1,
+												["g"] = 1,
+												["r"] = 1,
+											},
+											["file"] = "dxgui\\skins\\skinME\\./images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffbf",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\rightarrow.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffa6",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\rightarrow.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffff80",
+														["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\rightarrow.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["version"] = 1,
+								},
+								["thumb"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["file"] = "",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 2,
+															["top"] = 2,
+														},
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 2,
+															["top"] = 2,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0x425161ff",
+														["insets"] = {
+															["bottom"] = 2,
+															["top"] = 2,
+														},
+													},
+												},
+											},
+										},
+									},
+									["version"] = 1,
+								},
+							},
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0xffffffff",
+											["center_center"] = "0xb3b3b34d",
+											["center_top"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images\\down.png",
+											["insets"] = {
+												["bottom"] = 1,
+												["left"] = 1,
+												["right"] = 1,
+												["top"] = 1,
+											},
+											["left_bottom"] = "0xffffffff",
+											["left_center"] = "0xffffffff",
+											["left_top"] = "0xffffffff",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+											["right_bottom"] = "0xffffffff",
+											["right_center"] = "0xffffffff",
+											["right_top"] = "0xffffffff",
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0x363636ff",
+											["center_center"] = "0x1e2935ff",
+											["center_top"] = "0x363636ff",
+											["file"] = "",
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["left_bottom"] = "0x363636ff",
+											["left_center"] = "0x363636ff",
+											["left_top"] = "0x363636ff",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+											["right_bottom"] = "0x363636ff",
+											["right_center"] = "0x363636ff",
+											["right_top"] = "0x363636ff",
+										},
+									},
+								},
+							},
+						},
+					},
+					["vertScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["decreaseButtonAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["hasButtons"] = true,
+								["increaseButtonAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["maxSize"] = {
+									["horz"] = 11,
+									["vert"] = 0,
+								},
+								["minSize"] = {
+									["horz"] = 11,
+									["vert"] = 0,
+								},
+								["thumbAlign"] = {
+									["type"] = "middle",
+								},
+							},
+							["skins"] = {
+								["decreaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["maxSize"] = {
+										["horz"] = 16,
+										["vert"] = 16,
+									},
+									["minSize"] = {
+										["horz"] = 16,
+										["vert"] = 16,
+									},
+									["pressed"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 91,
+												["y2"] = 107,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 73,
+												["y2"] = 89,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["left"] = 1,
+											},
+											["maxSize"] = {
+												["horz"] = 10,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 10,
+												["vert"] = 0,
+											},
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_dis.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_hover.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_pressed.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_normal.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["version"] = 1,
+								},
+								["increaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["pressed"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 55,
+												["y2"] = 71,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = "dxgui\\skins\\skinME\\images/btn-tools-01.png",
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 481,
+												["x2"] = 497,
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["maxSize"] = {
+												["horz"] = 11,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 11,
+												["vert"] = 0,
+											},
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_dis.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_hover.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_pressed.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_normal.png",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["version"] = 1,
+								},
+								["thumb"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 5,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 5,
+												["vert"] = 20,
+											},
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xffffffff",
+														["center_center"] = "0xffffffff",
+														["center_top"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_dis.png",
+														["left_bottom"] = "0xffffffff",
+														["left_center"] = "0xffffffff",
+														["left_top"] = "0xffffffff",
+														["right_bottom"] = "0xffffffff",
+														["right_center"] = "0xffffffff",
+														["right_top"] = "0xffffffff",
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xffffffff",
+														["center_center"] = "0xffffffff",
+														["center_top"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_hover.png",
+														["insets"] = {
+															["bottom"] = 20,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 10,
+														},
+														["left_bottom"] = "0xffffffff",
+														["left_center"] = "0xffffffff",
+														["left_top"] = "0xffffffff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xffffffff",
+														["right_center"] = "0xffffffff",
+														["right_top"] = "0xffffffff",
+													},
+													["picture"] = {
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xffffffff",
+														["center_center"] = "0xffffffff",
+														["center_top"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+														["insets"] = {
+															["bottom"] = 1,
+															["left"] = 1,
+															["right"] = 1,
+															["top"] = 1,
+														},
+														["left_bottom"] = "0xffffffff",
+														["left_center"] = "0xffffffff",
+														["left_top"] = "0xffffffff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xffffffff",
+														["right_center"] = "0xffffffff",
+														["right_top"] = "0xffffffff",
+													},
+													["picture"] = {
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xffffffff",
+														["center_center"] = "0xffffffff",
+														["center_top"] = "0xffffffff",
+														["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+														["insets"] = {
+															["bottom"] = 1,
+															["left"] = 1,
+															["right"] = 1,
+															["top"] = 1,
+														},
+														["left_bottom"] = "0xffffffff",
+														["left_center"] = "0xffffffff",
+														["left_top"] = "0xffffffff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xffffffff",
+														["right_center"] = "0xffffffff",
+														["right_top"] = "0xffffffff",
+													},
+													["picture"] = {
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["version"] = 1,
+								},
+							},
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0x00000000",
+											["center_center"] = "0xffffffff",
+											["center_top"] = "0x00000000",
+											["file"] = "dxgui\\skins\\skinme\\images\\vertscrollbarskinsvbg.png",
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["left_bottom"] = "0x00000000",
+											["left_center"] = "0x00000000",
+											["left_top"] = "0x00000000",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+											["right_bottom"] = "0x00000000",
+											["right_center"] = "0x00000000",
+											["right_top"] = "0x00000000",
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0x363636ff",
+											["center_center"] = "0x363636ff",
+											["center_top"] = "0x363636ff",
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["left_bottom"] = "0x363636ff",
+											["left_center"] = "0x363636ff",
+											["left_top"] = "0x363636ff",
+											["right_bottom"] = "0x363636ff",
+											["right_center"] = "0x363636ff",
+											["right_top"] = "0x363636ff",
+										},
+										["picture"] = {
+											["horzAlign"] = {
+												["type"] = "middle",
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x2d3e50ff",
+								["insets"] = {
+									["left"] = 1,
+								},
+								["left_center"] = "0x1a232dff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ScrollPane",
+		},
+		["pNoVisible"] = {
+			["children"] = {
+				["btnDel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 18,
+							["w"] = 18,
+							["x"] = 316,
+							["y"] = 93,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\icons\\iconhoverrl.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\icons\\iconhoverrl.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffbf",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\icons\\iconhoverrl.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\icons\\icondeleterl.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["eItem"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 93,
+							["x"] = 129,
+							["y"] = 69,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = false,
+						["tabOrder"] = 20,
+						["text"] = "",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxNew",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x6ed8f340",
+										["center_center"] = "$nil$",
+										["center_top"] = "0x6ed8f340",
+										["left_bottom"] = "0x6ed8f340",
+										["left_center"] = "0x6ed8f340",
+										["left_top"] = "0x6ed8f340",
+										["right_bottom"] = "0x6ed8f340",
+										["right_center"] = "0x6ed8f340",
+										["right_top"] = "0x6ed8f340",
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_bottom"] = "0x6ed8f340",
+										["center_center"] = "$nil$",
+										["center_top"] = "0x6ed8f340",
+										["left_bottom"] = "0x6ed8f340",
+										["left_center"] = "0x6ed8f340",
+										["left_top"] = "0x6ed8f340",
+										["right_bottom"] = "0x6ed8f340",
+										["right_center"] = "0x6ed8f340",
+										["right_top"] = "0x6ed8f340",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "EditBox",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 159,
+					["w"] = 368,
+					["x"] = 6,
+					["y"] = 526,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 700,
+			["w"] = 380,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 365,
+	},
+}

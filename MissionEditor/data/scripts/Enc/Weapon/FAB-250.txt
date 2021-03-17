@@ -1,0 +1,12 @@
+FAB-250
+
+fab-250-n1
+
+
+Name: FAB-250
+Type: General purpose bomb
+Developed: Russia
+Weight, kg: 249
+Length, m: 2.16
+Body diameter, m: 0.32
+Warhead weight, kg: 120

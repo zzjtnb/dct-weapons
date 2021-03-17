@@ -1,0 +1,16 @@
+Ticonderoga
+
+ticonderoga
+
+
+Type: Cruiser
+Complement: 390
+Displacement, tons: 7650 standard 9900 full 
+Dimensions, m: 172,8x16,8x9,5
+Speed, knots: 34
+Range, miles: 3000 at 32 kts, 9000 at 15 kts
+
+Armament: SLCM/SSM Tomahawk, 2x4 SSM Harpoon, 
+SAM Standard, A/S ASROC, 2x127 FMC 5 gun, 2x6-
+20mm Vulcan Phalanx gun, 2 SH-60B
+

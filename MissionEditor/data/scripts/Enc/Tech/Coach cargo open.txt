@@ -1,0 +1,6 @@
+Coach cargo open
+
+wagon-gruz-otkr
+
+
+A flatcar for loads that are too large or cumbersome to load in enclosed cars.

@@ -1,0 +1,42 @@
+MT-LB
+
+mtlb
+
+
+Multi-purpose fully-amphibious armoured personnel carrier
+Developer: Russia
+Start of production: n/a
+Combat weight, t: 9.7
+Crew, man: 3 + 11 infantry
+Dimensions:
+ length , m: 6.454
+ Width, m: 2.85
+ height (on the roof of the tower), m: 1.865
+ clearance, m: 0.395
+Booking: anti-bullet
+Weapons:
+ 1 x 7.62mm PKT machine gun
+Range of fire from the cannon, m:
+ Maximum: n/a
+ effective: n/a
+Weight of the projectile: n/a
+Starting speed of the projectile, m/s: n/a
+Armour-piercing, mm: n/a
+PKT machine gun kit, pcs: 2000
+Homing angles:
+ horizontally, hail..: 360
+ vertically, hail.
+Engine: YaMZ-238V diesel
+Power, h.p: 300
+Max. travel speed, km/h:
+ Highway: 61.5
+ cross-country: n/a
+ on water: 6
+Power reserve, km: 500
+Obstacles to overcome:
+ Angle climb, hail..: 35
+ roll, hail..: 25
+ wall height, m: 0.8
+ Ditch width, m: 2.5
+ ford depth, m: floating
+ 

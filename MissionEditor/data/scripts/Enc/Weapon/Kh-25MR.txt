@@ -1,0 +1,17 @@
+Kh-25MR
+
+x-25mr
+
+
+Name: Kh-25MR (AS-10 'Karen')
+Type: Short-range, radio command, air-to-
+surface missile
+Developed: Zvezda-Strela, Russia
+Warhead weight, kg: 90
+Guidance: radio-command
+Weight, kg: 300
+G limit: 20
+Length, m: 3.69
+Body diameter, m: 0.275
+Range, km: 10
+Maximum Mach number: 0.72

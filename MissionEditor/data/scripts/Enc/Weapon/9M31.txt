@@ -1,0 +1,17 @@
+9M31
+
+9m31
+
+
+Name: 9M31
+Type: Short-range, optical guidance, surface-
+to-air-missile for Strela-1
+Developed: Russia
+Warhead weight, kg: 2.6
+Guidance: Infrared seeker
+Weight, kg: 32
+G limit: 20
+Length, m: 1.8
+Body diameter, m: 0.12
+Range, km: 4.2
+Maximum Mach number: 1.8

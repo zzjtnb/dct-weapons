@@ -1,0 +1,19 @@
+9M133
+
+9m133
+
+
+Name: 9M133 "Kornet" (AT-14 "Spriggan")
+Type: Short-range, laser-guided, air-to-surface 
+missile
+Developed: KBP Instrument Design Bureau, Tula, Russia
+Warhead weight, kg: 10
+Guidance: laser-guided
+Weight, kg: 27 (29 with launch tube) 
+Range, km: 5.5
+
+The 9M133 missile together with its 9P163-1 tripod launcher and 1PN79-1 thermal sight forms the 9K123 missile system, the 9K123 can be carried and operated by a two infantry crew. In addition to an infantary portable version the 9K133 the system has been integrated into a variety of other vehicles and weapons systems as either an upgrade package or new weapon system. The 9K133 has been fitted into a BMP-3 to form the 9P163M-1 tank destroyer and is similar in function to the Khrizantema missile system. The 9P163M-1 carries two 9M133 missiles on launch rails which are extended from a stowed position during transit. Missile are re-loaded automatically by the tank destroyer from an internal magazine with 16 rounds (missiles are stored and transported in sealed canisters). NBC protection is provided for the two crew (gunner and driver) of each 9P163M-1 in addition to full armour protection equivalent to the standard BMP-3 chassist. The guidance system of the 9P163M-1 allows two missiles to be fired at once, the missiles operating on different guidance (laser) channels.
+
+During the 2003 invasion of Iraq, Kornets were rumoured to have been used by Iraqi forces to attack American M1 Abrams tanks. According to GlobalSecurity.org, at least two M1 Abrams tanks and one M2 Bradley infantry fighting vehicle were disabled by Kornets. 
+The first verified episode of Kornet ATGM in combat use occurred during the 2006 Lebanon War, where the missiles, reportedly supplied by Syria, were successfully used by Hezbollah fighters to destroy and damage Israeli Merkava tanks. One of the first detailed accounts of IDF's successful capture of Kornet ATGMs on Hezbollah positions in the village of Ghandouriyeh appeared in the Daily Telegraph article, which also reported that the boxes were marked with "Customer: Ministry of Defense of Syria. Supplier: KBP, Tula, Russia." Several months after the cease-fire, reports have provided sufficient photographic evidence that Kornet ATGMs were indeed both in possession of, and used by, Hezbollah in this area.
+

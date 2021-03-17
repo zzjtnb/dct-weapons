@@ -1,0 +1,12 @@
+KMG-2F/2B
+
+kmgu-2
+
+
+Type: Aircraft submunition dispenser
+Developed: Russia
+Name: KMG-2F/2B
+Weight, kg: 525
+Length, m: 3.7
+Body diameter, m: 0.46
+Warhead weight, kg: 240

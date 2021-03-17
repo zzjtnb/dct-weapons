@@ -1,0 +1,27 @@
+F-15C
+
+F-15
+F-15C
+
+Name: F-15C
+Type: Air-superiority fighter
+Crew: 1
+Length: 19.43 m
+Height: 5.63 m
+Wing span: 13.05 m
+Wing area: 56.5 m²
+Weight empty: 12790 kg
+Normal weight: 19000 kg
+Maximum weight: 30845 kg
+Maximum Mach at height: 2.5
+G limit: 8
+Range with nominal load: 2540 km
+Maximum fuel: 6103 kg
+Service ceiling: 18300 m
+Take-off speed: 219.6 km/h
+Landing speed: 234 km/h
+Maximum range: 2540 km
+Maximum Mach at S/L: 1.2
+
+Armament:
+- M61A-1 cannon

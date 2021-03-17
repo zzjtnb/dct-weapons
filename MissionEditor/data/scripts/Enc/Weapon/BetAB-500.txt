@@ -1,0 +1,12 @@
+BetAB-500
+
+betab-500
+
+
+Body diameter, m: 0.35
+Type: Penetrator bomb – slick (low drag)
+Developed: Russia
+Name: BetAB-500
+Weight, kg: 478
+Length, m: 2.2
+Warhead weight, kg: 75.8

@@ -1,0 +1,21 @@
+Ka-50
+
+ka-50
+
+
+Name: Ka-50 "Hokum-A"
+Type: Close support helicopter
+Developed: Kamov OKB, Russia
+Crew: 1
+Main rotor diameter: 14.45 m
+Weight empty: 7700 kg
+Normal weight: 9800 kg
+Maximum weight: 10800 kg
+Maximum fuel: 2400 kg
+Service celling: 5070 m
+Maximum speed: 350 km/h
+G limit: 3.5
+Maximum range: 450 km
+
+Armament:
+- 2A42 cannon

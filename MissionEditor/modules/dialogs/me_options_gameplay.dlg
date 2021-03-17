@@ -1,0 +1,1208 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["containerGameplay"] = {
+					["children"] = {
+						["allRadioButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 185,
+									["x"] = 513,
+									["y"] = 236,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 100,
+								["text"] = "$all",
+								["tooltip"] = "$all_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkin_final",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["alliesOnlyRadioButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 185,
+									["x"] = 513,
+									["y"] = 202,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 80,
+								["text"] = "$alliesOnly",
+								["tooltip"] = "$alliesOnly_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkin_final",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["alliesRadioButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 185,
+									["x"] = 513,
+									["y"] = 168,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 60,
+								["text"] = "$allies",
+								["tooltip"] = "$allies_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkin_final",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["avionicsLanguageComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 137,
+									["x"] = 1030,
+									["y"] = 141,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "$avionicsLanguage_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["avionicsLanguageLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 200,
+									["x"] = 814,
+									["y"] = 141,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$avionicsLanguage",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["birdsLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 130,
+									["x"] = 815,
+									["y"] = 316,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$birds",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["birdsSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 150,
+									["x"] = 962,
+									["y"] = 309,
+								},
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 1000,
+									["min"] = 0,
+								},
+								["step"] = 10,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$birds_tooltip",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["birdsWidget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 37,
+									["x"] = 1129,
+									["y"] = 312,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsSliderValueSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["cockpitVisualRMCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 496,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 180,
+								["text"] = "$cockpitVisualRM",
+								["tooltip"] = "$cVRM_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["difficultiesLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 25,
+									["w"] = 261,
+									["x"] = 114,
+									["y"] = 50,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$difficulties",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["easyCommunicationCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 280,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 110,
+								["text"] = "$easyComm",
+								["tooltip"] = "$easyComm_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["easyFlightCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 100,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 10,
+								["text"] = "$easyFlight",
+								["tooltip"] = "$easyFlight_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["easyRadarCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 270,
+									["x"] = 113,
+									["y"] = 136,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 10,
+								["text"] = "$easyRadar",
+								["tooltip"] = "$easyRadar_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["editorIconsStyleLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 200,
+									["x"] = 814,
+									["y"] = 100,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$editorIconsStyle",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["f10optLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 25,
+									["w"] = 653,
+									["x"] = 513,
+									["y"] = 50,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$f10opt",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["fuelCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 352,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 140,
+								["text"] = "$unlimitedFuel",
+								["tooltip"] = "$fuel_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["geffectComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 137,
+									["x"] = 1030,
+									["y"] = 223,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "$geffect_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["geffectLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 200,
+									["x"] = 814,
+									["y"] = 223,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$geffect",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["hideStickCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 270,
+									["x"] = 513,
+									["y"] = 388,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 190,
+								["text"] = "$hideStick",
+								["tooltip"] = "$hideStick_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["iconsThemeComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 137,
+									["x"] = 1030,
+									["y"] = 100,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "$iconsTheme_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["immortalCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 424,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 160,
+								["text"] = "$immortal",
+								["tooltip"] = "$immortal_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["labelsComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 137,
+									["x"] = 1030,
+									["y"] = 264,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "$labels_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["labelsLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 200,
+									["x"] = 815,
+									["y"] = 266,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$labels",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["mapOnlyRadioButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 185,
+									["x"] = 513,
+									["y"] = 100,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 20,
+								["text"] = "$mapOnly",
+								["tooltip"] = "$mapOnly_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkin_final",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["miniHUDCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 270,
+									["x"] = 513,
+									["y"] = 316,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 200,
+								["text"] = "$miniHUD",
+								["tooltip"] = "$miniHUD_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["mirrorsCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 270,
+									["x"] = 513,
+									["y"] = 352,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 210,
+								["text"] = "$mirrors",
+								["tooltip"] = "$mirrors_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["myPlaneRadioButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 185,
+									["x"] = 513,
+									["y"] = 134,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$myAC",
+								["tooltip"] = "$myPlane_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkin_final",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["padlockCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 316,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 120,
+								["text"] = "$padlock",
+								["tooltip"] = "$padlock_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["permitCrashCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 244,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 90,
+								["text"] = "$permitCrash",
+								["tooltip"] = "$permitCrash_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["presetGameButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 130,
+									["x"] = 992,
+									["y"] = 520,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$game",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGrayNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["presetSimulationButton"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 130,
+									["x"] = 860,
+									["y"] = 520,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$simulation",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGrayNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["presetsLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 261,
+									["x"] = 861,
+									["y"] = 430,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$presets",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["radioCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 172,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 50,
+								["text"] = "$radioAssist",
+								["tooltip"] = "$radio_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["reportsCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 460,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 170,
+								["text"] = "$alliedFlightReports",
+								["tooltip"] = "$reports_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["setGlobalCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 40,
+									["w"] = 258,
+									["x"] = 864,
+									["y"] = 465,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 230,
+								["text"] = "$setGlobal",
+								["tooltip"] = "$setGlobal_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+									["textWrapping"] = true,
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["check"] = {
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["check"] = {
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["tipsCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 208,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 70,
+								["text"] = "$tooltips",
+								["tooltip"] = "$tips_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["unitsComboList"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 137,
+									["x"] = 1030,
+									["y"] = 182,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "$units_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["unitsLabel"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 200,
+									["x"] = 814,
+									["y"] = 182,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$units",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsCaptionSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["unrestrictedSATNAVCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 532,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 180,
+								["text"] = "$unrestrictedSATNAV",
+								["tooltip"] = "$SATNAV_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["userMarksCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 270,
+									["x"] = 513,
+									["y"] = 424,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 190,
+								["text"] = "$userMarks",
+								["tooltip"] = "$userMarks_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["wakeTurbulenceCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 270,
+									["x"] = 513,
+									["y"] = 460,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 190,
+								["text"] = "$wakeTurbulence",
+								["tooltip"] = "$wakeTurbulence_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["weaponsCheckbox"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 261,
+									["x"] = 113,
+									["y"] = 388,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 150,
+								["text"] = "$unlimitedWeapons",
+								["tooltip"] = "$weapons_tooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 645,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 645,
+					["w"] = 1280,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 1024,
+						["vert"] = 650,
+					},
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 645,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x2d3e50cc",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

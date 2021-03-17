@@ -1,0 +1,21 @@
+M1043 HMMWV
+
+hmmwv_m1043
+
+
+Type: M1043 Armament Carrier HMMWV.
+Length: 4.72 m
+Width: 2.18 m
+Height: 1.83 m
+Crew: 2-4
+Engine: GM V-8 diesel 150 hp
+Wheel Configuration: 4x4
+Empty weight : 2855 kg
+Max vehicle load: 1135 kg
+Max towed load: 1542 kg
+Ground clearance: 0.41 m
+Max road speed: 113 km/h
+Operational range (road): 482 km
+
+Armament: 
+- 12.7 mm M2 machine gun

@@ -1,0 +1,14 @@
+9M22U
+
+9m22u
+
+
+Name: 9M22U solid propellant rocket
+Type: rocket for MLRS BM-21 Grad
+Developed: Russia
+Warhead weight, kg: 15.6
+Weight, kg: 70
+Speed, km/h: 1620
+Range, km: 20.5
+Length, m: 5.1
+Body diameter, m: 0.122

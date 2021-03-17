@@ -1,0 +1,13 @@
+Mk 82 AIR
+
+mk-82air
+
+
+Name: Mk 82 AIR
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 241
+Length, m: 2.21
+Explosive Weight, kg: 87
+
+This version of the Mk 82 adds the BSU-49/B high drag tail assembly, also called the "ballute". This allows the bomb to rapidly slow down after release. By slowing down, pilot can release such a retarded weapon at low altitude and not be caught in the blast effect of the weapon. Pilot can choose to release the Mk 82 AIR in either retarded or "slick" (no ballute deployed) modes.

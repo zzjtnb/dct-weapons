@@ -1,0 +1,20 @@
+M1128 Stryker MGS
+
+m1128
+
+
+Type: Mobile Gun System
+Length: 6.985 m
+Width: 2.717 m
+Height: 2.641 m
+Combat weight: 18 594 kg
+Crew: 3
+Engine: diesel 350 hp
+Operational range: 531 km
+Wheel formula: 8x8
+Max road speed: 96 km/h
+
+Armament:
+- M68A1 105mm gun
+- 7.62mm machine gun
+

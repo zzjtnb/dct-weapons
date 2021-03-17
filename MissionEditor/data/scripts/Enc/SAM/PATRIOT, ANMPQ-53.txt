@@ -1,0 +1,16 @@
+Patriot AN/MPQ-35 STR
+SAM/Patriot AN_MPQ-35 STR.png
+PATRIOT-RLS
+
+
+Type: Medium-to-High Altitude Air Defense 
+System: AN/MPQ-53 Multifunction Phased-Array Radar
+Height: 3.6 m
+Length: 15.0 m
+Width: 2.9 m
+Combat weight: 29 000 kg
+Radar detection range: 3-170 km
+Search sector:
+- azimuth 120°
+- elevation 90°
+Tracking sector: 110°

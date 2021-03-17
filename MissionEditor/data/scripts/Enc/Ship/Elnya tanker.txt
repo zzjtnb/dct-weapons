@@ -1,0 +1,14 @@
+Elnya tanker
+
+elnya
+
+
+Type: Replenishment tanker
+Complement: 40
+Displacement, tons: 5500 standard 7300 full 
+Dimensions, m: 106,2x15,4x6,75
+Speed, knots: 14
+load
+Range, miles: 8600 at 12 kts
+
+Armament: none

@@ -1,0 +1,14 @@
+OFAB-100-110TU Jupiter 
+
+ofab-100-110tu
+
+
+Name: OFAB-100-110TU Jupiter
+Type: General Purpose Bomb
+Country of Origin: Czech
+Weight, kg: 121
+Length, m: 1.05
+Body diameter, m: 0.273
+Warhead weight, kg: 44
+
+OFAB-100-110TU Jupiter is a general purpose bomb fitted with a drag parachute. The bombs being manufactured in Czech Republic and still remain in service. OFAB-100-110 Jupiter bombs can be carried by attack aircraft including the L-39 family. 

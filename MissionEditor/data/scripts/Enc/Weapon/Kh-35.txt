@@ -1,0 +1,16 @@
+Kh-35
+
+x-35
+
+
+Name: Kh-35 (AS-20 'Kayak')
+Type: Long-range, radar-guided, air-to-surface 
+missile
+Developed: Zvezda-Strela, Russia
+Warhead weight, kg: 145
+Guidance: inertial with active radar
+Weight, kg: 480
+G limit: 20
+Length, m: 3.75
+Body diameter, m: 0.420
+Maximum Mach number: 0.9158,

@@ -1,0 +1,28 @@
+C-130Н
+
+c-130
+
+
+Name: C-130Н "Hercules"
+Type: Tactical transport
+Crew: 4-5
+Capacity:
+92 passengers or
+64 airborne troops or
+74 litter patients with 2 medical personnel
+Payload: 20,000 kg including 2-3 Humvees or an M113 Armored Personnel Carrier
+Length: 29.8 m
+Wingspan: 40.4 m
+Height: 11.6 m
+Wing area: 162.1 m²
+Empty weight: 38,000 kg
+Useful load: 33,000 kg
+Max takeoff weight: 70,310 kg
+Powerplant: 4 x Allison T56-A-15 turboprops, 3,362 kW each
+Maximum speed: 610 km/h
+Cruise speed: 540 km/h
+Range: 3,800 km
+Service ceiling: 10,000 m
+
+Developed by Lockheed in the early 50's, the C-130 Hercules is a major tactical transport aircraft not only for the U.S. Air Force, but also for many other countries. It is designed for tactical transportation, as well as for landing and parachuting of troops and military equipment.
+C-130H is a serial variant, analogue of C-130E, but with the improvements of the glider and systems and with the engines T56-A-15, developing in flight the power on the shaft of 3362 kW (4508 hp).

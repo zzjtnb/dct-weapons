@@ -1,0 +1,20 @@
+RS-2US
+
+RS-2US
+
+
+Name: RS-2US (AA-1A 'Alkali')
+Type: short-range, air-to-air 
+missile
+Developed: Russia
+Warhead, kg: 13
+Guidance: beam riding
+Weight, kg: 82.7
+Maximum Mach number: 2.35
+Length, m: 2.5
+Body diameter, m: 0.2
+Range, km: 6
+
+The RS-2US missile was an improved variant of the RS-2U missile and the last modification in the K-5 air-to-air missile family. The RS-2US entered production in 1959 and were taken from service in the late 70's when latest Su-9 interceptors were removed from operational status.
+
+

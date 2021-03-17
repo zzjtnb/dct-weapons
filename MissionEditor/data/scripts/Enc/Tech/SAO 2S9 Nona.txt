@@ -1,0 +1,35 @@
+SAO 2S9 "Nona"
+
+2-c9
+
+
+Type: Self-propelled Howitzer/Mortar
+Length: 6.02 m
+Width: 2.63 m
+Height: 2.3 m
+Ground clearance: 0.1-0.45 m
+Combat weight: 8,700 kg
+Ground pressure: 0.5 kg/sq.cm
+Crew: 4
+Engine: 5D-20 V-6 diesel 240 hp
+Power-to-weight ratio: 27.58 hp/t
+Max road speed: 60 km/h
+Max water speed: 9 km/h
+Operational range:
+- Road 500 km
+- Water 75-90 km
+
+Turret traverse: 35° left/ 35° right
+Gun elevation/depression: +80°/-4°
+
+Armament:
+- 120 mm 2A60 mortar
+
+
+
+
+
+
+
+
+

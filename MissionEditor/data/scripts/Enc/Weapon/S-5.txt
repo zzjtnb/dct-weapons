@@ -1,0 +1,14 @@
+S-5
+Weapon/S-5.png
+c-5
+
+
+Name: S-5
+Type: 57 mm unguided aircraft rockets
+Developed: Spetztekhnika Vympel NPO, Russia
+Weight, kg: 3.86
+Speed, km/h: 2422.8
+Range, km: 3
+Length, m: 0.88
+Body diameter, m: 0.052
+Warhead weight, kg: 1.05

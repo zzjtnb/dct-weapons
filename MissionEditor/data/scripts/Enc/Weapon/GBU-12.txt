@@ -1,0 +1,13 @@
+GBU-12
+
+gbu-12
+
+
+Name: GBU-12
+Type: Laser-guided bomb
+Developed: USA
+Guidance: Laser-command
+Warhead weight, kg: 89
+Weight, kg: 225
+Length, m: 3.33
+Body diameter, m: 0.273

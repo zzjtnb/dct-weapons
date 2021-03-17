@@ -1,0 +1,17 @@
+9M38M1
+
+9m38m1
+
+
+Name: 9M38M1
+Type: Medium-range, SARH, surface-to-air-
+missile for BUK
+Developed: Russia
+Warhead weight, kg: 70
+Guidance: Semi-active radar
+Weight, kg: 685
+G limit: 16
+Length, m: 5.55
+Body diameter, m: 0.4
+Range, km: 3-32
+Maximum Mach number: 3

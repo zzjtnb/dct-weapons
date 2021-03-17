@@ -1,0 +1,14 @@
+Mk 82 BSU33
+
+mk-82_BSU33
+
+
+Name: Mk 82 BSU33
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 241
+Length, m: 2.21
+Body diameter, m: 0.273
+Warhead weight, kg: 89
+
+Variant Mk 82 with modified modular tail layout.

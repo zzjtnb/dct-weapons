@@ -1,0 +1,12 @@
+AGM-154
+
+agm-154
+
+
+Type: Tactical cruise missile
+Developed: USA
+Name: AGM-154
+Weight, kg: 484
+Length, m: 4.26
+Body diameter, m: 0.53 X 0.6
+Warhead weight, kg: 42

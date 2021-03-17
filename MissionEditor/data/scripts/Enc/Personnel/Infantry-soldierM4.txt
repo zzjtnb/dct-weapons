@@ -1,0 +1,14 @@
+Soldier with M4
+
+soldier_us_00
+
+
+Weapons: M4
+Type: Automatic
+Weight: 2.8 kg
+Caliber: 5.56 mm
+Speed of fire: 700-950 rounds/minute
+Initial speed: 910 m/s
+Range of sight: 800 m
+Effective range: 500 m
+Type of ammunition: magazine for 30, 40 or 60 rounds.

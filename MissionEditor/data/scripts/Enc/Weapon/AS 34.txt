@@ -1,0 +1,17 @@
+AS 34
+
+t-kormoran
+
+
+Name: AS 34 "Kormoran"
+Type: Medium-range, radar-guided, air-to-
+surface missile
+Developed: Germany and France
+Warhead weight, kg: 165
+Guidance: inertial and active radar
+Weight, kg: 600
+G limit: 16
+Body diameter, m: 0.345
+Length, m: 4.40
+Range, km: 30
+Maximum Mach number: 0.85

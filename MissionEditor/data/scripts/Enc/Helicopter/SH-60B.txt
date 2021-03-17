@@ -1,0 +1,16 @@
+SH-60B
+
+sh-60b
+
+
+Name: SH-60B
+Type: Anti-ship helicopter
+Crew: 2
+Main rotor diameter: 14.712 m
+Weight empty: 6190 kg
+Normal weight: 9180 kg
+Maximum weight: 9925 kg
+Maximum fuel: 1157 kg
+Service celling: 4510 m
+Maximum speed: 293 km/h
+Maximum range: 480 km

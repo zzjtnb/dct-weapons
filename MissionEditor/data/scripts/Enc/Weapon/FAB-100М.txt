@@ -1,0 +1,13 @@
+FAB-100M
+
+fab100_40x
+
+
+Name: FAB-100M
+Developed: 1942
+Type: General Purpose Bomb
+Country of Origin: Russia
+Weight, kg: 103.72
+Length, m: 1.058
+Body diameter, m: 0.280
+Warhead weight, kg: 45

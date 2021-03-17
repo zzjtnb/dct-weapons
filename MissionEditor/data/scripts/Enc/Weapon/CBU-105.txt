@@ -1,0 +1,17 @@
+CBU-105
+
+cbu-97
+
+
+Name: CBU-105 Wind Corrected Munition Dispenser
+Dispenser: SUU-66
+Type: Sensor Fused Weapon
+Developed: USA
+Weight, kg: 415
+Length, m: 2.34
+Body diameter, m: 0.406
+
+The Wind Corrected Munitions Dispenser (WCMD) is an expensive tail kit that turns existing unguided cluster munitions dispensers into all-weather precision guided weapons. It corrects for launch transients, ballistic errors, and winds aloft even released from high altitude or weather condition.
+The WCMD use inertial guidance only (no GPS).
+
+CBU-105 is the same CBU-97 with inertial guidance kit.

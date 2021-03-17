@@ -1,0 +1,17 @@
+Ka-27
+
+ka-27
+
+
+Name: Ka-27 "Helix"
+Type: Multipurpose military helicopter
+Developed: Kamov OKB, Russia
+Crew: 3
+Main rotor diameter: 15.9 m
+Weight empty: 6800 kg
+Normal weight: 11000 kg
+Maximum weight: 13000 kg
+Maximum fuel: 1450 kg
+Service celling: 3000 m
+Maximum speed: 270 km/h
+Maximum range: 800 km

@@ -1,0 +1,13 @@
+Radar PRW-11
+Radar/PRV-11.png
+PRW-11
+
+
+Type: E-band (2 to 3 GHz) transportable
+height-finder radar
+Frequency: E-band (2 to 3 GHz)
+Range: 180 km
+Altitude: 30 km
+Antenna dimensions: 7.7x3 m
+Nodding rate: 5-30 cps
+Van dimensions: 2.97x3.78x2.42 m

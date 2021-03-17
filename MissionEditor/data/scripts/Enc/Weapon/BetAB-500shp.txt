@@ -1,0 +1,12 @@
+BetAB-500shp
+
+betab-500sp
+
+
+Body diameter, m: 0.325
+Type: Penetrator bomb – retarded (high drag)
+Developed: Russia
+Name: BetAB-500shp
+Weight, kg: 380
+Length, m: 2.51
+Warhead weight, kg: 77

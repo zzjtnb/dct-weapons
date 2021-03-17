@@ -1,0 +1,17 @@
+Kh-58U
+
+x-58
+
+
+Name: Kh-58 (AS-11 'Kilter')
+Type: Medium-range, anti-radar, air-to-surface 
+missile
+Developed: Raduga NPO, Russia
+Warhead weight, kg: 150
+Guidance: inertial and passive radar
+Weight, kg: 640
+G limit: 16
+Length, m: 4.80
+Body diameter, m: 0.380
+Range, km: 70
+Maximum Mach number: 4

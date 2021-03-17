@@ -1,0 +1,35 @@
+Tunguska 2C6M
+SAM/Tunguska M1.png
+2C6M
+
+
+Name: 2C6M "Tunguska" (SA-19)
+Type: Self-propelled Air Defense System
+Crew: 4
+Length: 7.93 m
+Width: 3.236 m
+Height: 4.021 m
+Combat weight: 34-000 kg
+Engine: V-64-4 V-12 diesel 740 hp
+Power-to-weight ratio: 21.7 hp/t
+Max road speed: 65 km/h
+Operational range: 500 km
+
+Armament:
+- 2x30 mm 2A38M cannon
+- 2x4 SA-19 SAM (9M311)
+
+Gun elevation/depression: +80°/-6°
+Launch weight: 165 kg
+Warhead: 15 kg HE
+Max speed: 850 m/s
+Min effective range: 1500 m
+Max effective range: 12000 m
+Min effective altitude: 10 m
+Max effective altitude: 6000 m
+Max target speed: 700m/s
+Turret traverse: 360°
+
+Ammunition:
+- gun 1,904
+- missile 8

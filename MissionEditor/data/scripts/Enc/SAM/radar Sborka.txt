@@ -1,0 +1,12 @@
+PPRU-1M Sborka 
+Radar\9S80M1 Sborka.png
+sborka
+
+
+Name: Sborka 9S80M1
+Type: mobile command center
+Crew: 3
+Tracking range: 35 km
+Detection range: 80 km
+
+PPRU-1M command post, equipped with the X-band acquisition radar. This 2D air search radar was developed from the "Scrum Half" guidance radar of the SA-15 "Gauntlet" SAM. It replaced the earlier "Whiff", "Fire Can", and "Fire Wheel" radars. Much more versatile than those systems, it is mounted atop a tracked carrier and can transition from travel to operating mode in three or four minutes. The vehicle also contains the Sborka comms system which allows it to give guidance to dispersed AA guns. 

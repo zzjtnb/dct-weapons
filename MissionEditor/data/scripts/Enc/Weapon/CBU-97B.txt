@@ -1,0 +1,17 @@
+CBU-97
+
+cbu-97
+
+
+Name: CBU-97
+Dispenser: SUU-66
+Type: Sensor Fused Weapon
+Developed: USA
+Weight, kg: 415
+Length, m: 2.34
+Body diameter, m: 0.406
+Warhead weight, kg: 42
+
+The CBU-97 is a 1,000-pound class weapon containing sensor-fused sub-munitions for specifically attacking armor. This Sensor Fused Weapon (SFW) contains 10 BLU-108/B sub-munitions.
+
+A BLU-108/B unit carries four independent Skeet anti-tank submunitions. After release from the dispenser, each BLU-108/B descends under a parachute to a pre-set altitude. Then a small rocket sends the BLU-108/B upwards and into a rapid spin, so that the Skeet warheads are released outwards. Each Skeet falls independently, scanning the ground with its IR sensor for the signature of a tank. When a target is detected, the Skeet detonates, firing an EFP (Explosively Formed Penetrator) directly downward, and a ring of fragments outwards (against soft targets in the vicinity). If no target is detected, the Skeet explodes immediately above the ground.

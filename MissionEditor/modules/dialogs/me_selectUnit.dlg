@@ -1,0 +1,111 @@
+dialog = {
+	["children"] = {
+		["listBox"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 162,
+					["w"] = 100,
+					["x"] = 287,
+					["y"] = 123,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "listBox0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "listBoxSkinMENew",
+				},
+			},
+			["type"] = "ListBox",
+		},
+		["listBoxItem0"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 383,
+					["y"] = 345,
+				},
+				["enabled"] = true,
+				["text"] = "listBoxItem0",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "listBoxItem_ME",
+				},
+			},
+			["type"] = "ListBoxItem",
+		},
+		["sTest"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 392,
+					["y"] = 399,
+				},
+				["enabled"] = true,
+				["text"] = "static0",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 11,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 15,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x783c9000",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

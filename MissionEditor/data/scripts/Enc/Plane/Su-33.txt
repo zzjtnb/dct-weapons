@@ -1,0 +1,28 @@
+Su-33
+
+su-33
+
+
+Name: Su-33 "Flanker-D"
+Type: Ship-based air defence fighter
+Developed: Sukhoi OKB, Russia
+Crew: 1
+Length: 21.2 m
+Height: 5.9 m
+Wing span: 14.7 m
+Wing area: 65 m²
+Maximum Mach at S/L: 1.14
+Maximum Mach at height: 2.165
+Weight empty: 18500 kg
+Normal weight: 20000 kg
+Maximum weight: 33000 kg
+G limit: 9
+Maximum range: 3000 km
+Maximum fuel: 8500 kg
+Service ceiling: 18500 m
+Take-off speed: 270 km/h
+Range with nominal load: 3000 km
+Landing speed: 234 km/h
+
+Armament:
+- GSh-301 cannon

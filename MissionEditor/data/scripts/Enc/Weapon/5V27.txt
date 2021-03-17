@@ -1,0 +1,19 @@
+5V27
+
+5v27
+
+
+Name: 5V27
+Type: Short-range surface-to-air missile
+Developed: USSR/Russia.
+Weight, kg: 950
+Length, m: 5.9
+Diameter of propulsion section, m: 0.375
+Weight of warhead, kg: 60
+Effective ranges, km:
+ Max distance: 25
+ Max altitude: 18
+ Min distance: 2.5
+ Min altitude: 0.02
+
+Anti-aircraft missile to be used with SA-3 Goa and similar systems (S-125 in Russian classification).

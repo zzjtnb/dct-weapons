@@ -1,0 +1,26 @@
+ShKH vz. 77 DANA
+
+SpGH_Dana
+
+
+Designation: ShKH vz. 77 Dana
+Type: Self-propelled Howitzer
+Length:  11.156 m
+Width: 3 m
+Height: 2.85 m
+Crew: 5
+Engine: Tatra 2-939-34 diesel V12 
+Power output: 345 hp
+Power-to-weight ratio: 13,74 hp/t
+Ground clearance: 0.41 m
+Combat weight: 29,250 kg (including 60 shells)
+Max road speed: 80 km/h
+Operational range (road): 600 km
+Gun elevation/depression: +70°/-4°
+Turret traverse: +-225°
+
+Armament:
+- 152 mm (37 calibers) howitzer
+- 12.7 mm DŠKM machine gun
+
+The DANA is a Czechoslovakia (now Slovakia) wheeled self-propelled artillery piece. It is also known as ShKH vz. 77 (self-propelled gun howitzer model 77). Introduced in the 1970s it was the first wheeled 152 mm self-propelled artillery gun to enter service. It is based on a modified 8x8 Tatra 813 chassis with excellent cross-country mobility. Currently it is in service with the Czech Republic, Libya, Poland, Georgia and Slovakia.

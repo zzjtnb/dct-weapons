@@ -1,0 +1,25 @@
+L-39ZA
+
+L-39_ZA
+L-39ZA
+
+Name: L-39ZA
+Type: Trainer / Light Attacker
+Developed: Aero Vodochody, Czechoslovakia
+Crew: 2
+Length: 12.13 m
+Height: 4.77 m
+Wing span: 9.46 m
+Wing area: 18.8 m²
+Maximum Mach at height: 0.8
+Weight empty: 3,565 kg
+Normal weight: 4,635 kg
+Maximum weight: 5,600 kg
+G limit: +8/-4
+Range with nominal load: 1,650 km
+Maximum fuel: 980 kg
+Landing speed: 270 km/h
+
+Armament: 
+- 1 x GSh-23 23 mm twin-barreled autocannon 
+- up to 1100 kg of stores on four external hardpoints

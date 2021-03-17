@@ -1,0 +1,16 @@
+M2A2 Bradley
+
+m-2
+
+
+Name: M2A2
+Type: Infantry Fighting Vehicle
+Max road speed: 66 km/h
+Weight: 21300 kg 
+Operational range: 490 km
+Crew: 9
+
+Armament:
+- 25 mm M242 cannon
+- 2-tube TOW ATGM launcher
+- 7.62 mm M240C coaxial machine gun

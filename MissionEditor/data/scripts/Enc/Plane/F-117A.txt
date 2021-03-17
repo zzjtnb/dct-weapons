@@ -1,0 +1,24 @@
+F-117A
+
+f-117
+f-117a
+
+Name: F-117A
+Type: Bomber
+Crew: 1
+Length: 20.08 m
+Height: 3.78 m
+Wing span: 13.2 m
+Wing area: 105.9 m²
+Weight empty: 13380 kg
+Maximum weight: 23810 kg
+Normal weight: 18000 kg
+Maximum Mach at height: 0.92
+G limit: 4.5
+Range with nominal load: 2000 km
+Maximum fuel: 8615 kg
+Service ceiling: 10000 m
+Take-off speed: 306 km/h
+Landing speed: 244.8 km/h
+Maximum range: 2000 km
+Maximum Mach at S/L: 0.92

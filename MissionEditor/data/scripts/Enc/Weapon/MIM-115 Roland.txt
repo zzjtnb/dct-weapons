@@ -1,0 +1,17 @@
+MIM-115 Roland
+
+roland-raketa
+
+
+Name: MIM-115 Roland
+Type: Short-range, radio command guidance, 
+surface-to-air-missile for Roland
+Developed: France
+Warhead weight, kg: 9.2
+Guidance: Semi-active radar
+Weight, kg: 75
+G limit: 14
+Length, m: 2.4
+Body diameter, m: 0.15
+Range, km: 6
+Maximum Mach number: 1.6

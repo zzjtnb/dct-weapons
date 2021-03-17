@@ -1,0 +1,17 @@
+R-77
+
+r-77
+
+
+Name: R-77 (AA-12 'Adder')
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: Spetztekhnika Vympel NPO, Russia
+Warhead weight, kg: 30
+Guidance: inertial, command and active radar
+Weight, kg: 175
+G limit: 30
+Length, m: 3.60
+Body diameter, m: 0.200
+Range, km: 50
+Maximum Mach number: 3

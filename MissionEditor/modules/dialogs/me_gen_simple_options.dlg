@@ -1,0 +1,1143 @@
+dialog = {
+	["children"] = {
+		["MainPanel"] = {
+			["children"] = {
+				["btnClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 34,
+							["w"] = 13,
+							["x"] = 336,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnclosehover.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnclosepressed.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btncloserl.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["containerCommon"] = {
+					["children"] = {
+						["buttonAdvanced"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 36,
+									["w"] = 125,
+									["x"] = 224,
+									["y"] = 287,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$advancedView",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\hover\\btngray.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btngray.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["comboboxAircraft"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "$aircraftTooltip",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxCountry"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 44,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxDifficulty"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 106,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxSeason"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 168,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxTakeoffFrom"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 82,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxTheatreOfWar"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 144,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxWeather"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 169,
+									["y"] = 192,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkin_options",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["editboxHour"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 22,
+									["w"] = 22,
+									["x"] = 288,
+									["y"] = 253,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = true,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSimpleMissionGeneratorSkin",
+									["textOffset"] = {
+										["left"] = 3,
+										["top "] = 3,
+									},
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["fontSize"] = 13,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0xc8c8c8ff",
+												["center_top"] = "0xc8c8c8ff",
+												["left_bottom"] = "0xc8c8c8ff",
+												["left_center"] = "0xc8c8c8ff",
+												["left_top"] = "0xc8c8c8ff",
+												["right_bottom"] = "0xc8c8c8ff",
+												["right_center"] = "0xc8c8c8ff",
+												["right_top"] = "0xc8c8c8ff",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["fontSize"] = 13,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["editboxMinute"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 22,
+									["w"] = 22,
+									["x"] = 325,
+									["y"] = 253,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = true,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSimpleMissionGeneratorSkin",
+									["selectionFontColor"] = "0xc8c8c8ff",
+									["textOffset"] = {
+										["left"] = 3,
+										["top "] = 3,
+									},
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["fontSize"] = 13,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0xc8c8c8ff",
+												["center_top"] = "0xc8c8c8ff",
+												["left_bottom"] = "0xc8c8c8ff",
+												["left_center"] = "0xc8c8c8ff",
+												["left_top"] = "0xc8c8c8ff",
+												["right_bottom"] = "0xc8c8c8ff",
+												["right_center"] = "0xc8c8c8ff",
+												["right_top"] = "0xc8c8c8ff",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["fontSize"] = 13,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["labelAircraft"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 23,
+								},
+								["enabled"] = true,
+								["text"] = "$aircraft",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelColon"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 5,
+									["x"] = 315,
+									["y"] = 253,
+								},
+								["enabled"] = true,
+								["text"] = ":",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelCountry"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 46,
+								},
+								["enabled"] = true,
+								["text"] = "$country",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelDifficulty"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 108,
+								},
+								["enabled"] = true,
+								["text"] = "$difficulty",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelSeason"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 170,
+								},
+								["enabled"] = true,
+								["text"] = "$season",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelStartTime"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 235,
+								},
+								["enabled"] = true,
+								["text"] = "$startTime",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelTakeoffFrom"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 85,
+								},
+								["enabled"] = true,
+								["text"] = "$startFrom",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelTheatreOfWar"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 147,
+								},
+								["enabled"] = true,
+								["text"] = "$theatreOfWar",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelWeather"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 194,
+								},
+								["enabled"] = true,
+								["text"] = "$weather",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["radiobuttonStartTimeRandom"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 135,
+									["x"] = 170,
+									["y"] = 232,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$random",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkinNew",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+						["radiobuttonStartTimeTime"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 80,
+									["x"] = 170,
+									["y"] = 257,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$time",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "radioButtonSkinNew",
+								},
+							},
+							["type"] = "RadioButton",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 340,
+							["w"] = 362,
+							["x"] = 2,
+							["y"] = 51,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffff7f",
+										["center_center"] = "0x2d3e50cc",
+										["center_top"] = "0xffffff7f",
+										["left_bottom"] = "0xffffff7f",
+										["left_center"] = "0xffffff7f",
+										["left_top"] = "0xffffff7f",
+										["right_bottom"] = "0xffffff7f",
+										["right_center"] = "0xffffff7f",
+										["right_top"] = "0xffffff7f",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["footerPanel"] = {
+					["children"] = {
+						["buttonCancel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 137,
+									["x"] = 6,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$cancel",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonFly"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 133,
+									["x"] = 220,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$fly",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 362,
+							["x"] = 2,
+							["y"] = 391,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticTitle"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 362,
+							["x"] = 2,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["text"] = "$missionGenerator",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xbccecdff",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 443,
+					["w"] = 366,
+					["x"] = 191,
+					["y"] = 158,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 738,
+			["w"] = 821,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 25,
+							["type"] = "middle",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["top"] = {
+							["offset"] = 25,
+							["type"] = "middle",
+						},
+					},
+					[2] = {
+						["bottom"] = {
+							["offset"] = -186,
+							["type"] = "middle",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["top"] = {
+							["offset"] = -186,
+							["type"] = "middle",
+						},
+					},
+				},
+				["count"] = 2,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = true,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$missionGenerator",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["insets"] = {
+							["bottom"] = "2",
+							["left"] = "16",
+							["right"] = "12",
+							["top"] = "2",
+						},
+					},
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 19,
+									["lineHeight"] = 0,
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 19,
+									["lineHeight"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+					["picture"] = {
+						["horzAlign"] = {
+							["type"] = "middle",
+						},
+						["rect"] = {
+							["x1"] = "0",
+							["x2"] = "372",
+							["y1"] = "0",
+							["y2"] = "412",
+						},
+						["vertAlign"] = {
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

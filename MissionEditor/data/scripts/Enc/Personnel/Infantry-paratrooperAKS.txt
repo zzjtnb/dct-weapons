@@ -1,0 +1,13 @@
+Paratrooper with AKS-74
+
+infantry_typed_aks-74
+
+
+Weapons: AKS-74
+Type: Automatic
+Weight: 3.2 kg
+Caliber: 5.45 mm
+Rate of fire: 600 rounds/min
+Muzzle velocity: 910 m/s
+Firing range: 300m
+Military-food type: 30-round detachable box magazine

@@ -1,0 +1,558 @@
+dialog = {
+	["children"] = {
+		["pQuery"] = {
+			["children"] = {
+				["bAllowSelected"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 45,
+							["w"] = 140,
+							["x"] = 32,
+							["y"] = 166,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$allow_selected",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin_Multiplayer_btn",
+						},
+						["skins"] = {
+							["item"] = {
+								["skinData"] = {
+									["states"] = {
+										["hover"] = {
+											[2] = {
+												["bkg"] = {
+													["right_bottom"] = {
+														["a"] = 1,
+														["b"] = 0.73725490196078,
+														["g"] = 0.84705882352941,
+														["r"] = 0.011764705882353,
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "$nil$",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x909a8eff",
+										["center_center"] = "0x7fa76dff",
+										["center_top"] = "0x909a8eff",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x909a8eff",
+										["left_center"] = "0x909a8eff",
+										["left_top"] = "0x909a8eff",
+										["right_bottom"] = "0x909a8eff",
+										["right_center"] = "0x909a8eff",
+										["right_top"] = "0x909a8eff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x909a8eff",
+										["center_center"] = "0x66894cff",
+										["center_top"] = "0x909a8eff",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x909a8eff",
+										["left_center"] = "0x909a8eff",
+										["left_top"] = "0x909a8eff",
+										["right_bottom"] = "0x909a8eff",
+										["right_center"] = "0x909a8eff",
+										["right_top"] = "0x909a8eff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x909a8eff",
+										["center_center"] = "0x66894cff",
+										["center_top"] = "0x909a8eff",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x909a8eff",
+										["left_center"] = "0x909a8eff",
+										["left_top"] = "0x909a8eff",
+										["right_bottom"] = "0x909a8eff",
+										["right_center"] = "0x909a8eff",
+										["right_top"] = "0x909a8eff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["bDenyAll"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 45,
+							["w"] = 140,
+							["x"] = 185,
+							["y"] = 166,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$deny_all",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin_Multiplayer_btn",
+						},
+						["skins"] = {
+							["item"] = {
+								["skinData"] = {
+									["states"] = {
+										["hover"] = {
+											[2] = {
+												["bkg"] = {
+													["right_bottom"] = {
+														["a"] = 1,
+														["b"] = 0.73725490196078,
+														["g"] = 0.84705882352941,
+														["r"] = 0.011764705882353,
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "$nil$",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x909a8eff",
+										["center_center"] = "0x586260ff",
+										["center_top"] = "0x909a8eff",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x909a8eff",
+										["left_center"] = "0x909a8eff",
+										["left_top"] = "0x909a8eff",
+										["right_bottom"] = "0x909a8eff",
+										["right_center"] = "0x909a8eff",
+										["right_top"] = "0x909a8eff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x909a8eff",
+										["center_center"] = "0x494f4eff",
+										["center_top"] = "0x909a8eff",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x909a8eff",
+										["left_center"] = "0x909a8eff",
+										["left_top"] = "0x909a8eff",
+										["right_bottom"] = "0x909a8eff",
+										["right_center"] = "0x909a8eff",
+										["right_top"] = "0x909a8eff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x909a8eff",
+										["center_center"] = "0x494f4eff",
+										["center_top"] = "0x909a8eff",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x909a8eff",
+										["left_center"] = "0x909a8eff",
+										["left_top"] = "0x909a8eff",
+										["right_bottom"] = "0x909a8eff",
+										["right_center"] = "0x909a8eff",
+										["right_top"] = "0x909a8eff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["lbPlayers"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 102,
+							["w"] = 293,
+							["x"] = 32,
+							["y"] = 48,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["left"] = 0,
+								["right"] = 3,
+							},
+							["name"] = "scroll_pane_line_or_scroll",
+						},
+						["skins"] = {
+							["item"] = {
+								["skinData"] = {
+									["params"] = {
+										["insets"] = {
+											["top"] = 0,
+										},
+									},
+									["states"] = {
+										["hover"] = {
+											[1] = {
+												["bkg"] = {
+													["center_bottom"] = "0x2c2c2dff",
+													["center_center"] = "0x8d8b8eff",
+													["insets"] = {
+														["bottom"] = 1,
+														["left"] = 1,
+														["right"] = 0,
+														["top"] = 0,
+													},
+													["left_bottom"] = "0x2c2c2dff",
+													["right_bottom"] = "0x2c2c2dff",
+												},
+												["text"] = {
+													["blur"] = 0,
+													["color"] = "0xffffffff",
+													["font"] = "DejaVuLGCSansCondensed.ttf",
+													["fontSize"] = 12,
+													["horzAlign"] = {
+														["offset"] = 20,
+														["type"] = "min",
+													},
+													["lineHeight"] = 0,
+												},
+											},
+											[2] = {
+												["bkg"] = {
+													["center_bottom"] = "0x2c2c2dff",
+													["center_center"] = "0x848e93ff",
+													["insets"] = {
+														["bottom"] = 1,
+														["left"] = 1,
+														["right"] = 0,
+														["top"] = 0,
+													},
+													["left_bottom"] = "0x2c2c2dff",
+													["right_bottom"] = "0x2c2c2dff",
+												},
+											},
+										},
+										["released"] = {
+											[1] = {
+												["bkg"] = {
+													["center_bottom"] = "0x2c2c2dff",
+													["insets"] = {
+														["bottom"] = 1,
+														["left"] = 1,
+														["top"] = 0,
+													},
+													["left_bottom"] = "0x2c2c2dff",
+													["right_bottom"] = "0x2c2c2dff",
+												},
+												["text"] = {
+													["blur"] = 0,
+													["color"] = "0xffffffff",
+													["font"] = "DejaVuLGCSansCondensed.ttf",
+													["fontSize"] = 12,
+													["horzAlign"] = {
+														["offset"] = 20,
+														["type"] = "min",
+													},
+													["lineHeight"] = 0,
+												},
+											},
+											[2] = {
+												["bkg"] = {
+													["center_bottom"] = "0x2c2c2dff",
+													["center_center"] = "0x8d8b8eff",
+													["insets"] = {
+														["bottom"] = 1,
+														["left"] = 1,
+														["top"] = 0,
+													},
+													["left_bottom"] = "0x2c2c2dff",
+													["right_bottom"] = "0x2c2c2dff",
+												},
+												["text"] = {
+													["bkgColor"] = "0x00000000",
+													["blur"] = 0,
+													["blurColor"] = "0x00000000",
+													["color"] = "0xffffffff",
+													["font"] = "DejaVuLGCSansCondensed.ttf",
+													["fontSize"] = 12,
+													["horzAlign"] = {
+														["offset"] = 20,
+														["type"] = "min",
+													},
+													["lineHeight"] = 0,
+													["lineThroughColor"] = "0x00000000",
+													["lineThroughHeight"] = 1,
+													["shadowColor"] = "0x00000000",
+													["shadowOffset"] = {
+														["horz"] = 0,
+														["vert"] = 0,
+													},
+													["vertAlign"] = {
+														["offset"] = 0,
+														["type"] = "middle",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							["vertScrollBar"] = {
+								["skinData"] = {
+									["states"] = {
+										["released"] = {
+											[1] = {
+												["bkg"] = {
+													["center_center"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x727272ff",
+										["center_center"] = "0x444648ff",
+										["center_top"] = "0x727272ff",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x727272ff",
+										["left_center"] = "0x727272ff",
+										["left_top"] = "0x727272ff",
+										["right_bottom"] = "0x727272ff",
+										["right_center"] = "0x727272ff",
+										["right_top"] = "0x727272ff",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["type"] = "min",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ListBox",
+				},
+				["menuRadioItem0"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 363,
+							["y"] = 245,
+						},
+						["enabled"] = true,
+						["groupNumber"] = 0,
+						["text"] = "menuRadioItem0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "menuRadioItemSkin",
+						},
+					},
+					["type"] = "MenuRadioItem",
+				},
+				["static0"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 295,
+							["x"] = 31,
+							["y"] = 16,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$query",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0x66894cff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 243,
+					["w"] = 360,
+					["x"] = 5,
+					["y"] = 5,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x181d20ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 257,
+			["w"] = 379,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 110,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

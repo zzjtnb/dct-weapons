@@ -1,0 +1,14 @@
+9M55K
+
+9m55
+
+
+Name: 9M55K solid propellant rocket 
+Type: Smerch-launched rocket
+Developed: Russia
+Warhead weight, kg: 55.8
+Weight, kg: 800
+Speed, km/h: 2988
+Range, km: 70
+Length, m: 5.5
+Body diameter, m: 0.3

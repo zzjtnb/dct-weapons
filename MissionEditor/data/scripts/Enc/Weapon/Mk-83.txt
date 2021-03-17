@@ -1,0 +1,16 @@
+Mk 83
+
+mk-83
+
+
+Name: Mk 83
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 447
+Length, m: 3.01
+Body diameter, m: 0.356
+Warhead weight, kg: 309
+
+A family of high-explosive free-fall bombs of various calibers (Mk 81/82/83/84).
+
+Mk 83 is a LDGP (Low-Drag General Purpose) universal free-fall bomb. With reduced aerodynamic resistance. It is widely used by the Navy and the Marine Corps, as there are restrictions on the use of Mk 84 when taking off from aircraft carriers.

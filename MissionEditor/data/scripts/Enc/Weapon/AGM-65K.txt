@@ -1,0 +1,17 @@
+AGM-65K
+
+agm-65k
+
+
+Name: AGM-65K
+Type: Short-range, TV-guided, air-to-surface 
+missile
+Developed: USA
+Warhead weight, kg: 57
+Guidance: TV
+Weight, kg: 210
+G limit: 16
+Length, m: 2.49
+Body diameter, m: 0.305
+Range, km: 27 effective 5-10
+Maximum Mach number: 0.85

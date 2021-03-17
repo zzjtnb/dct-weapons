@@ -1,0 +1,17 @@
+AGM-86
+
+agm-86
+
+
+Name: AGM-86C CALCM
+Type: Long-range, inertial-guided, cruise 
+missile
+Developed: USA
+Warhead weight: 200 kT nuclear
+Guidance: inertial with Tercom
+Weight, kg: 1,458
+G limit: 16
+Length, m: 6.32
+Body diameter, m: 0.693
+Range, km: 2,500
+Maximum Mach number: 0.85

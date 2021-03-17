@@ -1,0 +1,22 @@
+UAZ-469
+
+UAZ-469
+
+
+Type: Light vehicle
+Length: 4.025 m
+Width: 1.785 m
+Height: 2.015 m
+Ground clearance: 0.22 m
+Max load: 695 kg
+Weight :
+(empty) 1490 kg
+(loaded) 2290 kg
+Towed load:
+(unbraked) 600 kg
+(braked) 2000 kg
+Cab seating: 1+6
+Engine: ZIL-451 V-4  75 hp
+Max road speed: 100 km/h
+Operational range (road): 620 km
+Wheel formula: 4x4

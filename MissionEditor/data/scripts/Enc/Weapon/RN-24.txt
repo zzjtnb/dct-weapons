@@ -1,0 +1,10 @@
+RN-24
+
+rn-24
+
+
+Name: RN-24
+Type: Tactical Nuclear Bomb
+Country of Origin: Russia
+Weight, kg: 500
+TNT equivalent, кТ: 10 

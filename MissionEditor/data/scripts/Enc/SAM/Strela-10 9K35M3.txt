@@ -1,0 +1,33 @@
+Strela-10 9K35M3
+SAM/SA-13 Strela-10M3 9A35M3.png
+9a35
+
+
+Name: 9A35M3 "Strela-10M3" (SA-13)
+Type: Low-Altitude SAM System
+Crew: 3
+Length: 6.6 m
+Height: 3.8 m
+Width: 2.85 m
+Combat weight: 12-300 kg
+Engine: YaMZ-238V diesel 240 hp
+Max road speed: 61.5 km/h
+Max water speed: 6 km/h
+Operational range: 500 km
+Unit of fire: 8 missiles
+Warhead: 4 kg HE
+Max speed: Mach 2
+Min effective range: 200 m
+Max effective range: 5000 m
+Min effective altitude: 10 m
+Max effective altitude: 3500 m
+Elevation/depression: +80°/-5°
+Max target speed: 420 m/s
+Turret traverse: 360°
+Launch weight: 42 kg
+Tracking rates:
+(elevation) 0.3-50°/s
+(azimuth) 0.3-100°/s
+
+Armament: 
+- 4 x 9M333 (SA-13) missiles

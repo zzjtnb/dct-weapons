@@ -1,0 +1,17 @@
+RBK-500 SPBE-D
+
+RBK_500_SPBE_D_cassette
+
+
+Name: RBK-500 SPBE-D
+Type: Anti-tank cluster bomb
+Developed: Russia
+Weight, kg: 500
+Length, m: 2.5
+Body diameter, m: 0.45
+Filling, submunitions: 15
+Warhead weight, kg: 5.8
+Delivery height: 400 - 5,000 m
+Delivery speed: 500 - 1,200 km/h
+
+The RBK-500 SPBE-D is an anti-tank cluster bomb that capable of engaging up to 6 armoured vehicles simultaneously. The bomb contains 15 self-guided submunitions, which use infrared seekers to target armoured fighting vehicles. The submunition warhead is capable of penetrating about 70 mm of rolled homogeneous armour at an angle of 30 degrees.

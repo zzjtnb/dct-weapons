@@ -1,0 +1,17 @@
+Kh-25MPU
+
+x-25mp
+
+
+Name: Kh-25MPU (AS-12 'Kegler')
+Type: Medium-range, anti-radar, air-to-surface 
+missile
+Developed: Zvezda-Strela, Russia
+Warhead weight, kg: 90
+Guidance: inertial and passive radar
+Weight, kg: 320
+G limit: 20
+Length, m: 4.19
+Body diameter, m: 0.275
+Range, km: 25
+Maximum Mach number: 0.76

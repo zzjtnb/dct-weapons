@@ -1,0 +1,22 @@
+Pyotr Velikiy
+
+piotr_velikiy
+
+
+Type: Cruiser
+Complement: 635
+Displacement, tons: 23750 standard 25860 full 
+Dimensions, m: 251,1 x 59 x 28.5
+Speed, knots: 32
+
+Range, miles: unlimited
+
+The ship is armed with the Granit (Nato designation SS-N-19 Shipwreck) long-range anti-ship missile system. 20 Granit missiles are installed under the upper deck, mounted at a 60° elevation. The version of Granit on the Kirov is not controlled after launch. In ripple-fire mode, the lead missile follows a high flight trajectory, while the other missiles follow a low-level flight path. If the lead missile is intercepted then one of the other missiles automatically takes on the lead role.
+An S-300F air defence missile complex is installed on the ship, with 12 launchers and 96 vertical-launch air defence missiles. The Osa-MA air defence missile system is supplied by the Znamya Truda Plant based at Saratov. The ship has two double launchers and 40 missiles. The system can operate autonomously or it can be integrated into the ship's combat systems and download target data from the ship's sensors. Osa-MA has a range of 1.2 to 10km at an altitude between 25m and 5,000m.
+The ship is equipped with a Kashstan air-defence missile / gun system, supplied by the Instrument Design Bureau of Tula. The system provides defence against a range of precision weapons including anti-ship and anti-radar missiles and air bombs, aircraft, and small naval ships. Two command modules and six combat modules are installed on the ship. The command module provides autonomous operation by detecting the threats, distributing the threat data and designating the targets to the combat modules. The combat module automatically tracks the target with radar and television, calculates firing data and engages the target with missiles and guns.
+The missile range is 8km and the gun range is 1.5km for altitudes up to 4,000m. The system can engage up to six targets simultaneously, one for each combat module. The guns can fire at a rate of 1,000 rounds a minute.
+The Kirov is fitted with a 130mm AK-130 multipurpose twin-barrel gun supplied by the Ametist Design Bureau, Izumrud JSC and the Tula Engineering Plant. The main components of the artillery system are a computer-based control system with a multi-band radar, television and optical target sighting, and a gun mount with a turret-mounted Kondensor optical sighting unit.
+The gun can be operated under fully automatic remote control interfaced to the radar control system, under autonomous control from the sighting unit or can be laid manually. Range is over 22km and maximum rate of fire is 35 rounds/min. The ship also has a 30mm AK-630 artillery system.
+The ship has ten torpedo tubes for 20 Vodopad-NK anti-submarine missiles or torpedoes. The ship has two anti-submarine and anti-torpedo rocket systems, the Udav-1 with 40 anti-submarine rockets and the RBU-1000. The ship has two RBU-1000 six-tube launchers, with 102 rockets.
+"Kirov is fitted with a 130mm AK-130 multipurpose twin-barrel gun."
+The ship accommodates three Kamov Ka-27PL or Ka-25RT helicopters. The Kamov-27 (Nato codename Helix) is equipped for anti-submarine warfare with surface search radar, sonobuoys, dipping sonar, and magnetic anomaly detectors. The Ka-27 can be armed with torpedoes, bombs, mines and rockets. The Ka-25RT (Hormone) helicopter is the predecessor of the Ka-27.

@@ -1,0 +1,21 @@
+Leclerc
+
+leclerc
+
+
+Type: Main Battle Tank (France)
+Length: 9.87 m
+Width: 3.6 m
+Height: 2.5 m
+Crew: 3
+Combat weight: 56 tonnes
+Engine: 8-cylinder diesel Wartsila, 1.500 hp 
+Power-to-weight ratio: 27 hp/t
+Max road speed: 72 km/h
+Fuel range: (road) 550 km
+Armament:
+(main) 1x120 mm gun
+(coaxial) 1x12.7 mm M2HB MG
+Ammunition:
+(main) 40
+(MG) 1.100

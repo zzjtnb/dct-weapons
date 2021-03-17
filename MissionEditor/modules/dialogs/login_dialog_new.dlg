@@ -1,0 +1,1951 @@
+dialog = {
+	["children"] = {
+		["Box"] = {
+			["children"] = {
+				["bCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 13,
+							["w"] = 13,
+							["x"] = 375,
+							["y"] = 17,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+					},
+					["type"] = "Button",
+				},
+				["pLogin"] = {
+					["children"] = {
+						["Static1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 103,
+									["x"] = 48,
+									["y"] = 144,
+								},
+								["enabled"] = true,
+								["text"] = "$Password",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["bConnect"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 26,
+									["x"] = 332,
+									["y"] = 125,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0xffffffff",
+												["center_top"] = "0xffffffff",
+												["left_bottom"] = "0xffffffff",
+												["left_center"] = "0xffffffff",
+												["left_top"] = "0xffffffff",
+												["right_bottom"] = "0xffffffff",
+												["right_center"] = "0xffffffff",
+												["right_top"] = "0xffffffff",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\login\\hover_arrow.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\login\\arrow_normal.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\login\\arrow_normal.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["bRestore"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 171,
+									["x"] = 149,
+									["y"] = 211,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Restore",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x8f8e8cff",
+												["center_center"] = "0x6d7376ff",
+												["center_top"] = "0x8f8e8cff",
+												["left_bottom"] = "0x8f8e8cff",
+												["left_center"] = "0x8f8e8cff",
+												["left_top"] = "0x8f8e8cff",
+												["right_bottom"] = "0x8f8e8cff",
+												["right_center"] = "0x8f8e8cff",
+												["right_top"] = "0x8f8e8cff",
+											},
+											["text"] = {
+												["color"] = "0xb9b9b9ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 10,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["insets"] = {
+													["bottom"] = "1",
+													["left"] = "1",
+													["right"] = "1",
+													["top"] = "1",
+												},
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xccccccff",
+												["font"] = "DejaVuLGCSans-ExtraLight.ttf",
+												["fontSize"] = 10,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "min",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0xa0a0a0ff",
+												["font"] = "DejaVuLGCSans-ExtraLight.ttf",
+												["fontSize"] = 10,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "min",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xa0a0a0ff",
+												["font"] = "DejaVuLGCSans-ExtraLight.ttf",
+												["fontSize"] = 10,
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "min",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["cbAutojoin"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 18,
+									["w"] = 233,
+									["x"] = 149,
+									["y"] = 184,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 40,
+								["text"] = "$autojoin",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_login",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xe8e8e8ff",
+												["font"] = "DejaVuLGCSans-ExtraLight.ttf",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_off.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xa0a0a0ff",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_on.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xa0a0a0ff",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_off.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xa0a0a0ff",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_on.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xa0a0a0ff",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbSave"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 230,
+									["x"] = 149,
+									["y"] = 166,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 30,
+								["text"] = "$Savepassword",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinME\\images\\login\\checkbox_login_unsel.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xe8e8e8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_off.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blur"] = 0,
+												["blurColor"] = "0x00000000",
+												["color"] = "0xa0a0a0ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_on.png",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blur"] = 0,
+												["blurColor"] = "0x00000000",
+												["color"] = "0xa0a0a0ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["offset"] = 25,
+													["type"] = "min",
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_off.png",
+											},
+											["text"] = {
+												["color"] = "0xa0a0a0ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\checkbox_on.png",
+											},
+											["text"] = {
+												["color"] = "0xa0a0a0ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 25,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["eError"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 22,
+									["w"] = 284,
+									["x"] = 156,
+									["y"] = 243,
+								},
+								["enabled"] = true,
+								["multiline"] = true,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$ErrorLogin",
+								["textWrapping"] = false,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_modul",
+									["textOffset"] = {
+										["left"	] = 0,
+										["top"	] = 0,
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["fontSize"] = 12,
+											},
+										},
+										[2] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["fontSize"] = 12,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["eLogin"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 175,
+									["x"] = 149,
+									["y"] = 101,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 10,
+								["text"] = "molzzzza",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xffb300ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 13,
+												["lineHeight"] = 0,
+											},
+										},
+										[2] = {
+											["bkg"] = {
+												["file"] = "$nil$",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["ePassword"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 175,
+									["x"] = 149,
+									["y"] = 136,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = true,
+								["readOnly"] = false,
+								["tabOrder"] = 20,
+								["text"] = "******",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffb300ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["sError"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 23,
+									["w"] = 413,
+									["x"] = -16,
+									["y"] = 225,
+								},
+								["enabled"] = true,
+								["text"] = "$error_login",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 20,
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 103,
+									["x"] = 48,
+									["y"] = 111,
+								},
+								["enabled"] = true,
+								["text"] = "$Login",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 264,
+							["w"] = 406,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffff40",
+										["center_top"] = "0xffffff40",
+										["left_bottom"] = "0xffffff40",
+										["left_center"] = "0xffffff40",
+										["left_top"] = "0xffffff40",
+										["right_bottom"] = "0xffffff40",
+										["right_center"] = "0xffffff40",
+										["right_top"] = "0xffffff40",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pRegistration"] = {
+					["children"] = {
+						["Button1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 20,
+									["x"] = 118,
+									["y"] = 199,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = "$nil$",
+										["left"] = "$nil$",
+										["right"] = "$nil$",
+										["top"] = "$nil$",
+									},
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\login\\refresh_hover_press.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\login\\refresh_hover_press.png",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "0xffffffff",
+												["center_top"] = "$nil$",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\login\\refresh_normal.png",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["EditBox1"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 175,
+									["x"] = 145,
+									["y"] = 55,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "molzzza",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 20,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_login",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["EditBox2"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 175,
+									["x"] = 145,
+									["y"] = 90,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "******",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 30,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_login",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["EditBox3"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 175,
+									["x"] = 145,
+									["y"] = 125,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "******",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 40,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_login",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["EditBox4"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 175,
+									["x"] = 145,
+									["y"] = 160,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "8CA2T",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 50,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_login",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["Static1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 0,
+									["y"] = 59,
+								},
+								["enabled"] = true,
+								["text"] = "$Login",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 0,
+									["y"] = 94,
+								},
+								["enabled"] = true,
+								["text"] = "$Password",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static3"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 129,
+									["x"] = 0,
+									["y"] = 129,
+								},
+								["enabled"] = true,
+								["text"] = "$Repeatpassword",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static4"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 0,
+									["y"] = 164,
+								},
+								["enabled"] = true,
+								["text"] = "$Typesymbols",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static5"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 3,
+									["y"] = 199,
+								},
+								["enabled"] = true,
+								["text"] = "captcha_text",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static6"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 19,
+									["x"] = 508,
+									["y"] = 91,
+								},
+								["enabled"] = true,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\login_icon_error.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["Static7"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 18,
+									["x"] = 410,
+									["y"] = 91,
+								},
+								["enabled"] = true,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\login_window\\login_icon_ok.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["button0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 40,
+									["w"] = 40,
+									["x"] = 280,
+									["y"] = 181,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "GoLoginButton",
+								},
+							},
+							["type"] = "Button",
+						},
+						["editBox0"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 175,
+									["x"] = 145,
+									["y"] = 16,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "molzzza@gmail.com",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_login",
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["static0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 0,
+									["y"] = 24,
+								},
+								["enabled"] = true,
+								["text"] = "$Email",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static02"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 344,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["text"] = "$error_email",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 20,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static022"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 344,
+									["y"] = 55,
+								},
+								["enabled"] = true,
+								["text"] = "$error_login",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 20,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static023"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 344,
+									["y"] = 129,
+								},
+								["enabled"] = true,
+								["text"] = "$error_password",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 20,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["static024"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 344,
+									["y"] = 164,
+								},
+								["enabled"] = true,
+								["text"] = "$error_code",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xff0000ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 20,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 251,
+							["w"] = 615,
+							["x"] = 15,
+							["y"] = 375,
+						},
+						["enabled"] = true,
+						["text"] = "Panel1",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+				["tgiLogin"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 31,
+							["w"] = 175,
+							["x"] = 114,
+							["y"] = 28,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["text"] = "$DCSuser",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 4,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "tabGroupItemSkin",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 2,
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 2,
+											["left"] = 0,
+											["right"] = 0,
+											["top"] = 0,
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "TabGroupItem",
+				},
+				["tgiRegistration"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 45,
+							["w"] = 175,
+							["x"] = 442,
+							["y"] = 140,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["text"] = "$Registration",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "tabGroupItemSkin",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 2,
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 7,
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 2,
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffb300ff",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = 7,
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "0xffb300ff",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = "$nil$",
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+										["right_bottom"] = "0xffb300ff",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 16,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "TabGroupItem",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 669,
+					["w"] = 643,
+					["x"] = 0,
+					["y"] = 15,
+				},
+				["enabled"] = true,
+				["text"] = "Box",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 688,
+			["w"] = 692,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x000000b2",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

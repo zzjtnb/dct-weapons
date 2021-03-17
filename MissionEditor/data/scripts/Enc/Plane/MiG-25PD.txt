@@ -1,0 +1,28 @@
+MiG-25PD
+
+mig-25p
+mig-25pd
+
+Name: MiG-25PD "Foxbat-E"
+Type: Interceptor
+Developed: Mikoyan-Gurevich OKB, Russia
+Crew: 1
+Length: 23.82 m
+Height: 6.1 m
+Wing span: 14 m
+Wing area: 61 m²
+Maximum weight: 41200 kg
+Weight empty: 20000 kg
+Normal weight: 37500 kg
+Maximum Mach at S/L: 1.2
+Maximum Mach at height: 2.83
+G limit: 4.5
+Maximum range: 1920 km
+Maximum fuel: 15245 kg
+Service ceiling: 24200 m
+Take-off speed: 270 km/h
+Range with nominal load: 1250 km
+Landing speed: 270 km/h
+
+Armament:
+- 4xR-40TR/TD missiles

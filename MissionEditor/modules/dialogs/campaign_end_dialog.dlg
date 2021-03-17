@@ -1,0 +1,417 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["panelBody"] = {
+					["children"] = {
+						["editBoxText"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 492,
+									["w"] = 572,
+									["x"] = 620,
+									["y"] = 86,
+								},
+								["enabled"] = true,
+								["multiline"] = true,
+								["numeric"] = false,
+								["password"] = false,
+								["readOnly"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["textWrapping"] = true,
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin",
+								},
+								["skins"] = {
+									["horzScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["name"] = "horzScrollBarSimSkin",
+											},
+										},
+									},
+									["vertScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["name"] = "vertScrollBarSimSkin",
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["pictureWidget"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 512,
+									["w"] = 512,
+									["x"] = 87,
+									["y"] = 76,
+								},
+								["enabled"] = true,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 670,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 49,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50cc",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelBottom"] = {
+					["children"] = {
+						["btnOk"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 120,
+									["x"] = 1145,
+									["y"] = 9,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$ok",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 718,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelHeader"] = {
+					["children"] = {
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 13,
+									["x"] = 1253,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_closeNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sCaption"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 600,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "$Campaign_end",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 18,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 768,
+					["w"] = 1280,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["staticDefeatPicture"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 198,
+					["w"] = 236,
+					["x"] = 14,
+					["y"] = 792,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "end-of-campaign-default-1.png",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticVictoryPicture"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 198,
+					["w"] = 236,
+					["x"] = 269,
+					["y"] = 792,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "end-of-campaign-default-2.png",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 867,
+			["w"] = 1315,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = "dxgui\\skins\\skinme\\images\\m1\\background image\\campaign_end_dialog.png",
+						["horzAlign"] = {
+							["type"] = "stretch",
+						},
+						["vertAlign"] = {
+							["type"] = "stretch",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 80,
+		[2] = 1201,
+	},
+}

@@ -1,0 +1,15 @@
+AGM-114C
+
+agm114
+
+
+Name: AGM-114C
+Type: Short-range, laser-guided, air-to-surface 
+Developed: USA
+Warhead weight, kg: 8
+Guidance: semi-active laser
+Weight, kg: 45.7
+Length, m: 1.63
+Body diameter, m: 0.178
+Range, km: 9
+Maximum Mach number: 1.8

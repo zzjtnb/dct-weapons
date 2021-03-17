@@ -1,0 +1,17 @@
+R-73
+
+r-73
+
+
+Name: R-73 (AA-11 'Archer')
+Type: Medium-range, infrared, air-to-air 
+missile
+Developed: Molniya OKB, Russia
+Warhead weight, kg: 7.4
+Guidance: inertial and infrared
+Weight, kg: 110
+G limit: 30
+Length, m: 2.90
+Body diameter, m: 0.17
+Range, km: 15
+Maximum Mach number: 2.5

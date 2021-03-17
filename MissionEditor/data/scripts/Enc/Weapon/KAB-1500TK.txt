@@ -1,0 +1,21 @@
+KAB-1500TK-Pr
+
+kab-1500t
+
+
+Name: KAB-1500TK-Pr
+Type: TV command-guided bomb
+Developed: Russia
+Length, m: 4.5
+Body diameter, m: 0.58
+Warhead weight, kg: 1075 
+Guidance: TV-command
+Weight, kg: 1475
+
+The KAB-1500 bombs are guided and corrected air bomb family with weight of 1500 kg. The bombs designed to engage various stationary ground/surface small-sized hardened targets, such as reinforced concrete shelters, military industrial installations, depots, and seaport terminals.
+
+The KAB-1500TK series are Electro-Optical guided bombs with a man-in-the-loop datalink. The seeker employs a gimballed daylight television imaging sensor under a wide angle glass dome. For sending steering commands to the bomb the delivery aircraft is equiped with the APK-9 datalink pod that also receives video from the seeker for displaying it in the cockpit.
+
+The KAB-1500TK has CEP of 5 to 10 metres. The seeker is limited to daylight operation only.
+
+

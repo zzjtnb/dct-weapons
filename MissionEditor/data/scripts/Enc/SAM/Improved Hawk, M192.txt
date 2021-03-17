@@ -1,0 +1,14 @@
+Hawk M192 LN
+
+hawk-pu
+
+
+Type: Low-to-Medium Altitude Air Defense System
+Armament: 3 x SAMs
+Launch weight: 584 kg
+Warhead: 54 kg HE
+Max speed: Mach 2.7
+Max effective altitude: 13700 m
+Min effective altitude: 60 m
+Max effective range: 32000 m
+Min effective range: 2000 m

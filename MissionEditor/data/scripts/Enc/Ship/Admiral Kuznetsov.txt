@@ -1,0 +1,17 @@
+Admiral Kuznetsov
+
+kuznecow
+
+
+Type: Aircraft carrier
+Speed, knots: 30
+Complement: 2590
+Displacement, tons: 55000 standard 67500 full 
+Dimensions, m: 305 x 66 x 72
+
+Armament: 12 SSM Granit, 4x6 SAM Kynshal, 8 SAM 
+Kashtan, 6x6-30mm AK-630 gun, 36 Su-33, 16 Ka-
+27
+
+Range, miles: 3850 at 29 kts, 8500 at 18 kts
+

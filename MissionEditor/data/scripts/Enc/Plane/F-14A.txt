@@ -1,0 +1,27 @@
+F-14A
+
+f-14a
+
+
+Name: F-14A "Tomcat"
+Type: Multi-role fighter
+Crew: 2
+Length: 19.1 m
+Height: 4.88 m
+Wing span: 19.54 m
+Wing area: 52.5 m²
+Weight empty: 18951 kg
+Normal weight: 29072 kg
+Maximum weight: 33724 kg
+Maximum Mach at height: 2.34
+G limit: 6.5
+Range with nominal load: 3200 km
+Maximum fuel: 7348 kg
+Service ceiling: 16150 m
+Take-off speed: 185.04 km/h
+Landing speed: 234 km/h
+Maximum range: 3200 km
+Maximum Mach at S/L: 1.2
+
+Armament:
+- M61A-1 cannon

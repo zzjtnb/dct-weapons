@@ -1,0 +1,22 @@
+GAZ-233014 «Tigr»
+
+tigr_233036
+
+
+Designation: GAZ-233036 SPM-2
+Type: Armoured Police Vehicle
+Crew: 9
+Length: 5.7 m
+Height: 2.2 m
+Width: 2.2 m
+Engine: Сummins B-205 20 diesel 205 hp
+Wheel Configuration: 4x4
+Power-to-weight ratio: 32 hp/t
+Combat weight: 6,400 kg
+Max vehicle load: 1,200 kg
+Max towed load: 2,500 kg
+Ground clearance: 0.4 m
+Max road speed: 125 km/h
+Operational range: 800 km
+
+The GAZ-2330 Tigr is a 4x4 multi-role light armoured vehicle manufactured by Military Industrial Company (BMK), a part of GAZ Group. The Tiger is referred to as "the Russian Humvee". GAZ-233036 SPM-2 is multi-role armoured police vehicle designed for the police and law enforcement agencies. The SPM-2 offers a NATO STANAG 4569 level 2 ballistic protection. The vehicle is being offered primarily for police and defence customers in Russia and being deployed by the rapid-reaction teams and special forces for conducting escort missions, patrols and counter-terrorist operations.

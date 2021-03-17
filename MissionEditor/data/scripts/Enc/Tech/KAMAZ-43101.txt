@@ -1,0 +1,21 @@
+KAMAZ-43101
+
+kamaz-tent
+
+
+Type: Cargo truck
+Length: 7.895 m
+Height: 3.2 m
+Width: 2.5 m
+Seating Capacity (cab): 1+2
+Empty weight: 8745 kg
+Max cargo weight: 6000 kg
+Engine: KAMAZ-7403.10-260 8V turbodiesel 
+Power output: 191 KW (260 h/p)
+Ground clearance: 0.365 m
+Max road speed: 85 km/h
+Operational Range: 600 km
+Wheel configuration: 6x6
+
+Army's awning modification of a civilian off-road truck. It is widely used by the armies of CIS countries and a number of Arab states.
+

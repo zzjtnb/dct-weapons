@@ -1,0 +1,23 @@
+R-13M1
+
+R-13M1
+
+
+Name: R-13M1 (AA-2 'Advanced Atoll D')
+Type: short-range, infrared-guided, air-to-air 
+missile
+Developed: Russia
+Warhead weight, kg: 11.3
+Guidance: infrared
+Weight, kg: 90.6
+Maximum Mach number: 2.5
+Length, m: 2.876
+Body diameter, m: 0.127
+Range, km: 15
+
+The R-13M1 was an improved version of the R-13M missile with modified seeker "INEY-M" and new cranked canards provided better maneuverability. The missile entered service in the middle of 70's.
+
+
+
+
+

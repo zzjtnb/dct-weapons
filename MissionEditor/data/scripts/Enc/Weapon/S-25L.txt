@@ -1,0 +1,14 @@
+S-25L
+Weapon/S-25L.png
+
+
+
+Name: S-25L
+Type: 340 mm laser guided aircraft rocket
+Developed: Russia
+Weight, kg: 480
+Speed, km/h: 2520
+Range, km: 3
+Length, m: 3.31
+Body diameter, m: 0.34
+Warhead weight, kg: 190

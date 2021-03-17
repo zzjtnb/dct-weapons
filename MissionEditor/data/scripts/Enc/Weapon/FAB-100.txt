@@ -1,0 +1,12 @@
+FAB-100
+
+fab-100
+
+
+Name: FAB-100 (M62)
+Type: General purpose bomb
+Developed: Russia
+Weight, kg: 99.8
+Length, m: 1.69
+Body diameter, m: 0.216
+Warhead weight, kg: 44.9

@@ -1,0 +1,16 @@
+FIM-92C
+
+fim-92
+
+
+Name: FIM-92C
+Type: Short-range, infrared, surface-to-air missile
+Developed: USA
+Weight, kg: 16
+Guidance: infrared
+G limit: 18
+Maximum Mach number: 2.2
+Length, m: 1.52
+Body diameter, m: 0.070
+Warhead weight, kg: 3
+Range, km: 3

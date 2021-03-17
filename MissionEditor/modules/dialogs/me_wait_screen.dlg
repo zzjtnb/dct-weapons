@@ -1,0 +1,273 @@
+dialog = {
+	["children"] = {
+		["sDisclaimer"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 38,
+					["w"] = 700,
+					["x"] = 0,
+					["y"] = 461,
+				},
+				["enabled"] = true,
+				["text"] = "$disclaimer",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+					["textWrapping"] = true,
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xe0deda47",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticInfo"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 30,
+					["w"] = 687,
+					["x"] = 7,
+					["y"] = 382,
+				},
+				["enabled"] = true,
+				["text"] = "$info",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+					["textWrapping"] = true,
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xe0deda47",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticLoading"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 21,
+					["w"] = 301,
+					["x"] = 200,
+					["y"] = 424,
+				},
+				["enabled"] = true,
+				["text"] = "$loading",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xf7b94047",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0x6ed8f3ff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 18,
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+					[2] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+					[3] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+				},
+				["count"] = 3,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1000000,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["insets"] = {
+				["bottom"] = "$nil$",
+				["left"] = "$nil$",
+				["right"] = "$nil$",
+				["top"] = "$nil$",
+			},
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x000000ff",
+					},
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = "loading-window.png",
+						["horzAlign"] = {
+							["type"] = "middle",
+						},
+						["resizeToFill"] = true,
+						["userTexSampler"] = 1,
+						["vertAlign"] = {
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

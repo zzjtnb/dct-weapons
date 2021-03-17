@@ -1,0 +1,26 @@
+KC-135
+
+kc-135
+
+
+Name: KC-135 "Stratotanker"
+Type: Flight refuelling tanker
+Crew: 3
+Length: 41.53 m
+Height: 12.70 m
+Wing span: 39.88 m
+Wing area: 226.03 m²
+Weight empty: 44664 kg
+Maximum weight: 143335 kg
+Normal weight: 136806 kg
+Maximum Mach at height: 0.78
+G limit: 2.5
+Maximum fuel: 86050 kg
+Service ceiling: 13715 m
+Maximum range: 14806 km
+
+Like its sibling, the commercial Boeing 707 jetliner, the KC-135 was derived from the Boeing 367-80  jet transport "proof of concept" demonstrator, which was commonly called the "Dash-80". As such the KC-135 is similar, but has a narrower fuselage and is shorter than the 707.
+
+In the 1980s the first modification program re-engined 157 Air Force Reserve (AFRES) and Air National Guard (ANG) tankers with the Pratt & Whitney TF-33-PW-102 engines from 707 airliners retired in the late 1970s and early 1980s. The re-engined tanker, designated the KC-135E, was 14% more fuel efficient than the KC-135A and could offload 20% more fuel on long duration flights. (The difference is that the A-model weighed only 104,000 lb empty, while the E-model weighed 115,000 lb empty. But the maximum takeoff weight was not increased for the E-model. Therefore, the A-model could takeoff with 200,000 lb of fuel, while the E-model could only takeoff with 190,000 lb of fuel.) Only the KC-135E aircraft were equipped with thrust-reversers for takeoff aborts and shorter landing roll-outs. The KC-135E fleet has since either been re-engined into the R-model configuration or placed into long term storage ("XJ"), as Congress has prevented the Air Force from formally retiring them. The final KC-135E, tail number 56-3630, was delivered by the 101st Air Refueling Wing of the Maine ANG to the 309th Aerospace Maintenance and Regeneration Group (AMARG) at Davis-Monthan AFB in September 2009.
+
+The KC-135 was initially purchased to support bombers of the Strategic Air Command, but by the late 1960s, in the Southeast Asia the KC-135 Stratotanker's ability as a force multiplier came to the fore. Midair refueling of F-105 and F-4  fighter-bombers as well as B-52 bombers brought far-flung bombing targets within reach, and allowed fighter missions to spend hours at the front, rather than just a few minutes, due to their limited fuel reserves. KC-135 crews refueled both Air Force and Navy / Marine Corps aircraft, though they would have to change to probe and drogue  adapters depending upon the mission. Crews also helped to bring in damaged aircraft which could fly while being fed by fuel to a landing site. KC-135s continued their tactical support role in later conflicts such as Desert Storm and current aerial strategy.

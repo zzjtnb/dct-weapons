@@ -1,0 +1,16 @@
+MICA-IR
+
+mica-t
+
+
+Name: MICA
+Type: Medium-range infrared air-to-air missile
+Developed: France and UK
+Weight, kg: 110
+Guidance: infrared
+G limit: 18
+Maximum Mach number: 2.5
+Length, m: 3.1
+Body diameter, m: 0.165
+Range, km: 50
+Warhead weight, kg: 12

@@ -1,0 +1,19 @@
+AH-1W
+
+ah-1w
+
+
+Name: AH-1W
+Type: Close support/attack helicopter
+Crew: 2
+Main rotor diameter: 15 m
+Weight empty: 4634 kg
+Normal weight: 6352 kg
+Maximum weight: 6690 kg
+Maximum fuel: 946.4 kg
+Service celling: 3.720 m
+Maximum speed: 352 km/h
+Maximum range: 595 km
+
+Armament:
+- A/A49E-7(V4) 20mm gun

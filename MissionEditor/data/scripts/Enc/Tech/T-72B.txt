@@ -1,0 +1,17 @@
+T-72B
+
+t-72
+
+
+Type: Main Battle Tank
+Crew: 3
+Ground pressure: 0.9 kg/sq.cm
+Ground clearance: 0.470 m
+Engine: diesel 840 hp
+Max road speed: 60 km/h
+Operational range: (road) 500 km
+Armament:
+- 125 mm 2A46M gun
+- 7.62 mm PKT coaxial machine gun
+- -12.7 mm NSVT anti-aircraft machine gun
+

@@ -1,0 +1,15 @@
+Mk 81
+
+mk-81
+
+
+Name: Mk 81
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 119
+Length, m: 1.88
+Body diameter, m: 0.229
+Warhead weight, kg: 44 (Tritonal)
+
+Developed in the United States in the 1950s, it was used during the Vietnam War. It is the smallest of a series of Mark type bombs.
+

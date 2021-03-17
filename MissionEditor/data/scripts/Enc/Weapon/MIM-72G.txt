@@ -1,0 +1,18 @@
+MIM-72G
+
+mim-72
+
+
+Name: Forward Area Air-Defense System M48 
+Type: Short-range, infrared-guided, surface-to-
+air-missile
+Developed: USA
+Diameter (missile): 0.127 m
+Length (missile): 2.91 m
+Wingspan: 0.64 m
+Launch Weight: 84 kg
+Min effective range: 400 m
+Max speed: Mach 2.5
+Warhead: 12.6 kg  M250 blast-fragmentation
+Max altitude: 3000 m
+Max range: 8500 m

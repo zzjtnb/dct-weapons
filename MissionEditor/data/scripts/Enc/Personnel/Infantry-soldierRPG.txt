@@ -1,0 +1,14 @@
+Soldier with RPG-16
+
+soldier_rpg
+
+
+Weapons: RPG-16
+Type: Rocket anti-tank grenade launcher
+Weight: 10.3 kg
+Caliber: 58.3 mm
+Armour penetration: 300-320 mm
+Initial grenade speed: 250 m/s
+Range of direct fire: 520 m
+Range of sight: 800 m
+Weight of grenade: 2.05 kg

@@ -1,0 +1,18 @@
+GUV-8700 (9A624/622)
+
+GUV-7800_M
+
+
+Name: GUV-8700 (9A624/622)
+Type: Gun Pod
+Developed: Russia
+Weight, kg: 452
+Gun type: 1 x YakB-12,7; 2 x GShG-7,62
+Number of barrels: 4
+Caliber: 12.7 (YakB-12,7)/7.62 mm (GShG-7,62)
+Firing rate, rounds/minute: 4000-4500; 3500-6000
+Muzzle velocity, m/s: 810, 820-850 
+Range, km: 1.5, 1
+Ammunition storage, rounds: 750; 1800
+
+The GUV-8700 pod is an universal gun pod that can carry either a single four-barrel 12.7 mm YakB Gatling-type machine gun or a 30 mm grenade launcher.

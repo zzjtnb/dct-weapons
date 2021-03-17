@@ -1,0 +1,15 @@
+Mk 83 AIR
+
+mk-83air
+
+
+Name: Mk 83 AIR
+Type: General purpose bomb
+Developed: USA
+Weight, kg: 447
+Length, m: 3.01
+Body diameter, m: 0.356
+Warhead weight, kg: 309
+
+The Mk 83 AIR is a 1,000 pound bomb modified with a BSU-85/B high drag tail assembly. The "ballute" air bag which deploys from the tail provides a high speed, low altitude delivery capability by quickly slowing the bomb and allowing the aircraft to escape the blast pattern.
+During Desert Storm, this bomb was dropped mainly by Marine aircraft conducting close air support/battlefield air interdiction (CAS/BAl) missions.

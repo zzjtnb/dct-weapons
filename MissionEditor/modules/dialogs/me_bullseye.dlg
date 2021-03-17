@@ -1,0 +1,324 @@
+dialog = {
+	["children"] = {
+		["Static1"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 14,
+					["y"] = 58,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$long",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static2"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 14,
+					["y"] = 34,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$lat",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["c_caol"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 270,
+					["x"] = 105,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["static0"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 14,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$coalition",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["tt_lat"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 270,
+					["x"] = 105,
+					["y"] = 34,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "lat",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x8f8e8cff",
+								["center_center"] = "0x6d7376ff",
+								["center_top"] = "0x8f8e8cff",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x8f8e8cff",
+								["left_center"] = "0x8f8e8cff",
+								["left_top"] = "0x8f8e8cff",
+								["right_bottom"] = "0x8f8e8cff",
+								["right_center"] = "0x8f8e8cff",
+								["right_top"] = "0x8f8e8cff",
+							},
+							["text"] = {
+								["color"] = "0xe0deda47",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x3f566eff",
+								["center_top"] = "0x3f566eff",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x3f566eff",
+								["left_center"] = "0x3f566eff",
+								["left_top"] = "0x3f566eff",
+								["right_bottom"] = "0x3f566eff",
+								["right_center"] = "0x3f566eff",
+								["right_top"] = "0x3f566eff",
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["tt_long"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 270,
+					["x"] = 105,
+					["y"] = 58,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "long",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x8f8e8cff",
+								["center_center"] = "0x6d7376ff",
+								["center_top"] = "0x8f8e8cff",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x8f8e8cff",
+								["left_center"] = "0x8f8e8cff",
+								["left_top"] = "0x8f8e8cff",
+								["right_bottom"] = "0x8f8e8cff",
+								["right_center"] = "0x8f8e8cff",
+								["right_top"] = "0x8f8e8cff",
+							},
+							["text"] = {
+								["color"] = "0xe0deda47",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x3f566eff",
+								["center_top"] = "0x3f566eff",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x3f566eff",
+								["left_center"] = "0x3f566eff",
+								["left_top"] = "0x3f566eff",
+								["right_bottom"] = "0x3f566eff",
+								["right_center"] = "0x3f566eff",
+								["right_top"] = "0x3f566eff",
+							},
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["offset"] = 4,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 351,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$title",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinME",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 15,
+		[2] = 375,
+	},
+}

@@ -1,0 +1,11 @@
+SAB-100
+
+sab-100
+
+
+Name: SAB-100
+Type: Illumination bomb
+Developed: Russia
+Release altitude: 1000...3000 m
+
+Contain 8 illumination flares. Each flare burn during 2 minutes.

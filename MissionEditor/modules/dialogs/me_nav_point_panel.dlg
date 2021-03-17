@@ -1,0 +1,516 @@
+dialog = {
+	["children"] = {
+		["Static1"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 14,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$coalition",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static10"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 73,
+					["x"] = 14,
+					["y"] = 273,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$vnav",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static12"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 73,
+					["x"] = 14,
+					["y"] = 297,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$vangle",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static14"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 73,
+					["x"] = 14,
+					["y"] = 321,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$angle",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static2"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 14,
+					["y"] = 34,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$callsign",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static3"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 70,
+					["x"] = 14,
+					["y"] = 75,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$comment",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static6"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 73,
+					["x"] = 14,
+					["y"] = 225,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$scale",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["Static8"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 73,
+					["x"] = 14,
+					["y"] = 249,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$steer",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_ME",
+				},
+			},
+			["type"] = "Static",
+		},
+		["comboBoxCallsign"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 271,
+					["x"] = 104,
+					["y"] = 34,
+				},
+				["enabled"] = true,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+				["skins"] = {
+					["editBox"] = {
+						["skinData"] = {
+							["params"] = {
+								["textOffset"] = {
+									["top"] = 2,
+								},
+							},
+						},
+					},
+					["view"] = {
+						["skinData"] = {
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["bkg"] = {
+											["rect"] = {
+											},
+										},
+										["picture"] = {
+											["rect"] = {
+											},
+										},
+									},
+								},
+								["hover"] = {
+									[1] = {
+										["bkg"] = {
+											["rect"] = {
+											},
+										},
+										["picture"] = {
+											["rect"] = {
+											},
+										},
+									},
+								},
+								["pressed"] = {
+									[1] = {
+										["bkg"] = {
+											["rect"] = {
+											},
+										},
+										["picture"] = {
+											["rect"] = {
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["rect"] = {
+											},
+										},
+										["picture"] = {
+											["rect"] = {
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ComboBox",
+		},
+		["comboListCoalition"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 271,
+					["x"] = 104,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["comboListScale"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 271,
+					["x"] = 104,
+					["y"] = 225,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["comboListSteer"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 271,
+					["x"] = 104,
+					["y"] = 249,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["comboListVangle"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 271,
+					["x"] = 104,
+					["y"] = 297,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["comboListVnav"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 271,
+					["x"] = 104,
+					["y"] = 273,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "Item1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboListSkinNew_",
+				},
+			},
+			["type"] = "ComboList",
+		},
+		["editBoxDescription"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 114,
+					["w"] = 361,
+					["x"] = 14,
+					["y"] = 96,
+				},
+				["enabled"] = true,
+				["multiline"] = true,
+				["numeric"] = false,
+				["password"] = false,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["textWrapping"] = true,
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxNew",
+				},
+				["states"] = {
+					["released"] = {
+						[2] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_top"] = "0x00000080",
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "EditBox",
+		},
+		["spinBoxAngle"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = true,
+				["bounds"] = {
+					["h"] = 24,
+					["w"] = 100,
+					["x"] = 104,
+					["y"] = 321,
+				},
+				["checkRange"] = true,
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 89.9,
+					["min"] = -89.9,
+				},
+				["step"] = 0.1,
+				["tabOrder"] = 0,
+				["text"] = "spinBox0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "spinBoxSkin_MENew",
+				},
+			},
+			["type"] = "SpinBox",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 724,
+			["w"] = 390,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$title",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinME",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 380,
+		[2] = 15,
+		[3] = 375,
+	},
+}

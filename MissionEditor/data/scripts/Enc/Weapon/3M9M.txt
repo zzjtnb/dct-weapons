@@ -1,0 +1,17 @@
+3M9M
+
+3m9m
+
+
+Name: 3M9M
+Type: Medium-range, radio command guidance + 
+SARH, surface-to-air-missile for KUB
+Developed: Russia
+Length, m: 5.8
+Body diameter, m: 0.335
+Warhead weight, kg: 59
+Guidance: Semi-active radar
+Weight, kg: 600
+G limit: 16
+Range, km: 16
+Maximum Mach number: 2.8

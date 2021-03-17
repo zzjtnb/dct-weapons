@@ -1,0 +1,17 @@
+Kh-59M
+
+x-59m
+
+
+Name: Kh-59M (AS-18 'Kazoo')
+Type: Long-range, TV command-guided, air-to-
+surface missile
+Developed: Raduga NPO, Russia
+Warhead weight, kg: 320
+Guidance: inertial and TV-command
+Weight, kg: 930
+G limit: 16
+Length, m: 5.37
+Body diameter, m: 0.38
+Range, km: 115
+Maximum Mach number: 0.85

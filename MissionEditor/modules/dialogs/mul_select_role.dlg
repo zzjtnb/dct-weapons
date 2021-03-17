@@ -1,0 +1,2917 @@
+dialog = {
+	["children"] = {
+		["main_panel"] = {
+			["children"] = {
+				["pBtn"] = {
+					["children"] = {
+						["btnBriefing"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 130,
+									["x"] = 1140,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Briefing",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnChangeMission"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 190,
+									["x"] = 947,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$ChangeMission",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGraybNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnDisconnect"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 130,
+									["x"] = 144,
+									["y"] = 11,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Disconnect",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGrayNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnExit"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 130,
+									["x"] = 11,
+									["y"] = 11,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Exit",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sNameMission"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 382,
+									["x"] = 480,
+									["y"] = 1,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "NameMission",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 718,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pUp"] = {
+					["children"] = {
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 13,
+									["x"] = 1252,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_closeNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sDCSMulti"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 387,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$mult_selectRole",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 18,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pWork"] = {
+					["children"] = {
+						["Static1"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 1000,
+									["w"] = 254,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["insets"] = {
+													["right"] = 1,
+												},
+												["right_center"] = "0x00000080",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["btnBackToSpectrators"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 234,
+									["x"] = 10,
+									["y"] = 615,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$BackToSpectrators",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGraybNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["lbSpectrators"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 539,
+									["w"] = 254,
+									["x"] = 0,
+									["y"] = 51,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "listBox0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "listBoxSkin",
+								},
+								["skins"] = {
+									["horzScrollBar"] = {
+										["skinData"] = {
+											["params"] = {
+												["maxSize"] = {
+													["vert"] = 1,
+												},
+												["minSize"] = {
+													["vert"] = 1,
+												},
+											},
+											["states"] = {
+												["released"] = {
+													[1] = {
+														["bkg"] = {
+															["center_center"] = "$nil$",
+															["file"] = "$nil$",
+															["insets"] = {
+																["bottom"] = "$nil$",
+																["left"] = "$nil$",
+																["right"] = "$nil$",
+																["top"] = "$nil$",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["item"] = {
+										["skinData"] = {
+											["states"] = {
+												["disabled"] = {
+													[1] = {
+														["text"] = {
+															["horzAlign"] = {
+																["offset"] = 15,
+															},
+														},
+													},
+												},
+												["hover"] = {
+													[1] = {
+														["bkg"] = {
+															["center_center"] = "$nil$",
+														},
+														["text"] = {
+															["bkgColor"] = "0x00000000",
+															["blurColor"] = "0x00000000",
+															["color"] = "0xffffffff",
+															["fontSize"] = 12,
+															["horzAlign"] = {
+																["offset"] = 15,
+															},
+															["lineHeight"] = 20,
+															["lineThroughColor"] = "0x00000000",
+															["lineThroughHeight"] = 1,
+															["shadowColor"] = "0x00000000",
+															["vertAlign"] = {
+																["offset"] = 0,
+															},
+														},
+													},
+													[2] = {
+														["text"] = {
+															["bkgColor"] = "0x00000000",
+															["blur"] = 0,
+															["blurColor"] = "0x00000000",
+															["color"] = "0xffffffff",
+															["font"] = "DejaVuLGCSansCondensed.ttf",
+															["fontSize"] = 12,
+															["horzAlign"] = {
+																["offset"] = 15,
+																["type"] = "min",
+															},
+															["lineHeight"] = 20,
+															["lineThroughColor"] = "0x00000000",
+															["lineThroughHeight"] = 1,
+															["shadowColor"] = "0x00000000",
+															["shadowOffset"] = {
+																["horz"] = 0,
+																["vert"] = 0,
+															},
+															["vertAlign"] = {
+																["offset"] = 0,
+																["type"] = "middle",
+															},
+														},
+													},
+												},
+												["released"] = {
+													[1] = {
+														["text"] = {
+															["color"] = "0xffffffff",
+															["fontSize"] = 12,
+															["horzAlign"] = {
+																["offset"] = 15,
+															},
+															["lineHeight"] = 20,
+														},
+													},
+													[2] = {
+														["bkg"] = {
+															["center_center"] = "$nil$",
+														},
+														["text"] = {
+															["bkgColor"] = "0x00000000",
+															["blurColor"] = "0x00000000",
+															["color"] = "0xffffffff",
+															["fontSize"] = 12,
+															["horzAlign"] = {
+																["offset"] = 15,
+															},
+															["lineHeight"] = 20,
+															["lineThroughColor"] = "0x00000000",
+															["lineThroughHeight"] = 1,
+															["shadowColor"] = "0x00000000",
+															["vertAlign"] = {
+																["offset"] = 0,
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ListBox",
+						},
+						["pCenter"] = {
+							["children"] = {
+								["Static1"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 41,
+											["w"] = 1028,
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000080",
+														["center_center"] = "0x00000040",
+														["insets"] = {
+															["bottom"] = 1,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["btnPlayersPool"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 30,
+											["w"] = 190,
+											["x"] = 583,
+											["y"] = 5,
+										},
+										["enabled"] = true,
+										["tabOrder"] = 0,
+										["text"] = "$PlayersPool",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 5,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "buttonSkinGraybNew",
+										},
+									},
+									["type"] = "Button",
+								},
+								["gridBlue"] = {
+									["children"] = {
+										["gridHeaderCell0"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 75,
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$group",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "$nil$",
+																["right_center"] = "0x00000040",
+																["right_top"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "$nil$",
+																["right_center"] = "0x00000040",
+																["right_top"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["left_center"] = "0x00000000",
+																["left_top"] = "0x00000000",
+																["right_bottom"] = "$nil$",
+																["right_center"] = "0x00000040",
+																["right_top"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["fontSize"] = 13,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["offset"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell1"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 75,
+													["x"] = 76,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$UnitType",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell2"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 64,
+													["x"] = 152,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Position",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 2,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell3"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 67,
+													["x"] = 217,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Country",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 3,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell4"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 49,
+													["x"] = 285,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "#",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 4,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell5"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 76,
+													["x"] = 335,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Payload",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 5,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell6"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 81,
+													["x"] = 412,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Player",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 6,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 167,
+											["w"] = 624,
+											["x"] = 173,
+											["y"] = 82,
+										},
+										["columnMouseResizing"] = true,
+										["enabled"] = true,
+										["fixedColumns"] = 0,
+										["horzScrollBarPageStep"] = 0,
+										["horzScrollBarStep"] = 1,
+										["rows"] = 10,
+										["text"] = "grid0",
+										["tooltip"] = "",
+										["vertScrollBarPageStep"] = 0,
+										["vertScrollBarStep"] = 22,
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "gridSkinNewNew",
+										},
+									},
+									["type"] = "Grid",
+								},
+								["gridRed"] = {
+									["children"] = {
+										["gridHeaderCell0"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 75,
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$group",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell1"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 75,
+													["x"] = 76,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$UnitType",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 1,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell2"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 64,
+													["x"] = 152,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Position",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 2,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell3"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 67,
+													["x"] = 217,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Country",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 3,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell4"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 49,
+													["x"] = 285,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "#",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 4,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell5"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 76,
+													["x"] = 335,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Payload",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 5,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCell6"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 30,
+													["w"] = 81,
+													["x"] = 412,
+													["y"] = 0,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "$Player",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 6,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSelectRole",
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 196,
+											["w"] = 516,
+											["x"] = 54,
+											["y"] = 403,
+										},
+										["columnMouseResizing"] = true,
+										["enabled"] = true,
+										["fixedColumns"] = 0,
+										["horzScrollBarPageStep"] = 0,
+										["horzScrollBarStep"] = 1,
+										["rows"] = 20,
+										["text"] = "grid0",
+										["tooltip"] = "",
+										["vertScrollBarPageStep"] = 0,
+										["vertScrollBarStep"] = 22,
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "gridSkinNewNew",
+										},
+									},
+									["type"] = "Grid",
+								},
+								["pNoVisible"] = {
+									["children"] = {
+										["gridHeaderCellNoSort"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 34,
+													["w"] = 125,
+													["x"] = 30,
+													["y"] = 58,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin_SortDown",
+												},
+												["skins"] = {
+													["horzScrollBar"] = {
+														["skinData"] = {
+															["params"] = {
+																["maxSize"] = {
+																	["vert"] = 1,
+																},
+															},
+														},
+													},
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff4d",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["fontSize"] = 16,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff40",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellNoSortPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 34,
+													["w"] = 154,
+													["x"] = 171,
+													["y"] = 57,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "gridHeaderCell0Padding",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortDown_SmallPadding",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["fontSize"] = 16,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_center"] = "0x434234ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff40",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortDown"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 34,
+													["w"] = 125,
+													["x"] = 29,
+													["y"] = 100,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin_SortDown",
+												},
+												["skins"] = {
+													["horzScrollBar"] = {
+														["skinData"] = {
+															["params"] = {
+																["maxSize"] = {
+																	["vert"] = 1,
+																},
+															},
+														},
+													},
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff4d",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["fontSize"] = 16,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffb3",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff40",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffcc",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["vertAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortDownPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 34,
+													["w"] = 154,
+													["x"] = 174,
+													["y"] = 103,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "gridHeaderCell0Padding",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortDown_SmallPadding",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["fontSize"] = 16,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_center"] = "0x434234ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffb3",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff40",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffcc",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\downarrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["vertAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortUp"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 34,
+													["w"] = 125,
+													["x"] = 30,
+													["y"] = 14,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "gridHeaderCell0",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkin_SortDown",
+												},
+												["skins"] = {
+													["horzScrollBar"] = {
+														["skinData"] = {
+															["params"] = {
+																["maxSize"] = {
+																	["vert"] = 1,
+																},
+															},
+														},
+													},
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff4d",
+															},
+															["picture"] = {
+																["color"] = "$nil$",
+																["file"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["fontSize"] = 16,
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = -1,
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffb3",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = -1,
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff40",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffcc",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["vertAlign"] = {
+																	["offset"] = -1,
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = "$nil$",
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["gridHeaderCellSortUpPadding"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 34,
+													["w"] = 154,
+													["x"] = 175,
+													["y"] = 13,
+												},
+												["draggable"] = true,
+												["enabled"] = true,
+												["layout"] = {
+												},
+												["text"] = "gridHeaderCell0Padding",
+												["tooltip"] = "",
+												["visible"] = false,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "gridHeaderCellSkinSortDown_SmallPadding",
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xfbb941ff",
+																["fontSize"] = 16,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = -1,
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff4d",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_center"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_center"] = "0x434234ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffb3",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+																["vertAlign"] = {
+																	["offset"] = -1,
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0x343434ff",
+																["center_center"] = "0xffffff40",
+																["center_top"] = "0x343434ff",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["top"] = 1,
+																},
+																["left_bottom"] = "0x343434ff",
+																["left_top"] = "0x343434ff",
+																["right_bottom"] = "0x343434ff",
+																["right_top"] = "0x343434ff",
+															},
+															["picture"] = {
+																["color"] = "0xffffffcc",
+																["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\bottompanel\\uparrow.png",
+																["horzAlign"] = {
+																	["offset"] = -5,
+																},
+																["vertAlign"] = {
+																	["offset"] = -1,
+																	["type"] = "middle",
+																},
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "GridHeaderCell",
+										},
+										["listBoxItem0"] = {
+											["params"] = {
+												["bounds"] = {
+													["h"] = 25,
+													["w"] = 147,
+													["x"] = 114,
+													["y"] = 269,
+												},
+												["enabled"] = true,
+												["text"] = "itemSpectrator",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "listBoxItemSkin",
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xd0d0d0ff",
+																["fontSize"] = 12,
+															},
+														},
+														[2] = {
+															["text"] = {
+																["color"] = "0xd0d0d0ff",
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0xffffffff",
+																["fontSize"] = 12,
+																["lineHeight"] = 0,
+															},
+														},
+														[2] = {
+															["bkg"] = {
+																["center_center"] = "$nil$",
+															},
+															["text"] = {
+																["color"] = "0xffffffff",
+																["fontSize"] = 12,
+															},
+														},
+													},
+												},
+											},
+											["type"] = "ListBoxItem",
+										},
+										["sGridItemAlignMiddle1"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 147,
+													["x"] = 13,
+													["y"] = 146,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemAlignMiddle1",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddle2"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 147,
+													["x"] = 17,
+													["y"] = 180,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemAlignMiddle2",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff08",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddleDis"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 130,
+													["x"] = 16,
+													["y"] = 244,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemAlignMiddleDis",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x00000033",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddleHover1"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 147,
+													["x"] = 9,
+													["y"] = 299,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemAlignMiddleHover1",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0x6ed8f3ff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddleHover2"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 147,
+													["x"] = 9,
+													["y"] = 329,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemAlignMiddleHover2",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff08",
+															},
+															["text"] = {
+																["color"] = "0x6ed8f3ff",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemAlignMiddleSel"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 152,
+													["x"] = 200,
+													["y"] = 214,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemAlignMiddle",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_row_TextAlignMiddle",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x3095ff40",
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPadding1"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 131,
+													["x"] = 192,
+													["y"] = 151,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemPadding1",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPadding2"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 131,
+													["x"] = 193,
+													["y"] = 184,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemPadding2",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff08",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPaddingDis"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 142,
+													["x"] = 227,
+													["y"] = 246,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemPaddingDis",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x00000033",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPaddingHover1"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 138,
+													["x"] = 235,
+													["y"] = 296,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemPaddingHover1",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["color"] = "0x6ed8f3ff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPaddingHover2"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 138,
+													["x"] = 237,
+													["y"] = 320,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemPaddingHover2",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffff08",
+															},
+															["text"] = {
+																["color"] = "0x6ed8f3ff",
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sGridItemPaddingSel"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 20,
+													["w"] = 131,
+													["x"] = 21,
+													["y"] = 215,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "GridItemPadding",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 0,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin_table_rowLeftText_withPadding",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0x3095ff40",
+															},
+															["text"] = {
+																["horzAlign"] = {
+																	["offset"] = 5,
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 372,
+											["w"] = 432,
+											["x"] = 571,
+											["y"] = 301,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "panel0",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+									},
+									["type"] = "Panel",
+								},
+								["pRed"] = {
+									["children"] = {
+										["sNumPlayersRed"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 41,
+													["w"] = 229,
+													["x"] = 268,
+													["y"] = 0,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "sNumPlayersRed",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 3,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["bkgColor"] = "0x00000000",
+																["blurColor"] = "0x00000000",
+																["color"] = "0xc8c8c8ff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["fontSize"] = 14,
+																["horzAlign"] = {
+																	["offset"] = 0,
+																	["type"] = "middle",
+																},
+																["lineHeight"] = 0,
+																["lineThroughColor"] = "0x00000000",
+																["lineThroughHeight"] = 1,
+																["shadowColor"] = "0x00000000",
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+										["sRedCoalition"] = {
+											["params"] = {
+												["angle"] = 0,
+												["bounds"] = {
+													["h"] = 41,
+													["w"] = 253,
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["enabled"] = true,
+												["pivotPoint"] = {
+													["x"] = 0,
+													["y"] = 0,
+												},
+												["text"] = "$REDCOALITION",
+												["tooltip"] = "",
+												["visible"] = true,
+												["zindex"] = 3,
+											},
+											["skin"] = {
+												["params"] = {
+													["name"] = "staticSkin",
+												},
+												["states"] = {
+													["released"] = {
+														[1] = {
+															["text"] = {
+																["bkgColor"] = "0x00000000",
+																["blurColor"] = "0x00000000",
+																["color"] = "0xff3e3eff",
+																["font"] = "DejaVuLGCSansCondensed.ttf",
+																["fontSize"] = 14,
+																["horzAlign"] = {
+																	["offset"] = 20,
+																},
+																["lineHeight"] = 0,
+																["lineThroughColor"] = "0x00000000",
+																["lineThroughHeight"] = 1,
+																["shadowColor"] = "0x00000000",
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+												},
+											},
+											["type"] = "Static",
+										},
+									},
+									["params"] = {
+										["bounds"] = {
+											["h"] = 41,
+											["w"] = 1027,
+											["x"] = 0,
+											["y"] = 323,
+										},
+										["enabled"] = true,
+										["layout"] = {
+										},
+										["text"] = "panel0",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "panelSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000080",
+														["center_center"] = "0x00000040",
+														["center_top"] = "0x00000080",
+														["insets"] = {
+															["bottom"] = 1,
+															["top"] = 1,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Panel",
+								},
+								["sBlueCoalition"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 41,
+											["w"] = 253,
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "$BLUECOALITION",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 3,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0x196affff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 14,
+														["horzAlign"] = {
+															["offset"] = 20,
+														},
+														["lineHeight"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["sLoginNickname"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 41,
+											["w"] = 232,
+											["x"] = 794,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "Login",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 3,
+									},
+									["skin"] = {
+										["params"] = {
+											["minSize"] = {
+												["vert"] = 41,
+											},
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0xffffffff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 14,
+														["horzAlign"] = {
+															["offset"] = -15,
+															["type"] = "max",
+														},
+														["lineHeight"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["sNumPlayersBlue"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 41,
+											["w"] = 229,
+											["x"] = 268,
+											["y"] = 0,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "sNumPlayersBlue",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 1,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0xc8c8c8ff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 14,
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+														["lineHeight"] = 0,
+														["vertAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 676,
+									["w"] = 1026,
+									["x"] = 254,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "Panel1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+							},
+							["type"] = "Panel",
+						},
+						["static0"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 36,
+									["w"] = 254,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$Spectrators",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = 15,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 670,
+							["w"] = 1280,
+							["x"] = 0,
+							["y"] = 49,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50cc",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 784,
+					["w"] = 1447,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x343434ff",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["insets"] = {
+									["top"] = 7,
+								},
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\m1\\background image\\selectrole.png",
+								["horzAlign"] = {
+									["type"] = "stretch",
+								},
+								["vertAlign"] = {
+									["type"] = "stretch",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 864,
+			["w"] = 1471,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 100,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 680,
+	},
+}

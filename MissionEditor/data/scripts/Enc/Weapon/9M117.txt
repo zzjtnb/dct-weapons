@@ -1,0 +1,16 @@
+9M117
+
+9m117
+
+
+Name: 9M117 Bastion (AT-10 Stabber)
+Type: Short-range, laser-guided, anti-tank 
+guided missile
+Developed: Russia
+Warhead weight, kg: 3.2
+Guidance: Laser
+Weight, kg: 17.6
+Length, m: 1.1
+Body diameter, m: 0.1
+Range, km: 4
+Maximum Mach number: 0.6

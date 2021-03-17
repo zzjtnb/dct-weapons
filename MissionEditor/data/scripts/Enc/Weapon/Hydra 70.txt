@@ -1,0 +1,14 @@
+Hydra 70
+
+hydra-70
+
+
+Name: Hydra 70
+Type: 70 mm unguided aircraft rockets
+Developed: USA
+Weight, kg: 6.2
+Speed, km/h: 4388
+Range, km: 8.8
+Length, m: 1.06
+Body diameter, m: 0.070
+Warhead weight, kg: 2.4

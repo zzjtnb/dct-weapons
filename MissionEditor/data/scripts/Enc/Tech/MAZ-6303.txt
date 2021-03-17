@@ -1,0 +1,13 @@
+MAZ-6303
+
+maz-6303
+
+
+Type: Truck
+Box length: 7.7m 
+Box capicity: 45.5 cubic meters
+Engine horsepower: 330 hp
+Max speed: 110 km/h at 9-th gear
+Fuel consumption: 34 l/100 km 
+Fuel tank: 500 liters
+

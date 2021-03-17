@@ -1,0 +1,19 @@
+wave = {
+	"Effects/Animals/Cow_02",
+	"Effects/Animals/Cow_03",
+	"Effects/Animals/Cow_04",
+	"Effects/Animals/Cow_05",
+	"Effects/Animals/Cow_07",
+	"Effects/Animals/Cow_08",
+	"Effects/Animals/Cow_10",
+	"Effects/Animals/Cow_11",
+	"Effects/Animals/Cow_12",
+	"Effects/Animals/Cow_13",
+	}
+inner_radius = 3
+outer_radius = 80
+pitch_random = 0.25
+gain_random = 0.4
+detached = true
+release = 2
+gain = 10

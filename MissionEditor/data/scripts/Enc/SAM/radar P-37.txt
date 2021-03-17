@@ -1,0 +1,17 @@
+Radar P-37
+Radar/P-37.png
+RLS-37
+
+
+Type: E/F-band (2 to 4 GHz) mobile early warning
+and Ground Control Interception (GSI) radar
+Frequency: E/F-band (2 to 4 GHz)
+Antenna dimensions: 11x3.5 m
+System rotation: 3 and 6 rpm
+Effective range: 390 km
+Peak power: 650 kW per beam
+Beamwidth: 0.7°
+PRF: 375 pps
+Range accuracy: 900 m
+Azimuth accuracy: 0.5°
+IFF system: D-band (1-2 GHz)

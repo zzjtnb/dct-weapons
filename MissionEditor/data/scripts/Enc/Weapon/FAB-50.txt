@@ -1,0 +1,13 @@
+FAB-50
+
+fab50_40x
+
+
+Name: FAB-50
+Developed: 1932
+Type: General Purpose Bomb
+Country of Origin: Russia
+Weight, kg: 50
+Length, m: 0.936
+Body diameter, m: 0.219
+Warhead weight, kg: 25

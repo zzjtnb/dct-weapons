@@ -1,0 +1,23 @@
+AIM-120B
+
+aim-120b
+
+
+Name: AIM-120B AMRAAM
+Type: Medium-range, radar-guided, air-to-air 
+missile
+Developed: USA
+Warhead weight, kg: 22
+Guidance: inertial and active radar
+Weight, kg: 150
+G limit: 22
+Maximum Mach number: 4
+Length, m: 3.65
+Body diameter, m: 0.178
+Range, km: 55
+
+The AIM-120B missile was the result of the two 
+Enhancement Program. The B-model incorporates a 
+new digital processor, erasable programmable 
+read only memory, and five major electronic 
+unit hardware chassis upgrades. 

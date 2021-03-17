@@ -1,0 +1,21 @@
+Radar P-19 
+Radar/P-19.png
+zil_p19_radar
+
+
+Type: C-band 2D mobile early warning radar
+Frequency: C-band (837,5 - 880 MHz)
+System rotation: 6 or 12 rpm
+Effective range: 150 km
+Peak power: 310 kW
+Beamwidth: 4.5°
+Range accuracy: 2000 m
+Azimuth accuracy: 2°
+Length: 7.80 m
+Width: 2.60 m
+Height: 3.40 m
+
+
+
+
+

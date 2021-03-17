@@ -1,0 +1,28 @@
+Gepard
+
+gepard
+
+
+Type: Self-propelled Anti-aircraft Gun System
+Crew: 3
+Length: 7.73 m
+Width: 3.37 m
+Height: 4.03 m
+Combat weight: 47300 kg
+Ground clearance: 0.44 m
+Ground pressure: 0.95 kg/sq.cm
+Engine: MTU MB 838 Ca M500 V-10 diesel 830 hp
+Power-to-weight ratio: 17.54 hp/t
+Max road speed: 65 km/h
+Operational range:
+- road 550 km
+- cross-country 400 km
+Max effective range: 3000 m
+Max speed of traverse: 90°/s
+Max speed of elevation: 45°/s
+Gun elevation/depression: +85°/-10°
+Turret traverse: 360°
+
+Armament:
+- 35 mm KDA cannons
+Ammunition: 620 rounds

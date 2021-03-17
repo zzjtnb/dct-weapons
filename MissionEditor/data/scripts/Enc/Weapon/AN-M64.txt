@@ -1,0 +1,20 @@
+AN-M64
+
+an-m64
+
+
+Name: AN-M64
+Developed: 1939
+Type: AN-M64 500lb General Purpose Bomb
+Country of Origin: USA
+Weight, kg: 241
+Length, m: 1.5
+Body diameter, m: 0.36
+Explosive Charge, kg: 124 TNT or Amatol
+Fuze Type: Quick
+
+A new series of bomb was developed and standardized in 1939. The “M” series demolition bombs were cylindrical in shape with a box type tail assembly. The bomb was made in one piece as opposed to the MK series bomb, which was assembled from several pieces. To make Army and Navy bombs interchangeable, a 500 and 1000 pound demolition bombs were standardized, as well as a 250 pound bomb for British interchangeability. The new nomenclature utilized for this series of bombs designates “AN” as Army or Navy use. The “GP” (general purpose) were added in place of demolition to conform to British nomenclature. These bombs were being manufactured with a single suspension lug at the center of gravity to allow for the use in British single suspension racks and several of the Navy planes which carried single suspension racks. The standard explosive filler amatol. Alternate fillers are TNT and composition B. These bombs are equipped with nose and tail fuses. The 500 pound bomb is made in three models: the M43, the AN-M43, and the AN-M64. The case and fin assembly are the same. The M-43 does not have a single suspension lug. The common nose fuse is the AN-M103 and the tail fuse is the AN-M101A2.
+
+Principle of Operation: During bomb’s release from the aircraft, the propeller (vane) rotates, allowing an impeller to spin. After a certain number of revolutions, the fuse becomes armed, allowing it to function. When the bomb impacts the target, the firing pin punches the detonator causing it to detonate, activating the booster charge, which causes the main charge to function.
+
+These bombs are intended for the destruction of steel railway bridges, underground railways, sea craft such as light cruisers, concrete docks, medium size buildings, etc.

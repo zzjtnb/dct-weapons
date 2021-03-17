@@ -1,0 +1,27 @@
+BRDM-2
+
+brdm-2
+
+
+Type: Amphibious Scout Car
+Crew: 4
+Combat weight: 7000 kg
+Length: 5.75 m
+Width: 2.35 m
+Height: 2.31 m
+Ground clearance: 0.43 m
+Power-to-weight ratio: 20 hp/t
+Engine: GAZ-41 V-8  140 hp
+Wheel formula: 4x4
+Max road speed: 100 km/h
+Max water speed: 10 km/h
+Operating range: 750 km
+
+Armour
+Hull: (max) 14 mm
+Turret: (max) 7 mm
+
+Armament:
+- 14.5 mm KPVT machine gun
+- 7.62 mm PKT machine gun
+

@@ -1,0 +1,22 @@
+M-113
+
+m-113
+
+
+Type: Armoured Personnel Carrier
+Length: 4.863 m
+Height: 2.52 m
+Width: 2.686 m
+Crew: 2+11
+Ground clearance: 0.43 m
+Combat weight: 11253 kg
+Ground pressure: 0.55 kg/sq.cm
+Engine: 6V-53 V-6 diesel 212 hp
+Power-to-weight ratio: 18.51 hp/t
+Max road speed: 60.7 km/h
+Max water speed: 5.8 km/h
+Armour 12-44 mm
+
+Armament:
+- 12.7 mm M2 machine gun
+

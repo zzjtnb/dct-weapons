@@ -1,0 +1,15 @@
+MCV-80 Warrior
+
+mcv-80
+
+
+Name: MCV-80 Warrior
+Type: Infantry Fighting Vehicle
+Weight: 23500 kg 
+Crew: 10
+Max road speed: 75 km/h
+Operational range (road): 500 km
+
+Armament:
+- 30 mm L21A1 cannon
+- 7.62 mm L94A1 machine gun

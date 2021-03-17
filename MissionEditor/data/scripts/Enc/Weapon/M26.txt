@@ -1,0 +1,14 @@
+M26
+
+m26
+
+
+Name: M26
+Type: MLRS-launched rocket
+Developed: USA
+Weight, kg: 306
+Speed, km/h: 2124
+Range, km: 31.8
+Length, m: 3.9
+Body diameter, m: 0.24
+Warhead weight, kg: 60

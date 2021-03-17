@@ -1,0 +1,12 @@
+RBK-250
+
+RBK_250_PTAB_25M_cassette
+
+
+Name: RBK-250
+Type: Multipurpose cluster bomb
+Developed: Russia
+Weight, kg: 275
+Length, m: 2.12
+Body diameter, m: 0.325
+Warhead weight, kg: 94

@@ -1,0 +1,17 @@
+9M311
+
+9m311
+
+
+Name: 9M311
+Type: Short-range, radio command guidance, 
+surface-to-air-missile for Tunguska
+Developed: Russia
+Warhead weight, kg: 9
+Guidance: Semi-active radar
+Weight, kg: 57
+G limit: 18
+Length, m: 2.56
+Body diameter, m: 0.175
+Range, km: 8
+Maximum Mach number: 2.82

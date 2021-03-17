@@ -1,0 +1,13 @@
+GBU-27
+
+gbu-27
+
+
+Name: GBU-27
+Type: Laser-guided penetration bomb
+Developed: USA
+Guidance: Laser-command
+Warhead weight, kg: 240
+Weight, kg: 984
+Length, m: 4.24
+Body diameter, m: 0.37

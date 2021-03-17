@@ -1,0 +1,13 @@
+Soldier with AK-74
+
+soldier_ru_01
+
+
+Weapons: AK-74
+Type: Automatic
+Weight: 3.3 kg
+Caliber: 5.45 mm
+Speed of fire: 600 rounds/minute
+Initial speed: 910 m/s
+Aiming range: 300m
+Military-food type: 30 round magazine

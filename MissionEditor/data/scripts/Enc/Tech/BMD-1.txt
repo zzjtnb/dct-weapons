@@ -1,0 +1,31 @@
+BMD-1
+
+bmd-1
+
+
+Type: Airborne Infantry Combat Vehicle
+Crew: 3+4
+Ground pressure: 0.57 kg/sq.cm
+Height: 1.62-1.97 m
+(coaxial) 1x7.62 mm PKT MG
+(forward firing) 2 single 7.62 mm PKT MGs
+Ground clearance: 0.1-0.45 m
+(other) 1 launcher rail for ‘Sagger’ ATGW or
+Power-to-weight ratio: 32 hp/t
+Engine: 5D-20 V-6 diesel 240 hp
+Ammunition:
+(main) 40
+Max road speed: 70 km/h
+(coaxial) 2,000
+Combat weight: 7,500 kg
+Length: 5.4 m
+Max water speed: 10 km/h
+Armour
+Hull: (max) 15 mm
+Fuel distance: 320 km
+Turret: (max) 23 mm
+Width: 2.63 m
+Armament:
+ 1 х 73mm low pressure smoothbore short-recoil semi-automatic gun
+ 3 х 7.62 mm PKT coaxial machine gun
+ ATGM 9M14M

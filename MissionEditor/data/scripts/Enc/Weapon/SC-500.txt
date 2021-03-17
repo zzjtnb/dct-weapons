@@ -1,0 +1,16 @@
+SC-500
+
+SC-500
+
+
+Name: SC-500
+Developed: 1935
+Type: General Purpose Bomb
+Country of Origin: Germany
+Weight, kg: 500
+Length, m: 2.022
+Body diameter, m: 0.47
+Explosive Charge, kg: 270, 40/60 Amatol-TNT (Trialen in the anti-ship variant)
+Fuze Type: a variety of fuze types including non-delay and delayed action fuzes.
+
+SC series bombs were general purpose bombs of different sizes with nominal weights from 50 to 2500 kg.

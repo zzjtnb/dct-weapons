@@ -1,0 +1,22 @@
+AGM-84H
+
+agm-84h
+
+
+Name: AGM-84H SLAM-ER (Stand-Off Land Attack Missile - Expanded Response)
+Type: Long-range, Air-launched precision land attack cruise missile
+Developed: USA
+Warhead weight, kg: 360
+Weight, kg: 725
+Length, m: 4.50 
+Guidance: inertial navigation with GPS correction,
+infrared terminal guidance, datalink to the controlling aircraft
+Body diameter, m: 0.343
+Wingspan, m: 2.43
+Range, km: 270
+
+AGM-84H SLAM-ER - an improved version of the tactical cruise missile SLAM designed to provide day, night and adverse weather precision strike capability against high value land targets and ships in port.
+
+The aerodynamic design of the rocket has been completely revised. Instead of the previous X-shaped short wings inherited from Harpoon, SLAM-ER received two low-lying elongated wings, made according to the “reverse gull” pattern. The wingspan reaches 2.43 m. Due to this, it was possible to significantly increase the lift and flight range. The missile guidance system has also been modified. SLAM-ER can independently identify the target by the data previously stored in the on-board computer of the rocket and does not require the participation of the operator. The possibility of remote control, however, is preserved, so that the operator can intervene at any time in the guidance process.
+
+The AGM-84H uses an inertial navigation system with GPS, infrared terminal guidance, and is fitted with a Tomahawk warhead for better penetration. SLAM-ER can be launched from land-based or aircraft carrier-based F/A-18 Hornet aircraft. It was employed successfully in Operation Desert Storm and UN relief operations in Bosnia prior to Operation Joint Endeavor.

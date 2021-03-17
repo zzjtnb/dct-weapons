@@ -1,0 +1,17 @@
+Mi-26
+
+mi-26
+
+
+Name: Mi-26 "Halo"
+Type: Heavy transport helicopter
+Developed: Mil OKB, Russia
+Crew: 2
+Main rotor diameter: 31.6 m
+Weight empty: 28200 kg                                      
+Normal weight: 49600 kg
+Maximum weight: 56000 kg
+Maximum fuel: 9600 kg
+Service celling: 1800 m
+Maximum speed: 295 km/h 
+Maximum range: 670 km

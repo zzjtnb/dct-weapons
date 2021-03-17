@@ -1,0 +1,31 @@
+A-10C
+
+a-10
+A-10C
+
+Name: A-10C
+Type: Close support bomber
+Length: 16.26 m
+Weight empty: 9389 kg
+Maximum Mach at height: 0.75
+G limit: 5.9
+Normal weight: 11500 kg
+Range with nominal load: 1500 km
+Height: 4.47 m
+Maximum weight: 21081 kg
+Armament: GAU-8/A
+
+Maximum fuel: 4853 kg
+Crew: 1
+Wing span: 17.53 m
+Service ceiling: 10000 m
+Take-off speed: 223.2 km/h
+Wing area: 47 m2
+Landing speed: 244.8 km/h
+Maximum range: 1500 km
+Maximum Mach at S/L: 0.75
+
+The A-10C is an enhanced version of the famous A-10A that served as a major close air support aircraft for the U.S. Air Force, Air National Guard, and Reserves for almost 30 years. A-10C has been upgraded to meet 21 st century standards, using systems such as Multi-Function Color Displays (MFCD), GPS-guided weapons, and data-link support. Retaining all the features of older A-10A, the A-10C has turned into a true precision strike fighter with the most modern navigation systems, precision attack weapons (Maverick, JDAM, WCMD, and laser-guided bombs), and an integrated countermeasures system.
+The A-10C has participated in operations over Iraq and Afghanistan and proved to be a precise and effective weapon in the "War on Terrorism". Its advanced equipment has greatly reduced the number of "friendly fire" incidents - thanks largely to the Situational Awareness Datalink (SADL) and the ability to better identify targets with using the Litening II AT targeting pod.
+The A-10C of course retains its ability to do what it was originally designed to do: kill tanks in a conventional force-on-force battlefield.
+Despite the fact that many of the computer and weapon systems are new in the A-10C, most of the remaining systems are retained from the A-10A. Engines, fuel, electrical, hydraulic and emergency systems, communications, and lighting do not differ from those in the latest versions of A-10A/A-10A+. As with previous versions, the A-10C - very easy to fly and is a stable and survivable weapons platform.

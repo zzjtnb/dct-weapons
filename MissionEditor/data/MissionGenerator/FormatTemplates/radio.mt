@@ -1,0 +1,8 @@
+
+                                                [%%INDEX%%] = 
+                                                { 
+                                                    channels =
+                                                    {
+%%RADIO%%
+                                                    },    
+                                                },

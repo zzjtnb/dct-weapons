@@ -1,0 +1,19 @@
+AIM-9P5
+
+Aim-9p5
+
+
+Name: AIM-9P5 Sidewinder
+Type: Short-range, infrared, all-aspect air-
+to-air missile
+Developed: USA
+Warhead weight, kg: 11
+Guidance: infrared
+Weight, kg: 85.5
+G limit: 22
+Length, m: 2.83
+Body diameter, m: 0.127
+Range Max, km: 11
+Maximum Mach number: 2.0
+
+The AIM-9P5 is the latest version in the AIM-9P subtype. The P5 modification has all-aspect seeker with additional counter-countermeasures capability.

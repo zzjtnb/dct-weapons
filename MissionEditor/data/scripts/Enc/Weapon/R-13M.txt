@@ -1,0 +1,23 @@
+R-13M
+
+r-13m
+
+
+Name: R-13M (AA-2 'Advanced Atoll D')
+Type: short-range, infrared-guided, air-to-air 
+missile
+Developed: Russia
+Warhead weight, kg: 11.3
+Guidance: infrared
+Weight, kg: 87.7
+Maximum Mach number: 2.5
+Length, m: 2.875
+Body diameter, m: 0.127
+Range, km: 15
+
+The R-13M was a further improved version of the R-3 series and entered service in 1974. The new missile was roughly equivalent to the improved USN AIM-9G Sidewinder, with a new proximity fuse, more propellant for longer range, better maneuverability, and a more sensitive nitrogen-cooled seeker head.
+
+
+
+
+

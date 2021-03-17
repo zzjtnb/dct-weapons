@@ -1,0 +1,24 @@
+M1134 Stryker ATGM
+
+m1134
+
+
+Type: Anti-Tank Guided Missile System
+Length: 6.985 m
+Width: 2.717 m
+Height: 2.641 
+Combat weight: 17 237 kg
+Crew: 3
+Engine: diesel 350 hp
+Wheel formula: 8x8
+Operational range: 531 km
+Max road speed: 96 km/h
+
+Armament:
+- ATGM TOW 2-tube launcher 
+- 12.7mm machine gun
+
+
+
+
+

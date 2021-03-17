@@ -1,0 +1,17 @@
+9M114
+
+9m114
+
+
+Name: 9M114 Shturm-V(AT-6)
+Type: Short-range, radio command-guided, air-
+to-surface missile
+Developed: Kolomna NPO, Russia
+Warhead weight, kg: 7.4
+Guidance: radio-command 
+Weight, kg: 40
+G limit: 20
+Length, m: 1.83
+Body diameter, m: 0.130
+Range, km: 8
+Maximum Mach number: 1.8

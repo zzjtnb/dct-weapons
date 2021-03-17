@@ -1,0 +1,4 @@
+wave = "Effects/Animals/CowWalking"
+inner_radius = 12
+outer_radius = 300
+gain = 1.25

@@ -1,0 +1,22 @@
+M-109 Paladin
+
+m-109
+
+
+Self-propelled Howitzer
+Length: 9.12 m
+Width: 3.15 m
+Height: 2.8 m
+Crew: 6
+Engine: 8V-71T V-8 diesel 405 hp
+Power-to-weight ratio: 16.23 hp/t
+Ground clearance: 0.46 m
+Combat weight: 24948 kg
+Max road speed: 56.3 km/h
+Operational range (road): 349 km
+Gun elevation/depression: +75°/-3°
+Turret traverse: 360°
+
+Armament:
+- 155 mm M185 howitzer
+- 1x12.7 mm machine gun

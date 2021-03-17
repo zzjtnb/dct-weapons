@@ -1,0 +1,296 @@
+dialog = {
+	["children"] = {
+		["main_panel"] = {
+			["children"] = {
+				["btnCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 130,
+							["x"] = 13,
+							["y"] = 193,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$Cancel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnOk"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 130,
+							["x"] = 152,
+							["y"] = 191,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$ok",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["pBox"] = {
+					["children"] = {
+						["cbClients"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 260,
+									["x"] = 15,
+									["y"] = 80,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 30,
+								["text"] = "$require_pure_clients",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbModels"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 22,
+									["w"] = 240,
+									["x"] = 35,
+									["y"] = 106,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 20,
+								["text"] = "$require_pure_models",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["cbTexture"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 29,
+									["w"] = 240,
+									["x"] = 35,
+									["y"] = 130,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 10,
+								["text"] = "$require_pure_textures",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkinAdvanced_settingsNew",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["static0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 291,
+									["x"] = 1,
+									["y"] = 2,
+								},
+								["enabled"] = true,
+								["text"] = "$SERVER_INTEGRITY_CHECK_SETTING",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x00000080",
+												["center_center"] = "0x2d3e50ff",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+											},
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 168,
+							["w"] = 295,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["horzMouseWheel"] = false,
+						["layout"] = {
+						},
+						["text"] = "scrollPane0",
+						["tooltip"] = "",
+						["vertMouseWheel"] = true,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "scrollPaneSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["insets"] = "$nil$",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ScrollPane",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 238,
+					["w"] = 295,
+					["x"] = 40,
+					["y"] = 36,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 0,
+						["top"] = 0,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["type"] = "min",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 604,
+			["w"] = 652,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

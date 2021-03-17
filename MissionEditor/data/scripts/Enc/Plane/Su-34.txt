@@ -1,0 +1,28 @@
+Su-34
+
+su-34
+
+
+Name: Su-34 "Fullback"
+Type: Long-range bomber
+Developed: Sukhoi OKB, Russia
+Crew: 2
+Length: 23.3 m
+Height: 6 m
+Wing span: 14.7 m
+Wing area: 62 m²
+Maximum Mach at S/L: 1.14
+Maximum Mach at height: 1.8
+Weight empty: 22300 kg
+Normal weight: 33325 kg
+Maximum weight: 45000 kg
+G limit: 7
+Maximum range: 4000 km
+Maximum fuel: 9800 kg
+Service ceiling: 15000 m
+Take-off speed: 270 km/h
+Range with nominal load: 4000 km
+Landing speed: 234 km/h
+
+Armament:
+- GSh-301 cannon

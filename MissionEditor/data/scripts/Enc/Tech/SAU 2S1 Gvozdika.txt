@@ -1,0 +1,18 @@
+SAU 2S1 "Gvozdika"
+
+2c1
+
+
+Type: Self-propelled howitzer
+Combat weight: 15700 kg
+Crew: 4
+Engine: YaMZ-238 diesel 285 hp
+Max road speed: 60 km/h
+Operational range: 500 km
+
+Armament: 
+- 122 mm D-32 gun                                          
+
+
+
+

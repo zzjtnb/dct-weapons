@@ -1,0 +1,17 @@
+AIM-9P
+
+aim-9p
+
+
+Name: AIM-9P Sidewinder
+Type: Short-range, infrared, rear-aspect air-
+to-air missile
+Developed: USA
+Warhead weight, kg: 11
+Guidance: infrared
+Weight, kg: 85.5
+G limit: 22
+Length, m: 2.83
+Body diameter, m: 0.127
+Range Max, km: 11
+Maximum Mach number: 2.0

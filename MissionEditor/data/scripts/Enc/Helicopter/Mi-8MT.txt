@@ -1,0 +1,17 @@
+Mi-8MT
+
+mi-8mt
+
+
+Name: Mi-8MT "Hip"
+Type: Medium transport helicopter
+Developed: Mil OKB, Russia
+Crew: 2
+Main rotor diameter: 21.4 m
+Weight empty: 6800 kg
+Normal weight: 11100 kg
+Maximum weight: 13000 kg
+Maximum fuel: 2296 kg
+Service celling: 1800 m
+Maximum speed: 250 km/h
+Maximum range: 580 km
